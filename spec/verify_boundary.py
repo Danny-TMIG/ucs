@@ -50,6 +50,28 @@ def _c_suite():
     r = subprocess.run([sys.executable, "spec/parallel_check.py"], cwd=ROOT,
                        capture_output=True, text=True, timeout=120)
     return r.returncode == 0
+
+@checked("murmuration_chain", "the 8-hop read->publish chain completes")
+def _c_murmur():
+    import subprocess, sys
+    r = subprocess.run([sys.executable, "murmuration/murmuration.py"], cwd=ROOT,
+                       capture_output=True, text=True, timeout=60)
+    return r.returncode == 0
+
+@checked("mastery_total", "every taxonomy behavior maps to a primitive")
+def _c_mastery():
+    import subprocess, sys
+    r = subprocess.run([sys.executable, "mastery/mastery.py"], cwd=ROOT,
+                       capture_output=True, text=True, timeout=60)
+    return r.returncode == 0
+
+@checked("atlas_sets_valid", "all atlas finite sets validate")
+def _c_atlas():
+    import subprocess, sys
+    r = subprocess.run([sys.executable, "atlas/atlas.py"], cwd=ROOT,
+                       capture_output=True, text=True, timeout=60)
+    return r.returncode == 0
+
 unchecked("pre_era_commits_signed", f"commits before {SIGNED_ERA_START} may be unsigned; the era boundary is the policy")
 unchecked("all_code_correct", "no compiler or prover covers every execution path; tests cover observed paths")
 unchecked("no_unknown_dependencies", "network imports are not tracked; the CVE surface is unknown")
