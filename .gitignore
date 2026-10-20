@@ -9,7 +9,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 
-# Generated trees (regenerate with the scripts; do not commit)
+# Generated trees
 gen_all/out/
 hood_compilers/out/
 resolve/out/
@@ -35,8 +35,3 @@ build/
 **/KEY
 **/*.sig
 archives/
-allwares/KEY
-allwares/chain.sig
-allwares/chain.json
-hood_compilers/chain/KEY
-hood_compilers/chain/chain.sig
