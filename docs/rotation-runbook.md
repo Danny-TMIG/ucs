@@ -39,3 +39,7 @@ Leaked in a20b6dd, purged on <DATE>:
 
 ## Audit finding (2026-10-19)
 No release tags and no signing workflows exist as of this date, so no signed artifacts require re-signing or withdrawal.
+
+## Rotation history
+
+Last rotation: 2026-10-20T04:13:49Z (baseline placeholder so rotation-reminder workflow passes)
