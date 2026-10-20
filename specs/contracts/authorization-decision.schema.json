@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authorization-decision.schema.json",
+  "$comment": "ASF Boundary Contract Alignment",
+  "type": "object",
+  "required": ["schema_version","id","correlation_id","sovereign_domain","purpose","classification","integrity"]
+}
