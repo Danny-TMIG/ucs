@@ -1,11 +1,69 @@
-# Default owner
+# Default fallback
 * @Danny-TMIG
 
-# Signing material — never lands via PR
-.pre-commit-config.yaml @Danny-TMIG
-docs/rotation-runbook.md @Danny-TMIG
-docs/audit.sh @Danny-TMIG
+# Signing material
+.pre-commit-config.yaml                        @Danny-TMIG
+**/KEY                                         @Danny-TMIG
+**/*.sig                                       @Danny-TMIG
+archives/**                                    @Danny-TMIG
+allwares/KEY                                   @Danny-TMIG
+allwares/chain.sig                             @Danny-TMIG
+allwares/chain.json                            @Danny-TMIG
+hood_compilers/chain/KEY                       @Danny-TMIG
+hood_compilers/chain/chain.sig                 @Danny-TMIG
+hood_compilers/chain/chain.json                @Danny-TMIG
 
-# Chain manifests
-allwares/chain.json @Danny-TMIG
-hood_compilers/chain/chain.json @Danny-TMIG
+# GitHub / CI
+.github/workflows/**                           @Danny-TMIG
+.github/CODEOWNERS                             @Danny-TMIG
+.github/dependabot.yml                         @Danny-TMIG
+.github/PULL_REQUEST_TEMPLATE.md               @Danny-TMIG
+.github/ISSUE_TEMPLATE/**                      @Danny-TMIG
+
+# Docs
+docs/**                                        @Danny-TMIG
+README.md                                      @Danny-TMIG
+SECURITY.md                                    @Danny-TMIG
+CHANGELOG.md                                   @Danny-TMIG
+LICENSE                                        @Danny-TMIG
+
+# Spec / build
+spec/**                                        @Danny-TMIG
+Makefile                                       @Danny-TMIG
+.gitignore                                     @Danny-TMIG
+
+# Signing pipeline
+allwares.py                                    @Danny-TMIG
+hood_compilers/chain.py                        @Danny-TMIG
+hood_compilers/chain/verify.py                 @Danny-TMIG
+allwares/verify.py                             @Danny-TMIG
+lifecycle.py                                   @Danny-TMIG
+resolve.py                                     @Danny-TMIG
+lastmile/run_all.py                            @Danny-TMIG
+
+# Generators
+hood_compilers/compile_all.py                  @Danny-TMIG
+hood_compilers/refine.py                       @Danny-TMIG
+hood_compilers/harden.py                       @Danny-TMIG
+gen_all/**                                     @Danny-TMIG
+generate.py                                    @Danny-TMIG
+derive.py                                      @Danny-TMIG
+deliver_all.py                                 @Danny-TMIG
+
+# Registry / systems
+opcodes_all/**                                 @Danny-TMIG
+opcodes.py                                     @Danny-TMIG
+systems/**                                     @Danny-TMIG
+enterprise/**                                  @Danny-TMIG
+taxonomies/**                                  @Danny-TMIG
+ucs.py                                         @Danny-TMIG
+governance/**                                  @Danny-TMIG
+ledger/**                                      @Danny-TMIG
+api/**                                         @Danny-TMIG
+web/**                                         @Danny-TMIG
+evaluator/**                                   @Danny-TMIG
+models/**                                      @Danny-TMIG
+config/**                                      @Danny-TMIG
+ops/**                                         @Danny-TMIG
+sidecars/**                                    @Danny-TMIG
+tests/**                                       @Danny-TMIG
