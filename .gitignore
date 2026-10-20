@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Generated trees (regenerate with the scripts; do not commit)
+gen_all/out/
+hood_compilers/out/
+resolve/out/
+out/
+allwares/wares/
+allwares/fleet/
+systems/bin/
+systems/*/device.bin
+systems/pipeline/*.o
+systems/pipeline/*.s
+systems/pipeline/prog
+
+# Scratch
+*.log
+placeholder_scan.json
+purge_scan.json
+resolve_report.json
+
+# Build artifacts
+build/

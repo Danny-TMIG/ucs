@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-09-11T15:06:29Z",
+  "level0": {
+    "artifact_count": 548,
+    "kinds": {
+      ".json": 146,
+      ".py": 391,
+      ".sh": 3,
+      ".md": 3,
+      ".go": 1,
+      ".yaml": 1,
+      ".c": 3
+    },
+    "parents": {
+      "foundations": 74,
+      "swarm": 33,
+      "kaleido": 21,
+      "ucs": 374,
+      "vem-index": 11,
+      "polyglot": 18,
+      "cs-partitions": 17
+    }
+  },
+  "level1": {
+    "dir_groups": {
+      "foundations": 74,
+      "swarm": 33,
+      "kaleido": 21,
+      "ucs": 374,
+      "vem-index": 11,
+      "polyglot": 18,
+      "cs-partitions": 17
+    },
+    "kind_groups": {
+      ".json": 146,
+      ".py": 391,
+      ".sh": 3,
+      ".md": 3,
+      ".go": 1,
+      ".yaml": 1,
+      ".c": 3
+    },
+    "size_groups": {
+      "d10": 54,
+      "d9": 55,
+      "d1": 124,
+      "d3": 42,
+      "d6": 53,
+      "d7": 55,
+      "d4": 54,
+      "d5": 56,
+      "d8": 55
+    }
+  },
+  "level2": [
+    {
+      "name": "dir-inclusion",
+      "nodes": [
+        "cs-partitions",
+        "foundations",
+        "kaleido",
+        "polyglot",
+        "swarm",
+        "ucs",
+        "vem-index"
+      ],
+      "edges": [],
+      "is_lattice": true,
+      "height": 1
+    },
+    {
+      "name": "kind-flat",
+      "nodes": [
+        ".c",
+        ".go",
+        ".json",
+        ".md",
+        ".py",
+        ".sh",
+        ".yaml"
+      ],
+      "edges": [],
+      "is_lattice": true,
+      "height": 1
+    },
+    {
+      "name": "size-flat",
+      "nodes": [
+        "d1",
+        "d10",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "edges": [],
+      "is_lattice": true,
+      "height": 1
+    }
+  ],
+  "level3": {
+    "lattices": [
+      {
+        "name": "dir-inclusion",
+        "nodes": [
+          "cs-partitions",
+          "foundations",
+          "kaleido",
+          "polyglot",
+          "swarm",
+          "ucs",
+          "vem-index"
+        ],
+        "edges": [],
+        "is_lattice": true,
+        "height": 1
+      },
+      {
+        "name": "kind-flat",
+        "nodes": [
+          ".c",
+          ".go",
+          ".json",
+          ".md",
+          ".py",
+          ".sh",
+          ".yaml"
+        ],
+        "edges": [],
+        "is_lattice": true,
+        "height": 1
+      },
+      {
+        "name": "size-flat",
+        "nodes": [
+          "d1",
+          "d10",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "edges": [],
+        "is_lattice": true,
+        "height": 1
+      }
+    ],
+    "morphisms": [
+      {
+        "src": "dir-inclusion",
+        "dst": "dir-inclusion",
+        "count": 823543,
+        "src_card": 7,
+        "dst_card": 7
+      },
+      {
+        "src": "dir-inclusion",
+        "dst": "kind-flat",
+        "count": 823543,
+        "src_card": 7,
+        "dst_card": 7
+      },
+      {
+        "src": "dir-inclusion",
+        "dst": "size-flat",
+        "count": 4782969,
+        "src_card": 7,
+        "dst_card": 9
+      },
+      {
+        "src": "kind-flat",
+        "dst": "dir-inclusion",
+        "count": 823543,
+        "src_card": 7,
+        "dst_card": 7
+      },
+      {
+        "src": "kind-flat",
+        "dst": "kind-flat",
+        "count": 823543,
+        "src_card": 7,
+        "dst_card": 7
+      },
+      {
+        "src": "kind-flat",
+        "dst": "size-flat",
+        "count": 4782969,
+        "src_card": 7,
+        "dst_card": 9
+      },
+      {
+        "src": "size-flat",
+        "dst": "dir-inclusion",
+        "count": 40353607,
+        "src_card": 9,
+        "dst_card": 7
+      },
+      {
+        "src": "size-flat",
+        "dst": "kind-flat",
+        "count": 40353607,
+        "src_card": 9,
+        "dst_card": 7
+      },
+      {
+        "src": "size-flat",
+        "dst": "size-flat",
+        "count": 387420489,
+        "src_card": 9,
+        "dst_card": 9
+      }
+    ],
+    "products": {
+      "dir-inclusion\u00d7kind-flat": 49,
+      "dir-inclusion\u00d7size-flat": 63,
+      "kind-flat\u00d7dir-inclusion": 49,
+      "kind-flat\u00d7size-flat": 63,
+      "size-flat\u00d7dir-inclusion": 63,
+      "size-flat\u00d7kind-flat": 63
+    },
+    "coproducts": {
+      "dir-inclusion\u00d7kind-flat": 14,
+      "dir-inclusion\u00d7size-flat": 16,
+      "kind-flat\u00d7dir-inclusion": 14,
+      "kind-flat\u00d7size-flat": 16,
+      "size-flat\u00d7dir-inclusion": 16,
+      "size-flat\u00d7kind-flat": 16
+    },
+    "terminal": "*",
+    "initial": "\u2205"
+  }
+}

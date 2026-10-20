@@ -1,0 +1,30 @@
+{
+  "runbook": {
+    "start_vem": "for port in 19800 19801 19802; do curl -s http://127.0.0.1:$port/stats >/dev/null 2>&1 || nohup ~/venvs/vem/bin/python ~/vem/service.py --port $port > ~/vem/service.$port.log 2>&1 & done",
+    "stop_vem": "pkill -f 'vem/service.py' 2>/dev/null || true",
+    "reindex": "python3 ~/vem-index/spec.py run ~/vem-index/specs/all.json --no-resume",
+    "rebuild_hoods": "python3 ~/ucs/hood_compilers/compile_all.py && python3 ~/ucs/hood_compilers/refine.py && python3 ~/ucs/hood_compilers/harden.py",
+    "resign_chain": "python3 ~/ucs/hood_compilers/chain.py",
+    "verify_chain": "python3 ~/ucs/hood_compilers/chain/verify.py",
+    "run_hoods": "python3 ~/ucs/hood_compilers/out/__init__.py",
+    "run_tests": "for t in ~/ucs/hood_compilers/out/tests/test_*.py; do python3 $t; done",
+    "enterprise": "python3 ~/ucs/enterprise/classify.py && python3 ~/ucs/enterprise/score.py",
+    "health": "curl -s http://127.0.0.1:19800/stats",
+    "backup": "tar czf ~/ucs/backup-$(date +%Y%m%d).tgz ~/ucs ~/vem-index 2>/dev/null",
+    "restore": "tar xzf ~/ucs/backup-YYYYMMDD.tgz -C ~"
+  },
+  "results": {
+    "health": {
+      "cmd": "curl -s http://127.0.0.1:19800/stats",
+      "mode": "listed"
+    },
+    "verify_chain": {
+      "cmd": "python3 ~/ucs/hood_compilers/chain/verify.py",
+      "mode": "listed"
+    },
+    "run_hoods": {
+      "cmd": "python3 ~/ucs/hood_compilers/out/__init__.py",
+      "mode": "listed"
+    }
+  }
+}

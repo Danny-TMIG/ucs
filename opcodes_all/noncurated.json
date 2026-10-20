@@ -1,0 +1,1025 @@
+{
+  "sources": {
+    "llvm": 0,
+    "binutils": 0,
+    "qemu": 30,
+    "rust": 0,
+    "go": 47,
+    "gcc": 0,
+    "jvm": 4,
+    "dotnet": 4,
+    "apple": 2,
+    "swift": 1,
+    "python": 3,
+    "js": 1
+  },
+  "total_discovered": 91,
+  "curated_matched": 1,
+  "non_curated": [
+    {
+      "isa": "qemu:aarch64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-aarch64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:alpha",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-alpha"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:arm",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:avr",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-avr"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:hppa",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system",
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-hppa",
+        "qemu-system-hppa"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:i386",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-i386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:m68k",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-m68k"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:microblaze",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-microblaze"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:mips",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-mips"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:mips64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-mips64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:mips64el",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-mips64el"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:mipsel",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-mipsel"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:or1k",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-or1k"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:ppc",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-ppc"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:ppc64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-ppc64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:riscv32",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-riscv32"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:riscv64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-riscv64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:rx",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-rx"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:s390x",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-s390x"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:sh4",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-sh4"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:sh4eb",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-sh4eb"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:sparc",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-sparc"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:sparc64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-sparc64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:tricore",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-tricore"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:x86_64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-x86_64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:xtensa",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-xtensa"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:xtensaeb",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-xtensaeb"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:loongarch64",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-loongarch64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "qemu:hexagon",
+      "family": "qemu",
+      "sources": [
+        "qemu/qemu-system"
+      ],
+      "raw": [
+        "qemu-system-hexagon"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "aix/ppc64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "aix/ppc64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "android/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "android/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "android/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "android/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "android/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "android/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "android/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "android/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "darwin/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "darwin/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "darwin/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "darwin/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "dragonfly/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "dragonfly/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "freebsd/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "freebsd/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "freebsd/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "freebsd/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "freebsd/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "freebsd/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "freebsd/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "freebsd/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "illumos/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "illumos/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "ios/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "ios/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "ios/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "ios/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "js/wasm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "js/wasm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/loong64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/loong64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/mips",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/mips"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/mips64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/mips64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/mips64le",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/mips64le"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/mipsle",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/mipsle"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/ppc64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/ppc64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/ppc64le",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/ppc64le"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/riscv64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/riscv64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "linux/s390x",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "linux/s390x"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "netbsd/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "netbsd/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "netbsd/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "netbsd/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "netbsd/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "netbsd/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "netbsd/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "netbsd/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/ppc64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/ppc64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "openbsd/riscv64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "openbsd/riscv64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "plan9/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "plan9/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "plan9/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "plan9/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "plan9/arm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "plan9/arm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "solaris/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "solaris/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "wasip1/wasm",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "wasip1/wasm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "windows/386",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "windows/386"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "windows/amd64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "windows/amd64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "windows/arm64",
+      "family": "go",
+      "sources": [
+        "go/go-dist-list"
+      ],
+      "raw": [
+        "windows/arm64"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "jvm-hotspot",
+      "family": "jvm",
+      "sources": [
+        "jvm/javac"
+      ],
+      "raw": [
+        "javac"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "jvm-classfile",
+      "family": "jvm",
+      "sources": [
+        "jvm/javac"
+      ],
+      "raw": [
+        "class file format"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "jvm-kotlin",
+      "family": "jvm",
+      "sources": [
+        "jvm/kotlinc"
+      ],
+      "raw": [
+        "kotlin \u2192 jvm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "jvm-scala",
+      "family": "jvm",
+      "sources": [
+        "jvm/scalac"
+      ],
+      "raw": [
+        "scala \u2192 jvm"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "clr",
+      "family": ".net",
+      "sources": [
+        "dotnet/dotnet"
+      ],
+      "raw": [
+        "common language runtime"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "coreclr",
+      "family": ".net",
+      "sources": [
+        "dotnet/dotnet"
+      ],
+      "raw": [
+        "coreclr"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "mono",
+      "family": ".net",
+      "sources": [
+        "dotnet/dotnet"
+      ],
+      "raw": [
+        "mono runtime"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "apple-sdk-26.5",
+      "family": "apple",
+      "sources": [
+        "apple/xcrun"
+      ],
+      "raw": [
+        "26.5"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "apple-sdk-macosx",
+      "family": "apple",
+      "sources": [
+        "apple/xcrun"
+      ],
+      "raw": [
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "swift-6.3.3",
+      "family": "swift",
+      "sources": [
+        "swift/swift-version"
+      ],
+      "raw": [
+        "Swift version 6.3.3"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "cpython-3.9.6",
+      "family": "python",
+      "sources": [
+        "python/python3"
+      ],
+      "raw": [
+        "Python 3.9.6"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "cpython-3.11.16",
+      "family": "python",
+      "sources": [
+        "python/python3.11"
+      ],
+      "raw": [
+        "Python 3.11.16"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "cpython-3.12.14",
+      "family": "python",
+      "sources": [
+        "python/python3.12"
+      ],
+      "raw": [
+        "Python 3.12.14"
+      ],
+      "curated": false
+    },
+    {
+      "isa": "node-v26.8.1",
+      "family": "js",
+      "sources": [
+        "js/node"
+      ],
+      "raw": [
+        "v26.8.1"
+      ],
+      "curated": false
+    }
+  ],
+  "curated": [
+    {
+      "isa": "cil",
+      "family": ".net",
+      "sources": [
+        "dotnet/dotnet"
+      ],
+      "raw": [
+        "CIL/IL"
+      ],
+      "curated": true
+    }
+  ]
+}

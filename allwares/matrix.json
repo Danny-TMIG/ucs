@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-09-11T15:58:27Z",
+  "ware_count": 4110,
+  "families": {
+    "enterprise:artifact": 102,
+    "hood:taxonomy": 35,
+    "isa:registry": 209,
+    "ucs:binary": 106,
+    "ucs:compiler": 136,
+    "ucs:daemon": 106,
+    "ucs:generator": 102,
+    "ucs:kernel": 129,
+    "ucs:resolver": 117,
+    "vem:index": 3068
+  },
+  "fleets": {
+    "enterprise:artifact": {
+      "count": 102,
+      "dir": "ucs/allwares/fleet/enterprise_artifact"
+    },
+    "hood:taxonomy": {
+      "count": 35,
+      "dir": "ucs/allwares/fleet/hood_taxonomy"
+    },
+    "isa:registry": {
+      "count": 209,
+      "dir": "ucs/allwares/fleet/isa_registry"
+    },
+    "ucs:binary": {
+      "count": 106,
+      "dir": "ucs/allwares/fleet/ucs_binary"
+    },
+    "ucs:compiler": {
+      "count": 136,
+      "dir": "ucs/allwares/fleet/ucs_compiler"
+    },
+    "ucs:daemon": {
+      "count": 106,
+      "dir": "ucs/allwares/fleet/ucs_daemon"
+    },
+    "ucs:generator": {
+      "count": 102,
+      "dir": "ucs/allwares/fleet/ucs_generator"
+    },
+    "ucs:kernel": {
+      "count": 129,
+      "dir": "ucs/allwares/fleet/ucs_kernel"
+    },
+    "ucs:resolver": {
+      "count": 117,
+      "dir": "ucs/allwares/fleet/ucs_resolver"
+    },
+    "vem:index": {
+      "count": 3068,
+      "dir": "ucs/allwares/fleet/vem_index"
+    }
+  },
+  "by_kind": {
+    "binary": 106,
+    "compiler": 136,
+    "daemon": 106,
+    "generator": 102,
+    "kernel": 129,
+    "resolver": 117,
+    "isa": 209,
+    "hood": 35,
+    "artifact": 102,
+    "vem-entry": 3068
+  },
+  "by_call_kind": {
+    "python": 1000,
+    "data": 3110
+  }
+}

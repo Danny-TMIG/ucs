@@ -1,0 +1,11 @@
+entity: Record
+fields:
+  - name: id
+    type: int
+    required: true
+  - name: name
+    type: str
+    required: true
+  - name: state
+    type: str
+    required: false

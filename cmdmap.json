@@ -1,0 +1,7370 @@
+{
+  "generated_at": "2026-09-11T16:54:34Z",
+  "total": 1836,
+  "by_category": {
+    "other": 1647,
+    "filesystem": 34,
+    "editor_cli": 24,
+    "build": 20,
+    "text": 34,
+    "shell": 7,
+    "package": 10,
+    "database": 7,
+    "test": 1,
+    "network": 17,
+    "container": 2,
+    "proc": 17,
+    "vcs": 6,
+    "k8s": 2,
+    "json": 2,
+    "editor": 3,
+    "ml": 2,
+    "security": 1
+  },
+  "commands": {
+    "2to3-3.11": {
+      "path": "/opt/homebrew/bin/2to3-3.11",
+      "category": "other"
+    },
+    "2to3-3.12": {
+      "path": "/opt/homebrew/bin/2to3-3.12",
+      "category": "other"
+    },
+    "7z": {
+      "path": "/opt/homebrew/bin/7z",
+      "category": "filesystem"
+    },
+    "7za": {
+      "path": "/opt/homebrew/bin/7za",
+      "category": "filesystem"
+    },
+    "7zr": {
+      "path": "/opt/homebrew/bin/7zr",
+      "category": "other"
+    },
+    "AP100": {
+      "path": "/opt/homebrew/bin/AP100",
+      "category": "other"
+    },
+    "AP210": {
+      "path": "/opt/homebrew/bin/AP210",
+      "category": "other"
+    },
+    "APserver": {
+      "path": "/opt/homebrew/bin/APserver",
+      "category": "other"
+    },
+    "AssetCacheLocatorUtil": {
+      "path": "/usr/bin/AssetCacheLocatorUtil",
+      "category": "other"
+    },
+    "AssetCacheManagerUtil": {
+      "path": "/usr/bin/AssetCacheManagerUtil",
+      "category": "other"
+    },
+    "AssetCacheTetheratorUtil": {
+      "path": "/usr/bin/AssetCacheTetheratorUtil",
+      "category": "other"
+    },
+    "BootCacheControl": {
+      "path": "/usr/sbin/BootCacheControl",
+      "category": "other"
+    },
+    "DeRez": {
+      "path": "/usr/bin/DeRez",
+      "category": "other"
+    },
+    "GetFileInfo": {
+      "path": "/usr/bin/GetFileInfo",
+      "category": "other"
+    },
+    "Gtk_server": {
+      "path": "/opt/homebrew/bin/Gtk_server",
+      "category": "other"
+    },
+    "IOAccelMemory": {
+      "path": "/usr/bin/IOAccelMemory",
+      "category": "other"
+    },
+    "IOMFB_FDR_Loader": {
+      "path": "/usr/bin/IOMFB_FDR_Loader",
+      "category": "other"
+    },
+    "IOSDebug": {
+      "path": "/usr/bin/IOSDebug",
+      "category": "other"
+    },
+    "R": {
+      "path": "/opt/homebrew/bin/R",
+      "category": "other"
+    },
+    "ResMerger": {
+      "path": "/usr/bin/ResMerger",
+      "category": "other"
+    },
+    "Rez": {
+      "path": "/usr/bin/Rez",
+      "category": "other"
+    },
+    "Rscript": {
+      "path": "/opt/homebrew/bin/Rscript",
+      "category": "editor_cli"
+    },
+    "SafeEjectGPU": {
+      "path": "/usr/bin/SafeEjectGPU",
+      "category": "other"
+    },
+    "SetFile": {
+      "path": "/usr/bin/SetFile",
+      "category": "other"
+    },
+    "SplitForks": {
+      "path": "/usr/bin/SplitForks",
+      "category": "other"
+    },
+    "[": {
+      "path": "/bin/[",
+      "category": "other"
+    },
+    "aa": {
+      "path": "/usr/bin/aa",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-c++-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-c++-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-g++-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-gcc-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-gcc-ar-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-gcc-nm-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-nm-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-gcc-ranlib-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25-gfortran-16": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25-gfortran-16",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25.4.0-ocamlrun-a104": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25.4.0-ocamlrun-a104",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25.4.0-ocamlrund-a104": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25.4.0-ocamlrund-a104",
+      "category": "other"
+    },
+    "aarch64-apple-darwin25.4.0-ocamlruni-a104": {
+      "path": "/opt/homebrew/bin/aarch64-apple-darwin25.4.0-ocamlruni-a104",
+      "category": "other"
+    },
+    "actool": {
+      "path": "/usr/bin/actool",
+      "category": "other"
+    },
+    "adaparse": {
+      "path": "/opt/homebrew/bin/adaparse",
+      "category": "other"
+    },
+    "adig": {
+      "path": "/opt/homebrew/bin/adig",
+      "category": "other"
+    },
+    "aea": {
+      "path": "/usr/bin/aea",
+      "category": "other"
+    },
+    "afclip": {
+      "path": "/usr/bin/afclip",
+      "category": "other"
+    },
+    "afconvert": {
+      "path": "/usr/bin/afconvert",
+      "category": "other"
+    },
+    "afhash": {
+      "path": "/usr/bin/afhash",
+      "category": "other"
+    },
+    "afida": {
+      "path": "/usr/bin/afida",
+      "category": "other"
+    },
+    "afinfo": {
+      "path": "/usr/bin/afinfo",
+      "category": "other"
+    },
+    "afktool": {
+      "path": "/usr/bin/afktool",
+      "category": "other"
+    },
+    "afplay": {
+      "path": "/usr/bin/afplay",
+      "category": "other"
+    },
+    "afscexpand": {
+      "path": "/usr/bin/afscexpand",
+      "category": "other"
+    },
+    "agentxtrap": {
+      "path": "/usr/bin/agentxtrap",
+      "category": "other"
+    },
+    "agvtool": {
+      "path": "/usr/bin/agvtool",
+      "category": "other"
+    },
+    "ahost": {
+      "path": "/opt/homebrew/bin/ahost",
+      "category": "other"
+    },
+    "alias": {
+      "path": "/usr/bin/alias",
+      "category": "other"
+    },
+    "amuFormat.sh": {
+      "path": "/opt/homebrew/bin/amuFormat.sh",
+      "category": "other"
+    },
+    "annotate": {
+      "path": "/opt/homebrew/bin/annotate",
+      "category": "other"
+    },
+    "ansible": {
+      "path": "/opt/homebrew/bin/ansible",
+      "category": "other"
+    },
+    "ansible-community": {
+      "path": "/opt/homebrew/bin/ansible-community",
+      "category": "other"
+    },
+    "ansible-config": {
+      "path": "/opt/homebrew/bin/ansible-config",
+      "category": "other"
+    },
+    "ansible-console": {
+      "path": "/opt/homebrew/bin/ansible-console",
+      "category": "other"
+    },
+    "ansible-doc": {
+      "path": "/opt/homebrew/bin/ansible-doc",
+      "category": "other"
+    },
+    "ansible-galaxy": {
+      "path": "/opt/homebrew/bin/ansible-galaxy",
+      "category": "other"
+    },
+    "ansible-inventory": {
+      "path": "/opt/homebrew/bin/ansible-inventory",
+      "category": "other"
+    },
+    "ansible-playbook": {
+      "path": "/opt/homebrew/bin/ansible-playbook",
+      "category": "other"
+    },
+    "ansible-pull": {
+      "path": "/opt/homebrew/bin/ansible-pull",
+      "category": "other"
+    },
+    "ansible-test": {
+      "path": "/opt/homebrew/bin/ansible-test",
+      "category": "other"
+    },
+    "ansible-vault": {
+      "path": "/opt/homebrew/bin/ansible-vault",
+      "category": "other"
+    },
+    "aomdec": {
+      "path": "/opt/homebrew/bin/aomdec",
+      "category": "other"
+    },
+    "aomenc": {
+      "path": "/opt/homebrew/bin/aomenc",
+      "category": "other"
+    },
+    "apfs_hfs_convert": {
+      "path": "/sbin/apfs_hfs_convert",
+      "category": "other"
+    },
+    "apfs_unlockfv": {
+      "path": "/sbin/apfs_unlockfv",
+      "category": "other"
+    },
+    "apl": {
+      "path": "/opt/homebrew/bin/apl",
+      "category": "other"
+    },
+    "app-sso": {
+      "path": "/usr/bin/app-sso",
+      "category": "other"
+    },
+    "applesingle": {
+      "path": "/usr/bin/applesingle",
+      "category": "other"
+    },
+    "apply": {
+      "path": "/usr/bin/apply",
+      "category": "other"
+    },
+    "apropos": {
+      "path": "/usr/bin/apropos",
+      "category": "other"
+    },
+    "ar": {
+      "path": "/usr/bin/ar",
+      "category": "build"
+    },
+    "arch": {
+      "path": "/usr/bin/arch",
+      "category": "other"
+    },
+    "archiveutil": {
+      "path": "/usr/bin/archiveutil",
+      "category": "other"
+    },
+    "argon2": {
+      "path": "/opt/homebrew/bin/argon2",
+      "category": "other"
+    },
+    "as": {
+      "path": "/usr/bin/as",
+      "category": "build"
+    },
+    "asa": {
+      "path": "/usr/bin/asa",
+      "category": "other"
+    },
+    "asn1Coding": {
+      "path": "/opt/homebrew/bin/asn1Coding",
+      "category": "other"
+    },
+    "asn1Decoding": {
+      "path": "/opt/homebrew/bin/asn1Decoding",
+      "category": "other"
+    },
+    "asn1Parser": {
+      "path": "/opt/homebrew/bin/asn1Parser",
+      "category": "other"
+    },
+    "assetutil": {
+      "path": "/usr/bin/assetutil",
+      "category": "other"
+    },
+    "at": {
+      "path": "/usr/bin/at",
+      "category": "other"
+    },
+    "atlas": {
+      "path": "/opt/homebrew/bin/atlas",
+      "category": "other"
+    },
+    "atos": {
+      "path": "/usr/bin/atos",
+      "category": "other"
+    },
+    "atq": {
+      "path": "/usr/bin/atq",
+      "category": "other"
+    },
+    "atrm": {
+      "path": "/usr/bin/atrm",
+      "category": "other"
+    },
+    "atsutil": {
+      "path": "/usr/bin/atsutil",
+      "category": "other"
+    },
+    "autoconf": {
+      "path": "/opt/homebrew/bin/autoconf",
+      "category": "build"
+    },
+    "autoheader": {
+      "path": "/opt/homebrew/bin/autoheader",
+      "category": "other"
+    },
+    "autom4te": {
+      "path": "/opt/homebrew/bin/autom4te",
+      "category": "other"
+    },
+    "automationmodetool": {
+      "path": "/usr/bin/automationmodetool",
+      "category": "other"
+    },
+    "automator": {
+      "path": "/usr/bin/automator",
+      "category": "other"
+    },
+    "autopoint": {
+      "path": "/opt/homebrew/bin/autopoint",
+      "category": "other"
+    },
+    "autoreconf": {
+      "path": "/opt/homebrew/bin/autoreconf",
+      "category": "other"
+    },
+    "autoscan": {
+      "path": "/opt/homebrew/bin/autoscan",
+      "category": "other"
+    },
+    "autoupdate": {
+      "path": "/opt/homebrew/bin/autoupdate",
+      "category": "other"
+    },
+    "auval": {
+      "path": "/usr/bin/auval",
+      "category": "other"
+    },
+    "auvaltool": {
+      "path": "/usr/bin/auvaltool",
+      "category": "other"
+    },
+    "avbanalyse": {
+      "path": "/usr/bin/avbanalyse",
+      "category": "other"
+    },
+    "avbcapture": {
+      "path": "/usr/bin/avbcapture",
+      "category": "other"
+    },
+    "avbdeviced": {
+      "path": "/usr/sbin/avbdeviced",
+      "category": "other"
+    },
+    "avbdiagnose": {
+      "path": "/usr/bin/avbdiagnose",
+      "category": "other"
+    },
+    "avbutil": {
+      "path": "/usr/bin/avbutil",
+      "category": "other"
+    },
+    "avconvert": {
+      "path": "/usr/bin/avconvert",
+      "category": "other"
+    },
+    "avifdec": {
+      "path": "/opt/homebrew/bin/avifdec",
+      "category": "other"
+    },
+    "avifenc": {
+      "path": "/opt/homebrew/bin/avifenc",
+      "category": "other"
+    },
+    "avifgainmaputil": {
+      "path": "/opt/homebrew/bin/avifgainmaputil",
+      "category": "other"
+    },
+    "avmediainfo": {
+      "path": "/usr/bin/avmediainfo",
+      "category": "other"
+    },
+    "avmetareadwrite": {
+      "path": "/usr/bin/avmetareadwrite",
+      "category": "other"
+    },
+    "awk": {
+      "path": "/usr/bin/awk",
+      "category": "text"
+    },
+    "b2sum": {
+      "path": "/opt/homebrew/bin/b2sum",
+      "category": "text"
+    },
+    "b64decode": {
+      "path": "/usr/bin/b64decode",
+      "category": "other"
+    },
+    "b64encode": {
+      "path": "/usr/bin/b64encode",
+      "category": "other"
+    },
+    "banner": {
+      "path": "/usr/bin/banner",
+      "category": "other"
+    },
+    "base32": {
+      "path": "/opt/homebrew/bin/base32",
+      "category": "other"
+    },
+    "base64": {
+      "path": "/usr/bin/base64",
+      "category": "text"
+    },
+    "basename": {
+      "path": "/usr/bin/basename",
+      "category": "other"
+    },
+    "basenc": {
+      "path": "/opt/homebrew/bin/basenc",
+      "category": "other"
+    },
+    "bash": {
+      "path": "/bin/bash",
+      "category": "shell"
+    },
+    "bashbug": {
+      "path": "/usr/bin/bashbug",
+      "category": "other"
+    },
+    "batch": {
+      "path": "/usr/bin/batch",
+      "category": "other"
+    },
+    "bc": {
+      "path": "/usr/bin/bc",
+      "category": "other"
+    },
+    "bdftogd": {
+      "path": "/opt/homebrew/bin/bdftogd",
+      "category": "other"
+    },
+    "bg": {
+      "path": "/usr/bin/bg",
+      "category": "other"
+    },
+    "binhex": {
+      "path": "/usr/bin/binhex",
+      "category": "other"
+    },
+    "binhex.pl": {
+      "path": "/usr/bin/binhex.pl",
+      "category": "other"
+    },
+    "binhex5.34.pl": {
+      "path": "/usr/bin/binhex5.34.pl",
+      "category": "other"
+    },
+    "bintrans": {
+      "path": "/usr/bin/bintrans",
+      "category": "other"
+    },
+    "bioutil": {
+      "path": "/usr/bin/bioutil",
+      "category": "other"
+    },
+    "bison": {
+      "path": "/usr/bin/bison",
+      "category": "other"
+    },
+    "bitesize.d": {
+      "path": "/usr/bin/bitesize.d",
+      "category": "other"
+    },
+    "bm4": {
+      "path": "/usr/bin/bm4",
+      "category": "other"
+    },
+    "bomtool": {
+      "path": "/opt/homebrew/bin/bomtool",
+      "category": "other"
+    },
+    "bputil": {
+      "path": "/usr/bin/bputil",
+      "category": "other"
+    },
+    "brctl": {
+      "path": "/usr/bin/brctl",
+      "category": "other"
+    },
+    "brew": {
+      "path": "/opt/homebrew/bin/brew",
+      "category": "package"
+    },
+    "brotli": {
+      "path": "/opt/homebrew/bin/brotli",
+      "category": "other"
+    },
+    "bsdtar": {
+      "path": "/usr/bin/bsdtar",
+      "category": "other"
+    },
+    "bspatch": {
+      "path": "/usr/bin/bspatch",
+      "category": "other"
+    },
+    "bsqldb": {
+      "path": "/opt/homebrew/bin/bsqldb",
+      "category": "other"
+    },
+    "bsqlodbc": {
+      "path": "/opt/homebrew/bin/bsqlodbc",
+      "category": "other"
+    },
+    "bundle": {
+      "path": "/usr/bin/bundle",
+      "category": "package"
+    },
+    "bundler": {
+      "path": "/usr/bin/bundler",
+      "category": "other"
+    },
+    "bunzip2": {
+      "path": "/usr/bin/bunzip2",
+      "category": "filesystem"
+    },
+    "bzcat": {
+      "path": "/usr/bin/bzcat",
+      "category": "other"
+    },
+    "bzcmp": {
+      "path": "/usr/bin/bzcmp",
+      "category": "other"
+    },
+    "bzdiff": {
+      "path": "/usr/bin/bzdiff",
+      "category": "other"
+    },
+    "bzegrep": {
+      "path": "/usr/bin/bzegrep",
+      "category": "other"
+    },
+    "bzfgrep": {
+      "path": "/usr/bin/bzfgrep",
+      "category": "other"
+    },
+    "bzgrep": {
+      "path": "/usr/bin/bzgrep",
+      "category": "other"
+    },
+    "bzip2": {
+      "path": "/usr/bin/bzip2",
+      "category": "filesystem"
+    },
+    "bzip2recover": {
+      "path": "/usr/bin/bzip2recover",
+      "category": "other"
+    },
+    "bzless": {
+      "path": "/usr/bin/bzless",
+      "category": "other"
+    },
+    "bzmore": {
+      "path": "/usr/bin/bzmore",
+      "category": "other"
+    },
+    "c++": {
+      "path": "/usr/bin/c++",
+      "category": "build"
+    },
+    "c++-16": {
+      "path": "/opt/homebrew/bin/c++-16",
+      "category": "other"
+    },
+    "c++filt": {
+      "path": "/usr/bin/c++filt",
+      "category": "other"
+    },
+    "c89": {
+      "path": "/usr/bin/c89",
+      "category": "other"
+    },
+    "c99": {
+      "path": "/usr/bin/c99",
+      "category": "other"
+    },
+    "c_rehash": {
+      "path": "/opt/homebrew/bin/c_rehash",
+      "category": "other"
+    },
+    "caffeinate": {
+      "path": "/usr/bin/caffeinate",
+      "category": "other"
+    },
+    "cairo-trace": {
+      "path": "/opt/homebrew/bin/cairo-trace",
+      "category": "other"
+    },
+    "cal": {
+      "path": "/usr/bin/cal",
+      "category": "other"
+    },
+    "calendar": {
+      "path": "/usr/bin/calendar",
+      "category": "other"
+    },
+    "cancel": {
+      "path": "/usr/bin/cancel",
+      "category": "other"
+    },
+    "cap_mkdb": {
+      "path": "/usr/bin/cap_mkdb",
+      "category": "other"
+    },
+    "captoinfo": {
+      "path": "/usr/bin/captoinfo",
+      "category": "other"
+    },
+    "cat": {
+      "path": "/bin/cat",
+      "category": "text"
+    },
+    "cc": {
+      "path": "/usr/bin/cc",
+      "category": "build"
+    },
+    "ccmake": {
+      "path": "/opt/homebrew/bin/ccmake",
+      "category": "other"
+    },
+    "cd": {
+      "path": "/usr/bin/cd",
+      "category": "other"
+    },
+    "certtool": {
+      "path": "/usr/bin/certtool",
+      "category": "other"
+    },
+    "cffi-gen-src": {
+      "path": "/opt/homebrew/bin/cffi-gen-src",
+      "category": "other"
+    },
+    "chflags": {
+      "path": "/usr/bin/chflags",
+      "category": "other"
+    },
+    "chfn": {
+      "path": "/usr/bin/chfn",
+      "category": "other"
+    },
+    "chgrp": {
+      "path": "/usr/bin/chgrp",
+      "category": "filesystem"
+    },
+    "chmod": {
+      "path": "/bin/chmod",
+      "category": "filesystem"
+    },
+    "chpass": {
+      "path": "/usr/bin/chpass",
+      "category": "other"
+    },
+    "chsh": {
+      "path": "/usr/bin/chsh",
+      "category": "other"
+    },
+    "cjpeg": {
+      "path": "/opt/homebrew/bin/cjpeg",
+      "category": "other"
+    },
+    "cksum": {
+      "path": "/usr/bin/cksum",
+      "category": "text"
+    },
+    "clang": {
+      "path": "/usr/bin/clang",
+      "category": "build"
+    },
+    "clang++": {
+      "path": "/usr/bin/clang++",
+      "category": "build"
+    },
+    "clangd": {
+      "path": "/usr/bin/clangd",
+      "category": "other"
+    },
+    "clear": {
+      "path": "/usr/bin/clear",
+      "category": "other"
+    },
+    "clj": {
+      "path": "/opt/homebrew/bin/clj",
+      "category": "editor_cli"
+    },
+    "clojure": {
+      "path": "/opt/homebrew/bin/clojure",
+      "category": "editor_cli"
+    },
+    "clusterdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/clusterdb",
+      "category": "other"
+    },
+    "cmake": {
+      "path": "/opt/homebrew/bin/cmake",
+      "category": "build"
+    },
+    "cmp": {
+      "path": "/usr/bin/cmp",
+      "category": "text"
+    },
+    "cmpdylib": {
+      "path": "/usr/bin/cmpdylib",
+      "category": "other"
+    },
+    "codecctl": {
+      "path": "/usr/bin/codecctl",
+      "category": "other"
+    },
+    "codesign": {
+      "path": "/usr/bin/codesign",
+      "category": "other"
+    },
+    "codesign_allocate": {
+      "path": "/usr/bin/codesign_allocate",
+      "category": "other"
+    },
+    "col": {
+      "path": "/usr/bin/col",
+      "category": "other"
+    },
+    "colrm": {
+      "path": "/usr/bin/colrm",
+      "category": "other"
+    },
+    "column": {
+      "path": "/usr/bin/column",
+      "category": "other"
+    },
+    "comm": {
+      "path": "/usr/bin/comm",
+      "category": "text"
+    },
+    "command": {
+      "path": "/usr/bin/command",
+      "category": "other"
+    },
+    "compress": {
+      "path": "/usr/bin/compress",
+      "category": "other"
+    },
+    "compression_tool": {
+      "path": "/usr/bin/compression_tool",
+      "category": "other"
+    },
+    "config_data": {
+      "path": "/usr/bin/config_data",
+      "category": "other"
+    },
+    "config_data5.34": {
+      "path": "/usr/bin/config_data5.34",
+      "category": "other"
+    },
+    "convert-dtsv0": {
+      "path": "/opt/homebrew/bin/convert-dtsv0",
+      "category": "other"
+    },
+    "corelist": {
+      "path": "/usr/bin/corelist",
+      "category": "other"
+    },
+    "corelist5.34": {
+      "path": "/usr/bin/corelist5.34",
+      "category": "other"
+    },
+    "cp": {
+      "path": "/bin/cp",
+      "category": "filesystem"
+    },
+    "cpack": {
+      "path": "/opt/homebrew/bin/cpack",
+      "category": "other"
+    },
+    "cpan": {
+      "path": "/usr/bin/cpan",
+      "category": "other"
+    },
+    "cpan5.34": {
+      "path": "/usr/bin/cpan5.34",
+      "category": "other"
+    },
+    "cpio": {
+      "path": "/usr/bin/cpio",
+      "category": "other"
+    },
+    "cpp": {
+      "path": "/usr/bin/cpp",
+      "category": "other"
+    },
+    "cpp-16": {
+      "path": "/opt/homebrew/bin/cpp-16",
+      "category": "other"
+    },
+    "cpu_profiler.d": {
+      "path": "/usr/bin/cpu_profiler.d",
+      "category": "other"
+    },
+    "cpuctl": {
+      "path": "/usr/bin/cpuctl",
+      "category": "other"
+    },
+    "cpuwalk.d": {
+      "path": "/usr/bin/cpuwalk.d",
+      "category": "other"
+    },
+    "crc32": {
+      "path": "/usr/bin/crc32",
+      "category": "other"
+    },
+    "crc325.34": {
+      "path": "/usr/bin/crc325.34",
+      "category": "other"
+    },
+    "creatbyproc.d": {
+      "path": "/usr/bin/creatbyproc.d",
+      "category": "other"
+    },
+    "createdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/createdb",
+      "category": "database"
+    },
+    "createuser": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/createuser",
+      "category": "other"
+    },
+    "critcl": {
+      "path": "/opt/homebrew/bin/critcl",
+      "category": "other"
+    },
+    "crlrefresh": {
+      "path": "/usr/bin/crlrefresh",
+      "category": "other"
+    },
+    "crontab": {
+      "path": "/usr/bin/crontab",
+      "category": "other"
+    },
+    "crystal": {
+      "path": "/opt/homebrew/bin/crystal",
+      "category": "other"
+    },
+    "csfdiagnose": {
+      "path": "/usr/bin/csfdiagnose",
+      "category": "other"
+    },
+    "csh": {
+      "path": "/bin/csh",
+      "category": "shell"
+    },
+    "csplit": {
+      "path": "/usr/bin/csplit",
+      "category": "text"
+    },
+    "csreq": {
+      "path": "/usr/bin/csreq",
+      "category": "other"
+    },
+    "csrutil": {
+      "path": "/usr/bin/csrutil",
+      "category": "other"
+    },
+    "cstool": {
+      "path": "/opt/homebrew/bin/cstool",
+      "category": "other"
+    },
+    "ct_run": {
+      "path": "/opt/homebrew/bin/ct_run",
+      "category": "other"
+    },
+    "ctags": {
+      "path": "/usr/bin/ctags",
+      "category": "other"
+    },
+    "ctest": {
+      "path": "/opt/homebrew/bin/ctest",
+      "category": "test"
+    },
+    "ctf_insert": {
+      "path": "/usr/bin/ctf_insert",
+      "category": "other"
+    },
+    "cu": {
+      "path": "/usr/bin/cu",
+      "category": "other"
+    },
+    "cups-config": {
+      "path": "/usr/bin/cups-config",
+      "category": "other"
+    },
+    "cupstestppd": {
+      "path": "/usr/bin/cupstestppd",
+      "category": "other"
+    },
+    "curl": {
+      "path": "/usr/bin/curl",
+      "category": "network"
+    },
+    "curl-config": {
+      "path": "/usr/bin/curl-config",
+      "category": "other"
+    },
+    "cut": {
+      "path": "/usr/bin/cut",
+      "category": "text"
+    },
+    "cvaffinity": {
+      "path": "/usr/bin/cvaffinity",
+      "category": "other"
+    },
+    "cvcp": {
+      "path": "/usr/bin/cvcp",
+      "category": "other"
+    },
+    "cvmkdir": {
+      "path": "/usr/bin/cvmkdir",
+      "category": "other"
+    },
+    "cvmkfile": {
+      "path": "/usr/bin/cvmkfile",
+      "category": "other"
+    },
+    "cwebp": {
+      "path": "/opt/homebrew/bin/cwebp",
+      "category": "other"
+    },
+    "dappprof": {
+      "path": "/usr/bin/dappprof",
+      "category": "other"
+    },
+    "dapptrace": {
+      "path": "/usr/bin/dapptrace",
+      "category": "other"
+    },
+    "dash": {
+      "path": "/bin/dash",
+      "category": "shell"
+    },
+    "datacopy": {
+      "path": "/opt/homebrew/bin/datacopy",
+      "category": "other"
+    },
+    "date": {
+      "path": "/bin/date",
+      "category": "other"
+    },
+    "dav1d": {
+      "path": "/opt/homebrew/bin/dav1d",
+      "category": "other"
+    },
+    "db_archive": {
+      "path": "/usr/bin/db_archive",
+      "category": "other"
+    },
+    "db_checkpoint": {
+      "path": "/usr/bin/db_checkpoint",
+      "category": "other"
+    },
+    "db_codegen": {
+      "path": "/usr/bin/db_codegen",
+      "category": "other"
+    },
+    "db_deadlock": {
+      "path": "/usr/bin/db_deadlock",
+      "category": "other"
+    },
+    "db_dump": {
+      "path": "/usr/bin/db_dump",
+      "category": "other"
+    },
+    "db_hotbackup": {
+      "path": "/usr/bin/db_hotbackup",
+      "category": "other"
+    },
+    "db_load": {
+      "path": "/usr/bin/db_load",
+      "category": "other"
+    },
+    "db_printlog": {
+      "path": "/usr/bin/db_printlog",
+      "category": "other"
+    },
+    "db_recover": {
+      "path": "/usr/bin/db_recover",
+      "category": "other"
+    },
+    "db_stat": {
+      "path": "/usr/bin/db_stat",
+      "category": "other"
+    },
+    "db_upgrade": {
+      "path": "/usr/bin/db_upgrade",
+      "category": "other"
+    },
+    "db_verify": {
+      "path": "/usr/bin/db_verify",
+      "category": "other"
+    },
+    "dbicadmin": {
+      "path": "/usr/bin/dbicadmin",
+      "category": "other"
+    },
+    "dbicadmin5.34": {
+      "path": "/usr/bin/dbicadmin5.34",
+      "category": "other"
+    },
+    "dbilogstrip": {
+      "path": "/usr/bin/dbilogstrip",
+      "category": "other"
+    },
+    "dbilogstrip5.34": {
+      "path": "/usr/bin/dbilogstrip5.34",
+      "category": "other"
+    },
+    "dbiprof": {
+      "path": "/usr/bin/dbiprof",
+      "category": "other"
+    },
+    "dbiprof5.34": {
+      "path": "/usr/bin/dbiprof5.34",
+      "category": "other"
+    },
+    "dbiproxy": {
+      "path": "/usr/bin/dbiproxy",
+      "category": "other"
+    },
+    "dbiproxy5.34": {
+      "path": "/usr/bin/dbiproxy5.34",
+      "category": "other"
+    },
+    "dbus-cleanup-sockets": {
+      "path": "/opt/homebrew/bin/dbus-cleanup-sockets",
+      "category": "other"
+    },
+    "dbus-daemon": {
+      "path": "/opt/homebrew/bin/dbus-daemon",
+      "category": "other"
+    },
+    "dbus-launch": {
+      "path": "/opt/homebrew/bin/dbus-launch",
+      "category": "other"
+    },
+    "dbus-monitor": {
+      "path": "/opt/homebrew/bin/dbus-monitor",
+      "category": "other"
+    },
+    "dbus-run-session": {
+      "path": "/opt/homebrew/bin/dbus-run-session",
+      "category": "other"
+    },
+    "dbus-send": {
+      "path": "/opt/homebrew/bin/dbus-send",
+      "category": "other"
+    },
+    "dbus-test-tool": {
+      "path": "/opt/homebrew/bin/dbus-test-tool",
+      "category": "other"
+    },
+    "dbus-update-activation-environment": {
+      "path": "/opt/homebrew/bin/dbus-update-activation-environment",
+      "category": "other"
+    },
+    "dbus-uuidgen": {
+      "path": "/opt/homebrew/bin/dbus-uuidgen",
+      "category": "other"
+    },
+    "dc": {
+      "path": "/usr/bin/dc",
+      "category": "other"
+    },
+    "dd": {
+      "path": "/bin/dd",
+      "category": "filesystem"
+    },
+    "dddiagnose": {
+      "path": "/usr/bin/dddiagnose",
+      "category": "other"
+    },
+    "debinhex.pl": {
+      "path": "/usr/bin/debinhex.pl",
+      "category": "other"
+    },
+    "debinhex5.34.pl": {
+      "path": "/usr/bin/debinhex5.34.pl",
+      "category": "other"
+    },
+    "defaults": {
+      "path": "/usr/bin/defaults",
+      "category": "other"
+    },
+    "defncopy": {
+      "path": "/opt/homebrew/bin/defncopy",
+      "category": "other"
+    },
+    "delv": {
+      "path": "/usr/bin/delv",
+      "category": "other"
+    },
+    "demandoc": {
+      "path": "/usr/bin/demandoc",
+      "category": "other"
+    },
+    "derq": {
+      "path": "/usr/bin/derq",
+      "category": "other"
+    },
+    "desdp": {
+      "path": "/usr/bin/desdp",
+      "category": "other"
+    },
+    "determinate-nixd": {
+      "path": "/usr/local/bin/determinate-nixd",
+      "category": "other"
+    },
+    "devicectl": {
+      "path": "/usr/bin/devicectl",
+      "category": "other"
+    },
+    "devmodectl": {
+      "path": "/usr/bin/devmodectl",
+      "category": "other"
+    },
+    "df": {
+      "path": "/bin/df",
+      "category": "filesystem"
+    },
+    "dialyzer": {
+      "path": "/opt/homebrew/bin/dialyzer",
+      "category": "other"
+    },
+    "diff": {
+      "path": "/usr/bin/diff",
+      "category": "text"
+    },
+    "diff3": {
+      "path": "/usr/bin/diff3",
+      "category": "other"
+    },
+    "diffstat": {
+      "path": "/usr/bin/diffstat",
+      "category": "other"
+    },
+    "dig": {
+      "path": "/usr/bin/dig",
+      "category": "network"
+    },
+    "dirname": {
+      "path": "/usr/bin/dirname",
+      "category": "other"
+    },
+    "disklabel": {
+      "path": "/sbin/disklabel",
+      "category": "other"
+    },
+    "dispqlen.d": {
+      "path": "/usr/bin/dispqlen.d",
+      "category": "other"
+    },
+    "dist_package_tool": {
+      "path": "/usr/bin/dist_package_tool",
+      "category": "other"
+    },
+    "ditto": {
+      "path": "/usr/bin/ditto",
+      "category": "other"
+    },
+    "djpeg": {
+      "path": "/opt/homebrew/bin/djpeg",
+      "category": "other"
+    },
+    "dltest": {
+      "path": "/opt/homebrew/bin/dltest",
+      "category": "other"
+    },
+    "dmc": {
+      "path": "/usr/bin/dmc",
+      "category": "other"
+    },
+    "dmesg": {
+      "path": "/sbin/dmesg",
+      "category": "other"
+    },
+    "dns-sd": {
+      "path": "/usr/bin/dns-sd",
+      "category": "other"
+    },
+    "docker": {
+      "path": "/usr/local/bin/docker",
+      "category": "container"
+    },
+    "docker-compose": {
+      "path": "/Users/metadusa/.docker/bin/docker-compose",
+      "category": "other"
+    },
+    "docker-credential-desktop": {
+      "path": "/usr/local/bin/docker-credential-desktop",
+      "category": "other"
+    },
+    "docker-credential-ecr-login": {
+      "path": "/usr/local/bin/docker-credential-ecr-login",
+      "category": "other"
+    },
+    "docker-credential-osxkeychain": {
+      "path": "/usr/local/bin/docker-credential-osxkeychain",
+      "category": "other"
+    },
+    "dotnet": {
+      "path": "/opt/homebrew/bin/dotnet",
+      "category": "other"
+    },
+    "dpipe": {
+      "path": "/opt/homebrew/bin/dpipe",
+      "category": "other"
+    },
+    "dropdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/dropdb",
+      "category": "database"
+    },
+    "dropuser": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/dropuser",
+      "category": "other"
+    },
+    "drutil": {
+      "path": "/usr/bin/drutil",
+      "category": "other"
+    },
+    "dscacheutil": {
+      "path": "/usr/bin/dscacheutil",
+      "category": "other"
+    },
+    "dscl": {
+      "path": "/usr/bin/dscl",
+      "category": "other"
+    },
+    "dsconfigad": {
+      "path": "/usr/sbin/dsconfigad",
+      "category": "other"
+    },
+    "dseditgroup": {
+      "path": "/usr/sbin/dseditgroup",
+      "category": "other"
+    },
+    "dserr": {
+      "path": "/usr/bin/dserr",
+      "category": "other"
+    },
+    "dsexport": {
+      "path": "/usr/bin/dsexport",
+      "category": "other"
+    },
+    "dsimport": {
+      "path": "/usr/bin/dsimport",
+      "category": "other"
+    },
+    "dsmemberutil": {
+      "path": "/usr/bin/dsmemberutil",
+      "category": "other"
+    },
+    "dsymutil": {
+      "path": "/usr/bin/dsymutil",
+      "category": "other"
+    },
+    "dtc": {
+      "path": "/opt/homebrew/bin/dtc",
+      "category": "other"
+    },
+    "dtdiff": {
+      "path": "/opt/homebrew/bin/dtdiff",
+      "category": "other"
+    },
+    "dtplite": {
+      "path": "/opt/homebrew/bin/dtplite",
+      "category": "other"
+    },
+    "dtruss": {
+      "path": "/usr/bin/dtruss",
+      "category": "proc"
+    },
+    "du": {
+      "path": "/usr/bin/du",
+      "category": "filesystem"
+    },
+    "dwarfdump": {
+      "path": "/usr/bin/dwarfdump",
+      "category": "other"
+    },
+    "dwebp": {
+      "path": "/opt/homebrew/bin/dwebp",
+      "category": "other"
+    },
+    "dyld_info": {
+      "path": "/usr/bin/dyld_info",
+      "category": "other"
+    },
+    "dyld_usage": {
+      "path": "/usr/bin/dyld_usage",
+      "category": "other"
+    },
+    "dynamic_pager": {
+      "path": "/sbin/dynamic_pager",
+      "category": "other"
+    },
+    "echo": {
+      "path": "/bin/echo",
+      "category": "other"
+    },
+    "ecpg": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/ecpg",
+      "category": "other"
+    },
+    "ed": {
+      "path": "/bin/ed",
+      "category": "other"
+    },
+    "egrep": {
+      "path": "/usr/bin/egrep",
+      "category": "text"
+    },
+    "elan": {
+      "path": "/Users/metadusa/.elan/bin/elan",
+      "category": "other"
+    },
+    "elf2dmp": {
+      "path": "/opt/homebrew/bin/elf2dmp",
+      "category": "other"
+    },
+    "elixir": {
+      "path": "/opt/homebrew/bin/elixir",
+      "category": "editor_cli"
+    },
+    "elixirc": {
+      "path": "/opt/homebrew/bin/elixirc",
+      "category": "other"
+    },
+    "enc2xs": {
+      "path": "/usr/bin/enc2xs",
+      "category": "other"
+    },
+    "enc2xs5.34": {
+      "path": "/usr/bin/enc2xs5.34",
+      "category": "other"
+    },
+    "encguess": {
+      "path": "/usr/bin/encguess",
+      "category": "other"
+    },
+    "encguess5.34": {
+      "path": "/usr/bin/encguess5.34",
+      "category": "other"
+    },
+    "encode_keychange": {
+      "path": "/usr/bin/encode_keychange",
+      "category": "other"
+    },
+    "env": {
+      "path": "/usr/bin/env",
+      "category": "other"
+    },
+    "envsubst": {
+      "path": "/opt/homebrew/bin/envsubst",
+      "category": "other"
+    },
+    "epmd": {
+      "path": "/opt/homebrew/bin/epmd",
+      "category": "other"
+    },
+    "erb": {
+      "path": "/usr/bin/erb",
+      "category": "other"
+    },
+    "erl": {
+      "path": "/opt/homebrew/bin/erl",
+      "category": "editor_cli"
+    },
+    "erlc": {
+      "path": "/opt/homebrew/bin/erlc",
+      "category": "editor_cli"
+    },
+    "errinfo": {
+      "path": "/usr/bin/errinfo",
+      "category": "other"
+    },
+    "escript": {
+      "path": "/opt/homebrew/bin/escript",
+      "category": "editor_cli"
+    },
+    "eslogger": {
+      "path": "/usr/bin/eslogger",
+      "category": "other"
+    },
+    "ex": {
+      "path": "/usr/bin/ex",
+      "category": "other"
+    },
+    "execsnoop": {
+      "path": "/usr/bin/execsnoop",
+      "category": "other"
+    },
+    "expand": {
+      "path": "/usr/bin/expand",
+      "category": "other"
+    },
+    "expect": {
+      "path": "/usr/bin/expect",
+      "category": "other"
+    },
+    "expr": {
+      "path": "/bin/expr",
+      "category": "other"
+    },
+    "eyapp": {
+      "path": "/usr/bin/eyapp",
+      "category": "other"
+    },
+    "eyapp5.34": {
+      "path": "/usr/bin/eyapp5.34",
+      "category": "other"
+    },
+    "factor": {
+      "path": "/opt/homebrew/bin/factor",
+      "category": "other"
+    },
+    "false": {
+      "path": "/usr/bin/false",
+      "category": "other"
+    },
+    "fastbase64": {
+      "path": "/opt/homebrew/bin/fastbase64",
+      "category": "other"
+    },
+    "fastbase64.coreutils": {
+      "path": "/opt/homebrew/bin/fastbase64.coreutils",
+      "category": "other"
+    },
+    "fax2ps": {
+      "path": "/opt/homebrew/bin/fax2ps",
+      "category": "other"
+    },
+    "fax2tiff": {
+      "path": "/opt/homebrew/bin/fax2tiff",
+      "category": "other"
+    },
+    "fc": {
+      "path": "/usr/bin/fc",
+      "category": "other"
+    },
+    "fc-cache": {
+      "path": "/opt/homebrew/bin/fc-cache",
+      "category": "other"
+    },
+    "fc-cat": {
+      "path": "/opt/homebrew/bin/fc-cat",
+      "category": "other"
+    },
+    "fc-conflist": {
+      "path": "/opt/homebrew/bin/fc-conflist",
+      "category": "other"
+    },
+    "fc-genconf": {
+      "path": "/opt/homebrew/bin/fc-genconf",
+      "category": "other"
+    },
+    "fc-list": {
+      "path": "/opt/homebrew/bin/fc-list",
+      "category": "other"
+    },
+    "fc-match": {
+      "path": "/opt/homebrew/bin/fc-match",
+      "category": "other"
+    },
+    "fc-pattern": {
+      "path": "/opt/homebrew/bin/fc-pattern",
+      "category": "other"
+    },
+    "fc-query": {
+      "path": "/opt/homebrew/bin/fc-query",
+      "category": "other"
+    },
+    "fc-scan": {
+      "path": "/opt/homebrew/bin/fc-scan",
+      "category": "other"
+    },
+    "fc-validate": {
+      "path": "/opt/homebrew/bin/fc-validate",
+      "category": "other"
+    },
+    "fddist": {
+      "path": "/usr/bin/fddist",
+      "category": "other"
+    },
+    "fdesetup": {
+      "path": "/usr/bin/fdesetup",
+      "category": "other"
+    },
+    "fdtdump": {
+      "path": "/opt/homebrew/bin/fdtdump",
+      "category": "other"
+    },
+    "fdtget": {
+      "path": "/opt/homebrew/bin/fdtget",
+      "category": "other"
+    },
+    "fdtoverlay": {
+      "path": "/opt/homebrew/bin/fdtoverlay",
+      "category": "other"
+    },
+    "fdtput": {
+      "path": "/opt/homebrew/bin/fdtput",
+      "category": "other"
+    },
+    "fg": {
+      "path": "/usr/bin/fg",
+      "category": "other"
+    },
+    "fgrep": {
+      "path": "/usr/bin/fgrep",
+      "category": "text"
+    },
+    "fibreconfig": {
+      "path": "/sbin/fibreconfig",
+      "category": "other"
+    },
+    "file": {
+      "path": "/usr/bin/file",
+      "category": "filesystem"
+    },
+    "filebyproc.d": {
+      "path": "/usr/bin/filebyproc.d",
+      "category": "other"
+    },
+    "fileproviderctl": {
+      "path": "/usr/bin/fileproviderctl",
+      "category": "other"
+    },
+    "filtercalltree": {
+      "path": "/usr/bin/filtercalltree",
+      "category": "other"
+    },
+    "find": {
+      "path": "/usr/bin/find",
+      "category": "filesystem"
+    },
+    "findrule": {
+      "path": "/usr/bin/findrule",
+      "category": "other"
+    },
+    "findrule5.34": {
+      "path": "/usr/bin/findrule5.34",
+      "category": "other"
+    },
+    "finger": {
+      "path": "/usr/bin/finger",
+      "category": "other"
+    },
+    "fio": {
+      "path": "/opt/homebrew/bin/fio",
+      "category": "other"
+    },
+    "fio-dedupe": {
+      "path": "/opt/homebrew/bin/fio-dedupe",
+      "category": "other"
+    },
+    "fio-genzipf": {
+      "path": "/opt/homebrew/bin/fio-genzipf",
+      "category": "other"
+    },
+    "fio-histo-log-pctiles.py": {
+      "path": "/opt/homebrew/bin/fio-histo-log-pctiles.py",
+      "category": "other"
+    },
+    "fio-verify-state": {
+      "path": "/opt/homebrew/bin/fio-verify-state",
+      "category": "other"
+    },
+    "fio2gnuplot": {
+      "path": "/opt/homebrew/bin/fio2gnuplot",
+      "category": "other"
+    },
+    "fio_generate_plots": {
+      "path": "/opt/homebrew/bin/fio_generate_plots",
+      "category": "other"
+    },
+    "fio_jsonplus_clat2csv": {
+      "path": "/opt/homebrew/bin/fio_jsonplus_clat2csv",
+      "category": "other"
+    },
+    "fiologparser.py": {
+      "path": "/opt/homebrew/bin/fiologparser.py",
+      "category": "other"
+    },
+    "fiologparser_hist.py": {
+      "path": "/opt/homebrew/bin/fiologparser_hist.py",
+      "category": "other"
+    },
+    "fisql": {
+      "path": "/opt/homebrew/bin/fisql",
+      "category": "other"
+    },
+    "fixproc": {
+      "path": "/usr/bin/fixproc",
+      "category": "other"
+    },
+    "flex": {
+      "path": "/usr/bin/flex",
+      "category": "other"
+    },
+    "flex++": {
+      "path": "/usr/bin/flex++",
+      "category": "other"
+    },
+    "fmt": {
+      "path": "/usr/bin/fmt",
+      "category": "other"
+    },
+    "fold": {
+      "path": "/usr/bin/fold",
+      "category": "other"
+    },
+    "fontrestore": {
+      "path": "/usr/bin/fontrestore",
+      "category": "other"
+    },
+    "footprint": {
+      "path": "/usr/bin/footprint",
+      "category": "other"
+    },
+    "fping": {
+      "path": "/usr/bin/fping",
+      "category": "other"
+    },
+    "freebcp": {
+      "path": "/opt/homebrew/bin/freebcp",
+      "category": "other"
+    },
+    "freetype-config": {
+      "path": "/opt/homebrew/bin/freetype-config",
+      "category": "other"
+    },
+    "fribidi": {
+      "path": "/opt/homebrew/bin/fribidi",
+      "category": "other"
+    },
+    "fs_usage": {
+      "path": "/usr/bin/fs_usage",
+      "category": "other"
+    },
+    "fsck": {
+      "path": "/sbin/fsck",
+      "category": "filesystem"
+    },
+    "fsck_apfs": {
+      "path": "/sbin/fsck_apfs",
+      "category": "other"
+    },
+    "fsck_cs": {
+      "path": "/sbin/fsck_cs",
+      "category": "other"
+    },
+    "fsck_exfat": {
+      "path": "/sbin/fsck_exfat",
+      "category": "other"
+    },
+    "fsck_fskit": {
+      "path": "/sbin/fsck_fskit",
+      "category": "other"
+    },
+    "fsck_hfs": {
+      "path": "/sbin/fsck_hfs",
+      "category": "other"
+    },
+    "fsck_msdos": {
+      "path": "/sbin/fsck_msdos",
+      "category": "other"
+    },
+    "fsck_udf": {
+      "path": "/sbin/fsck_udf",
+      "category": "other"
+    },
+    "fstyp": {
+      "path": "/sbin/fstyp",
+      "category": "other"
+    },
+    "fstyp_hfs": {
+      "path": "/sbin/fstyp_hfs",
+      "category": "other"
+    },
+    "fstyp_msdos": {
+      "path": "/sbin/fstyp_msdos",
+      "category": "other"
+    },
+    "fstyp_ntfs": {
+      "path": "/sbin/fstyp_ntfs",
+      "category": "other"
+    },
+    "fstyp_udf": {
+      "path": "/sbin/fstyp_udf",
+      "category": "other"
+    },
+    "funzip": {
+      "path": "/usr/bin/funzip",
+      "category": "other"
+    },
+    "fuser": {
+      "path": "/usr/bin/fuser",
+      "category": "proc"
+    },
+    "g++": {
+      "path": "/usr/bin/g++",
+      "category": "build"
+    },
+    "g++-16": {
+      "path": "/opt/homebrew/bin/g++-16",
+      "category": "other"
+    },
+    "g[": {
+      "path": "/opt/homebrew/bin/g[",
+      "category": "other"
+    },
+    "gatherheaderdoc": {
+      "path": "/usr/bin/gatherheaderdoc",
+      "category": "other"
+    },
+    "gb2sum": {
+      "path": "/opt/homebrew/bin/gb2sum",
+      "category": "other"
+    },
+    "gbase32": {
+      "path": "/opt/homebrew/bin/gbase32",
+      "category": "other"
+    },
+    "gbase64": {
+      "path": "/opt/homebrew/bin/gbase64",
+      "category": "other"
+    },
+    "gbasename": {
+      "path": "/opt/homebrew/bin/gbasename",
+      "category": "other"
+    },
+    "gbasenc": {
+      "path": "/opt/homebrew/bin/gbasenc",
+      "category": "other"
+    },
+    "gcat": {
+      "path": "/opt/homebrew/bin/gcat",
+      "category": "other"
+    },
+    "gcc": {
+      "path": "/usr/bin/gcc",
+      "category": "build"
+    },
+    "gcc-16": {
+      "path": "/opt/homebrew/bin/gcc-16",
+      "category": "other"
+    },
+    "gcc-ar-16": {
+      "path": "/opt/homebrew/bin/gcc-ar-16",
+      "category": "other"
+    },
+    "gcc-nm-16": {
+      "path": "/opt/homebrew/bin/gcc-nm-16",
+      "category": "other"
+    },
+    "gcc-ranlib-16": {
+      "path": "/opt/homebrew/bin/gcc-ranlib-16",
+      "category": "other"
+    },
+    "gchgrp": {
+      "path": "/opt/homebrew/bin/gchgrp",
+      "category": "other"
+    },
+    "gchmod": {
+      "path": "/opt/homebrew/bin/gchmod",
+      "category": "other"
+    },
+    "gchown": {
+      "path": "/opt/homebrew/bin/gchown",
+      "category": "other"
+    },
+    "gchroot": {
+      "path": "/opt/homebrew/bin/gchroot",
+      "category": "other"
+    },
+    "gcksum": {
+      "path": "/opt/homebrew/bin/gcksum",
+      "category": "other"
+    },
+    "gcomm": {
+      "path": "/opt/homebrew/bin/gcomm",
+      "category": "other"
+    },
+    "gcore": {
+      "path": "/usr/bin/gcore",
+      "category": "other"
+    },
+    "gcov": {
+      "path": "/usr/bin/gcov",
+      "category": "other"
+    },
+    "gcov-16": {
+      "path": "/opt/homebrew/bin/gcov-16",
+      "category": "other"
+    },
+    "gcov-dump-16": {
+      "path": "/opt/homebrew/bin/gcov-dump-16",
+      "category": "other"
+    },
+    "gcov-tool-16": {
+      "path": "/opt/homebrew/bin/gcov-tool-16",
+      "category": "other"
+    },
+    "gcp": {
+      "path": "/opt/homebrew/bin/gcp",
+      "category": "other"
+    },
+    "gcsplit": {
+      "path": "/opt/homebrew/bin/gcsplit",
+      "category": "other"
+    },
+    "gcut": {
+      "path": "/opt/homebrew/bin/gcut",
+      "category": "other"
+    },
+    "gd2copypal": {
+      "path": "/opt/homebrew/bin/gd2copypal",
+      "category": "other"
+    },
+    "gd2togif": {
+      "path": "/opt/homebrew/bin/gd2togif",
+      "category": "other"
+    },
+    "gd2topng": {
+      "path": "/opt/homebrew/bin/gd2topng",
+      "category": "other"
+    },
+    "gdate": {
+      "path": "/opt/homebrew/bin/gdate",
+      "category": "other"
+    },
+    "gdbus": {
+      "path": "/opt/homebrew/bin/gdbus",
+      "category": "other"
+    },
+    "gdbus-codegen": {
+      "path": "/opt/homebrew/bin/gdbus-codegen",
+      "category": "other"
+    },
+    "gdcmpgif": {
+      "path": "/opt/homebrew/bin/gdcmpgif",
+      "category": "other"
+    },
+    "gdd": {
+      "path": "/opt/homebrew/bin/gdd",
+      "category": "other"
+    },
+    "gdf": {
+      "path": "/opt/homebrew/bin/gdf",
+      "category": "other"
+    },
+    "gdir": {
+      "path": "/opt/homebrew/bin/gdir",
+      "category": "other"
+    },
+    "gdircolors": {
+      "path": "/opt/homebrew/bin/gdircolors",
+      "category": "other"
+    },
+    "gdirname": {
+      "path": "/opt/homebrew/bin/gdirname",
+      "category": "other"
+    },
+    "gdk-pixbuf-csource": {
+      "path": "/opt/homebrew/bin/gdk-pixbuf-csource",
+      "category": "other"
+    },
+    "gdk-pixbuf-pixdata": {
+      "path": "/opt/homebrew/bin/gdk-pixbuf-pixdata",
+      "category": "other"
+    },
+    "gdk-pixbuf-query-loaders": {
+      "path": "/opt/homebrew/bin/gdk-pixbuf-query-loaders",
+      "category": "other"
+    },
+    "gdk-pixbuf-thumbnailer": {
+      "path": "/opt/homebrew/bin/gdk-pixbuf-thumbnailer",
+      "category": "other"
+    },
+    "gdparttopng": {
+      "path": "/opt/homebrew/bin/gdparttopng",
+      "category": "other"
+    },
+    "gdtopng": {
+      "path": "/opt/homebrew/bin/gdtopng",
+      "category": "other"
+    },
+    "gdu": {
+      "path": "/opt/homebrew/bin/gdu",
+      "category": "other"
+    },
+    "gecho": {
+      "path": "/opt/homebrew/bin/gecho",
+      "category": "other"
+    },
+    "gem": {
+      "path": "/usr/bin/gem",
+      "category": "package"
+    },
+    "gen_bridge_metadata": {
+      "path": "/usr/bin/gen_bridge_metadata",
+      "category": "other"
+    },
+    "gencat": {
+      "path": "/usr/bin/gencat",
+      "category": "other"
+    },
+    "genfio": {
+      "path": "/opt/homebrew/bin/genfio",
+      "category": "other"
+    },
+    "genstrings": {
+      "path": "/usr/bin/genstrings",
+      "category": "other"
+    },
+    "genv": {
+      "path": "/opt/homebrew/bin/genv",
+      "category": "other"
+    },
+    "getconf": {
+      "path": "/usr/bin/getconf",
+      "category": "other"
+    },
+    "getopt": {
+      "path": "/usr/bin/getopt",
+      "category": "other"
+    },
+    "getopts": {
+      "path": "/usr/bin/getopts",
+      "category": "other"
+    },
+    "gettext": {
+      "path": "/opt/homebrew/bin/gettext",
+      "category": "other"
+    },
+    "gettext.sh": {
+      "path": "/opt/homebrew/bin/gettext.sh",
+      "category": "other"
+    },
+    "gettextize": {
+      "path": "/opt/homebrew/bin/gettextize",
+      "category": "other"
+    },
+    "gexpand": {
+      "path": "/opt/homebrew/bin/gexpand",
+      "category": "other"
+    },
+    "gexpr": {
+      "path": "/opt/homebrew/bin/gexpr",
+      "category": "other"
+    },
+    "gfactor": {
+      "path": "/opt/homebrew/bin/gfactor",
+      "category": "other"
+    },
+    "gfalse": {
+      "path": "/opt/homebrew/bin/gfalse",
+      "category": "other"
+    },
+    "gfmt": {
+      "path": "/opt/homebrew/bin/gfmt",
+      "category": "other"
+    },
+    "gfold": {
+      "path": "/opt/homebrew/bin/gfold",
+      "category": "other"
+    },
+    "gfortran": {
+      "path": "/opt/homebrew/bin/gfortran",
+      "category": "other"
+    },
+    "gfortran-16": {
+      "path": "/opt/homebrew/bin/gfortran-16",
+      "category": "other"
+    },
+    "ggroups": {
+      "path": "/opt/homebrew/bin/ggroups",
+      "category": "other"
+    },
+    "gh": {
+      "path": "/opt/homebrew/bin/gh",
+      "category": "other"
+    },
+    "ghc": {
+      "path": "/opt/homebrew/bin/ghc",
+      "category": "build"
+    },
+    "ghc-9.14.1": {
+      "path": "/opt/homebrew/bin/ghc-9.14.1",
+      "category": "other"
+    },
+    "ghc-pkg": {
+      "path": "/opt/homebrew/bin/ghc-pkg",
+      "category": "other"
+    },
+    "ghc-pkg-9.14.1": {
+      "path": "/opt/homebrew/bin/ghc-pkg-9.14.1",
+      "category": "other"
+    },
+    "ghci": {
+      "path": "/opt/homebrew/bin/ghci",
+      "category": "editor_cli"
+    },
+    "ghci-9.14.1": {
+      "path": "/opt/homebrew/bin/ghci-9.14.1",
+      "category": "other"
+    },
+    "ghead": {
+      "path": "/opt/homebrew/bin/ghead",
+      "category": "other"
+    },
+    "ghostid": {
+      "path": "/opt/homebrew/bin/ghostid",
+      "category": "other"
+    },
+    "gi-compile-repository": {
+      "path": "/opt/homebrew/bin/gi-compile-repository",
+      "category": "other"
+    },
+    "gi-decompile-typelib": {
+      "path": "/opt/homebrew/bin/gi-decompile-typelib",
+      "category": "other"
+    },
+    "gi-inspect-typelib": {
+      "path": "/opt/homebrew/bin/gi-inspect-typelib",
+      "category": "other"
+    },
+    "gid": {
+      "path": "/opt/homebrew/bin/gid",
+      "category": "other"
+    },
+    "gif2webp": {
+      "path": "/opt/homebrew/bin/gif2webp",
+      "category": "other"
+    },
+    "gifbuild": {
+      "path": "/opt/homebrew/bin/gifbuild",
+      "category": "other"
+    },
+    "gifclrmp": {
+      "path": "/opt/homebrew/bin/gifclrmp",
+      "category": "other"
+    },
+    "giffix": {
+      "path": "/opt/homebrew/bin/giffix",
+      "category": "other"
+    },
+    "giftext": {
+      "path": "/opt/homebrew/bin/giftext",
+      "category": "other"
+    },
+    "giftogd2": {
+      "path": "/opt/homebrew/bin/giftogd2",
+      "category": "other"
+    },
+    "giftool": {
+      "path": "/opt/homebrew/bin/giftool",
+      "category": "other"
+    },
+    "ginstall": {
+      "path": "/opt/homebrew/bin/ginstall",
+      "category": "other"
+    },
+    "gio": {
+      "path": "/opt/homebrew/bin/gio",
+      "category": "other"
+    },
+    "gio-querymodules": {
+      "path": "/opt/homebrew/bin/gio-querymodules",
+      "category": "other"
+    },
+    "git": {
+      "path": "/usr/bin/git",
+      "category": "vcs"
+    },
+    "git-cvsserver": {
+      "path": "/opt/homebrew/bin/git-cvsserver",
+      "category": "vcs"
+    },
+    "git-receive-pack": {
+      "path": "/usr/bin/git-receive-pack",
+      "category": "vcs"
+    },
+    "git-shell": {
+      "path": "/usr/bin/git-shell",
+      "category": "vcs"
+    },
+    "git-upload-archive": {
+      "path": "/usr/bin/git-upload-archive",
+      "category": "vcs"
+    },
+    "git-upload-pack": {
+      "path": "/usr/bin/git-upload-pack",
+      "category": "vcs"
+    },
+    "git2": {
+      "path": "/opt/homebrew/bin/git2",
+      "category": "other"
+    },
+    "gjoin": {
+      "path": "/opt/homebrew/bin/gjoin",
+      "category": "other"
+    },
+    "gktool": {
+      "path": "/usr/bin/gktool",
+      "category": "other"
+    },
+    "glib-compile-resources": {
+      "path": "/opt/homebrew/bin/glib-compile-resources",
+      "category": "other"
+    },
+    "glib-compile-schemas": {
+      "path": "/opt/homebrew/bin/glib-compile-schemas",
+      "category": "other"
+    },
+    "glib-genmarshal": {
+      "path": "/opt/homebrew/bin/glib-genmarshal",
+      "category": "other"
+    },
+    "glib-gettextize": {
+      "path": "/opt/homebrew/bin/glib-gettextize",
+      "category": "other"
+    },
+    "glib-mkenums": {
+      "path": "/opt/homebrew/bin/glib-mkenums",
+      "category": "other"
+    },
+    "glibtool": {
+      "path": "/opt/homebrew/bin/glibtool",
+      "category": "other"
+    },
+    "glibtool-next-version": {
+      "path": "/opt/homebrew/bin/glibtool-next-version",
+      "category": "other"
+    },
+    "glibtoolize": {
+      "path": "/opt/homebrew/bin/glibtoolize",
+      "category": "other"
+    },
+    "glink": {
+      "path": "/opt/homebrew/bin/glink",
+      "category": "other"
+    },
+    "gln": {
+      "path": "/opt/homebrew/bin/gln",
+      "category": "other"
+    },
+    "glogname": {
+      "path": "/opt/homebrew/bin/glogname",
+      "category": "other"
+    },
+    "gls": {
+      "path": "/opt/homebrew/bin/gls",
+      "category": "other"
+    },
+    "gm4": {
+      "path": "/usr/bin/gm4",
+      "category": "other"
+    },
+    "gmd5sum": {
+      "path": "/opt/homebrew/bin/gmd5sum",
+      "category": "other"
+    },
+    "gmkdir": {
+      "path": "/opt/homebrew/bin/gmkdir",
+      "category": "other"
+    },
+    "gmkfifo": {
+      "path": "/opt/homebrew/bin/gmkfifo",
+      "category": "other"
+    },
+    "gmknod": {
+      "path": "/opt/homebrew/bin/gmknod",
+      "category": "other"
+    },
+    "gmktemp": {
+      "path": "/opt/homebrew/bin/gmktemp",
+      "category": "other"
+    },
+    "gmv": {
+      "path": "/opt/homebrew/bin/gmv",
+      "category": "other"
+    },
+    "gnice": {
+      "path": "/opt/homebrew/bin/gnice",
+      "category": "other"
+    },
+    "gnl": {
+      "path": "/opt/homebrew/bin/gnl",
+      "category": "other"
+    },
+    "gnohup": {
+      "path": "/opt/homebrew/bin/gnohup",
+      "category": "other"
+    },
+    "gnproc": {
+      "path": "/opt/homebrew/bin/gnproc",
+      "category": "other"
+    },
+    "gnumake": {
+      "path": "/usr/bin/gnumake",
+      "category": "other"
+    },
+    "gnumfmt": {
+      "path": "/opt/homebrew/bin/gnumfmt",
+      "category": "other"
+    },
+    "gnutls-certtool": {
+      "path": "/opt/homebrew/bin/gnutls-certtool",
+      "category": "other"
+    },
+    "gnutls-cli": {
+      "path": "/opt/homebrew/bin/gnutls-cli",
+      "category": "other"
+    },
+    "gnutls-cli-debug": {
+      "path": "/opt/homebrew/bin/gnutls-cli-debug",
+      "category": "other"
+    },
+    "gnutls-serv": {
+      "path": "/opt/homebrew/bin/gnutls-serv",
+      "category": "other"
+    },
+    "go": {
+      "path": "/opt/homebrew/bin/go",
+      "category": "build"
+    },
+    "gobject-query": {
+      "path": "/opt/homebrew/bin/gobject-query",
+      "category": "other"
+    },
+    "god": {
+      "path": "/opt/homebrew/bin/god",
+      "category": "other"
+    },
+    "gofmt": {
+      "path": "/opt/homebrew/bin/gofmt",
+      "category": "other"
+    },
+    "gpaste": {
+      "path": "/opt/homebrew/bin/gpaste",
+      "category": "other"
+    },
+    "gpathchk": {
+      "path": "/opt/homebrew/bin/gpathchk",
+      "category": "other"
+    },
+    "gperf": {
+      "path": "/usr/bin/gperf",
+      "category": "other"
+    },
+    "gpinky": {
+      "path": "/opt/homebrew/bin/gpinky",
+      "category": "other"
+    },
+    "gpr": {
+      "path": "/opt/homebrew/bin/gpr",
+      "category": "other"
+    },
+    "gprintenv": {
+      "path": "/opt/homebrew/bin/gprintenv",
+      "category": "other"
+    },
+    "gprintf": {
+      "path": "/opt/homebrew/bin/gprintf",
+      "category": "other"
+    },
+    "gptx": {
+      "path": "/opt/homebrew/bin/gptx",
+      "category": "other"
+    },
+    "gpwd": {
+      "path": "/opt/homebrew/bin/gpwd",
+      "category": "other"
+    },
+    "gr2fonttest": {
+      "path": "/opt/homebrew/bin/gr2fonttest",
+      "category": "other"
+    },
+    "grape": {
+      "path": "/opt/homebrew/bin/grape",
+      "category": "other"
+    },
+    "greadlink": {
+      "path": "/opt/homebrew/bin/greadlink",
+      "category": "other"
+    },
+    "grealpath": {
+      "path": "/opt/homebrew/bin/grealpath",
+      "category": "other"
+    },
+    "grep": {
+      "path": "/usr/bin/grep",
+      "category": "text"
+    },
+    "gresource": {
+      "path": "/opt/homebrew/bin/gresource",
+      "category": "other"
+    },
+    "grm": {
+      "path": "/opt/homebrew/bin/grm",
+      "category": "other"
+    },
+    "grmdir": {
+      "path": "/opt/homebrew/bin/grmdir",
+      "category": "other"
+    },
+    "groovy": {
+      "path": "/opt/homebrew/bin/groovy",
+      "category": "other"
+    },
+    "groovyConsole": {
+      "path": "/opt/homebrew/bin/groovyConsole",
+      "category": "other"
+    },
+    "groovyc": {
+      "path": "/opt/homebrew/bin/groovyc",
+      "category": "other"
+    },
+    "groovydoc": {
+      "path": "/opt/homebrew/bin/groovydoc",
+      "category": "other"
+    },
+    "groovysh": {
+      "path": "/opt/homebrew/bin/groovysh",
+      "category": "other"
+    },
+    "groups": {
+      "path": "/usr/bin/groups",
+      "category": "other"
+    },
+    "gseq": {
+      "path": "/opt/homebrew/bin/gseq",
+      "category": "other"
+    },
+    "gsettings": {
+      "path": "/opt/homebrew/bin/gsettings",
+      "category": "other"
+    },
+    "gsha1sum": {
+      "path": "/opt/homebrew/bin/gsha1sum",
+      "category": "other"
+    },
+    "gsha224sum": {
+      "path": "/opt/homebrew/bin/gsha224sum",
+      "category": "other"
+    },
+    "gsha256sum": {
+      "path": "/opt/homebrew/bin/gsha256sum",
+      "category": "other"
+    },
+    "gsha384sum": {
+      "path": "/opt/homebrew/bin/gsha384sum",
+      "category": "other"
+    },
+    "gsha512sum": {
+      "path": "/opt/homebrew/bin/gsha512sum",
+      "category": "other"
+    },
+    "gshred": {
+      "path": "/opt/homebrew/bin/gshred",
+      "category": "other"
+    },
+    "gshuf": {
+      "path": "/opt/homebrew/bin/gshuf",
+      "category": "other"
+    },
+    "gsleep": {
+      "path": "/opt/homebrew/bin/gsleep",
+      "category": "other"
+    },
+    "gsort": {
+      "path": "/opt/homebrew/bin/gsort",
+      "category": "other"
+    },
+    "gsplit": {
+      "path": "/opt/homebrew/bin/gsplit",
+      "category": "other"
+    },
+    "gstat": {
+      "path": "/opt/homebrew/bin/gstat",
+      "category": "other"
+    },
+    "gstdbuf": {
+      "path": "/opt/homebrew/bin/gstdbuf",
+      "category": "other"
+    },
+    "gstty": {
+      "path": "/opt/homebrew/bin/gstty",
+      "category": "other"
+    },
+    "gsum": {
+      "path": "/opt/homebrew/bin/gsum",
+      "category": "other"
+    },
+    "gsync": {
+      "path": "/opt/homebrew/bin/gsync",
+      "category": "other"
+    },
+    "gtac": {
+      "path": "/opt/homebrew/bin/gtac",
+      "category": "other"
+    },
+    "gtail": {
+      "path": "/opt/homebrew/bin/gtail",
+      "category": "other"
+    },
+    "gtee": {
+      "path": "/opt/homebrew/bin/gtee",
+      "category": "other"
+    },
+    "gtest": {
+      "path": "/opt/homebrew/bin/gtest",
+      "category": "other"
+    },
+    "gtester": {
+      "path": "/opt/homebrew/bin/gtester",
+      "category": "other"
+    },
+    "gtester-report": {
+      "path": "/opt/homebrew/bin/gtester-report",
+      "category": "other"
+    },
+    "gtimeout": {
+      "path": "/opt/homebrew/bin/gtimeout",
+      "category": "other"
+    },
+    "gtk-builder-tool": {
+      "path": "/opt/homebrew/bin/gtk-builder-tool",
+      "category": "other"
+    },
+    "gtk-encode-symbolic-svg": {
+      "path": "/opt/homebrew/bin/gtk-encode-symbolic-svg",
+      "category": "other"
+    },
+    "gtk-launch": {
+      "path": "/opt/homebrew/bin/gtk-launch",
+      "category": "other"
+    },
+    "gtk-query-immodules-3.0": {
+      "path": "/opt/homebrew/bin/gtk-query-immodules-3.0",
+      "category": "other"
+    },
+    "gtk-query-settings": {
+      "path": "/opt/homebrew/bin/gtk-query-settings",
+      "category": "other"
+    },
+    "gtk-update-icon-cache": {
+      "path": "/opt/homebrew/bin/gtk-update-icon-cache",
+      "category": "other"
+    },
+    "gtk3-demo": {
+      "path": "/opt/homebrew/bin/gtk3-demo",
+      "category": "other"
+    },
+    "gtk3-demo-application": {
+      "path": "/opt/homebrew/bin/gtk3-demo-application",
+      "category": "other"
+    },
+    "gtk3-icon-browser": {
+      "path": "/opt/homebrew/bin/gtk3-icon-browser",
+      "category": "other"
+    },
+    "gtk3-update-icon-cache": {
+      "path": "/opt/homebrew/bin/gtk3-update-icon-cache",
+      "category": "other"
+    },
+    "gtk3-widget-factory": {
+      "path": "/opt/homebrew/bin/gtk3-widget-factory",
+      "category": "other"
+    },
+    "gtouch": {
+      "path": "/opt/homebrew/bin/gtouch",
+      "category": "other"
+    },
+    "gtr": {
+      "path": "/opt/homebrew/bin/gtr",
+      "category": "other"
+    },
+    "gtrue": {
+      "path": "/opt/homebrew/bin/gtrue",
+      "category": "other"
+    },
+    "gtruncate": {
+      "path": "/opt/homebrew/bin/gtruncate",
+      "category": "other"
+    },
+    "gtsort": {
+      "path": "/opt/homebrew/bin/gtsort",
+      "category": "other"
+    },
+    "gtty": {
+      "path": "/opt/homebrew/bin/gtty",
+      "category": "other"
+    },
+    "guname": {
+      "path": "/opt/homebrew/bin/guname",
+      "category": "other"
+    },
+    "gunexpand": {
+      "path": "/opt/homebrew/bin/gunexpand",
+      "category": "other"
+    },
+    "guniq": {
+      "path": "/opt/homebrew/bin/guniq",
+      "category": "other"
+    },
+    "gunlink": {
+      "path": "/opt/homebrew/bin/gunlink",
+      "category": "other"
+    },
+    "gunzip": {
+      "path": "/usr/bin/gunzip",
+      "category": "filesystem"
+    },
+    "gusers": {
+      "path": "/opt/homebrew/bin/gusers",
+      "category": "other"
+    },
+    "gvdir": {
+      "path": "/opt/homebrew/bin/gvdir",
+      "category": "other"
+    },
+    "gwc": {
+      "path": "/opt/homebrew/bin/gwc",
+      "category": "other"
+    },
+    "gwho": {
+      "path": "/opt/homebrew/bin/gwho",
+      "category": "other"
+    },
+    "gwhoami": {
+      "path": "/opt/homebrew/bin/gwhoami",
+      "category": "other"
+    },
+    "gyes": {
+      "path": "/opt/homebrew/bin/gyes",
+      "category": "other"
+    },
+    "gzcat": {
+      "path": "/usr/bin/gzcat",
+      "category": "other"
+    },
+    "gzexe": {
+      "path": "/usr/bin/gzexe",
+      "category": "other"
+    },
+    "gzip": {
+      "path": "/usr/bin/gzip",
+      "category": "filesystem"
+    },
+    "h2ph": {
+      "path": "/usr/bin/h2ph",
+      "category": "other"
+    },
+    "h2ph5.34": {
+      "path": "/usr/bin/h2ph5.34",
+      "category": "other"
+    },
+    "h2xs": {
+      "path": "/usr/bin/h2xs",
+      "category": "other"
+    },
+    "h2xs5.34": {
+      "path": "/usr/bin/h2xs5.34",
+      "category": "other"
+    },
+    "haddock": {
+      "path": "/opt/homebrew/bin/haddock",
+      "category": "other"
+    },
+    "haddock-ghc-9.14.1": {
+      "path": "/opt/homebrew/bin/haddock-ghc-9.14.1",
+      "category": "other"
+    },
+    "halt": {
+      "path": "/sbin/halt",
+      "category": "other"
+    },
+    "hash": {
+      "path": "/usr/bin/hash",
+      "category": "other"
+    },
+    "hb-info": {
+      "path": "/opt/homebrew/bin/hb-info",
+      "category": "other"
+    },
+    "hb-raster": {
+      "path": "/opt/homebrew/bin/hb-raster",
+      "category": "other"
+    },
+    "hb-shape": {
+      "path": "/opt/homebrew/bin/hb-shape",
+      "category": "other"
+    },
+    "hb-subset": {
+      "path": "/opt/homebrew/bin/hb-subset",
+      "category": "other"
+    },
+    "hb-vector": {
+      "path": "/opt/homebrew/bin/hb-vector",
+      "category": "other"
+    },
+    "hb-view": {
+      "path": "/opt/homebrew/bin/hb-view",
+      "category": "other"
+    },
+    "hdid": {
+      "path": "/usr/bin/hdid",
+      "category": "other"
+    },
+    "hdiutil": {
+      "path": "/usr/bin/hdiutil",
+      "category": "other"
+    },
+    "hdxml2manxml": {
+      "path": "/usr/bin/hdxml2manxml",
+      "category": "other"
+    },
+    "head": {
+      "path": "/usr/bin/head",
+      "category": "text"
+    },
+    "headerdoc2html": {
+      "path": "/usr/bin/headerdoc2html",
+      "category": "other"
+    },
+    "heap": {
+      "path": "/usr/bin/heap",
+      "category": "other"
+    },
+    "heif-convert": {
+      "path": "/opt/homebrew/bin/heif-convert",
+      "category": "other"
+    },
+    "heif-dec": {
+      "path": "/opt/homebrew/bin/heif-dec",
+      "category": "other"
+    },
+    "heif-enc": {
+      "path": "/opt/homebrew/bin/heif-enc",
+      "category": "other"
+    },
+    "heif-info": {
+      "path": "/opt/homebrew/bin/heif-info",
+      "category": "other"
+    },
+    "heif-thumbnailer": {
+      "path": "/opt/homebrew/bin/heif-thumbnailer",
+      "category": "other"
+    },
+    "helm": {
+      "path": "/opt/homebrew/bin/helm",
+      "category": "k8s"
+    },
+    "hexdump": {
+      "path": "/usr/bin/hexdump",
+      "category": "text"
+    },
+    "hidutil": {
+      "path": "/usr/bin/hidutil",
+      "category": "other"
+    },
+    "hiutil": {
+      "path": "/usr/bin/hiutil",
+      "category": "other"
+    },
+    "host": {
+      "path": "/usr/bin/host",
+      "category": "network"
+    },
+    "hostid": {
+      "path": "/opt/homebrew/bin/hostid",
+      "category": "other"
+    },
+    "hostinfo": {
+      "path": "/usr/bin/hostinfo",
+      "category": "other"
+    },
+    "hostname": {
+      "path": "/bin/hostname",
+      "category": "other"
+    },
+    "hotspot.d": {
+      "path": "/usr/bin/hotspot.d",
+      "category": "other"
+    },
+    "hp2ps": {
+      "path": "/opt/homebrew/bin/hp2ps",
+      "category": "other"
+    },
+    "hp2ps-ghc-9.14.1": {
+      "path": "/opt/homebrew/bin/hp2ps-ghc-9.14.1",
+      "category": "other"
+    },
+    "hpc": {
+      "path": "/opt/homebrew/bin/hpc",
+      "category": "other"
+    },
+    "hpc-ghc-9.14.1": {
+      "path": "/opt/homebrew/bin/hpc-ghc-9.14.1",
+      "category": "other"
+    },
+    "hpmdiagnose": {
+      "path": "/usr/bin/hpmdiagnose",
+      "category": "other"
+    },
+    "hsc2hs": {
+      "path": "/opt/homebrew/bin/hsc2hs",
+      "category": "other"
+    },
+    "hsc2hs-ghc-9.14.1": {
+      "path": "/opt/homebrew/bin/hsc2hs-ghc-9.14.1",
+      "category": "other"
+    },
+    "htdbm": {
+      "path": "/usr/sbin/htdbm",
+      "category": "other"
+    },
+    "htmltree": {
+      "path": "/usr/bin/htmltree",
+      "category": "other"
+    },
+    "htmltree5.34": {
+      "path": "/usr/bin/htmltree5.34",
+      "category": "other"
+    },
+    "ibtool": {
+      "path": "/usr/bin/ibtool",
+      "category": "other"
+    },
+    "ibv_devices": {
+      "path": "/usr/bin/ibv_devices",
+      "category": "other"
+    },
+    "ibv_devinfo": {
+      "path": "/usr/bin/ibv_devinfo",
+      "category": "other"
+    },
+    "ibv_uc_pingpong": {
+      "path": "/usr/bin/ibv_uc_pingpong",
+      "category": "other"
+    },
+    "iconutil": {
+      "path": "/usr/bin/iconutil",
+      "category": "other"
+    },
+    "iconv": {
+      "path": "/usr/bin/iconv",
+      "category": "other"
+    },
+    "ictool": {
+      "path": "/usr/bin/ictool",
+      "category": "other"
+    },
+    "id": {
+      "path": "/usr/bin/id",
+      "category": "other"
+    },
+    "idle3": {
+      "path": "/opt/homebrew/bin/idle3",
+      "category": "other"
+    },
+    "idle3.11": {
+      "path": "/opt/homebrew/bin/idle3.11",
+      "category": "other"
+    },
+    "idle3.12": {
+      "path": "/opt/homebrew/bin/idle3.12",
+      "category": "other"
+    },
+    "idle3.14": {
+      "path": "/opt/homebrew/bin/idle3.14",
+      "category": "other"
+    },
+    "idn2": {
+      "path": "/opt/homebrew/bin/idn2",
+      "category": "other"
+    },
+    "iex": {
+      "path": "/opt/homebrew/bin/iex",
+      "category": "editor_cli"
+    },
+    "ifconfig": {
+      "path": "/sbin/ifconfig",
+      "category": "other"
+    },
+    "ifnames": {
+      "path": "/opt/homebrew/bin/ifnames",
+      "category": "other"
+    },
+    "img2webp": {
+      "path": "/opt/homebrew/bin/img2webp",
+      "category": "other"
+    },
+    "imptrace": {
+      "path": "/usr/bin/imptrace",
+      "category": "other"
+    },
+    "indent": {
+      "path": "/usr/bin/indent",
+      "category": "other"
+    },
+    "infocmp": {
+      "path": "/usr/bin/infocmp",
+      "category": "other"
+    },
+    "infotocap": {
+      "path": "/usr/bin/infotocap",
+      "category": "other"
+    },
+    "initdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/initdb",
+      "category": "other"
+    },
+    "install": {
+      "path": "/usr/bin/install",
+      "category": "other"
+    },
+    "install_name_tool": {
+      "path": "/usr/bin/install_name_tool",
+      "category": "other"
+    },
+    "instmodsh": {
+      "path": "/usr/bin/instmodsh",
+      "category": "other"
+    },
+    "instmodsh5.34": {
+      "path": "/usr/bin/instmodsh5.34",
+      "category": "other"
+    },
+    "iofile.d": {
+      "path": "/usr/bin/iofile.d",
+      "category": "other"
+    },
+    "iofileb.d": {
+      "path": "/usr/bin/iofileb.d",
+      "category": "other"
+    },
+    "iopattern": {
+      "path": "/usr/bin/iopattern",
+      "category": "other"
+    },
+    "iopending": {
+      "path": "/usr/bin/iopending",
+      "category": "other"
+    },
+    "iosnoop": {
+      "path": "/usr/bin/iosnoop",
+      "category": "other"
+    },
+    "iotop": {
+      "path": "/usr/bin/iotop",
+      "category": "proc"
+    },
+    "ip2cc": {
+      "path": "/usr/bin/ip2cc",
+      "category": "other"
+    },
+    "ip2cc5.34": {
+      "path": "/usr/bin/ip2cc5.34",
+      "category": "other"
+    },
+    "ipcount": {
+      "path": "/usr/bin/ipcount",
+      "category": "other"
+    },
+    "ipcount5.34": {
+      "path": "/usr/bin/ipcount5.34",
+      "category": "other"
+    },
+    "ipcrm": {
+      "path": "/usr/bin/ipcrm",
+      "category": "other"
+    },
+    "ipcs": {
+      "path": "/usr/bin/ipcs",
+      "category": "other"
+    },
+    "iperf3": {
+      "path": "/opt/homebrew/bin/iperf3",
+      "category": "network"
+    },
+    "iperf3-darwin": {
+      "path": "/usr/bin/iperf3-darwin",
+      "category": "other"
+    },
+    "ippeveprinter": {
+      "path": "/usr/bin/ippeveprinter",
+      "category": "other"
+    },
+    "ippfind": {
+      "path": "/usr/bin/ippfind",
+      "category": "other"
+    },
+    "ipptool": {
+      "path": "/usr/bin/ipptool",
+      "category": "other"
+    },
+    "iptab": {
+      "path": "/usr/bin/iptab",
+      "category": "other"
+    },
+    "iptab5.34": {
+      "path": "/usr/bin/iptab5.34",
+      "category": "other"
+    },
+    "irb": {
+      "path": "/usr/bin/irb",
+      "category": "other"
+    },
+    "isql": {
+      "path": "/opt/homebrew/bin/isql",
+      "category": "other"
+    },
+    "iusql": {
+      "path": "/opt/homebrew/bin/iusql",
+      "category": "other"
+    },
+    "jar": {
+      "path": "/usr/bin/jar",
+      "category": "other"
+    },
+    "jarsigner": {
+      "path": "/usr/bin/jarsigner",
+      "category": "other"
+    },
+    "java": {
+      "path": "/usr/bin/java",
+      "category": "other"
+    },
+    "java2groovy": {
+      "path": "/opt/homebrew/bin/java2groovy",
+      "category": "other"
+    },
+    "javac": {
+      "path": "/usr/bin/javac",
+      "category": "other"
+    },
+    "javadoc": {
+      "path": "/usr/bin/javadoc",
+      "category": "other"
+    },
+    "javap": {
+      "path": "/usr/bin/javap",
+      "category": "other"
+    },
+    "javaws": {
+      "path": "/usr/bin/javaws",
+      "category": "other"
+    },
+    "jcmd": {
+      "path": "/usr/bin/jcmd",
+      "category": "other"
+    },
+    "jconsole": {
+      "path": "/usr/bin/jconsole",
+      "category": "other"
+    },
+    "jcontrol": {
+      "path": "/usr/bin/jcontrol",
+      "category": "other"
+    },
+    "jdb": {
+      "path": "/usr/bin/jdb",
+      "category": "other"
+    },
+    "jdeps": {
+      "path": "/usr/bin/jdeps",
+      "category": "other"
+    },
+    "jhsdb": {
+      "path": "/usr/bin/jhsdb",
+      "category": "other"
+    },
+    "jimage": {
+      "path": "/usr/bin/jimage",
+      "category": "other"
+    },
+    "jinfo": {
+      "path": "/usr/bin/jinfo",
+      "category": "other"
+    },
+    "jjs": {
+      "path": "/usr/bin/jjs",
+      "category": "other"
+    },
+    "jlink": {
+      "path": "/usr/bin/jlink",
+      "category": "other"
+    },
+    "jmap": {
+      "path": "/usr/bin/jmap",
+      "category": "other"
+    },
+    "jobs": {
+      "path": "/usr/bin/jobs",
+      "category": "other"
+    },
+    "join": {
+      "path": "/usr/bin/join",
+      "category": "text"
+    },
+    "jot": {
+      "path": "/usr/bin/jot",
+      "category": "other"
+    },
+    "jpackage": {
+      "path": "/usr/bin/jpackage",
+      "category": "other"
+    },
+    "jpegtran": {
+      "path": "/opt/homebrew/bin/jpegtran",
+      "category": "other"
+    },
+    "jpgicc": {
+      "path": "/opt/homebrew/bin/jpgicc",
+      "category": "other"
+    },
+    "jps": {
+      "path": "/usr/bin/jps",
+      "category": "other"
+    },
+    "jq": {
+      "path": "/usr/bin/jq",
+      "category": "json"
+    },
+    "jrunscript": {
+      "path": "/usr/bin/jrunscript",
+      "category": "other"
+    },
+    "jshell": {
+      "path": "/usr/bin/jshell",
+      "category": "other"
+    },
+    "json_pp": {
+      "path": "/usr/bin/json_pp",
+      "category": "json"
+    },
+    "json_pp5.34": {
+      "path": "/usr/bin/json_pp5.34",
+      "category": "other"
+    },
+    "json_xs": {
+      "path": "/usr/bin/json_xs",
+      "category": "other"
+    },
+    "json_xs5.34": {
+      "path": "/usr/bin/json_xs5.34",
+      "category": "other"
+    },
+    "jstack": {
+      "path": "/usr/bin/jstack",
+      "category": "other"
+    },
+    "jstat": {
+      "path": "/usr/bin/jstat",
+      "category": "other"
+    },
+    "jstatd": {
+      "path": "/usr/bin/jstatd",
+      "category": "other"
+    },
+    "julia": {
+      "path": "/opt/homebrew/bin/julia",
+      "category": "editor_cli"
+    },
+    "kapt": {
+      "path": "/opt/homebrew/bin/kapt",
+      "category": "other"
+    },
+    "kcc": {
+      "path": "/usr/bin/kcc",
+      "category": "other"
+    },
+    "kdestroy": {
+      "path": "/usr/bin/kdestroy",
+      "category": "other"
+    },
+    "kextload": {
+      "path": "/sbin/kextload",
+      "category": "other"
+    },
+    "kextunload": {
+      "path": "/sbin/kextunload",
+      "category": "other"
+    },
+    "kextutil": {
+      "path": "/usr/bin/kextutil",
+      "category": "other"
+    },
+    "keychain-access": {
+      "path": "/usr/bin/keychain-access",
+      "category": "other"
+    },
+    "keytool": {
+      "path": "/usr/bin/keytool",
+      "category": "other"
+    },
+    "kgetcred": {
+      "path": "/usr/bin/kgetcred",
+      "category": "other"
+    },
+    "kill": {
+      "path": "/bin/kill",
+      "category": "proc"
+    },
+    "kill.d": {
+      "path": "/usr/bin/kill.d",
+      "category": "other"
+    },
+    "killall": {
+      "path": "/usr/bin/killall",
+      "category": "proc"
+    },
+    "kinit": {
+      "path": "/usr/bin/kinit",
+      "category": "other"
+    },
+    "klist": {
+      "path": "/usr/bin/klist",
+      "category": "other"
+    },
+    "kmutil": {
+      "path": "/usr/bin/kmutil",
+      "category": "other"
+    },
+    "kotlin": {
+      "path": "/opt/homebrew/bin/kotlin",
+      "category": "editor_cli"
+    },
+    "kotlinc": {
+      "path": "/opt/homebrew/bin/kotlinc",
+      "category": "other"
+    },
+    "kotlinc-js": {
+      "path": "/opt/homebrew/bin/kotlinc-js",
+      "category": "other"
+    },
+    "kotlinc-jvm": {
+      "path": "/opt/homebrew/bin/kotlinc-jvm",
+      "category": "other"
+    },
+    "kotlinc-wasm": {
+      "path": "/opt/homebrew/bin/kotlinc-wasm",
+      "category": "other"
+    },
+    "kotlinr": {
+      "path": "/opt/homebrew/bin/kotlinr",
+      "category": "other"
+    },
+    "kpasswd": {
+      "path": "/usr/bin/kpasswd",
+      "category": "other"
+    },
+    "krb5-config": {
+      "path": "/usr/bin/krb5-config",
+      "category": "other"
+    },
+    "ksh": {
+      "path": "/bin/ksh",
+      "category": "shell"
+    },
+    "kswitch": {
+      "path": "/usr/bin/kswitch",
+      "category": "other"
+    },
+    "ktrace": {
+      "path": "/usr/bin/ktrace",
+      "category": "other"
+    },
+    "kubectl": {
+      "path": "/usr/local/bin/kubectl",
+      "category": "k8s"
+    },
+    "kubectl.docker": {
+      "path": "/usr/local/bin/kubectl.docker",
+      "category": "other"
+    },
+    "lake": {
+      "path": "/Users/metadusa/.elan/bin/lake",
+      "category": "other"
+    },
+    "lam": {
+      "path": "/usr/bin/lam",
+      "category": "other"
+    },
+    "last": {
+      "path": "/usr/bin/last",
+      "category": "other"
+    },
+    "lastcomm": {
+      "path": "/usr/bin/lastcomm",
+      "category": "other"
+    },
+    "lastwords": {
+      "path": "/usr/bin/lastwords",
+      "category": "other"
+    },
+    "latency": {
+      "path": "/usr/bin/latency",
+      "category": "other"
+    },
+    "launchctl": {
+      "path": "/bin/launchctl",
+      "category": "other"
+    },
+    "launchd": {
+      "path": "/sbin/launchd",
+      "category": "other"
+    },
+    "layerutil": {
+      "path": "/usr/bin/layerutil",
+      "category": "other"
+    },
+    "ld": {
+      "path": "/usr/bin/ld",
+      "category": "build"
+    },
+    "ldapadd": {
+      "path": "/usr/bin/ldapadd",
+      "category": "other"
+    },
+    "ldapcompare": {
+      "path": "/usr/bin/ldapcompare",
+      "category": "other"
+    },
+    "ldapdelete": {
+      "path": "/usr/bin/ldapdelete",
+      "category": "other"
+    },
+    "ldapexop": {
+      "path": "/usr/bin/ldapexop",
+      "category": "other"
+    },
+    "ldapmodify": {
+      "path": "/usr/bin/ldapmodify",
+      "category": "other"
+    },
+    "ldapmodrdn": {
+      "path": "/usr/bin/ldapmodrdn",
+      "category": "other"
+    },
+    "ldappasswd": {
+      "path": "/usr/bin/ldappasswd",
+      "category": "other"
+    },
+    "ldapsearch": {
+      "path": "/usr/bin/ldapsearch",
+      "category": "other"
+    },
+    "ldapurl": {
+      "path": "/usr/bin/ldapurl",
+      "category": "other"
+    },
+    "ldapwhoami": {
+      "path": "/usr/bin/ldapwhoami",
+      "category": "other"
+    },
+    "leaks": {
+      "path": "/usr/bin/leaks",
+      "category": "other"
+    },
+    "lean": {
+      "path": "/Users/metadusa/.elan/bin/lean",
+      "category": "other"
+    },
+    "leanc": {
+      "path": "/Users/metadusa/.elan/bin/leanc",
+      "category": "other"
+    },
+    "leanchecker": {
+      "path": "/Users/metadusa/.elan/bin/leanchecker",
+      "category": "other"
+    },
+    "leanmake": {
+      "path": "/Users/metadusa/.elan/bin/leanmake",
+      "category": "other"
+    },
+    "leanpkg": {
+      "path": "/Users/metadusa/.elan/bin/leanpkg",
+      "category": "other"
+    },
+    "leave": {
+      "path": "/usr/bin/leave",
+      "category": "other"
+    },
+    "less": {
+      "path": "/usr/bin/less",
+      "category": "text"
+    },
+    "lessecho": {
+      "path": "/usr/bin/lessecho",
+      "category": "other"
+    },
+    "lesskey": {
+      "path": "/usr/bin/lesskey",
+      "category": "other"
+    },
+    "lex": {
+      "path": "/usr/bin/lex",
+      "category": "other"
+    },
+    "libnetcfg": {
+      "path": "/usr/bin/libnetcfg",
+      "category": "other"
+    },
+    "libnetcfg5.34": {
+      "path": "/usr/bin/libnetcfg5.34",
+      "category": "other"
+    },
+    "libpng-config": {
+      "path": "/opt/homebrew/bin/libpng-config",
+      "category": "other"
+    },
+    "libpng16-config": {
+      "path": "/opt/homebrew/bin/libpng16-config",
+      "category": "other"
+    },
+    "libtool": {
+      "path": "/usr/bin/libtool",
+      "category": "build"
+    },
+    "link": {
+      "path": "/bin/link",
+      "category": "other"
+    },
+    "linkicc": {
+      "path": "/opt/homebrew/bin/linkicc",
+      "category": "other"
+    },
+    "lipo": {
+      "path": "/usr/bin/lipo",
+      "category": "other"
+    },
+    "lldb": {
+      "path": "/usr/bin/lldb",
+      "category": "proc"
+    },
+    "llvm-g++": {
+      "path": "/usr/bin/llvm-g++",
+      "category": "other"
+    },
+    "llvm-gcc": {
+      "path": "/usr/bin/llvm-gcc",
+      "category": "other"
+    },
+    "ln": {
+      "path": "/bin/ln",
+      "category": "filesystem"
+    },
+    "loads.d": {
+      "path": "/usr/bin/loads.d",
+      "category": "other"
+    },
+    "locale": {
+      "path": "/usr/bin/locale",
+      "category": "other"
+    },
+    "localedef": {
+      "path": "/usr/bin/localedef",
+      "category": "other"
+    },
+    "locate": {
+      "path": "/usr/bin/locate",
+      "category": "filesystem"
+    },
+    "lockf": {
+      "path": "/usr/bin/lockf",
+      "category": "other"
+    },
+    "lockstat": {
+      "path": "/usr/bin/lockstat",
+      "category": "other"
+    },
+    "log": {
+      "path": "/usr/bin/log",
+      "category": "other"
+    },
+    "logger": {
+      "path": "/usr/bin/logger",
+      "category": "other"
+    },
+    "login": {
+      "path": "/usr/bin/login",
+      "category": "other"
+    },
+    "logname": {
+      "path": "/usr/bin/logname",
+      "category": "other"
+    },
+    "look": {
+      "path": "/usr/bin/look",
+      "category": "other"
+    },
+    "lorder": {
+      "path": "/usr/bin/lorder",
+      "category": "other"
+    },
+    "lp": {
+      "path": "/usr/bin/lp",
+      "category": "other"
+    },
+    "lpoptions": {
+      "path": "/usr/bin/lpoptions",
+      "category": "other"
+    },
+    "lpq": {
+      "path": "/usr/bin/lpq",
+      "category": "other"
+    },
+    "lpr": {
+      "path": "/usr/bin/lpr",
+      "category": "other"
+    },
+    "lprm": {
+      "path": "/usr/bin/lprm",
+      "category": "other"
+    },
+    "lpstat": {
+      "path": "/usr/bin/lpstat",
+      "category": "other"
+    },
+    "ls": {
+      "path": "/bin/ls",
+      "category": "filesystem"
+    },
+    "lsappinfo": {
+      "path": "/usr/bin/lsappinfo",
+      "category": "other"
+    },
+    "lsbom": {
+      "path": "/usr/bin/lsbom",
+      "category": "other"
+    },
+    "lskq": {
+      "path": "/usr/bin/lskq",
+      "category": "other"
+    },
+    "lsm": {
+      "path": "/usr/bin/lsm",
+      "category": "other"
+    },
+    "lsmp": {
+      "path": "/usr/bin/lsmp",
+      "category": "other"
+    },
+    "lsvfs": {
+      "path": "/usr/bin/lsvfs",
+      "category": "other"
+    },
+    "lto-dump-16": {
+      "path": "/opt/homebrew/bin/lto-dump-16",
+      "category": "other"
+    },
+    "lua": {
+      "path": "/opt/homebrew/bin/lua",
+      "category": "editor_cli"
+    },
+    "lua-5.5": {
+      "path": "/opt/homebrew/bin/lua-5.5",
+      "category": "other"
+    },
+    "lua5.5": {
+      "path": "/opt/homebrew/bin/lua5.5",
+      "category": "other"
+    },
+    "luac": {
+      "path": "/opt/homebrew/bin/luac",
+      "category": "other"
+    },
+    "luac-5.5": {
+      "path": "/opt/homebrew/bin/luac-5.5",
+      "category": "other"
+    },
+    "luac5.5": {
+      "path": "/opt/homebrew/bin/luac5.5",
+      "category": "other"
+    },
+    "luajit": {
+      "path": "/opt/homebrew/bin/luajit",
+      "category": "other"
+    },
+    "luajit-2.1.1788460057": {
+      "path": "/opt/homebrew/bin/luajit-2.1.1788460057",
+      "category": "other"
+    },
+    "lwp-download": {
+      "path": "/usr/bin/lwp-download",
+      "category": "other"
+    },
+    "lwp-download5.34": {
+      "path": "/usr/bin/lwp-download5.34",
+      "category": "other"
+    },
+    "lwp-dump": {
+      "path": "/usr/bin/lwp-dump",
+      "category": "other"
+    },
+    "lwp-dump5.34": {
+      "path": "/usr/bin/lwp-dump5.34",
+      "category": "other"
+    },
+    "lwp-mirror": {
+      "path": "/usr/bin/lwp-mirror",
+      "category": "other"
+    },
+    "lwp-mirror5.34": {
+      "path": "/usr/bin/lwp-mirror5.34",
+      "category": "other"
+    },
+    "lwp-request": {
+      "path": "/usr/bin/lwp-request",
+      "category": "other"
+    },
+    "lwp-request5.34": {
+      "path": "/usr/bin/lwp-request5.34",
+      "category": "other"
+    },
+    "lz": {
+      "path": "/opt/homebrew/bin/lz",
+      "category": "other"
+    },
+    "lz4": {
+      "path": "/opt/homebrew/bin/lz4",
+      "category": "other"
+    },
+    "lz4c": {
+      "path": "/opt/homebrew/bin/lz4c",
+      "category": "other"
+    },
+    "lz4cat": {
+      "path": "/opt/homebrew/bin/lz4cat",
+      "category": "other"
+    },
+    "lzcat": {
+      "path": "/opt/homebrew/bin/lzcat",
+      "category": "other"
+    },
+    "lzcmp": {
+      "path": "/opt/homebrew/bin/lzcmp",
+      "category": "other"
+    },
+    "lzdiff": {
+      "path": "/opt/homebrew/bin/lzdiff",
+      "category": "other"
+    },
+    "lzegrep": {
+      "path": "/opt/homebrew/bin/lzegrep",
+      "category": "other"
+    },
+    "lzfgrep": {
+      "path": "/opt/homebrew/bin/lzfgrep",
+      "category": "other"
+    },
+    "lzgrep": {
+      "path": "/opt/homebrew/bin/lzgrep",
+      "category": "other"
+    },
+    "lzless": {
+      "path": "/opt/homebrew/bin/lzless",
+      "category": "other"
+    },
+    "lzma": {
+      "path": "/opt/homebrew/bin/lzma",
+      "category": "other"
+    },
+    "lzmadec": {
+      "path": "/opt/homebrew/bin/lzmadec",
+      "category": "other"
+    },
+    "lzmainfo": {
+      "path": "/opt/homebrew/bin/lzmainfo",
+      "category": "other"
+    },
+    "lzmore": {
+      "path": "/opt/homebrew/bin/lzmore",
+      "category": "other"
+    },
+    "m4": {
+      "path": "/usr/bin/m4",
+      "category": "other"
+    },
+    "macbinary": {
+      "path": "/usr/bin/macbinary",
+      "category": "other"
+    },
+    "macerror": {
+      "path": "/usr/bin/macerror",
+      "category": "other"
+    },
+    "macerror5.34": {
+      "path": "/usr/bin/macerror5.34",
+      "category": "other"
+    },
+    "machine": {
+      "path": "/usr/bin/machine",
+      "category": "other"
+    },
+    "macoserror": {
+      "path": "/usr/bin/macoserror",
+      "category": "other"
+    },
+    "mail": {
+      "path": "/usr/bin/mail",
+      "category": "other"
+    },
+    "mailq": {
+      "path": "/usr/bin/mailq",
+      "category": "other"
+    },
+    "mailx": {
+      "path": "/usr/bin/mailx",
+      "category": "other"
+    },
+    "make": {
+      "path": "/usr/bin/make",
+      "category": "build"
+    },
+    "malloc_history": {
+      "path": "/usr/bin/malloc_history",
+      "category": "other"
+    },
+    "man": {
+      "path": "/usr/bin/man",
+      "category": "other"
+    },
+    "mandoc": {
+      "path": "/usr/bin/mandoc",
+      "category": "other"
+    },
+    "mandoc_soelim": {
+      "path": "/usr/bin/mandoc_soelim",
+      "category": "other"
+    },
+    "manpath": {
+      "path": "/usr/bin/manpath",
+      "category": "other"
+    },
+    "mattrib": {
+      "path": "/opt/homebrew/bin/mattrib",
+      "category": "other"
+    },
+    "mbadblocks": {
+      "path": "/opt/homebrew/bin/mbadblocks",
+      "category": "other"
+    },
+    "mcat": {
+      "path": "/opt/homebrew/bin/mcat",
+      "category": "other"
+    },
+    "mcd": {
+      "path": "/opt/homebrew/bin/mcd",
+      "category": "other"
+    },
+    "mcheck": {
+      "path": "/opt/homebrew/bin/mcheck",
+      "category": "other"
+    },
+    "mcomp": {
+      "path": "/opt/homebrew/bin/mcomp",
+      "category": "other"
+    },
+    "mcopy": {
+      "path": "/opt/homebrew/bin/mcopy",
+      "category": "other"
+    },
+    "mcxquery": {
+      "path": "/usr/bin/mcxquery",
+      "category": "other"
+    },
+    "mcxrefresh": {
+      "path": "/usr/bin/mcxrefresh",
+      "category": "other"
+    },
+    "md5": {
+      "path": "/sbin/md5",
+      "category": "text"
+    },
+    "md5sum": {
+      "path": "/sbin/md5sum",
+      "category": "other"
+    },
+    "mddiagnose": {
+      "path": "/usr/bin/mddiagnose",
+      "category": "other"
+    },
+    "mdel": {
+      "path": "/opt/homebrew/bin/mdel",
+      "category": "other"
+    },
+    "mdeltree": {
+      "path": "/opt/homebrew/bin/mdeltree",
+      "category": "other"
+    },
+    "mdfind": {
+      "path": "/usr/bin/mdfind",
+      "category": "other"
+    },
+    "mdimport": {
+      "path": "/usr/bin/mdimport",
+      "category": "other"
+    },
+    "mdir": {
+      "path": "/opt/homebrew/bin/mdir",
+      "category": "other"
+    },
+    "mdls": {
+      "path": "/usr/bin/mdls",
+      "category": "other"
+    },
+    "mdoctorfat": {
+      "path": "/opt/homebrew/bin/mdoctorfat",
+      "category": "other"
+    },
+    "mdu": {
+      "path": "/opt/homebrew/bin/mdu",
+      "category": "other"
+    },
+    "mdutil": {
+      "path": "/usr/bin/mdutil",
+      "category": "other"
+    },
+    "memacct": {
+      "path": "/usr/bin/memacct",
+      "category": "other"
+    },
+    "memory_pressure": {
+      "path": "/usr/bin/memory_pressure",
+      "category": "other"
+    },
+    "mesg": {
+      "path": "/usr/bin/mesg",
+      "category": "other"
+    },
+    "mformat": {
+      "path": "/opt/homebrew/bin/mformat",
+      "category": "other"
+    },
+    "mg": {
+      "path": "/usr/bin/mg",
+      "category": "other"
+    },
+    "mib2c": {
+      "path": "/usr/bin/mib2c",
+      "category": "other"
+    },
+    "mib2c-update": {
+      "path": "/usr/bin/mib2c-update",
+      "category": "other"
+    },
+    "mig": {
+      "path": "/usr/bin/mig",
+      "category": "other"
+    },
+    "minfo": {
+      "path": "/opt/homebrew/bin/minfo",
+      "category": "other"
+    },
+    "mix": {
+      "path": "/opt/homebrew/bin/mix",
+      "category": "editor_cli"
+    },
+    "mkbom": {
+      "path": "/usr/bin/mkbom",
+      "category": "other"
+    },
+    "mkdir": {
+      "path": "/bin/mkdir",
+      "category": "filesystem"
+    },
+    "mkdoc": {
+      "path": "/opt/homebrew/bin/mkdoc",
+      "category": "other"
+    },
+    "mkfifo": {
+      "path": "/usr/bin/mkfifo",
+      "category": "other"
+    },
+    "mkmanifest": {
+      "path": "/opt/homebrew/bin/mkmanifest",
+      "category": "other"
+    },
+    "mknod": {
+      "path": "/sbin/mknod",
+      "category": "other"
+    },
+    "mktemp": {
+      "path": "/usr/bin/mktemp",
+      "category": "other"
+    },
+    "mlabel": {
+      "path": "/opt/homebrew/bin/mlabel",
+      "category": "other"
+    },
+    "mlx.distributed_config": {
+      "path": "/opt/homebrew/bin/mlx.distributed_config",
+      "category": "other"
+    },
+    "mlx.launch": {
+      "path": "/opt/homebrew/bin/mlx.launch",
+      "category": "other"
+    },
+    "mmd": {
+      "path": "/opt/homebrew/bin/mmd",
+      "category": "other"
+    },
+    "mmount": {
+      "path": "/opt/homebrew/bin/mmount",
+      "category": "other"
+    },
+    "mmove": {
+      "path": "/opt/homebrew/bin/mmove",
+      "category": "other"
+    },
+    "mnthome": {
+      "path": "/usr/bin/mnthome",
+      "category": "other"
+    },
+    "modelcatalogdump": {
+      "path": "/usr/bin/modelcatalogdump",
+      "category": "other"
+    },
+    "modelmanagerdump": {
+      "path": "/usr/bin/modelmanagerdump",
+      "category": "other"
+    },
+    "moose-outdated": {
+      "path": "/usr/bin/moose-outdated",
+      "category": "other"
+    },
+    "moose-outdated5.34": {
+      "path": "/usr/bin/moose-outdated5.34",
+      "category": "other"
+    },
+    "more": {
+      "path": "/usr/bin/more",
+      "category": "text"
+    },
+    "mount": {
+      "path": "/sbin/mount",
+      "category": "filesystem"
+    },
+    "mount_9p": {
+      "path": "/sbin/mount_9p",
+      "category": "other"
+    },
+    "mount_acfs": {
+      "path": "/sbin/mount_acfs",
+      "category": "other"
+    },
+    "mount_afp": {
+      "path": "/sbin/mount_afp",
+      "category": "other"
+    },
+    "mount_apfs": {
+      "path": "/sbin/mount_apfs",
+      "category": "other"
+    },
+    "mount_cd9660": {
+      "path": "/sbin/mount_cd9660",
+      "category": "other"
+    },
+    "mount_cddafs": {
+      "path": "/sbin/mount_cddafs",
+      "category": "other"
+    },
+    "mount_devfs": {
+      "path": "/sbin/mount_devfs",
+      "category": "other"
+    },
+    "mount_exfat": {
+      "path": "/sbin/mount_exfat",
+      "category": "other"
+    },
+    "mount_fdesc": {
+      "path": "/sbin/mount_fdesc",
+      "category": "other"
+    },
+    "mount_ftp": {
+      "path": "/sbin/mount_ftp",
+      "category": "other"
+    },
+    "mount_hfs": {
+      "path": "/sbin/mount_hfs",
+      "category": "other"
+    },
+    "mount_msdos": {
+      "path": "/sbin/mount_msdos",
+      "category": "other"
+    },
+    "mount_nfs": {
+      "path": "/sbin/mount_nfs",
+      "category": "other"
+    },
+    "mount_smbfs": {
+      "path": "/sbin/mount_smbfs",
+      "category": "other"
+    },
+    "mount_tmpfs": {
+      "path": "/sbin/mount_tmpfs",
+      "category": "other"
+    },
+    "mount_udf": {
+      "path": "/sbin/mount_udf",
+      "category": "other"
+    },
+    "mount_virtiofs": {
+      "path": "/sbin/mount_virtiofs",
+      "category": "other"
+    },
+    "mount_webdav": {
+      "path": "/sbin/mount_webdav",
+      "category": "other"
+    },
+    "mp2bug": {
+      "path": "/usr/bin/mp2bug",
+      "category": "other"
+    },
+    "mpartition": {
+      "path": "/opt/homebrew/bin/mpartition",
+      "category": "other"
+    },
+    "mpioutil": {
+      "path": "/sbin/mpioutil",
+      "category": "other"
+    },
+    "mpsgraphtool": {
+      "path": "/usr/bin/mpsgraphtool",
+      "category": "other"
+    },
+    "mrd": {
+      "path": "/opt/homebrew/bin/mrd",
+      "category": "other"
+    },
+    "mren": {
+      "path": "/opt/homebrew/bin/mren",
+      "category": "other"
+    },
+    "msgattrib": {
+      "path": "/opt/homebrew/bin/msgattrib",
+      "category": "other"
+    },
+    "msgcat": {
+      "path": "/opt/homebrew/bin/msgcat",
+      "category": "other"
+    },
+    "msgcmp": {
+      "path": "/opt/homebrew/bin/msgcmp",
+      "category": "other"
+    },
+    "msgcomm": {
+      "path": "/opt/homebrew/bin/msgcomm",
+      "category": "other"
+    },
+    "msgconv": {
+      "path": "/opt/homebrew/bin/msgconv",
+      "category": "other"
+    },
+    "msgen": {
+      "path": "/opt/homebrew/bin/msgen",
+      "category": "other"
+    },
+    "msgexec": {
+      "path": "/opt/homebrew/bin/msgexec",
+      "category": "other"
+    },
+    "msgfilter": {
+      "path": "/opt/homebrew/bin/msgfilter",
+      "category": "other"
+    },
+    "msgfmt": {
+      "path": "/opt/homebrew/bin/msgfmt",
+      "category": "other"
+    },
+    "msggrep": {
+      "path": "/opt/homebrew/bin/msggrep",
+      "category": "other"
+    },
+    "msginit": {
+      "path": "/opt/homebrew/bin/msginit",
+      "category": "other"
+    },
+    "msgmerge": {
+      "path": "/opt/homebrew/bin/msgmerge",
+      "category": "other"
+    },
+    "msgpre": {
+      "path": "/opt/homebrew/bin/msgpre",
+      "category": "other"
+    },
+    "msgunfmt": {
+      "path": "/opt/homebrew/bin/msgunfmt",
+      "category": "other"
+    },
+    "msguniq": {
+      "path": "/opt/homebrew/bin/msguniq",
+      "category": "other"
+    },
+    "mshortname": {
+      "path": "/opt/homebrew/bin/mshortname",
+      "category": "other"
+    },
+    "mshowfat": {
+      "path": "/opt/homebrew/bin/mshowfat",
+      "category": "other"
+    },
+    "mtools": {
+      "path": "/opt/homebrew/bin/mtools",
+      "category": "other"
+    },
+    "mtoolstest": {
+      "path": "/opt/homebrew/bin/mtoolstest",
+      "category": "other"
+    },
+    "mtype": {
+      "path": "/opt/homebrew/bin/mtype",
+      "category": "other"
+    },
+    "mv": {
+      "path": "/bin/mv",
+      "category": "filesystem"
+    },
+    "mxtar": {
+      "path": "/opt/homebrew/bin/mxtar",
+      "category": "other"
+    },
+    "mzip": {
+      "path": "/opt/homebrew/bin/mzip",
+      "category": "other"
+    },
+    "nano": {
+      "path": "/usr/bin/nano",
+      "category": "editor"
+    },
+    "nasm": {
+      "path": "/opt/homebrew/bin/nasm",
+      "category": "build"
+    },
+    "nbdst": {
+      "path": "/usr/bin/nbdst",
+      "category": "other"
+    },
+    "nc": {
+      "path": "/usr/bin/nc",
+      "category": "network"
+    },
+    "ncal": {
+      "path": "/usr/bin/ncal",
+      "category": "other"
+    },
+    "ncctl": {
+      "path": "/usr/bin/ncctl",
+      "category": "other"
+    },
+    "ncdestroy": {
+      "path": "/usr/bin/ncdestroy",
+      "category": "other"
+    },
+    "ncinit": {
+      "path": "/usr/bin/ncinit",
+      "category": "other"
+    },
+    "nclist": {
+      "path": "/usr/bin/nclist",
+      "category": "other"
+    },
+    "ncurses5.4-config": {
+      "path": "/usr/bin/ncurses5.4-config",
+      "category": "other"
+    },
+    "ndisasm": {
+      "path": "/opt/homebrew/bin/ndisasm",
+      "category": "other"
+    },
+    "net-server": {
+      "path": "/usr/bin/net-server",
+      "category": "other"
+    },
+    "net-server5.34": {
+      "path": "/usr/bin/net-server5.34",
+      "category": "other"
+    },
+    "net-snmp-cert": {
+      "path": "/usr/bin/net-snmp-cert",
+      "category": "other"
+    },
+    "net-snmp-config": {
+      "path": "/usr/bin/net-snmp-config",
+      "category": "other"
+    },
+    "net-snmp-create-v3-user": {
+      "path": "/usr/bin/net-snmp-create-v3-user",
+      "category": "other"
+    },
+    "netbiosd": {
+      "path": "/usr/sbin/netbiosd",
+      "category": "other"
+    },
+    "nettle-hash": {
+      "path": "/opt/homebrew/bin/nettle-hash",
+      "category": "other"
+    },
+    "nettle-lfib-stream": {
+      "path": "/opt/homebrew/bin/nettle-lfib-stream",
+      "category": "other"
+    },
+    "nettle-pbkdf2": {
+      "path": "/opt/homebrew/bin/nettle-pbkdf2",
+      "category": "other"
+    },
+    "nettop": {
+      "path": "/usr/bin/nettop",
+      "category": "other"
+    },
+    "networkQuality": {
+      "path": "/usr/bin/networkQuality",
+      "category": "other"
+    },
+    "newaliases": {
+      "path": "/usr/bin/newaliases",
+      "category": "other"
+    },
+    "newfs_apfs": {
+      "path": "/sbin/newfs_apfs",
+      "category": "other"
+    },
+    "newfs_exfat": {
+      "path": "/sbin/newfs_exfat",
+      "category": "other"
+    },
+    "newfs_fskit": {
+      "path": "/sbin/newfs_fskit",
+      "category": "other"
+    },
+    "newfs_hfs": {
+      "path": "/sbin/newfs_hfs",
+      "category": "other"
+    },
+    "newfs_msdos": {
+      "path": "/sbin/newfs_msdos",
+      "category": "other"
+    },
+    "newfs_udf": {
+      "path": "/sbin/newfs_udf",
+      "category": "other"
+    },
+    "newgrp": {
+      "path": "/usr/bin/newgrp",
+      "category": "other"
+    },
+    "newproc.d": {
+      "path": "/usr/bin/newproc.d",
+      "category": "other"
+    },
+    "nfsd": {
+      "path": "/sbin/nfsd",
+      "category": "other"
+    },
+    "nfsiod": {
+      "path": "/sbin/nfsiod",
+      "category": "other"
+    },
+    "nfsstat": {
+      "path": "/usr/bin/nfsstat",
+      "category": "other"
+    },
+    "ngettext": {
+      "path": "/opt/homebrew/bin/ngettext",
+      "category": "other"
+    },
+    "nginx": {
+      "path": "/opt/homebrew/bin/nginx",
+      "category": "other"
+    },
+    "nice": {
+      "path": "/usr/bin/nice",
+      "category": "proc"
+    },
+    "nim": {
+      "path": "/opt/homebrew/bin/nim",
+      "category": "build"
+    },
+    "nimble": {
+      "path": "/opt/homebrew/bin/nimble",
+      "category": "other"
+    },
+    "nimgrep": {
+      "path": "/opt/homebrew/bin/nimgrep",
+      "category": "other"
+    },
+    "nimpretty": {
+      "path": "/opt/homebrew/bin/nimpretty",
+      "category": "other"
+    },
+    "nimsuggest": {
+      "path": "/opt/homebrew/bin/nimsuggest",
+      "category": "other"
+    },
+    "ninja": {
+      "path": "/opt/homebrew/bin/ninja",
+      "category": "build"
+    },
+    "nix": {
+      "path": "/nix/var/nix/profiles/default/bin/nix",
+      "category": "package"
+    },
+    "nix-build": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-build",
+      "category": "other"
+    },
+    "nix-channel": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-channel",
+      "category": "other"
+    },
+    "nix-collect-garbage": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-collect-garbage",
+      "category": "other"
+    },
+    "nix-copy-closure": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-copy-closure",
+      "category": "other"
+    },
+    "nix-daemon": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-daemon",
+      "category": "other"
+    },
+    "nix-env": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-env",
+      "category": "package"
+    },
+    "nix-hash": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-hash",
+      "category": "other"
+    },
+    "nix-instantiate": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-instantiate",
+      "category": "other"
+    },
+    "nix-prefetch-url": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-prefetch-url",
+      "category": "other"
+    },
+    "nix-shell": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-shell",
+      "category": "other"
+    },
+    "nix-store": {
+      "path": "/nix/var/nix/profiles/default/bin/nix-store",
+      "category": "other"
+    },
+    "nl": {
+      "path": "/usr/bin/nl",
+      "category": "other"
+    },
+    "nm": {
+      "path": "/usr/bin/nm",
+      "category": "other"
+    },
+    "nmedit": {
+      "path": "/usr/bin/nmedit",
+      "category": "other"
+    },
+    "nns": {
+      "path": "/opt/homebrew/bin/nns",
+      "category": "other"
+    },
+    "nnsd": {
+      "path": "/opt/homebrew/bin/nnsd",
+      "category": "other"
+    },
+    "nnslog": {
+      "path": "/opt/homebrew/bin/nnslog",
+      "category": "other"
+    },
+    "node": {
+      "path": "/opt/homebrew/bin/node",
+      "category": "editor_cli"
+    },
+    "nohup": {
+      "path": "/usr/bin/nohup",
+      "category": "proc"
+    },
+    "nologin": {
+      "path": "/sbin/nologin",
+      "category": "other"
+    },
+    "notifyutil": {
+      "path": "/usr/bin/notifyutil",
+      "category": "other"
+    },
+    "npm": {
+      "path": "/opt/homebrew/bin/npm",
+      "category": "package"
+    },
+    "nproc": {
+      "path": "/opt/homebrew/bin/nproc",
+      "category": "other"
+    },
+    "npx": {
+      "path": "/opt/homebrew/bin/npx",
+      "category": "package"
+    },
+    "nscurl": {
+      "path": "/usr/bin/nscurl",
+      "category": "other"
+    },
+    "nslookup": {
+      "path": "/usr/bin/nslookup",
+      "category": "network"
+    },
+    "nsupdate": {
+      "path": "/usr/bin/nsupdate",
+      "category": "other"
+    },
+    "numfmt": {
+      "path": "/opt/homebrew/bin/numfmt",
+      "category": "other"
+    },
+    "objdump": {
+      "path": "/usr/bin/objdump",
+      "category": "other"
+    },
+    "ocaml": {
+      "path": "/opt/homebrew/bin/ocaml",
+      "category": "editor_cli"
+    },
+    "ocamlc": {
+      "path": "/opt/homebrew/bin/ocamlc",
+      "category": "other"
+    },
+    "ocamlc.byte": {
+      "path": "/opt/homebrew/bin/ocamlc.byte",
+      "category": "other"
+    },
+    "ocamlc.opt": {
+      "path": "/opt/homebrew/bin/ocamlc.opt",
+      "category": "other"
+    },
+    "ocamlcmt": {
+      "path": "/opt/homebrew/bin/ocamlcmt",
+      "category": "other"
+    },
+    "ocamlcp": {
+      "path": "/opt/homebrew/bin/ocamlcp",
+      "category": "other"
+    },
+    "ocamldebug": {
+      "path": "/opt/homebrew/bin/ocamldebug",
+      "category": "other"
+    },
+    "ocamldep": {
+      "path": "/opt/homebrew/bin/ocamldep",
+      "category": "other"
+    },
+    "ocamldep.byte": {
+      "path": "/opt/homebrew/bin/ocamldep.byte",
+      "category": "other"
+    },
+    "ocamldep.opt": {
+      "path": "/opt/homebrew/bin/ocamldep.opt",
+      "category": "other"
+    },
+    "ocamldoc": {
+      "path": "/opt/homebrew/bin/ocamldoc",
+      "category": "other"
+    },
+    "ocamldoc.opt": {
+      "path": "/opt/homebrew/bin/ocamldoc.opt",
+      "category": "other"
+    },
+    "ocamllex": {
+      "path": "/opt/homebrew/bin/ocamllex",
+      "category": "other"
+    },
+    "ocamllex.byte": {
+      "path": "/opt/homebrew/bin/ocamllex.byte",
+      "category": "other"
+    },
+    "ocamllex.opt": {
+      "path": "/opt/homebrew/bin/ocamllex.opt",
+      "category": "other"
+    },
+    "ocamlmklib": {
+      "path": "/opt/homebrew/bin/ocamlmklib",
+      "category": "other"
+    },
+    "ocamlmktop": {
+      "path": "/opt/homebrew/bin/ocamlmktop",
+      "category": "other"
+    },
+    "ocamlobjinfo": {
+      "path": "/opt/homebrew/bin/ocamlobjinfo",
+      "category": "other"
+    },
+    "ocamlobjinfo.byte": {
+      "path": "/opt/homebrew/bin/ocamlobjinfo.byte",
+      "category": "other"
+    },
+    "ocamlobjinfo.opt": {
+      "path": "/opt/homebrew/bin/ocamlobjinfo.opt",
+      "category": "other"
+    },
+    "ocamlopt": {
+      "path": "/opt/homebrew/bin/ocamlopt",
+      "category": "editor_cli"
+    },
+    "ocamlopt.byte": {
+      "path": "/opt/homebrew/bin/ocamlopt.byte",
+      "category": "other"
+    },
+    "ocamlopt.opt": {
+      "path": "/opt/homebrew/bin/ocamlopt.opt",
+      "category": "other"
+    },
+    "ocamloptp": {
+      "path": "/opt/homebrew/bin/ocamloptp",
+      "category": "other"
+    },
+    "ocamlprof": {
+      "path": "/opt/homebrew/bin/ocamlprof",
+      "category": "other"
+    },
+    "ocamlrun": {
+      "path": "/opt/homebrew/bin/ocamlrun",
+      "category": "other"
+    },
+    "ocamlrun-a104": {
+      "path": "/opt/homebrew/bin/ocamlrun-a104",
+      "category": "other"
+    },
+    "ocamlrund": {
+      "path": "/opt/homebrew/bin/ocamlrund",
+      "category": "other"
+    },
+    "ocamlrund-a104": {
+      "path": "/opt/homebrew/bin/ocamlrund-a104",
+      "category": "other"
+    },
+    "ocamlruni": {
+      "path": "/opt/homebrew/bin/ocamlruni",
+      "category": "other"
+    },
+    "ocamlruni-a104": {
+      "path": "/opt/homebrew/bin/ocamlruni-a104",
+      "category": "other"
+    },
+    "ocamlyacc": {
+      "path": "/opt/homebrew/bin/ocamlyacc",
+      "category": "other"
+    },
+    "ocspcheck": {
+      "path": "/usr/bin/ocspcheck",
+      "category": "other"
+    },
+    "ocsptool": {
+      "path": "/opt/homebrew/bin/ocsptool",
+      "category": "other"
+    },
+    "od": {
+      "path": "/usr/bin/od",
+      "category": "text"
+    },
+    "odbc_config": {
+      "path": "/opt/homebrew/bin/odbc_config",
+      "category": "other"
+    },
+    "odbcinst": {
+      "path": "/opt/homebrew/bin/odbcinst",
+      "category": "other"
+    },
+    "odutil": {
+      "path": "/usr/bin/odutil",
+      "category": "other"
+    },
+    "oid2name": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/oid2name",
+      "category": "other"
+    },
+    "ollama": {
+      "path": "/opt/homebrew/bin/ollama",
+      "category": "ml"
+    },
+    "onig-config": {
+      "path": "/opt/homebrew/bin/onig-config",
+      "category": "other"
+    },
+    "open": {
+      "path": "/usr/bin/open",
+      "category": "other"
+    },
+    "opendiff": {
+      "path": "/usr/bin/opendiff",
+      "category": "other"
+    },
+    "opensnoop": {
+      "path": "/usr/bin/opensnoop",
+      "category": "other"
+    },
+    "openssl": {
+      "path": "/usr/bin/openssl",
+      "category": "security"
+    },
+    "orbd": {
+      "path": "/usr/bin/orbd",
+      "category": "other"
+    },
+    "osacompile": {
+      "path": "/usr/bin/osacompile",
+      "category": "other"
+    },
+    "osadecompile": {
+      "path": "/usr/bin/osadecompile",
+      "category": "other"
+    },
+    "osalang": {
+      "path": "/usr/bin/osalang",
+      "category": "other"
+    },
+    "osascript": {
+      "path": "/usr/bin/osascript",
+      "category": "other"
+    },
+    "osirrox": {
+      "path": "/opt/homebrew/bin/osirrox",
+      "category": "other"
+    },
+    "osql": {
+      "path": "/opt/homebrew/bin/osql",
+      "category": "other"
+    },
+    "otool": {
+      "path": "/usr/bin/otool",
+      "category": "other"
+    },
+    "p11-kit": {
+      "path": "/opt/homebrew/bin/p11-kit",
+      "category": "other"
+    },
+    "p11tool": {
+      "path": "/opt/homebrew/bin/p11tool",
+      "category": "other"
+    },
+    "pack200": {
+      "path": "/usr/bin/pack200",
+      "category": "other"
+    },
+    "package-stash-conflicts": {
+      "path": "/usr/bin/package-stash-conflicts",
+      "category": "other"
+    },
+    "package-stash-conflicts5.34": {
+      "path": "/usr/bin/package-stash-conflicts5.34",
+      "category": "other"
+    },
+    "page": {
+      "path": "/opt/homebrew/bin/page",
+      "category": "other"
+    },
+    "pagesize": {
+      "path": "/usr/bin/pagesize",
+      "category": "other"
+    },
+    "pagestuff": {
+      "path": "/usr/bin/pagestuff",
+      "category": "other"
+    },
+    "pal2rgb": {
+      "path": "/opt/homebrew/bin/pal2rgb",
+      "category": "other"
+    },
+    "pango-list": {
+      "path": "/opt/homebrew/bin/pango-list",
+      "category": "other"
+    },
+    "pango-segmentation": {
+      "path": "/opt/homebrew/bin/pango-segmentation",
+      "category": "other"
+    },
+    "pango-view": {
+      "path": "/opt/homebrew/bin/pango-view",
+      "category": "other"
+    },
+    "par.pl": {
+      "path": "/usr/bin/par.pl",
+      "category": "other"
+    },
+    "par5.34.pl": {
+      "path": "/usr/bin/par5.34.pl",
+      "category": "other"
+    },
+    "parl": {
+      "path": "/usr/bin/parl",
+      "category": "other"
+    },
+    "parl5.34": {
+      "path": "/usr/bin/parl5.34",
+      "category": "other"
+    },
+    "parldyn": {
+      "path": "/usr/bin/parldyn",
+      "category": "other"
+    },
+    "parldyn5.34": {
+      "path": "/usr/bin/parldyn5.34",
+      "category": "other"
+    },
+    "passwd": {
+      "path": "/usr/bin/passwd",
+      "category": "other"
+    },
+    "paste": {
+      "path": "/usr/bin/paste",
+      "category": "text"
+    },
+    "patch": {
+      "path": "/usr/bin/patch",
+      "category": "text"
+    },
+    "pathchk": {
+      "path": "/usr/bin/pathchk",
+      "category": "other"
+    },
+    "pathopens.d": {
+      "path": "/usr/bin/pathopens.d",
+      "category": "other"
+    },
+    "pax": {
+      "path": "/bin/pax",
+      "category": "other"
+    },
+    "pbcopy": {
+      "path": "/usr/bin/pbcopy",
+      "category": "other"
+    },
+    "pbpaste": {
+      "path": "/usr/bin/pbpaste",
+      "category": "other"
+    },
+    "pcap-config": {
+      "path": "/usr/bin/pcap-config",
+      "category": "other"
+    },
+    "pccritic": {
+      "path": "/opt/homebrew/bin/pccritic",
+      "category": "other"
+    },
+    "pcre2-config": {
+      "path": "/opt/homebrew/bin/pcre2-config",
+      "category": "other"
+    },
+    "pcre2grep": {
+      "path": "/opt/homebrew/bin/pcre2grep",
+      "category": "other"
+    },
+    "pcre2test": {
+      "path": "/opt/homebrew/bin/pcre2test",
+      "category": "other"
+    },
+    "pcsctest": {
+      "path": "/usr/bin/pcsctest",
+      "category": "other"
+    },
+    "pear": {
+      "path": "/opt/homebrew/bin/pear",
+      "category": "other"
+    },
+    "peardev": {
+      "path": "/opt/homebrew/bin/peardev",
+      "category": "other"
+    },
+    "pecl": {
+      "path": "/opt/homebrew/bin/pecl",
+      "category": "other"
+    },
+    "perl": {
+      "path": "/usr/bin/perl",
+      "category": "editor_cli"
+    },
+    "perl5.34": {
+      "path": "/usr/bin/perl5.34",
+      "category": "other"
+    },
+    "perlbug": {
+      "path": "/usr/bin/perlbug",
+      "category": "other"
+    },
+    "perlbug5.34": {
+      "path": "/usr/bin/perlbug5.34",
+      "category": "other"
+    },
+    "perldoc": {
+      "path": "/usr/bin/perldoc",
+      "category": "other"
+    },
+    "perldoc5.34": {
+      "path": "/usr/bin/perldoc5.34",
+      "category": "other"
+    },
+    "perlivp": {
+      "path": "/usr/bin/perlivp",
+      "category": "other"
+    },
+    "perlivp5.34": {
+      "path": "/usr/bin/perlivp5.34",
+      "category": "other"
+    },
+    "perlthanks": {
+      "path": "/usr/bin/perlthanks",
+      "category": "other"
+    },
+    "perlthanks5.34": {
+      "path": "/usr/bin/perlthanks5.34",
+      "category": "other"
+    },
+    "pfctl": {
+      "path": "/sbin/pfctl",
+      "category": "other"
+    },
+    "pg_amcheck": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_amcheck",
+      "category": "other"
+    },
+    "pg_archivecleanup": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_archivecleanup",
+      "category": "other"
+    },
+    "pg_basebackup": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_basebackup",
+      "category": "database"
+    },
+    "pg_checksums": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_checksums",
+      "category": "other"
+    },
+    "pg_config": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_config",
+      "category": "other"
+    },
+    "pg_controldata": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_controldata",
+      "category": "other"
+    },
+    "pg_ctl": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_ctl",
+      "category": "other"
+    },
+    "pg_dump": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_dump",
+      "category": "database"
+    },
+    "pg_dumpall": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_dumpall",
+      "category": "other"
+    },
+    "pg_isready": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_isready",
+      "category": "other"
+    },
+    "pg_receivewal": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_receivewal",
+      "category": "other"
+    },
+    "pg_recvlogical": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_recvlogical",
+      "category": "other"
+    },
+    "pg_resetwal": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_resetwal",
+      "category": "other"
+    },
+    "pg_restore": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_restore",
+      "category": "database"
+    },
+    "pg_rewind": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_rewind",
+      "category": "other"
+    },
+    "pg_test_fsync": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_test_fsync",
+      "category": "other"
+    },
+    "pg_test_timing": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_test_timing",
+      "category": "other"
+    },
+    "pg_upgrade": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_upgrade",
+      "category": "other"
+    },
+    "pg_verifybackup": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_verifybackup",
+      "category": "other"
+    },
+    "pg_waldump": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pg_waldump",
+      "category": "other"
+    },
+    "pgbench": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/pgbench",
+      "category": "other"
+    },
+    "pgrep": {
+      "path": "/usr/bin/pgrep",
+      "category": "proc"
+    },
+    "phar": {
+      "path": "/opt/homebrew/bin/phar",
+      "category": "other"
+    },
+    "phar.phar": {
+      "path": "/opt/homebrew/bin/phar.phar",
+      "category": "other"
+    },
+    "phoronix-test-suite": {
+      "path": "/opt/homebrew/bin/phoronix-test-suite",
+      "category": "other"
+    },
+    "php": {
+      "path": "/opt/homebrew/bin/php",
+      "category": "editor_cli"
+    },
+    "php-cgi": {
+      "path": "/opt/homebrew/bin/php-cgi",
+      "category": "other"
+    },
+    "php-config": {
+      "path": "/opt/homebrew/bin/php-config",
+      "category": "other"
+    },
+    "phpdbg": {
+      "path": "/opt/homebrew/bin/phpdbg",
+      "category": "other"
+    },
+    "phpize": {
+      "path": "/opt/homebrew/bin/phpize",
+      "category": "other"
+    },
+    "pico": {
+      "path": "/usr/bin/pico",
+      "category": "other"
+    },
+    "piconv": {
+      "path": "/usr/bin/piconv",
+      "category": "other"
+    },
+    "piconv5.34": {
+      "path": "/usr/bin/piconv5.34",
+      "category": "other"
+    },
+    "pidpersec.d": {
+      "path": "/usr/bin/pidpersec.d",
+      "category": "other"
+    },
+    "ping": {
+      "path": "/sbin/ping",
+      "category": "network"
+    },
+    "ping6": {
+      "path": "/sbin/ping6",
+      "category": "other"
+    },
+    "pinky": {
+      "path": "/opt/homebrew/bin/pinky",
+      "category": "other"
+    },
+    "pip3": {
+      "path": "/usr/bin/pip3",
+      "category": "package"
+    },
+    "pip3.11": {
+      "path": "/opt/homebrew/bin/pip3.11",
+      "category": "other"
+    },
+    "pip3.12": {
+      "path": "/opt/homebrew/bin/pip3.12",
+      "category": "other"
+    },
+    "pip3.14": {
+      "path": "/opt/homebrew/bin/pip3.14",
+      "category": "other"
+    },
+    "pkcs1-conv": {
+      "path": "/opt/homebrew/bin/pkcs1-conv",
+      "category": "other"
+    },
+    "pkg-config": {
+      "path": "/opt/homebrew/bin/pkg-config",
+      "category": "other"
+    },
+    "pkgbuild": {
+      "path": "/usr/bin/pkgbuild",
+      "category": "other"
+    },
+    "pkgconf": {
+      "path": "/opt/homebrew/bin/pkgconf",
+      "category": "other"
+    },
+    "pkill": {
+      "path": "/usr/bin/pkill",
+      "category": "proc"
+    },
+    "pl": {
+      "path": "/usr/bin/pl",
+      "category": "other"
+    },
+    "pl2pm": {
+      "path": "/usr/bin/pl2pm",
+      "category": "other"
+    },
+    "pl2pm5.34": {
+      "path": "/usr/bin/pl2pm5.34",
+      "category": "other"
+    },
+    "plockstat": {
+      "path": "/usr/bin/plockstat",
+      "category": "other"
+    },
+    "pluginkit": {
+      "path": "/usr/bin/pluginkit",
+      "category": "other"
+    },
+    "plutil": {
+      "path": "/usr/bin/plutil",
+      "category": "other"
+    },
+    "pmset": {
+      "path": "/usr/bin/pmset",
+      "category": "other"
+    },
+    "pn": {
+      "path": "/opt/homebrew/bin/pn",
+      "category": "other"
+    },
+    "png-fix-itxt": {
+      "path": "/opt/homebrew/bin/png-fix-itxt",
+      "category": "other"
+    },
+    "pngfix": {
+      "path": "/opt/homebrew/bin/pngfix",
+      "category": "other"
+    },
+    "pngtogd": {
+      "path": "/opt/homebrew/bin/pngtogd",
+      "category": "other"
+    },
+    "pngtogd2": {
+      "path": "/opt/homebrew/bin/pngtogd2",
+      "category": "other"
+    },
+    "pnpm": {
+      "path": "/opt/homebrew/bin/pnpm",
+      "category": "package"
+    },
+    "pnpx": {
+      "path": "/opt/homebrew/bin/pnpx",
+      "category": "other"
+    },
+    "pnx": {
+      "path": "/opt/homebrew/bin/pnx",
+      "category": "other"
+    },
+    "po-fetch": {
+      "path": "/opt/homebrew/bin/po-fetch",
+      "category": "other"
+    },
+    "pod2html": {
+      "path": "/usr/bin/pod2html",
+      "category": "other"
+    },
+    "pod2html5.34": {
+      "path": "/usr/bin/pod2html5.34",
+      "category": "other"
+    },
+    "pod2man": {
+      "path": "/usr/bin/pod2man",
+      "category": "other"
+    },
+    "pod2man5.34": {
+      "path": "/usr/bin/pod2man5.34",
+      "category": "other"
+    },
+    "pod2readme": {
+      "path": "/usr/bin/pod2readme",
+      "category": "other"
+    },
+    "pod2readme5.34": {
+      "path": "/usr/bin/pod2readme5.34",
+      "category": "other"
+    },
+    "pod2text": {
+      "path": "/usr/bin/pod2text",
+      "category": "other"
+    },
+    "pod2text5.34": {
+      "path": "/usr/bin/pod2text5.34",
+      "category": "other"
+    },
+    "pod2usage": {
+      "path": "/usr/bin/pod2usage",
+      "category": "other"
+    },
+    "pod2usage5.34": {
+      "path": "/usr/bin/pod2usage5.34",
+      "category": "other"
+    },
+    "podchecker": {
+      "path": "/usr/bin/podchecker",
+      "category": "other"
+    },
+    "podchecker5.34": {
+      "path": "/usr/bin/podchecker5.34",
+      "category": "other"
+    },
+    "podman": {
+      "path": "/opt/homebrew/bin/podman",
+      "category": "container"
+    },
+    "podman-mac-helper": {
+      "path": "/opt/homebrew/bin/podman-mac-helper",
+      "category": "other"
+    },
+    "podman-remote": {
+      "path": "/opt/homebrew/bin/podman-remote",
+      "category": "other"
+    },
+    "policytool": {
+      "path": "/usr/bin/policytool",
+      "category": "other"
+    },
+    "postgres": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/postgres",
+      "category": "other"
+    },
+    "postlock": {
+      "path": "/usr/sbin/postlock",
+      "category": "other"
+    },
+    "power_report.sh": {
+      "path": "/usr/bin/power_report.sh",
+      "category": "other"
+    },
+    "powermetrics": {
+      "path": "/usr/bin/powermetrics",
+      "category": "other"
+    },
+    "pp": {
+      "path": "/usr/bin/pp",
+      "category": "other"
+    },
+    "pp5.34": {
+      "path": "/usr/bin/pp5.34",
+      "category": "other"
+    },
+    "ppdc": {
+      "path": "/usr/bin/ppdc",
+      "category": "other"
+    },
+    "ppdhtml": {
+      "path": "/usr/bin/ppdhtml",
+      "category": "other"
+    },
+    "ppdi": {
+      "path": "/usr/bin/ppdi",
+      "category": "other"
+    },
+    "ppdmerge": {
+      "path": "/usr/bin/ppdmerge",
+      "category": "other"
+    },
+    "ppdpo": {
+      "path": "/usr/bin/ppdpo",
+      "category": "other"
+    },
+    "ppm2tiff": {
+      "path": "/opt/homebrew/bin/ppm2tiff",
+      "category": "other"
+    },
+    "pr": {
+      "path": "/usr/bin/pr",
+      "category": "other"
+    },
+    "priclass.d": {
+      "path": "/usr/bin/priclass.d",
+      "category": "other"
+    },
+    "pridist.d": {
+      "path": "/usr/bin/pridist.d",
+      "category": "other"
+    },
+    "printenv": {
+      "path": "/usr/bin/printenv",
+      "category": "other"
+    },
+    "printf": {
+      "path": "/usr/bin/printf",
+      "category": "other"
+    },
+    "printf_gettext": {
+      "path": "/opt/homebrew/bin/printf_gettext",
+      "category": "other"
+    },
+    "printf_ngettext": {
+      "path": "/opt/homebrew/bin/printf_ngettext",
+      "category": "other"
+    },
+    "procsystime": {
+      "path": "/usr/bin/procsystime",
+      "category": "other"
+    },
+    "productbuild": {
+      "path": "/usr/bin/productbuild",
+      "category": "other"
+    },
+    "productsign": {
+      "path": "/usr/bin/productsign",
+      "category": "other"
+    },
+    "profiles": {
+      "path": "/usr/bin/profiles",
+      "category": "other"
+    },
+    "prove": {
+      "path": "/usr/bin/prove",
+      "category": "other"
+    },
+    "prove5.34": {
+      "path": "/usr/bin/prove5.34",
+      "category": "other"
+    },
+    "ps": {
+      "path": "/bin/ps",
+      "category": "proc"
+    },
+    "psicc": {
+      "path": "/opt/homebrew/bin/psicc",
+      "category": "other"
+    },
+    "psktool": {
+      "path": "/opt/homebrew/bin/psktool",
+      "category": "other"
+    },
+    "psl": {
+      "path": "/opt/homebrew/bin/psl",
+      "category": "other"
+    },
+    "psl-make-dafsa": {
+      "path": "/opt/homebrew/bin/psl-make-dafsa",
+      "category": "other"
+    },
+    "psm": {
+      "path": "/usr/bin/psm",
+      "category": "other"
+    },
+    "psql": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/psql",
+      "category": "database"
+    },
+    "pt": {
+      "path": "/opt/homebrew/bin/pt",
+      "category": "other"
+    },
+    "ptar": {
+      "path": "/usr/bin/ptar",
+      "category": "other"
+    },
+    "ptar5.34": {
+      "path": "/usr/bin/ptar5.34",
+      "category": "other"
+    },
+    "ptardiff": {
+      "path": "/usr/bin/ptardiff",
+      "category": "other"
+    },
+    "ptardiff5.34": {
+      "path": "/usr/bin/ptardiff5.34",
+      "category": "other"
+    },
+    "ptargrep": {
+      "path": "/usr/bin/ptargrep",
+      "category": "other"
+    },
+    "ptargrep5.34": {
+      "path": "/usr/bin/ptargrep5.34",
+      "category": "other"
+    },
+    "ptx": {
+      "path": "/opt/homebrew/bin/ptx",
+      "category": "other"
+    },
+    "pwd": {
+      "path": "/bin/pwd",
+      "category": "other"
+    },
+    "pwpolicy": {
+      "path": "/usr/bin/pwpolicy",
+      "category": "other"
+    },
+    "pydoc3": {
+      "path": "/opt/homebrew/bin/pydoc3",
+      "category": "other"
+    },
+    "pydoc3.11": {
+      "path": "/opt/homebrew/bin/pydoc3.11",
+      "category": "other"
+    },
+    "pydoc3.12": {
+      "path": "/opt/homebrew/bin/pydoc3.12",
+      "category": "other"
+    },
+    "pydoc3.14": {
+      "path": "/opt/homebrew/bin/pydoc3.14",
+      "category": "other"
+    },
+    "pysemgrep": {
+      "path": "/opt/homebrew/bin/pysemgrep",
+      "category": "other"
+    },
+    "python3": {
+      "path": "/usr/bin/python3",
+      "category": "ml"
+    },
+    "python3-config": {
+      "path": "/opt/homebrew/bin/python3-config",
+      "category": "other"
+    },
+    "python3.11": {
+      "path": "/opt/homebrew/bin/python3.11",
+      "category": "other"
+    },
+    "python3.11-config": {
+      "path": "/opt/homebrew/bin/python3.11-config",
+      "category": "other"
+    },
+    "python3.12": {
+      "path": "/opt/homebrew/bin/python3.12",
+      "category": "other"
+    },
+    "python3.12-config": {
+      "path": "/opt/homebrew/bin/python3.12-config",
+      "category": "other"
+    },
+    "python3.14": {
+      "path": "/opt/homebrew/bin/python3.14",
+      "category": "other"
+    },
+    "python3.14-config": {
+      "path": "/opt/homebrew/bin/python3.14-config",
+      "category": "other"
+    },
+    "pzstd": {
+      "path": "/opt/homebrew/bin/pzstd",
+      "category": "other"
+    },
+    "qemu-edid": {
+      "path": "/opt/homebrew/bin/qemu-edid",
+      "category": "other"
+    },
+    "qemu-img": {
+      "path": "/opt/homebrew/bin/qemu-img",
+      "category": "other"
+    },
+    "qemu-io": {
+      "path": "/opt/homebrew/bin/qemu-io",
+      "category": "other"
+    },
+    "qemu-nbd": {
+      "path": "/opt/homebrew/bin/qemu-nbd",
+      "category": "other"
+    },
+    "qemu-storage-daemon": {
+      "path": "/opt/homebrew/bin/qemu-storage-daemon",
+      "category": "other"
+    },
+    "qemu-system-aarch64": {
+      "path": "/opt/homebrew/bin/qemu-system-aarch64",
+      "category": "other"
+    },
+    "qemu-system-alpha": {
+      "path": "/opt/homebrew/bin/qemu-system-alpha",
+      "category": "other"
+    },
+    "qemu-system-arm": {
+      "path": "/opt/homebrew/bin/qemu-system-arm",
+      "category": "other"
+    },
+    "qemu-system-avr": {
+      "path": "/opt/homebrew/bin/qemu-system-avr",
+      "category": "other"
+    },
+    "qemu-system-hexagon": {
+      "path": "/opt/homebrew/bin/qemu-system-hexagon",
+      "category": "other"
+    },
+    "qemu-system-hppa": {
+      "path": "/opt/homebrew/bin/qemu-system-hppa",
+      "category": "other"
+    },
+    "qemu-system-i386": {
+      "path": "/opt/homebrew/bin/qemu-system-i386",
+      "category": "other"
+    },
+    "qemu-system-loongarch64": {
+      "path": "/opt/homebrew/bin/qemu-system-loongarch64",
+      "category": "other"
+    },
+    "qemu-system-m68k": {
+      "path": "/opt/homebrew/bin/qemu-system-m68k",
+      "category": "other"
+    },
+    "qemu-system-microblaze": {
+      "path": "/opt/homebrew/bin/qemu-system-microblaze",
+      "category": "other"
+    },
+    "qemu-system-mips": {
+      "path": "/opt/homebrew/bin/qemu-system-mips",
+      "category": "other"
+    },
+    "qemu-system-mips64": {
+      "path": "/opt/homebrew/bin/qemu-system-mips64",
+      "category": "other"
+    },
+    "qemu-system-mips64el": {
+      "path": "/opt/homebrew/bin/qemu-system-mips64el",
+      "category": "other"
+    },
+    "qemu-system-mipsel": {
+      "path": "/opt/homebrew/bin/qemu-system-mipsel",
+      "category": "other"
+    },
+    "qemu-system-or1k": {
+      "path": "/opt/homebrew/bin/qemu-system-or1k",
+      "category": "other"
+    },
+    "qemu-system-ppc": {
+      "path": "/opt/homebrew/bin/qemu-system-ppc",
+      "category": "other"
+    },
+    "qemu-system-ppc64": {
+      "path": "/opt/homebrew/bin/qemu-system-ppc64",
+      "category": "other"
+    },
+    "qemu-system-riscv32": {
+      "path": "/opt/homebrew/bin/qemu-system-riscv32",
+      "category": "other"
+    },
+    "qemu-system-riscv64": {
+      "path": "/opt/homebrew/bin/qemu-system-riscv64",
+      "category": "other"
+    },
+    "qemu-system-rx": {
+      "path": "/opt/homebrew/bin/qemu-system-rx",
+      "category": "other"
+    },
+    "qemu-system-s390x": {
+      "path": "/opt/homebrew/bin/qemu-system-s390x",
+      "category": "other"
+    },
+    "qemu-system-sh4": {
+      "path": "/opt/homebrew/bin/qemu-system-sh4",
+      "category": "other"
+    },
+    "qemu-system-sh4eb": {
+      "path": "/opt/homebrew/bin/qemu-system-sh4eb",
+      "category": "other"
+    },
+    "qemu-system-sparc": {
+      "path": "/opt/homebrew/bin/qemu-system-sparc",
+      "category": "other"
+    },
+    "qemu-system-sparc64": {
+      "path": "/opt/homebrew/bin/qemu-system-sparc64",
+      "category": "other"
+    },
+    "qemu-system-tricore": {
+      "path": "/opt/homebrew/bin/qemu-system-tricore",
+      "category": "other"
+    },
+    "qemu-system-x86_64": {
+      "path": "/opt/homebrew/bin/qemu-system-x86_64",
+      "category": "other"
+    },
+    "qemu-system-xtensa": {
+      "path": "/opt/homebrew/bin/qemu-system-xtensa",
+      "category": "other"
+    },
+    "qemu-system-xtensaeb": {
+      "path": "/opt/homebrew/bin/qemu-system-xtensaeb",
+      "category": "other"
+    },
+    "qlmanage": {
+      "path": "/usr/bin/qlmanage",
+      "category": "other"
+    },
+    "qprofdiff": {
+      "path": "/opt/homebrew/bin/qprofdiff",
+      "category": "other"
+    },
+    "quota": {
+      "path": "/usr/bin/quota",
+      "category": "other"
+    },
+    "quotacheck": {
+      "path": "/sbin/quotacheck",
+      "category": "other"
+    },
+    "rails": {
+      "path": "/usr/bin/rails",
+      "category": "other"
+    },
+    "rake": {
+      "path": "/usr/bin/rake",
+      "category": "other"
+    },
+    "ranlib": {
+      "path": "/usr/bin/ranlib",
+      "category": "other"
+    },
+    "raw2tiff": {
+      "path": "/opt/homebrew/bin/raw2tiff",
+      "category": "other"
+    },
+    "rdjpgcom": {
+      "path": "/opt/homebrew/bin/rdjpgcom",
+      "category": "other"
+    },
+    "rdma_ctl": {
+      "path": "/usr/bin/rdma_ctl",
+      "category": "other"
+    },
+    "rdoc": {
+      "path": "/usr/bin/rdoc",
+      "category": "other"
+    },
+    "read": {
+      "path": "/usr/bin/read",
+      "category": "other"
+    },
+    "readlink": {
+      "path": "/usr/bin/readlink",
+      "category": "other"
+    },
+    "realpath": {
+      "path": "/bin/realpath",
+      "category": "other"
+    },
+    "reboot": {
+      "path": "/sbin/reboot",
+      "category": "other"
+    },
+    "recode-sr-latin": {
+      "path": "/opt/homebrew/bin/recode-sr-latin",
+      "category": "other"
+    },
+    "reindexdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/reindexdb",
+      "category": "other"
+    },
+    "renice": {
+      "path": "/usr/bin/renice",
+      "category": "proc"
+    },
+    "reset": {
+      "path": "/usr/bin/reset",
+      "category": "other"
+    },
+    "resolveLinks": {
+      "path": "/usr/bin/resolveLinks",
+      "category": "other"
+    },
+    "rev": {
+      "path": "/usr/bin/rev",
+      "category": "other"
+    },
+    "ri": {
+      "path": "/usr/bin/ri",
+      "category": "other"
+    },
+    "rlwrap": {
+      "path": "/opt/homebrew/bin/rlwrap",
+      "category": "other"
+    },
+    "rm": {
+      "path": "/bin/rm",
+      "category": "filesystem"
+    },
+    "rmdir": {
+      "path": "/bin/rmdir",
+      "category": "filesystem"
+    },
+    "rmic": {
+      "path": "/usr/bin/rmic",
+      "category": "other"
+    },
+    "rmid": {
+      "path": "/usr/bin/rmid",
+      "category": "other"
+    },
+    "rmiregistry": {
+      "path": "/usr/bin/rmiregistry",
+      "category": "other"
+    },
+    "route": {
+      "path": "/sbin/route",
+      "category": "other"
+    },
+    "rpcgen": {
+      "path": "/usr/bin/rpcgen",
+      "category": "other"
+    },
+    "rpcinfo": {
+      "path": "/usr/sbin/rpcinfo",
+      "category": "other"
+    },
+    "rs": {
+      "path": "/usr/bin/rs",
+      "category": "other"
+    },
+    "rsync": {
+      "path": "/usr/bin/rsync",
+      "category": "network"
+    },
+    "ruby": {
+      "path": "/usr/bin/ruby",
+      "category": "editor_cli"
+    },
+    "run_erl": {
+      "path": "/opt/homebrew/bin/run_erl",
+      "category": "other"
+    },
+    "runghc": {
+      "path": "/opt/homebrew/bin/runghc",
+      "category": "editor_cli"
+    },
+    "runghc-9.14.1": {
+      "path": "/opt/homebrew/bin/runghc-9.14.1",
+      "category": "other"
+    },
+    "runhaskell": {
+      "path": "/opt/homebrew/bin/runhaskell",
+      "category": "other"
+    },
+    "runhaskell-9.14.1": {
+      "path": "/opt/homebrew/bin/runhaskell-9.14.1",
+      "category": "other"
+    },
+    "rview": {
+      "path": "/usr/bin/rview",
+      "category": "other"
+    },
+    "rvim": {
+      "path": "/usr/bin/rvim",
+      "category": "other"
+    },
+    "rwbypid.d": {
+      "path": "/usr/bin/rwbypid.d",
+      "category": "other"
+    },
+    "rwbytype.d": {
+      "path": "/usr/bin/rwbytype.d",
+      "category": "other"
+    },
+    "rwsnoop": {
+      "path": "/usr/bin/rwsnoop",
+      "category": "other"
+    },
+    "safaridriver": {
+      "path": "/System/Cryptexes/App/usr/bin/safaridriver",
+      "category": "other"
+    },
+    "sample": {
+      "path": "/usr/bin/sample",
+      "category": "other"
+    },
+    "sampleproc": {
+      "path": "/usr/bin/sampleproc",
+      "category": "other"
+    },
+    "sandbox-exec": {
+      "path": "/usr/bin/sandbox-exec",
+      "category": "other"
+    },
+    "say": {
+      "path": "/usr/bin/say",
+      "category": "other"
+    },
+    "sc_usage": {
+      "path": "/usr/bin/sc_usage",
+      "category": "other"
+    },
+    "scala": {
+      "path": "/opt/homebrew/bin/scala",
+      "category": "editor_cli"
+    },
+    "scala-cli": {
+      "path": "/opt/homebrew/bin/scala-cli",
+      "category": "other"
+    },
+    "scalac": {
+      "path": "/opt/homebrew/bin/scalac",
+      "category": "other"
+    },
+    "scaladoc": {
+      "path": "/opt/homebrew/bin/scaladoc",
+      "category": "other"
+    },
+    "scalar": {
+      "path": "/opt/homebrew/bin/scalar",
+      "category": "other"
+    },
+    "scandeps.pl": {
+      "path": "/usr/bin/scandeps.pl",
+      "category": "other"
+    },
+    "scandeps5.34.pl": {
+      "path": "/usr/bin/scandeps5.34.pl",
+      "category": "other"
+    },
+    "scp": {
+      "path": "/usr/bin/scp",
+      "category": "network"
+    },
+    "screen": {
+      "path": "/usr/bin/screen",
+      "category": "proc"
+    },
+    "script": {
+      "path": "/usr/bin/script",
+      "category": "other"
+    },
+    "sdef": {
+      "path": "/usr/bin/sdef",
+      "category": "other"
+    },
+    "sdiff": {
+      "path": "/usr/bin/sdiff",
+      "category": "other"
+    },
+    "sdp": {
+      "path": "/usr/bin/sdp",
+      "category": "other"
+    },
+    "sdx": {
+      "path": "/usr/bin/sdx",
+      "category": "other"
+    },
+    "searchdiagnose": {
+      "path": "/usr/bin/searchdiagnose",
+      "category": "other"
+    },
+    "security": {
+      "path": "/usr/bin/security",
+      "category": "other"
+    },
+    "sed": {
+      "path": "/usr/bin/sed",
+      "category": "text"
+    },
+    "seeksize.d": {
+      "path": "/usr/bin/seeksize.d",
+      "category": "other"
+    },
+    "segedit": {
+      "path": "/usr/bin/segedit",
+      "category": "other"
+    },
+    "semgrep": {
+      "path": "/opt/homebrew/bin/semgrep",
+      "category": "other"
+    },
+    "seq": {
+      "path": "/usr/bin/seq",
+      "category": "other"
+    },
+    "serialver": {
+      "path": "/usr/bin/serialver",
+      "category": "other"
+    },
+    "servertool": {
+      "path": "/usr/bin/servertool",
+      "category": "other"
+    },
+    "setregion": {
+      "path": "/usr/bin/setregion",
+      "category": "other"
+    },
+    "setuids.d": {
+      "path": "/usr/bin/setuids.d",
+      "category": "other"
+    },
+    "sexp-conv": {
+      "path": "/opt/homebrew/bin/sexp-conv",
+      "category": "other"
+    },
+    "sfltool": {
+      "path": "/usr/bin/sfltool",
+      "category": "other"
+    },
+    "sftp": {
+      "path": "/usr/bin/sftp",
+      "category": "network"
+    },
+    "sh": {
+      "path": "/bin/sh",
+      "category": "shell"
+    },
+    "sha1": {
+      "path": "/sbin/sha1",
+      "category": "other"
+    },
+    "sha1sum": {
+      "path": "/sbin/sha1sum",
+      "category": "text"
+    },
+    "sha224": {
+      "path": "/sbin/sha224",
+      "category": "other"
+    },
+    "sha224sum": {
+      "path": "/sbin/sha224sum",
+      "category": "other"
+    },
+    "sha256": {
+      "path": "/sbin/sha256",
+      "category": "other"
+    },
+    "sha256sum": {
+      "path": "/sbin/sha256sum",
+      "category": "text"
+    },
+    "sha384": {
+      "path": "/sbin/sha384",
+      "category": "other"
+    },
+    "sha384sum": {
+      "path": "/sbin/sha384sum",
+      "category": "other"
+    },
+    "sha512": {
+      "path": "/sbin/sha512",
+      "category": "other"
+    },
+    "sha512sum": {
+      "path": "/sbin/sha512sum",
+      "category": "text"
+    },
+    "shar": {
+      "path": "/usr/bin/shar",
+      "category": "other"
+    },
+    "shards": {
+      "path": "/opt/homebrew/bin/shards",
+      "category": "other"
+    },
+    "shasum": {
+      "path": "/usr/bin/shasum",
+      "category": "other"
+    },
+    "shasum5.34": {
+      "path": "/usr/bin/shasum5.34",
+      "category": "other"
+    },
+    "shazam": {
+      "path": "/usr/bin/shazam",
+      "category": "other"
+    },
+    "shlock": {
+      "path": "/usr/bin/shlock",
+      "category": "other"
+    },
+    "shortcuts": {
+      "path": "/usr/bin/shortcuts",
+      "category": "other"
+    },
+    "showmount": {
+      "path": "/usr/bin/showmount",
+      "category": "other"
+    },
+    "shred": {
+      "path": "/opt/homebrew/bin/shred",
+      "category": "other"
+    },
+    "shuf": {
+      "path": "/opt/homebrew/bin/shuf",
+      "category": "other"
+    },
+    "shutdown": {
+      "path": "/sbin/shutdown",
+      "category": "other"
+    },
+    "sigdist.d": {
+      "path": "/usr/bin/sigdist.d",
+      "category": "other"
+    },
+    "sips": {
+      "path": "/usr/bin/sips",
+      "category": "other"
+    },
+    "size": {
+      "path": "/usr/bin/size",
+      "category": "other"
+    },
+    "sleep": {
+      "path": "/bin/sleep",
+      "category": "other"
+    },
+    "slencheck": {
+      "path": "/opt/homebrew/bin/slencheck",
+      "category": "other"
+    },
+    "slogin": {
+      "path": "/usr/bin/slogin",
+      "category": "other"
+    },
+    "smbutil": {
+      "path": "/usr/bin/smbutil",
+      "category": "other"
+    },
+    "snfsdefrag": {
+      "path": "/usr/bin/snfsdefrag",
+      "category": "other"
+    },
+    "snmp-bridge-mib": {
+      "path": "/usr/bin/snmp-bridge-mib",
+      "category": "other"
+    },
+    "snmpbulkget": {
+      "path": "/usr/bin/snmpbulkget",
+      "category": "other"
+    },
+    "snmpbulkwalk": {
+      "path": "/usr/bin/snmpbulkwalk",
+      "category": "other"
+    },
+    "snmpconf": {
+      "path": "/usr/bin/snmpconf",
+      "category": "other"
+    },
+    "snmpdelta": {
+      "path": "/usr/bin/snmpdelta",
+      "category": "other"
+    },
+    "snmpdf": {
+      "path": "/usr/bin/snmpdf",
+      "category": "other"
+    },
+    "snmpget": {
+      "path": "/usr/bin/snmpget",
+      "category": "other"
+    },
+    "snmpgetnext": {
+      "path": "/usr/bin/snmpgetnext",
+      "category": "other"
+    },
+    "snmpinform": {
+      "path": "/usr/bin/snmpinform",
+      "category": "other"
+    },
+    "snmpnetstat": {
+      "path": "/usr/bin/snmpnetstat",
+      "category": "other"
+    },
+    "snmpset": {
+      "path": "/usr/bin/snmpset",
+      "category": "other"
+    },
+    "snmpstatus": {
+      "path": "/usr/bin/snmpstatus",
+      "category": "other"
+    },
+    "snmptable": {
+      "path": "/usr/bin/snmptable",
+      "category": "other"
+    },
+    "snmptest": {
+      "path": "/usr/bin/snmptest",
+      "category": "other"
+    },
+    "snmptranslate": {
+      "path": "/usr/bin/snmptranslate",
+      "category": "other"
+    },
+    "snmptrap": {
+      "path": "/usr/bin/snmptrap",
+      "category": "other"
+    },
+    "snmpusm": {
+      "path": "/usr/bin/snmpusm",
+      "category": "other"
+    },
+    "snmpvacm": {
+      "path": "/usr/bin/snmpvacm",
+      "category": "other"
+    },
+    "snmpwalk": {
+      "path": "/usr/bin/snmpwalk",
+      "category": "other"
+    },
+    "sntp": {
+      "path": "/usr/bin/sntp",
+      "category": "other"
+    },
+    "soelim": {
+      "path": "/usr/bin/soelim",
+      "category": "other"
+    },
+    "sort": {
+      "path": "/usr/bin/sort",
+      "category": "text"
+    },
+    "sourcekit-lsp": {
+      "path": "/usr/bin/sourcekit-lsp",
+      "category": "other"
+    },
+    "spdxtool": {
+      "path": "/opt/homebrew/bin/spdxtool",
+      "category": "other"
+    },
+    "spfd": {
+      "path": "/usr/bin/spfd",
+      "category": "other"
+    },
+    "spfd5.34": {
+      "path": "/usr/bin/spfd5.34",
+      "category": "other"
+    },
+    "spfquery": {
+      "path": "/usr/bin/spfquery",
+      "category": "other"
+    },
+    "spfquery5.34": {
+      "path": "/usr/bin/spfquery5.34",
+      "category": "other"
+    },
+    "spit": {
+      "path": "/opt/homebrew/bin/spit",
+      "category": "other"
+    },
+    "splain": {
+      "path": "/usr/bin/splain",
+      "category": "other"
+    },
+    "splain5.34": {
+      "path": "/usr/bin/splain5.34",
+      "category": "other"
+    },
+    "split": {
+      "path": "/usr/bin/split",
+      "category": "text"
+    },
+    "sqlite3": {
+      "path": "/usr/bin/sqlite3",
+      "category": "database"
+    },
+    "ssh": {
+      "path": "/usr/bin/ssh",
+      "category": "network"
+    },
+    "ssh-add": {
+      "path": "/usr/bin/ssh-add",
+      "category": "network"
+    },
+    "ssh-agent": {
+      "path": "/usr/bin/ssh-agent",
+      "category": "network"
+    },
+    "ssh-copy-id": {
+      "path": "/usr/bin/ssh-copy-id",
+      "category": "other"
+    },
+    "ssh-keygen": {
+      "path": "/usr/bin/ssh-keygen",
+      "category": "network"
+    },
+    "ssh-keyscan": {
+      "path": "/usr/bin/ssh-keyscan",
+      "category": "other"
+    },
+    "stapler": {
+      "path": "/usr/bin/stapler",
+      "category": "other"
+    },
+    "startGroovy": {
+      "path": "/opt/homebrew/bin/startGroovy",
+      "category": "other"
+    },
+    "stat": {
+      "path": "/usr/bin/stat",
+      "category": "filesystem"
+    },
+    "stdbuf": {
+      "path": "/usr/bin/stdbuf",
+      "category": "other"
+    },
+    "streamzip": {
+      "path": "/usr/bin/streamzip",
+      "category": "other"
+    },
+    "streamzip5.34": {
+      "path": "/usr/bin/streamzip5.34",
+      "category": "other"
+    },
+    "stringdups": {
+      "path": "/usr/bin/stringdups",
+      "category": "other"
+    },
+    "strings": {
+      "path": "/usr/bin/strings",
+      "category": "other"
+    },
+    "strip": {
+      "path": "/usr/bin/strip",
+      "category": "other"
+    },
+    "stty": {
+      "path": "/bin/stty",
+      "category": "other"
+    },
+    "stz": {
+      "path": "/usr/bin/stz",
+      "category": "other"
+    },
+    "su": {
+      "path": "/usr/bin/su",
+      "category": "other"
+    },
+    "sudo": {
+      "path": "/usr/bin/sudo",
+      "category": "other"
+    },
+    "suitesparse_mongoose": {
+      "path": "/opt/homebrew/bin/suitesparse_mongoose",
+      "category": "other"
+    },
+    "sum": {
+      "path": "/usr/bin/sum",
+      "category": "other"
+    },
+    "sutf": {
+      "path": "/opt/homebrew/bin/sutf",
+      "category": "other"
+    },
+    "sutf-benchmark": {
+      "path": "/opt/homebrew/bin/sutf-benchmark",
+      "category": "other"
+    },
+    "sw_vers": {
+      "path": "/usr/bin/sw_vers",
+      "category": "other"
+    },
+    "swcutil": {
+      "path": "/usr/bin/swcutil",
+      "category": "other"
+    },
+    "swift": {
+      "path": "/usr/bin/swift",
+      "category": "editor_cli"
+    },
+    "swift-inspect": {
+      "path": "/usr/bin/swift-inspect",
+      "category": "other"
+    },
+    "swiftc": {
+      "path": "/usr/bin/swiftc",
+      "category": "other"
+    },
+    "syft": {
+      "path": "/opt/homebrew/bin/syft",
+      "category": "other"
+    },
+    "symbols": {
+      "path": "/usr/bin/symbols",
+      "category": "other"
+    },
+    "symbolscache": {
+      "path": "/usr/bin/symbolscache",
+      "category": "other"
+    },
+    "sync": {
+      "path": "/bin/sync",
+      "category": "other"
+    },
+    "sysbench": {
+      "path": "/opt/homebrew/bin/sysbench",
+      "category": "other"
+    },
+    "syscallbypid.d": {
+      "path": "/usr/bin/syscallbypid.d",
+      "category": "other"
+    },
+    "syscallbyproc.d": {
+      "path": "/usr/bin/syscallbyproc.d",
+      "category": "other"
+    },
+    "syscallbysysc.d": {
+      "path": "/usr/bin/syscallbysysc.d",
+      "category": "other"
+    },
+    "sysdiagnose": {
+      "path": "/usr/bin/sysdiagnose",
+      "category": "other"
+    },
+    "syslog": {
+      "path": "/usr/bin/syslog",
+      "category": "other"
+    },
+    "syspolicy_check": {
+      "path": "/usr/bin/syspolicy_check",
+      "category": "other"
+    },
+    "system-override": {
+      "path": "/usr/bin/system-override",
+      "category": "other"
+    },
+    "systemextensionsctl": {
+      "path": "/usr/bin/systemextensionsctl",
+      "category": "other"
+    },
+    "systemsoundserverd": {
+      "path": "/usr/sbin/systemsoundserverd",
+      "category": "other"
+    },
+    "tab2space": {
+      "path": "/usr/bin/tab2space",
+      "category": "other"
+    },
+    "tabs": {
+      "path": "/usr/bin/tabs",
+      "category": "other"
+    },
+    "tac": {
+      "path": "/opt/homebrew/bin/tac",
+      "category": "other"
+    },
+    "tail": {
+      "path": "/usr/bin/tail",
+      "category": "text"
+    },
+    "tailspin": {
+      "path": "/usr/bin/tailspin",
+      "category": "other"
+    },
+    "talk": {
+      "path": "/usr/bin/talk",
+      "category": "other"
+    },
+    "tar": {
+      "path": "/usr/bin/tar",
+      "category": "filesystem"
+    },
+    "taskinfo": {
+      "path": "/usr/bin/taskinfo",
+      "category": "other"
+    },
+    "tbtdiagnose": {
+      "path": "/usr/bin/tbtdiagnose",
+      "category": "other"
+    },
+    "tccutil": {
+      "path": "/usr/bin/tccutil",
+      "category": "other"
+    },
+    "tcldocstrip": {
+      "path": "/opt/homebrew/bin/tcldocstrip",
+      "category": "other"
+    },
+    "tclsh": {
+      "path": "/usr/bin/tclsh",
+      "category": "editor_cli"
+    },
+    "tclsh8.5": {
+      "path": "/usr/bin/tclsh8.5",
+      "category": "other"
+    },
+    "tclsh9.0": {
+      "path": "/opt/homebrew/bin/tclsh9.0",
+      "category": "other"
+    },
+    "tcsh": {
+      "path": "/bin/tcsh",
+      "category": "shell"
+    },
+    "tdspool": {
+      "path": "/opt/homebrew/bin/tdspool",
+      "category": "other"
+    },
+    "tee": {
+      "path": "/usr/bin/tee",
+      "category": "text"
+    },
+    "terraform": {
+      "path": "/opt/homebrew/bin/terraform",
+      "category": "other"
+    },
+    "test": {
+      "path": "/bin/test",
+      "category": "other"
+    },
+    "test-yaml": {
+      "path": "/usr/bin/test-yaml",
+      "category": "other"
+    },
+    "test-yaml5.34": {
+      "path": "/usr/bin/test-yaml5.34",
+      "category": "other"
+    },
+    "testament": {
+      "path": "/opt/homebrew/bin/testament",
+      "category": "other"
+    },
+    "textutil": {
+      "path": "/usr/bin/textutil",
+      "category": "other"
+    },
+    "tftp": {
+      "path": "/usr/bin/tftp",
+      "category": "network"
+    },
+    "tgz": {
+      "path": "/opt/homebrew/bin/tgz",
+      "category": "other"
+    },
+    "thermal": {
+      "path": "/usr/bin/thermal",
+      "category": "other"
+    },
+    "tic": {
+      "path": "/usr/bin/tic",
+      "category": "other"
+    },
+    "tidy": {
+      "path": "/usr/bin/tidy",
+      "category": "other"
+    },
+    "tidy_changelog": {
+      "path": "/usr/bin/tidy_changelog",
+      "category": "other"
+    },
+    "tidy_changelog5.34": {
+      "path": "/usr/bin/tidy_changelog5.34",
+      "category": "other"
+    },
+    "tiff2bw": {
+      "path": "/opt/homebrew/bin/tiff2bw",
+      "category": "other"
+    },
+    "tiff2icns": {
+      "path": "/usr/bin/tiff2icns",
+      "category": "other"
+    },
+    "tiff2pdf": {
+      "path": "/opt/homebrew/bin/tiff2pdf",
+      "category": "other"
+    },
+    "tiff2ps": {
+      "path": "/opt/homebrew/bin/tiff2ps",
+      "category": "other"
+    },
+    "tiff2rgba": {
+      "path": "/opt/homebrew/bin/tiff2rgba",
+      "category": "other"
+    },
+    "tiffcmp": {
+      "path": "/opt/homebrew/bin/tiffcmp",
+      "category": "other"
+    },
+    "tiffcp": {
+      "path": "/opt/homebrew/bin/tiffcp",
+      "category": "other"
+    },
+    "tiffcrop": {
+      "path": "/opt/homebrew/bin/tiffcrop",
+      "category": "other"
+    },
+    "tiffdither": {
+      "path": "/opt/homebrew/bin/tiffdither",
+      "category": "other"
+    },
+    "tiffdump": {
+      "path": "/opt/homebrew/bin/tiffdump",
+      "category": "other"
+    },
+    "tiffinfo": {
+      "path": "/opt/homebrew/bin/tiffinfo",
+      "category": "other"
+    },
+    "tiffmedian": {
+      "path": "/opt/homebrew/bin/tiffmedian",
+      "category": "other"
+    },
+    "tiffset": {
+      "path": "/opt/homebrew/bin/tiffset",
+      "category": "other"
+    },
+    "tiffsplit": {
+      "path": "/opt/homebrew/bin/tiffsplit",
+      "category": "other"
+    },
+    "tiffutil": {
+      "path": "/usr/bin/tiffutil",
+      "category": "other"
+    },
+    "tificc": {
+      "path": "/opt/homebrew/bin/tificc",
+      "category": "other"
+    },
+    "time": {
+      "path": "/usr/bin/time",
+      "category": "proc"
+    },
+    "timeout": {
+      "path": "/opt/homebrew/bin/timeout",
+      "category": "proc"
+    },
+    "timer_analyser.d": {
+      "path": "/usr/bin/timer_analyser.d",
+      "category": "other"
+    },
+    "timerfires": {
+      "path": "/usr/bin/timerfires",
+      "category": "other"
+    },
+    "timesyncanalyse": {
+      "path": "/usr/bin/timesyncanalyse",
+      "category": "other"
+    },
+    "tjbench": {
+      "path": "/opt/homebrew/bin/tjbench",
+      "category": "other"
+    },
+    "tkcon": {
+      "path": "/usr/bin/tkcon",
+      "category": "other"
+    },
+    "tkmib": {
+      "path": "/usr/bin/tkmib",
+      "category": "other"
+    },
+    "tkpp": {
+      "path": "/usr/bin/tkpp",
+      "category": "other"
+    },
+    "tkpp5.34": {
+      "path": "/usr/bin/tkpp5.34",
+      "category": "other"
+    },
+    "tmdiagnose": {
+      "path": "/usr/bin/tmdiagnose",
+      "category": "other"
+    },
+    "tmutil": {
+      "path": "/usr/bin/tmutil",
+      "category": "other"
+    },
+    "tnameserv": {
+      "path": "/usr/bin/tnameserv",
+      "category": "other"
+    },
+    "to_erl": {
+      "path": "/opt/homebrew/bin/to_erl",
+      "category": "other"
+    },
+    "toe": {
+      "path": "/usr/bin/toe",
+      "category": "other"
+    },
+    "top": {
+      "path": "/usr/bin/top",
+      "category": "proc"
+    },
+    "tops": {
+      "path": "/usr/bin/tops",
+      "category": "other"
+    },
+    "topsyscall": {
+      "path": "/usr/bin/topsyscall",
+      "category": "other"
+    },
+    "topsysproc": {
+      "path": "/usr/bin/topsysproc",
+      "category": "other"
+    },
+    "totality-env": {
+      "path": "/Users/metadusa/Developer/src/ai/zki2k-node0/bin/totality-env",
+      "category": "other"
+    },
+    "totality-root": {
+      "path": "/Users/metadusa/Developer/src/ai/zki2k-node0/bin/totality-root",
+      "category": "other"
+    },
+    "totality-verify-root": {
+      "path": "/Users/metadusa/Developer/src/ai/zki2k-node0/bin/totality-verify-root",
+      "category": "other"
+    },
+    "totalityos": {
+      "path": "/usr/local/bin/totalityos",
+      "category": "other"
+    },
+    "touch": {
+      "path": "/usr/bin/touch",
+      "category": "filesystem"
+    },
+    "tput": {
+      "path": "/usr/bin/tput",
+      "category": "other"
+    },
+    "tr": {
+      "path": "/usr/bin/tr",
+      "category": "text"
+    },
+    "trace": {
+      "path": "/usr/bin/trace",
+      "category": "other"
+    },
+    "transicc": {
+      "path": "/opt/homebrew/bin/transicc",
+      "category": "other"
+    },
+    "traptoemail": {
+      "path": "/usr/bin/traptoemail",
+      "category": "other"
+    },
+    "trash": {
+      "path": "/usr/bin/trash",
+      "category": "other"
+    },
+    "tree": {
+      "path": "/opt/homebrew/bin/tree",
+      "category": "other"
+    },
+    "treereg": {
+      "path": "/usr/bin/treereg",
+      "category": "other"
+    },
+    "treereg5.34": {
+      "path": "/usr/bin/treereg5.34",
+      "category": "other"
+    },
+    "trietool": {
+      "path": "/opt/homebrew/bin/trietool",
+      "category": "other"
+    },
+    "trietool-0.2": {
+      "path": "/opt/homebrew/bin/trietool-0.2",
+      "category": "other"
+    },
+    "trimforce": {
+      "path": "/usr/bin/trimforce",
+      "category": "other"
+    },
+    "trivy": {
+      "path": "/opt/homebrew/bin/trivy",
+      "category": "other"
+    },
+    "true": {
+      "path": "/usr/bin/true",
+      "category": "other"
+    },
+    "truncate": {
+      "path": "/usr/bin/truncate",
+      "category": "filesystem"
+    },
+    "trust": {
+      "path": "/opt/homebrew/bin/trust",
+      "category": "other"
+    },
+    "trustcachectl": {
+      "path": "/usr/bin/trustcachectl",
+      "category": "other"
+    },
+    "tsc": {
+      "path": "/opt/homebrew/bin/tsc",
+      "category": "build"
+    },
+    "tset": {
+      "path": "/usr/bin/tset",
+      "category": "other"
+    },
+    "tsort": {
+      "path": "/usr/bin/tsort",
+      "category": "other"
+    },
+    "tsql": {
+      "path": "/opt/homebrew/bin/tsql",
+      "category": "other"
+    },
+    "tty": {
+      "path": "/usr/bin/tty",
+      "category": "other"
+    },
+    "type": {
+      "path": "/usr/bin/type",
+      "category": "other"
+    },
+    "typer": {
+      "path": "/opt/homebrew/bin/typer",
+      "category": "other"
+    },
+    "ul": {
+      "path": "/usr/bin/ul",
+      "category": "other"
+    },
+    "ulimit": {
+      "path": "/usr/bin/ulimit",
+      "category": "other"
+    },
+    "umask": {
+      "path": "/usr/bin/umask",
+      "category": "other"
+    },
+    "umount": {
+      "path": "/sbin/umount",
+      "category": "filesystem"
+    },
+    "umtool": {
+      "path": "/usr/bin/umtool",
+      "category": "other"
+    },
+    "unalias": {
+      "path": "/usr/bin/unalias",
+      "category": "other"
+    },
+    "uname": {
+      "path": "/usr/bin/uname",
+      "category": "other"
+    },
+    "uncompress": {
+      "path": "/usr/bin/uncompress",
+      "category": "other"
+    },
+    "unexpand": {
+      "path": "/usr/bin/unexpand",
+      "category": "other"
+    },
+    "unifdef": {
+      "path": "/usr/bin/unifdef",
+      "category": "other"
+    },
+    "unifdefall": {
+      "path": "/usr/bin/unifdefall",
+      "category": "other"
+    },
+    "uniq": {
+      "path": "/usr/bin/uniq",
+      "category": "text"
+    },
+    "units": {
+      "path": "/usr/bin/units",
+      "category": "other"
+    },
+    "unixcmd": {
+      "path": "/opt/homebrew/bin/unixcmd",
+      "category": "other"
+    },
+    "unlink": {
+      "path": "/bin/unlink",
+      "category": "other"
+    },
+    "unlz4": {
+      "path": "/opt/homebrew/bin/unlz4",
+      "category": "other"
+    },
+    "unlzma": {
+      "path": "/opt/homebrew/bin/unlzma",
+      "category": "other"
+    },
+    "unpack200": {
+      "path": "/usr/bin/unpack200",
+      "category": "other"
+    },
+    "unvis": {
+      "path": "/usr/bin/unvis",
+      "category": "other"
+    },
+    "unxz": {
+      "path": "/opt/homebrew/bin/unxz",
+      "category": "filesystem"
+    },
+    "unzip": {
+      "path": "/usr/bin/unzip",
+      "category": "filesystem"
+    },
+    "unzipsfx": {
+      "path": "/usr/bin/unzipsfx",
+      "category": "other"
+    },
+    "unzstd": {
+      "path": "/opt/homebrew/bin/unzstd",
+      "category": "filesystem"
+    },
+    "update_dyld_shared_cache": {
+      "path": "/usr/bin/update_dyld_shared_cache",
+      "category": "other"
+    },
+    "update_mcdp29xx": {
+      "path": "/usr/bin/update_mcdp29xx",
+      "category": "other"
+    },
+    "uptime": {
+      "path": "/usr/bin/uptime",
+      "category": "other"
+    },
+    "usbcfwflasher": {
+      "path": "/usr/bin/usbcfwflasher",
+      "category": "other"
+    },
+    "usbdiagnose": {
+      "path": "/usr/bin/usbdiagnose",
+      "category": "other"
+    },
+    "usdcat": {
+      "path": "/usr/bin/usdcat",
+      "category": "other"
+    },
+    "usdchecker": {
+      "path": "/usr/bin/usdchecker",
+      "category": "other"
+    },
+    "usdcrush": {
+      "path": "/usr/bin/usdcrush",
+      "category": "other"
+    },
+    "usdextract": {
+      "path": "/usr/bin/usdextract",
+      "category": "other"
+    },
+    "usdrecord": {
+      "path": "/usr/bin/usdrecord",
+      "category": "other"
+    },
+    "usdtree": {
+      "path": "/usr/bin/usdtree",
+      "category": "other"
+    },
+    "usdzip": {
+      "path": "/usr/bin/usdzip",
+      "category": "other"
+    },
+    "users": {
+      "path": "/usr/bin/users",
+      "category": "other"
+    },
+    "uttype": {
+      "path": "/usr/bin/uttype",
+      "category": "other"
+    },
+    "uucp": {
+      "path": "/usr/bin/uucp",
+      "category": "other"
+    },
+    "uudecode": {
+      "path": "/usr/bin/uudecode",
+      "category": "other"
+    },
+    "uuencode": {
+      "path": "/usr/bin/uuencode",
+      "category": "other"
+    },
+    "uuidgen": {
+      "path": "/usr/bin/uuidgen",
+      "category": "other"
+    },
+    "uulog": {
+      "path": "/usr/bin/uulog",
+      "category": "other"
+    },
+    "uuname": {
+      "path": "/usr/bin/uuname",
+      "category": "other"
+    },
+    "uupick": {
+      "path": "/usr/bin/uupick",
+      "category": "other"
+    },
+    "uustat": {
+      "path": "/usr/bin/uustat",
+      "category": "other"
+    },
+    "uuto": {
+      "path": "/usr/bin/uuto",
+      "category": "other"
+    },
+    "uux": {
+      "path": "/usr/bin/uux",
+      "category": "other"
+    },
+    "uz": {
+      "path": "/opt/homebrew/bin/uz",
+      "category": "other"
+    },
+    "v": {
+      "path": "/opt/homebrew/bin/v",
+      "category": "other"
+    },
+    "vacuumdb": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/vacuumdb",
+      "category": "other"
+    },
+    "vacuumlo": {
+      "path": "/opt/homebrew/opt/postgresql@16/bin/vacuumlo",
+      "category": "other"
+    },
+    "vde_autolink": {
+      "path": "/opt/homebrew/bin/vde_autolink",
+      "category": "other"
+    },
+    "vde_over_ns": {
+      "path": "/opt/homebrew/bin/vde_over_ns",
+      "category": "other"
+    },
+    "vde_pcapplug": {
+      "path": "/opt/homebrew/bin/vde_pcapplug",
+      "category": "other"
+    },
+    "vde_plug": {
+      "path": "/opt/homebrew/bin/vde_plug",
+      "category": "other"
+    },
+    "vde_plug2tap": {
+      "path": "/opt/homebrew/bin/vde_plug2tap",
+      "category": "other"
+    },
+    "vde_router": {
+      "path": "/opt/homebrew/bin/vde_router",
+      "category": "other"
+    },
+    "vde_switch": {
+      "path": "/opt/homebrew/bin/vde_switch",
+      "category": "other"
+    },
+    "vdecmd": {
+      "path": "/opt/homebrew/bin/vdecmd",
+      "category": "other"
+    },
+    "vdeterm": {
+      "path": "/opt/homebrew/bin/vdeterm",
+      "category": "other"
+    },
+    "vi": {
+      "path": "/usr/bin/vi",
+      "category": "editor"
+    },
+    "view": {
+      "path": "/usr/bin/view",
+      "category": "other"
+    },
+    "viewdiagnostic": {
+      "path": "/usr/bin/viewdiagnostic",
+      "category": "other"
+    },
+    "vim": {
+      "path": "/usr/bin/vim",
+      "category": "editor"
+    },
+    "vimdiff": {
+      "path": "/usr/bin/vimdiff",
+      "category": "other"
+    },
+    "vimtutor": {
+      "path": "/usr/bin/vimtutor",
+      "category": "other"
+    },
+    "vis": {
+      "path": "/usr/bin/vis",
+      "category": "other"
+    },
+    "vm_stat": {
+      "path": "/usr/bin/vm_stat",
+      "category": "other"
+    },
+    "vmaf": {
+      "path": "/opt/homebrew/bin/vmaf",
+      "category": "other"
+    },
+    "vmmap": {
+      "path": "/usr/bin/vmmap",
+      "category": "other"
+    },
+    "vtool": {
+      "path": "/usr/bin/vtool",
+      "category": "other"
+    },
+    "vwebp": {
+      "path": "/opt/homebrew/bin/vwebp",
+      "category": "other"
+    },
+    "w": {
+      "path": "/usr/bin/w",
+      "category": "other"
+    },
+    "wait": {
+      "path": "/usr/bin/wait",
+      "category": "other"
+    },
+    "wait4path": {
+      "path": "/bin/wait4path",
+      "category": "other"
+    },
+    "wall": {
+      "path": "/usr/bin/wall",
+      "category": "other"
+    },
+    "watch": {
+      "path": "/opt/homebrew/bin/watch",
+      "category": "proc"
+    },
+    "wc": {
+      "path": "/usr/bin/wc",
+      "category": "text"
+    },
+    "wdutil": {
+      "path": "/usr/bin/wdutil",
+      "category": "other"
+    },
+    "webpinfo": {
+      "path": "/opt/homebrew/bin/webpinfo",
+      "category": "other"
+    },
+    "webpmux": {
+      "path": "/opt/homebrew/bin/webpmux",
+      "category": "other"
+    },
+    "webpng": {
+      "path": "/opt/homebrew/bin/webpng",
+      "category": "other"
+    },
+    "wget": {
+      "path": "/opt/homebrew/bin/wget",
+      "category": "network"
+    },
+    "what": {
+      "path": "/usr/bin/what",
+      "category": "other"
+    },
+    "whatis": {
+      "path": "/usr/bin/whatis",
+      "category": "other"
+    },
+    "wheel3": {
+      "path": "/opt/homebrew/bin/wheel3",
+      "category": "other"
+    },
+    "wheel3.11": {
+      "path": "/opt/homebrew/bin/wheel3.11",
+      "category": "other"
+    },
+    "wheel3.12": {
+      "path": "/opt/homebrew/bin/wheel3.12",
+      "category": "other"
+    },
+    "wheel3.14": {
+      "path": "/opt/homebrew/bin/wheel3.14",
+      "category": "other"
+    },
+    "whereis": {
+      "path": "/usr/bin/whereis",
+      "category": "other"
+    },
+    "which": {
+      "path": "/usr/bin/which",
+      "category": "other"
+    },
+    "who": {
+      "path": "/usr/bin/who",
+      "category": "other"
+    },
+    "whoami": {
+      "path": "/usr/bin/whoami",
+      "category": "other"
+    },
+    "whois": {
+      "path": "/usr/bin/whois",
+      "category": "network"
+    },
+    "wirefilter": {
+      "path": "/opt/homebrew/bin/wirefilter",
+      "category": "other"
+    },
+    "wish": {
+      "path": "/usr/bin/wish",
+      "category": "editor_cli"
+    },
+    "wish8.5": {
+      "path": "/usr/bin/wish8.5",
+      "category": "other"
+    },
+    "wish9.0": {
+      "path": "/opt/homebrew/bin/wish9.0",
+      "category": "other"
+    },
+    "write": {
+      "path": "/usr/bin/write",
+      "category": "other"
+    },
+    "wrjpgcom": {
+      "path": "/opt/homebrew/bin/wrjpgcom",
+      "category": "other"
+    },
+    "wx-config-3.2": {
+      "path": "/opt/homebrew/bin/wx-config-3.2",
+      "category": "other"
+    },
+    "wxrc-3.2": {
+      "path": "/opt/homebrew/bin/wxrc-3.2",
+      "category": "other"
+    },
+    "x265": {
+      "path": "/opt/homebrew/bin/x265",
+      "category": "other"
+    },
+    "xar": {
+      "path": "/usr/bin/xar",
+      "category": "other"
+    },
+    "xargs": {
+      "path": "/usr/bin/xargs",
+      "category": "other"
+    },
+    "xattr": {
+      "path": "/usr/bin/xattr",
+      "category": "other"
+    },
+    "xcdebug": {
+      "path": "/usr/bin/xcdebug",
+      "category": "other"
+    },
+    "xcode-select": {
+      "path": "/usr/bin/xcode-select",
+      "category": "other"
+    },
+    "xcodebuild": {
+      "path": "/usr/bin/xcodebuild",
+      "category": "other"
+    },
+    "xcrun": {
+      "path": "/usr/bin/xcrun",
+      "category": "other"
+    },
+    "xcscontrol": {
+      "path": "/usr/bin/xcscontrol",
+      "category": "other"
+    },
+    "xcsdiagnose": {
+      "path": "/usr/bin/xcsdiagnose",
+      "category": "other"
+    },
+    "xctrace": {
+      "path": "/usr/bin/xctrace",
+      "category": "other"
+    },
+    "xed": {
+      "path": "/usr/bin/xed",
+      "category": "other"
+    },
+    "xgettext": {
+      "path": "/opt/homebrew/bin/xgettext",
+      "category": "other"
+    },
+    "xgettext.pl": {
+      "path": "/usr/bin/xgettext.pl",
+      "category": "other"
+    },
+    "xgettext5.34.pl": {
+      "path": "/usr/bin/xgettext5.34.pl",
+      "category": "other"
+    },
+    "xip": {
+      "path": "/usr/bin/xip",
+      "category": "other"
+    },
+    "xml2-config": {
+      "path": "/usr/bin/xml2-config",
+      "category": "other"
+    },
+    "xml2man": {
+      "path": "/usr/bin/xml2man",
+      "category": "other"
+    },
+    "xmlcatalog": {
+      "path": "/usr/bin/xmlcatalog",
+      "category": "other"
+    },
+    "xmllint": {
+      "path": "/usr/bin/xmllint",
+      "category": "other"
+    },
+    "xorrecord": {
+      "path": "/opt/homebrew/bin/xorrecord",
+      "category": "other"
+    },
+    "xorriso": {
+      "path": "/opt/homebrew/bin/xorriso",
+      "category": "other"
+    },
+    "xorriso-tcltk": {
+      "path": "/opt/homebrew/bin/xorriso-tcltk",
+      "category": "other"
+    },
+    "xorrisofs": {
+      "path": "/opt/homebrew/bin/xorrisofs",
+      "category": "other"
+    },
+    "xpath": {
+      "path": "/usr/bin/xpath",
+      "category": "other"
+    },
+    "xpath5.34": {
+      "path": "/usr/bin/xpath5.34",
+      "category": "other"
+    },
+    "xprotect": {
+      "path": "/usr/bin/xprotect",
+      "category": "other"
+    },
+    "xslt-config": {
+      "path": "/usr/bin/xslt-config",
+      "category": "other"
+    },
+    "xsltproc": {
+      "path": "/usr/bin/xsltproc",
+      "category": "other"
+    },
+    "xsubpp": {
+      "path": "/usr/bin/xsubpp",
+      "category": "other"
+    },
+    "xsubpp5.34": {
+      "path": "/usr/bin/xsubpp5.34",
+      "category": "other"
+    },
+    "xxd": {
+      "path": "/usr/bin/xxd",
+      "category": "text"
+    },
+    "xz": {
+      "path": "/opt/homebrew/bin/xz",
+      "category": "filesystem"
+    },
+    "xzcat": {
+      "path": "/opt/homebrew/bin/xzcat",
+      "category": "other"
+    },
+    "xzcmp": {
+      "path": "/opt/homebrew/bin/xzcmp",
+      "category": "other"
+    },
+    "xzdec": {
+      "path": "/opt/homebrew/bin/xzdec",
+      "category": "other"
+    },
+    "xzdiff": {
+      "path": "/opt/homebrew/bin/xzdiff",
+      "category": "other"
+    },
+    "xzegrep": {
+      "path": "/opt/homebrew/bin/xzegrep",
+      "category": "other"
+    },
+    "xzfgrep": {
+      "path": "/opt/homebrew/bin/xzfgrep",
+      "category": "other"
+    },
+    "xzgrep": {
+      "path": "/opt/homebrew/bin/xzgrep",
+      "category": "other"
+    },
+    "xzless": {
+      "path": "/opt/homebrew/bin/xzless",
+      "category": "other"
+    },
+    "xzmore": {
+      "path": "/opt/homebrew/bin/xzmore",
+      "category": "other"
+    },
+    "yaa": {
+      "path": "/usr/bin/yaa",
+      "category": "other"
+    },
+    "yacc": {
+      "path": "/usr/bin/yacc",
+      "category": "other"
+    },
+    "yamlpp-events": {
+      "path": "/usr/bin/yamlpp-events",
+      "category": "other"
+    },
+    "yamlpp-events5.34": {
+      "path": "/usr/bin/yamlpp-events5.34",
+      "category": "other"
+    },
+    "yamlpp-highlight": {
+      "path": "/usr/bin/yamlpp-highlight",
+      "category": "other"
+    },
+    "yamlpp-highlight5.34": {
+      "path": "/usr/bin/yamlpp-highlight5.34",
+      "category": "other"
+    },
+    "yamlpp-load": {
+      "path": "/usr/bin/yamlpp-load",
+      "category": "other"
+    },
+    "yamlpp-load-dump": {
+      "path": "/usr/bin/yamlpp-load-dump",
+      "category": "other"
+    },
+    "yamlpp-load-dump5.34": {
+      "path": "/usr/bin/yamlpp-load-dump5.34",
+      "category": "other"
+    },
+    "yamlpp-load5.34": {
+      "path": "/usr/bin/yamlpp-load5.34",
+      "category": "other"
+    },
+    "yamlpp-parse-emit": {
+      "path": "/usr/bin/yamlpp-parse-emit",
+      "category": "other"
+    },
+    "yamlpp-parse-emit5.34": {
+      "path": "/usr/bin/yamlpp-parse-emit5.34",
+      "category": "other"
+    },
+    "yapp": {
+      "path": "/usr/bin/yapp",
+      "category": "other"
+    },
+    "yapp5.34": {
+      "path": "/usr/bin/yapp5.34",
+      "category": "other"
+    },
+    "yarn": {
+      "path": "/opt/homebrew/bin/yarn",
+      "category": "package"
+    },
+    "yarnpkg": {
+      "path": "/opt/homebrew/bin/yarnpkg",
+      "category": "other"
+    },
+    "yes": {
+      "path": "/usr/bin/yes",
+      "category": "other"
+    },
+    "z3": {
+      "path": "/opt/homebrew/bin/z3",
+      "category": "other"
+    },
+    "zcat": {
+      "path": "/usr/bin/zcat",
+      "category": "other"
+    },
+    "zcmp": {
+      "path": "/usr/bin/zcmp",
+      "category": "other"
+    },
+    "zdiff": {
+      "path": "/usr/bin/zdiff",
+      "category": "other"
+    },
+    "zegrep": {
+      "path": "/usr/bin/zegrep",
+      "category": "other"
+    },
+    "zfgrep": {
+      "path": "/usr/bin/zfgrep",
+      "category": "other"
+    },
+    "zforce": {
+      "path": "/usr/bin/zforce",
+      "category": "other"
+    },
+    "zgrep": {
+      "path": "/usr/bin/zgrep",
+      "category": "other"
+    },
+    "zig": {
+      "path": "/opt/homebrew/bin/zig",
+      "category": "build"
+    },
+    "zip": {
+      "path": "/usr/bin/zip",
+      "category": "filesystem"
+    },
+    "zipcloak": {
+      "path": "/usr/bin/zipcloak",
+      "category": "other"
+    },
+    "zipcmp": {
+      "path": "/opt/homebrew/bin/zipcmp",
+      "category": "other"
+    },
+    "zipdetails": {
+      "path": "/usr/bin/zipdetails",
+      "category": "other"
+    },
+    "zipdetails5.34": {
+      "path": "/usr/bin/zipdetails5.34",
+      "category": "other"
+    },
+    "zipgrep": {
+      "path": "/usr/bin/zipgrep",
+      "category": "other"
+    },
+    "zipinfo": {
+      "path": "/usr/bin/zipinfo",
+      "category": "other"
+    },
+    "zipmerge": {
+      "path": "/opt/homebrew/bin/zipmerge",
+      "category": "other"
+    },
+    "zipnote": {
+      "path": "/usr/bin/zipnote",
+      "category": "other"
+    },
+    "zipsplit": {
+      "path": "/usr/bin/zipsplit",
+      "category": "other"
+    },
+    "ziptool": {
+      "path": "/opt/homebrew/bin/ziptool",
+      "category": "other"
+    },
+    "zless": {
+      "path": "/usr/bin/zless",
+      "category": "other"
+    },
+    "zmore": {
+      "path": "/usr/bin/zmore",
+      "category": "other"
+    },
+    "znew": {
+      "path": "/usr/bin/znew",
+      "category": "other"
+    },
+    "zprint": {
+      "path": "/usr/bin/zprint",
+      "category": "other"
+    },
+    "zsh": {
+      "path": "/bin/zsh",
+      "category": "shell"
+    },
+    "zstd": {
+      "path": "/opt/homebrew/bin/zstd",
+      "category": "filesystem"
+    },
+    "zstdcat": {
+      "path": "/opt/homebrew/bin/zstdcat",
+      "category": "other"
+    },
+    "zstdgrep": {
+      "path": "/opt/homebrew/bin/zstdgrep",
+      "category": "other"
+    },
+    "zstdless": {
+      "path": "/opt/homebrew/bin/zstdless",
+      "category": "other"
+    },
+    "zstdmt": {
+      "path": "/opt/homebrew/bin/zstdmt",
+      "category": "other"
+    }
+  }
+}

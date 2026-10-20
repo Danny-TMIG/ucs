@@ -1,0 +1,85 @@
+{
+  "org": {
+    "owner": {
+      "description": "The single accountable party for the corpus",
+      "path": "/Users/metadusa",
+      "responsibilities": [
+        "approves changes to the chain key",
+        "decides which artifacts are promoted to used status",
+        "reviews the manifest weekly"
+      ]
+    },
+    "stewards": {
+      "vem": {
+        "owner": "index",
+        "scope": "~/vem-index/"
+      },
+      "hoods": {
+        "owner": "chain",
+        "scope": "~/ucs/hood_compilers/"
+      },
+      "isa": {
+        "owner": "registry",
+        "scope": "~/ucs/opcodes_all/"
+      },
+      "systems": {
+        "owner": "pipeline",
+        "scope": "~/ucs/systems/"
+      },
+      "enterprise": {
+        "owner": "classifier",
+        "scope": "~/ucs/enterprise/"
+      },
+      "uci": {
+        "owner": "coordinator",
+        "scope": "~/ucs/"
+      }
+    },
+    "roles": {
+      "index": "maintains VEM index; runs reindex on corpus change",
+      "chain": "rebuilds hood chain; re-signs after generator changes",
+      "registry": "adds ISAs; refreshes resolvers",
+      "pipeline": "keeps compiler chain green; owns bin/prog.asm",
+      "classifier": "re-runs enterprise map; owns ROOTS exclusion list",
+      "coordinator": "runs lastmile; owns the runbook"
+    }
+  },
+  "state": {
+    "vem": {
+      "owner": "index",
+      "scope": "vem-index",
+      "files": 16,
+      "bytes": 1236293
+    },
+    "hoods": {
+      "owner": "chain",
+      "scope": "ucs/hood_compilers",
+      "files": 81,
+      "bytes": 135872
+    },
+    "isa": {
+      "owner": "registry",
+      "scope": "ucs/opcodes_all",
+      "files": 11,
+      "bytes": 465033
+    },
+    "systems": {
+      "owner": "pipeline",
+      "scope": "ucs/systems",
+      "files": 20,
+      "bytes": 89706
+    },
+    "enterprise": {
+      "owner": "classifier",
+      "scope": "ucs/enterprise",
+      "files": 5,
+      "bytes": 88563
+    },
+    "uci": {
+      "owner": "coordinator",
+      "scope": "ucs",
+      "files": 4612,
+      "bytes": 5992076
+    }
+  }
+}

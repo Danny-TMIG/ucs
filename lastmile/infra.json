@@ -1,0 +1,81 @@
+{
+  "ports": {
+    "19800": true,
+    "19801": true,
+    "19802": true
+  },
+  "key": {
+    "exists": true,
+    "mode": "0o600",
+    "bytes": 32
+  },
+  "services": [
+    {
+      "name": "vem",
+      "ports": [
+        19800,
+        19801,
+        19802
+      ],
+      "depends_on": []
+    },
+    {
+      "name": "vem-index",
+      "ports": [],
+      "depends_on": [
+        "vem"
+      ]
+    },
+    {
+      "name": "hoods",
+      "ports": [],
+      "depends_on": []
+    },
+    {
+      "name": "chain",
+      "ports": [],
+      "depends_on": [
+        "hoods"
+      ]
+    },
+    {
+      "name": "enterprise",
+      "ports": [],
+      "depends_on": []
+    }
+  ],
+  "dirs": {
+    "vem-index": {
+      "exists": true,
+      "files": 17
+    },
+    "ucs": {
+      "exists": true,
+      "files": 4657
+    },
+    "ucs/hood_compilers": {
+      "exists": true,
+      "files": 84
+    },
+    "ucs/opcodes_all": {
+      "exists": true,
+      "files": 11
+    },
+    "ucs/systems": {
+      "exists": true,
+      "files": 30
+    },
+    "ucs/enterprise": {
+      "exists": true,
+      "files": 5
+    },
+    "ucs/lastmile": {
+      "exists": true,
+      "files": 4
+    }
+  },
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64"
+  }
+}

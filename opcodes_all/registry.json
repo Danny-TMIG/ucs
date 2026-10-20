@@ -1,0 +1,6363 @@
+{
+  "generated_at": "2026-09-11T14:50:41Z",
+  "isas": {
+    "objdump-arm64": {
+      "count": 0,
+      "source": "objdump",
+      "opcodes": []
+    },
+    "cpython": {
+      "count": 2,
+      "source": "python opcode module",
+      "opcodes": [
+        {
+          "mnemonic": "HAVE_ARGUMENT",
+          "operands": [
+            "stack"
+          ],
+          "encoding": "0x5a",
+          "semantics": "",
+          "isa": "cpython",
+          "source": "cpython"
+        },
+        {
+          "mnemonic": "EXTENDED_ARG",
+          "operands": [
+            "stack"
+          ],
+          "encoding": "0x90",
+          "semantics": "",
+          "isa": "cpython",
+          "source": "cpython"
+        }
+      ]
+    },
+    "wasm": {
+      "count": 71,
+      "source": "WebAssembly MVP spec 1.0",
+      "opcodes": [
+        {
+          "mnemonic": "unreachable",
+          "operands": [],
+          "encoding": "0x00",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "nop",
+          "operands": [],
+          "encoding": "0x01",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "block",
+          "operands": [
+            "blocktype"
+          ],
+          "encoding": "0x02",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "loop",
+          "operands": [
+            "blocktype"
+          ],
+          "encoding": "0x03",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "if",
+          "operands": [
+            "blocktype"
+          ],
+          "encoding": "0x04",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "else",
+          "operands": [],
+          "encoding": "0x05",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "end",
+          "operands": [],
+          "encoding": "0x0b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "br",
+          "operands": [
+            "label"
+          ],
+          "encoding": "0x0c",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "br_if",
+          "operands": [
+            "label"
+          ],
+          "encoding": "0x0d",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "br_table",
+          "operands": [
+            "labels"
+          ],
+          "encoding": "0x0e",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "return",
+          "operands": [],
+          "encoding": "0x0f",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "call",
+          "operands": [
+            "funcidx"
+          ],
+          "encoding": "0x10",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "call_indirect",
+          "operands": [
+            "typeidx",
+            "tableidx"
+          ],
+          "encoding": "0x11",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "drop",
+          "operands": [],
+          "encoding": "0x1a",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "select",
+          "operands": [],
+          "encoding": "0x1b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "local.get",
+          "operands": [
+            "localidx"
+          ],
+          "encoding": "0x20",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "local.set",
+          "operands": [
+            "localidx"
+          ],
+          "encoding": "0x21",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "local.tee",
+          "operands": [
+            "localidx"
+          ],
+          "encoding": "0x22",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "global.get",
+          "operands": [
+            "globalidx"
+          ],
+          "encoding": "0x23",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "global.set",
+          "operands": [
+            "globalidx"
+          ],
+          "encoding": "0x24",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.load",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x28",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.load",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x29",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.load",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x2a",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.load",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x2b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.store",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x36",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.store",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x37",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.store",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x3a",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.store",
+          "operands": [
+            "memarg"
+          ],
+          "encoding": "0x3b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.const",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x41",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.const",
+          "operands": [
+            "i64"
+          ],
+          "encoding": "0x42",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.const",
+          "operands": [
+            "f32"
+          ],
+          "encoding": "0x43",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.const",
+          "operands": [
+            "f64"
+          ],
+          "encoding": "0x44",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.eqz",
+          "operands": [],
+          "encoding": "0x45",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.eq",
+          "operands": [],
+          "encoding": "0x46",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.ne",
+          "operands": [],
+          "encoding": "0x47",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.lt_s",
+          "operands": [],
+          "encoding": "0x48",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.lt_u",
+          "operands": [],
+          "encoding": "0x49",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.gt_s",
+          "operands": [],
+          "encoding": "0x4a",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.gt_u",
+          "operands": [],
+          "encoding": "0x4b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.le_s",
+          "operands": [],
+          "encoding": "0x4c",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.le_u",
+          "operands": [],
+          "encoding": "0x4d",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.ge_s",
+          "operands": [],
+          "encoding": "0x4e",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.ge_u",
+          "operands": [],
+          "encoding": "0x4f",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.add",
+          "operands": [],
+          "encoding": "0x6a",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.sub",
+          "operands": [],
+          "encoding": "0x6b",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.mul",
+          "operands": [],
+          "encoding": "0x6c",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.div_s",
+          "operands": [],
+          "encoding": "0x6d",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.div_u",
+          "operands": [],
+          "encoding": "0x6e",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.rem_s",
+          "operands": [],
+          "encoding": "0x6f",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.rem_u",
+          "operands": [],
+          "encoding": "0x70",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.and",
+          "operands": [],
+          "encoding": "0x71",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.or",
+          "operands": [],
+          "encoding": "0x72",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.xor",
+          "operands": [],
+          "encoding": "0x73",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.shl",
+          "operands": [],
+          "encoding": "0x74",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.shr_s",
+          "operands": [],
+          "encoding": "0x75",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.shr_u",
+          "operands": [],
+          "encoding": "0x76",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.rotl",
+          "operands": [],
+          "encoding": "0x77",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i32.rotr",
+          "operands": [],
+          "encoding": "0x78",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.add",
+          "operands": [],
+          "encoding": "0x7c",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.sub",
+          "operands": [],
+          "encoding": "0x7d",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.mul",
+          "operands": [],
+          "encoding": "0x7e",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.div_s",
+          "operands": [],
+          "encoding": "0x7f",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "i64.div_u",
+          "operands": [],
+          "encoding": "0x80",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.add",
+          "operands": [],
+          "encoding": "0x92",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.sub",
+          "operands": [],
+          "encoding": "0x93",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.mul",
+          "operands": [],
+          "encoding": "0x94",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f32.div",
+          "operands": [],
+          "encoding": "0x95",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.add",
+          "operands": [],
+          "encoding": "0xa0",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.sub",
+          "operands": [],
+          "encoding": "0xa1",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.mul",
+          "operands": [],
+          "encoding": "0xa2",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        },
+        {
+          "mnemonic": "f64.div",
+          "operands": [],
+          "encoding": "0xa3",
+          "semantics": "",
+          "isa": "wasm",
+          "source": "wasm-1.0"
+        }
+      ]
+    },
+    "jvm": {
+      "count": 202,
+      "source": "JVMS \u00a76.5",
+      "opcodes": [
+        {
+          "mnemonic": "nop",
+          "operands": [],
+          "encoding": "0x00",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aconst_null",
+          "operands": [],
+          "encoding": "0x01",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_m1",
+          "operands": [],
+          "encoding": "0x02",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_0",
+          "operands": [],
+          "encoding": "0x03",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_1",
+          "operands": [],
+          "encoding": "0x04",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_2",
+          "operands": [],
+          "encoding": "0x05",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_3",
+          "operands": [],
+          "encoding": "0x06",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_4",
+          "operands": [],
+          "encoding": "0x07",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iconst_5",
+          "operands": [],
+          "encoding": "0x08",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lconst_0",
+          "operands": [],
+          "encoding": "0x09",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lconst_1",
+          "operands": [],
+          "encoding": "0x0a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fconst_0",
+          "operands": [],
+          "encoding": "0x0b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fconst_1",
+          "operands": [],
+          "encoding": "0x0c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fconst_2",
+          "operands": [],
+          "encoding": "0x0d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dconst_0",
+          "operands": [],
+          "encoding": "0x0e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dconst_1",
+          "operands": [],
+          "encoding": "0x0f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "bipush",
+          "operands": [
+            "byte"
+          ],
+          "encoding": "0x10",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "sipush",
+          "operands": [
+            "short"
+          ],
+          "encoding": "0x11",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ldc",
+          "operands": [
+            "cp"
+          ],
+          "encoding": "0x12",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ldc_w",
+          "operands": [
+            "cp"
+          ],
+          "encoding": "0x13",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ldc2_w",
+          "operands": [
+            "cp"
+          ],
+          "encoding": "0x14",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iload",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x15",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lload",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x16",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fload",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x17",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dload",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x18",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aload",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x19",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iload_0",
+          "operands": [],
+          "encoding": "0x1a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iload_1",
+          "operands": [],
+          "encoding": "0x1b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iload_2",
+          "operands": [],
+          "encoding": "0x1c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iload_3",
+          "operands": [],
+          "encoding": "0x1d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lload_0",
+          "operands": [],
+          "encoding": "0x1e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lload_1",
+          "operands": [],
+          "encoding": "0x1f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lload_2",
+          "operands": [],
+          "encoding": "0x20",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lload_3",
+          "operands": [],
+          "encoding": "0x21",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fload_0",
+          "operands": [],
+          "encoding": "0x22",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fload_1",
+          "operands": [],
+          "encoding": "0x23",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fload_2",
+          "operands": [],
+          "encoding": "0x24",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fload_3",
+          "operands": [],
+          "encoding": "0x25",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dload_0",
+          "operands": [],
+          "encoding": "0x26",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dload_1",
+          "operands": [],
+          "encoding": "0x27",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dload_2",
+          "operands": [],
+          "encoding": "0x28",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dload_3",
+          "operands": [],
+          "encoding": "0x29",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aload_0",
+          "operands": [],
+          "encoding": "0x2a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aload_1",
+          "operands": [],
+          "encoding": "0x2b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aload_2",
+          "operands": [],
+          "encoding": "0x2c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aload_3",
+          "operands": [],
+          "encoding": "0x2d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iaload",
+          "operands": [],
+          "encoding": "0x2e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "laload",
+          "operands": [],
+          "encoding": "0x2f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "faload",
+          "operands": [],
+          "encoding": "0x30",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "daload",
+          "operands": [],
+          "encoding": "0x31",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aaload",
+          "operands": [],
+          "encoding": "0x32",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "baload",
+          "operands": [],
+          "encoding": "0x33",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "caload",
+          "operands": [],
+          "encoding": "0x34",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "saload",
+          "operands": [],
+          "encoding": "0x35",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "istore",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x36",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lstore",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x37",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fstore",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x38",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dstore",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x39",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "astore",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0x3a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "istore_0",
+          "operands": [],
+          "encoding": "0x3b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "istore_1",
+          "operands": [],
+          "encoding": "0x3c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "istore_2",
+          "operands": [],
+          "encoding": "0x3d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "istore_3",
+          "operands": [],
+          "encoding": "0x3e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lstore_0",
+          "operands": [],
+          "encoding": "0x3f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lstore_1",
+          "operands": [],
+          "encoding": "0x40",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lstore_2",
+          "operands": [],
+          "encoding": "0x41",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lstore_3",
+          "operands": [],
+          "encoding": "0x42",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fstore_0",
+          "operands": [],
+          "encoding": "0x43",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fstore_1",
+          "operands": [],
+          "encoding": "0x44",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fstore_2",
+          "operands": [],
+          "encoding": "0x45",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fstore_3",
+          "operands": [],
+          "encoding": "0x46",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dstore_0",
+          "operands": [],
+          "encoding": "0x47",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dstore_1",
+          "operands": [],
+          "encoding": "0x48",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dstore_2",
+          "operands": [],
+          "encoding": "0x49",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dstore_3",
+          "operands": [],
+          "encoding": "0x4a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "astore_0",
+          "operands": [],
+          "encoding": "0x4b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "astore_1",
+          "operands": [],
+          "encoding": "0x4c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "astore_2",
+          "operands": [],
+          "encoding": "0x4d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "astore_3",
+          "operands": [],
+          "encoding": "0x4e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iastore",
+          "operands": [],
+          "encoding": "0x4f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lastore",
+          "operands": [],
+          "encoding": "0x50",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fastore",
+          "operands": [],
+          "encoding": "0x51",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dastore",
+          "operands": [],
+          "encoding": "0x52",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "aastore",
+          "operands": [],
+          "encoding": "0x53",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "bastore",
+          "operands": [],
+          "encoding": "0x54",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "castore",
+          "operands": [],
+          "encoding": "0x55",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "sastore",
+          "operands": [],
+          "encoding": "0x56",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "pop",
+          "operands": [],
+          "encoding": "0x57",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "pop2",
+          "operands": [],
+          "encoding": "0x58",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup",
+          "operands": [],
+          "encoding": "0x59",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup_x1",
+          "operands": [],
+          "encoding": "0x5a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup_x2",
+          "operands": [],
+          "encoding": "0x5b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup2",
+          "operands": [],
+          "encoding": "0x5c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup2_x1",
+          "operands": [],
+          "encoding": "0x5d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dup2_x2",
+          "operands": [],
+          "encoding": "0x5e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "swap",
+          "operands": [],
+          "encoding": "0x5f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iadd",
+          "operands": [],
+          "encoding": "0x60",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ladd",
+          "operands": [],
+          "encoding": "0x61",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fadd",
+          "operands": [],
+          "encoding": "0x62",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dadd",
+          "operands": [],
+          "encoding": "0x63",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "isub",
+          "operands": [],
+          "encoding": "0x64",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lsub",
+          "operands": [],
+          "encoding": "0x65",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fsub",
+          "operands": [],
+          "encoding": "0x66",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dsub",
+          "operands": [],
+          "encoding": "0x67",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "imul",
+          "operands": [],
+          "encoding": "0x68",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lmul",
+          "operands": [],
+          "encoding": "0x69",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fmul",
+          "operands": [],
+          "encoding": "0x6a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dmul",
+          "operands": [],
+          "encoding": "0x6b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "idiv",
+          "operands": [],
+          "encoding": "0x6c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ldiv",
+          "operands": [],
+          "encoding": "0x6d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fdiv",
+          "operands": [],
+          "encoding": "0x6e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ddiv",
+          "operands": [],
+          "encoding": "0x6f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "irem",
+          "operands": [],
+          "encoding": "0x70",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lrem",
+          "operands": [],
+          "encoding": "0x71",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "frem",
+          "operands": [],
+          "encoding": "0x72",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "drem",
+          "operands": [],
+          "encoding": "0x73",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ineg",
+          "operands": [],
+          "encoding": "0x74",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lneg",
+          "operands": [],
+          "encoding": "0x75",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fneg",
+          "operands": [],
+          "encoding": "0x76",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dneg",
+          "operands": [],
+          "encoding": "0x77",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ishl",
+          "operands": [],
+          "encoding": "0x78",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lshl",
+          "operands": [],
+          "encoding": "0x79",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ishr",
+          "operands": [],
+          "encoding": "0x7a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lshr",
+          "operands": [],
+          "encoding": "0x7b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iushr",
+          "operands": [],
+          "encoding": "0x7c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lushr",
+          "operands": [],
+          "encoding": "0x7d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iand",
+          "operands": [],
+          "encoding": "0x7e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "land",
+          "operands": [],
+          "encoding": "0x7f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ior",
+          "operands": [],
+          "encoding": "0x80",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lor",
+          "operands": [],
+          "encoding": "0x81",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ixor",
+          "operands": [],
+          "encoding": "0x82",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lxor",
+          "operands": [],
+          "encoding": "0x83",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iinc",
+          "operands": [
+            "local",
+            "byte"
+          ],
+          "encoding": "0x84",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2l",
+          "operands": [],
+          "encoding": "0x85",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2f",
+          "operands": [],
+          "encoding": "0x86",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2d",
+          "operands": [],
+          "encoding": "0x87",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "l2i",
+          "operands": [],
+          "encoding": "0x88",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "l2f",
+          "operands": [],
+          "encoding": "0x89",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "l2d",
+          "operands": [],
+          "encoding": "0x8a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "f2i",
+          "operands": [],
+          "encoding": "0x8b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "f2l",
+          "operands": [],
+          "encoding": "0x8c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "f2d",
+          "operands": [],
+          "encoding": "0x8d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "d2i",
+          "operands": [],
+          "encoding": "0x8e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "d2l",
+          "operands": [],
+          "encoding": "0x8f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "d2f",
+          "operands": [],
+          "encoding": "0x90",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2b",
+          "operands": [],
+          "encoding": "0x91",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2c",
+          "operands": [],
+          "encoding": "0x92",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "i2s",
+          "operands": [],
+          "encoding": "0x93",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lcmp",
+          "operands": [],
+          "encoding": "0x94",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fcmpl",
+          "operands": [],
+          "encoding": "0x95",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "fcmpg",
+          "operands": [],
+          "encoding": "0x96",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dcmpl",
+          "operands": [],
+          "encoding": "0x97",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dcmpg",
+          "operands": [],
+          "encoding": "0x98",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifeq",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x99",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifne",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9a",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "iflt",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9b",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifge",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9c",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifgt",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9d",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifle",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9e",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmpeq",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0x9f",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmpne",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa0",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmplt",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa1",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmpge",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa2",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmpgt",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa3",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_icmple",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa4",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_acmpeq",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa5",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "if_acmpne",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa6",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "goto",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa7",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "jsr",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xa8",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ret",
+          "operands": [
+            "local"
+          ],
+          "encoding": "0xa9",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "tableswitch",
+          "operands": [
+            "table"
+          ],
+          "encoding": "0xaa",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lookupswitch",
+          "operands": [
+            "table"
+          ],
+          "encoding": "0xab",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ireturn",
+          "operands": [],
+          "encoding": "0xac",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "lreturn",
+          "operands": [],
+          "encoding": "0xad",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "freturn",
+          "operands": [],
+          "encoding": "0xae",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "dreturn",
+          "operands": [],
+          "encoding": "0xaf",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "areturn",
+          "operands": [],
+          "encoding": "0xb0",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "return",
+          "operands": [],
+          "encoding": "0xb1",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "getstatic",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0xb2",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "putstatic",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0xb3",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "getfield",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0xb4",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "putfield",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0xb5",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "invokevirtual",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0xb6",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "invokespecial",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0xb7",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "invokestatic",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0xb8",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "invokeinterface",
+          "operands": [
+            "method",
+            "count"
+          ],
+          "encoding": "0xb9",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "invokedynamic",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0xba",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "new",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0xbb",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "newarray",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xbc",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "anewarray",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0xbd",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "arraylength",
+          "operands": [],
+          "encoding": "0xbe",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "athrow",
+          "operands": [],
+          "encoding": "0xbf",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "checkcast",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0xc0",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "instanceof",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0xc1",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "monitorenter",
+          "operands": [],
+          "encoding": "0xc2",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "monitorexit",
+          "operands": [],
+          "encoding": "0xc3",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "wide",
+          "operands": [],
+          "encoding": "0xc4",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "multianewarray",
+          "operands": [
+            "class",
+            "dims"
+          ],
+          "encoding": "0xc5",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifnull",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xc6",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "ifnonnull",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xc7",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "goto_w",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xc8",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        },
+        {
+          "mnemonic": "jsr_w",
+          "operands": [
+            "branch"
+          ],
+          "encoding": "0xc9",
+          "semantics": "",
+          "isa": "jvm",
+          "source": "JVMS-6.5"
+        }
+      ]
+    },
+    "cil": {
+      "count": 162,
+      "source": "ECMA-335 \u00a7III",
+      "opcodes": [
+        {
+          "mnemonic": "nop",
+          "operands": [],
+          "encoding": "0x00",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "break",
+          "operands": [],
+          "encoding": "0x01",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarg.0",
+          "operands": [],
+          "encoding": "0x02",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarg.1",
+          "operands": [],
+          "encoding": "0x03",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarg.2",
+          "operands": [],
+          "encoding": "0x04",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarg.3",
+          "operands": [],
+          "encoding": "0x05",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloc.0",
+          "operands": [],
+          "encoding": "0x06",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloc.1",
+          "operands": [],
+          "encoding": "0x07",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloc.2",
+          "operands": [],
+          "encoding": "0x08",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloc.3",
+          "operands": [],
+          "encoding": "0x09",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stloc.0",
+          "operands": [],
+          "encoding": "0x0a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stloc.1",
+          "operands": [],
+          "encoding": "0x0b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stloc.2",
+          "operands": [],
+          "encoding": "0x0c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stloc.3",
+          "operands": [],
+          "encoding": "0x0d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarg.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x0e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldarga.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x0f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "starg.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x10",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloc.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x11",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldloca.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x12",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stloc.s",
+          "operands": [
+            "u8"
+          ],
+          "encoding": "0x13",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldnull",
+          "operands": [],
+          "encoding": "0x14",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.m1",
+          "operands": [],
+          "encoding": "0x15",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.0",
+          "operands": [],
+          "encoding": "0x16",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.1",
+          "operands": [],
+          "encoding": "0x17",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.2",
+          "operands": [],
+          "encoding": "0x18",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.3",
+          "operands": [],
+          "encoding": "0x19",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.4",
+          "operands": [],
+          "encoding": "0x1a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.5",
+          "operands": [],
+          "encoding": "0x1b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.6",
+          "operands": [],
+          "encoding": "0x1c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.7",
+          "operands": [],
+          "encoding": "0x1d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.8",
+          "operands": [],
+          "encoding": "0x1e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x1f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i4",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x20",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.i8",
+          "operands": [
+            "i64"
+          ],
+          "encoding": "0x21",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.r4",
+          "operands": [
+            "f32"
+          ],
+          "encoding": "0x22",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldc.r8",
+          "operands": [
+            "f64"
+          ],
+          "encoding": "0x23",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "dup",
+          "operands": [],
+          "encoding": "0x25",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "pop",
+          "operands": [],
+          "encoding": "0x26",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "jmp",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0x27",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "call",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0x28",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "calli",
+          "operands": [
+            "sig"
+          ],
+          "encoding": "0x29",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ret",
+          "operands": [],
+          "encoding": "0x2a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "br.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x2b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "brfalse.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x2c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "brtrue.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x2d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "beq.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x2e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bge.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x2f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bgt.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x30",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ble.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x31",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "blt.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x32",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bne.un.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x33",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bge.un.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x37",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bgt.un.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x38",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ble.un.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x39",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "blt.un.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0x3a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "br",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x3b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "brfalse",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x3c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "brtrue",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x3d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "beq",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x3e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bge",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x3f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bgt",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x40",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ble",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x41",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "blt",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x42",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bne.un",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x43",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bge.un",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x44",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "bgt.un",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x45",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ble.un",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x46",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "blt.un",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0x47",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "switch",
+          "operands": [
+            "u32"
+          ],
+          "encoding": "0x48",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "add",
+          "operands": [],
+          "encoding": "0x58",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "sub",
+          "operands": [],
+          "encoding": "0x59",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "mul",
+          "operands": [],
+          "encoding": "0x5a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "div",
+          "operands": [],
+          "encoding": "0x5b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "div.un",
+          "operands": [],
+          "encoding": "0x5c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "rem",
+          "operands": [],
+          "encoding": "0x5d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "rem.un",
+          "operands": [],
+          "encoding": "0x5e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "and",
+          "operands": [],
+          "encoding": "0x5f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "or",
+          "operands": [],
+          "encoding": "0x60",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "xor",
+          "operands": [],
+          "encoding": "0x61",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "shl",
+          "operands": [],
+          "encoding": "0x62",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "shr",
+          "operands": [],
+          "encoding": "0x63",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "shr.un",
+          "operands": [],
+          "encoding": "0x64",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "neg",
+          "operands": [],
+          "encoding": "0x65",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "not",
+          "operands": [],
+          "encoding": "0x66",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.i1",
+          "operands": [],
+          "encoding": "0x67",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.i2",
+          "operands": [],
+          "encoding": "0x68",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.i4",
+          "operands": [],
+          "encoding": "0x69",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.i8",
+          "operands": [],
+          "encoding": "0x6a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.r4",
+          "operands": [],
+          "encoding": "0x6b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.r8",
+          "operands": [],
+          "encoding": "0x6c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.u4",
+          "operands": [],
+          "encoding": "0x6d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.u8",
+          "operands": [],
+          "encoding": "0x6e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "callvirt",
+          "operands": [
+            "method"
+          ],
+          "encoding": "0x6f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "cpobj",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x70",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldobj",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x71",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldstr",
+          "operands": [
+            "string"
+          ],
+          "encoding": "0x72",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "newobj",
+          "operands": [
+            "ctor"
+          ],
+          "encoding": "0x73",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "castclass",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0x74",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "isinst",
+          "operands": [
+            "class"
+          ],
+          "encoding": "0x75",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.r.un",
+          "operands": [],
+          "encoding": "0x76",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "unbox",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x79",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "throw",
+          "operands": [],
+          "encoding": "0x7a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldfld",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x7b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldflda",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x7c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stfld",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x7d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldsfld",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x7e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldsflda",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x7f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stsfld",
+          "operands": [
+            "field"
+          ],
+          "encoding": "0x80",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stobj",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x81",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "box",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x8c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "newarr",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x8d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldlen",
+          "operands": [],
+          "encoding": "0x8e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelema",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0x8f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.i1",
+          "operands": [],
+          "encoding": "0x90",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.u1",
+          "operands": [],
+          "encoding": "0x91",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.i2",
+          "operands": [],
+          "encoding": "0x92",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.u2",
+          "operands": [],
+          "encoding": "0x93",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.i4",
+          "operands": [],
+          "encoding": "0x94",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.u4",
+          "operands": [],
+          "encoding": "0x95",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.i8",
+          "operands": [],
+          "encoding": "0x96",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.r4",
+          "operands": [],
+          "encoding": "0x97",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.r8",
+          "operands": [],
+          "encoding": "0x98",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem.ref",
+          "operands": [],
+          "encoding": "0x9a",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.i",
+          "operands": [],
+          "encoding": "0x9b",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.i1",
+          "operands": [],
+          "encoding": "0x9c",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.i2",
+          "operands": [],
+          "encoding": "0x9d",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.i4",
+          "operands": [],
+          "encoding": "0x9e",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.i8",
+          "operands": [],
+          "encoding": "0x9f",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.r4",
+          "operands": [],
+          "encoding": "0xa0",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.r8",
+          "operands": [],
+          "encoding": "0xa1",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem.ref",
+          "operands": [],
+          "encoding": "0xa2",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldelem",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xa3",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stelem",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xa4",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "unbox.any",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xa5",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.i1",
+          "operands": [],
+          "encoding": "0xb3",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.u1",
+          "operands": [],
+          "encoding": "0xb4",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.i2",
+          "operands": [],
+          "encoding": "0xb5",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.u2",
+          "operands": [],
+          "encoding": "0xb6",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.i4",
+          "operands": [],
+          "encoding": "0xb7",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.u4",
+          "operands": [],
+          "encoding": "0xb8",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.i8",
+          "operands": [],
+          "encoding": "0xb9",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.u8",
+          "operands": [],
+          "encoding": "0xba",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "refanyval",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xc2",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ckfinite",
+          "operands": [],
+          "encoding": "0xc3",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "mkrefany",
+          "operands": [
+            "type"
+          ],
+          "encoding": "0xc6",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "ldtoken",
+          "operands": [
+            "token"
+          ],
+          "encoding": "0xd0",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.u2",
+          "operands": [],
+          "encoding": "0xd1",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.u1",
+          "operands": [],
+          "encoding": "0xd2",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.i",
+          "operands": [],
+          "encoding": "0xd3",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.i",
+          "operands": [],
+          "encoding": "0xd4",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.ovf.u",
+          "operands": [],
+          "encoding": "0xd5",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "add.ovf",
+          "operands": [],
+          "encoding": "0xd6",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "add.ovf.un",
+          "operands": [],
+          "encoding": "0xd7",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "mul.ovf",
+          "operands": [],
+          "encoding": "0xd8",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "mul.ovf.un",
+          "operands": [],
+          "encoding": "0xd9",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "sub.ovf",
+          "operands": [],
+          "encoding": "0xda",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "sub.ovf.un",
+          "operands": [],
+          "encoding": "0xdb",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "endfinally",
+          "operands": [],
+          "encoding": "0xdc",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "leave",
+          "operands": [
+            "i32"
+          ],
+          "encoding": "0xdd",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "leave.s",
+          "operands": [
+            "i8"
+          ],
+          "encoding": "0xde",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "stind.i",
+          "operands": [],
+          "encoding": "0xdf",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        },
+        {
+          "mnemonic": "conv.u",
+          "operands": [],
+          "encoding": "0xe0",
+          "semantics": "",
+          "isa": "cil",
+          "source": "ECMA-335"
+        }
+      ]
+    },
+    "llvm-ir": {
+      "count": 65,
+      "source": "LLVM LangRef",
+      "opcodes": [
+        {
+          "mnemonic": "ret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "br",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "switch",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "indirectbr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "invoke",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "callbr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "resume",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "catchswitch",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "catchret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "cleanupret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "unreachable",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fneg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "add",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fadd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "sub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fsub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "mul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fmul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "udiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "sdiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fdiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "urem",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "srem",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "frem",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "shl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "lshr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "ashr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "and",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "or",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "xor",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "extractelement",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "insertelement",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "shufflevector",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "extractvalue",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "insertvalue",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "alloca",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "load",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "store",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fence",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "cmpxchg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "atomicrmw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "getelementptr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "trunc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "zext",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "sext",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fptrunc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fpext",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fptoui",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fptosi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "uitofp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "sitofp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "ptrtoint",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "inttoptr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "bitcast",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "addrspacecast",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "icmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "fcmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "phi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "select",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "freeze",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "call",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "va_arg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "landingpad",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "catchpad",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        },
+        {
+          "mnemonic": "cleanuppad",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "llvm-ir",
+          "source": "LLVM-LangRef"
+        }
+      ]
+    },
+    "x86-64": {
+      "count": 67,
+      "source": "Intel SDM Vol 2",
+      "opcodes": [
+        {
+          "mnemonic": "mov",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movzx",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movsx",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "lea",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "push",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "pop",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "xchg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "add",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "sub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "mul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "imul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "div",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "idiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "inc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "dec",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "neg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "and",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "or",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "xor",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "not",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "shl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "shr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "sar",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "rol",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "ror",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "cmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "test",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "je",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jne",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jnz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jg",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jge",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jle",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "ja",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jae",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jb",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jbe",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jo",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jno",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "js",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "jns",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "call",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "ret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "leave",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "enter",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "nop",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "hlt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "int",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "syscall",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "sysret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "cpuid",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "rdtsc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movsd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movss",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movaps",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "movups",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "addsd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "subsd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "mulsd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "divsd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "cvtsi2sd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "cvtsd2si",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "ucomisd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        },
+        {
+          "mnemonic": "comisd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "x86-64",
+          "source": "Intel-SDM-V2"
+        }
+      ]
+    },
+    "arm64": {
+      "count": 78,
+      "source": "Arm ARMv8-A",
+      "opcodes": [
+        {
+          "mnemonic": "mov",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "movz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "movk",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "movn",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldrb",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldrh",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "str",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "strb",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "strh",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "stp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldur",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "stur",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "adr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "adrp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "add",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "adds",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "sub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "subs",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "mul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "madd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "msub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "sdiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "udiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "and",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "orr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "eor",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "bic",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "lsl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "lsr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "asr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ror",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "cmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "cmn",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "tst",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.eq",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.ne",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.lt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.le",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.gt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.ge",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.hi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.hs",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.lo",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "b.ls",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "cbz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "cbnz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "tbz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "tbnz",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "bl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "blr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "br",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "eret",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "svc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "hvc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "smc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "brk",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "hlt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "nop",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "yield",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "wfe",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "wfi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "sev",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "sevl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fmov",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fadd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fsub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fmul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fdiv",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fcmp",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fcsel",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "scvtf",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "fcvtzs",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "ldr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        },
+        {
+          "mnemonic": "str",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "arm64",
+          "source": "Arm-ARMv8-A"
+        }
+      ]
+    },
+    "riscv": {
+      "count": 103,
+      "source": "RISC-V Unpriv ISA 20191213",
+      "opcodes": [
+        {
+          "mnemonic": "lui",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "auipc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "jal",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "jalr",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "beq",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "bne",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "blt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "bge",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "bltu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "bgeu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lb",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lh",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lbu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lhu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sb",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sh",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "addi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "slti",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sltiu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "xori",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "ori",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "andi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "slli",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "srli",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "srai",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "add",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sub",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sll",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "slt",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sltu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "xor",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "srl",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sra",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "or",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "and",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fence",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fence.i",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "ecall",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "ebreak",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrs",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrc",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrwi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrsi",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "csrrci",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "mul",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "mulh",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "mulhsu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "mulhu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "div",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "divu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "rem",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "remu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "flw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmadd.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmsub.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fnmsub.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fnmadd.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fadd.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsub.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmul.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fdiv.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsqrt.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsgnj.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsgnjn.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fsgnjx.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmin.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmax.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fcvt.w.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fcvt.wu.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmv.x.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "feq.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "flt.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fle.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fclass.s",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fcvt.s.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fcvt.s.wu",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "fmv.w.x",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "lr.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sc.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amoswap.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amoadd.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amoxor.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amoand.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amoor.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amomin.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amomax.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amominu.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "amomaxu.w",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "ld",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sd",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "addiw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "slliw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "srliw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sraiw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "addw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "subw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sllw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "srlw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        },
+        {
+          "mnemonic": "sraw",
+          "operands": [],
+          "encoding": "",
+          "semantics": "",
+          "isa": "riscv",
+          "source": "RISC-V-Unpriv"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "isas": 9,
+    "opcodes": 750,
+    "distinct_mnemonics": 671
+  }
+}

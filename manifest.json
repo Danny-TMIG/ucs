@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-11T15:06:30Z",
+  "sources": {
+    "isa_registry": {
+      "path": "ucs/opcodes_all/isa_registry.json",
+      "size": 221911,
+      "summary": {
+        "generated_at": "2026-09-11T14:54:46Z"
+      }
+    },
+    "ucs_registry": {
+      "path": "ucs/out/registry.json",
+      "size": 89590,
+      "summary": {
+        "generated_at": "2026-09-11T14:47:24Z"
+      }
+    },
+    "sub_arity": {
+      "path": "ucs/out/sub_arity.json",
+      "size": 450605,
+      "summary": {
+        "behaviors": 696,
+        "total_sub_behaviors": 1906,
+        "distinct_primitives": 566
+      }
+    },
+    "program": {
+      "path": "ucs/out/program.json",
+      "size": 50232,
+      "summary": {
+        "trace_count": 567
+      }
+    },
+    "enterprise": {
+      "path": "ucs/enterprise/enterprise_registry.json",
+      "size": 53902,
+      "summary": {
+        "generated_at": "2026-09-11T14:58:13Z",
+        "files_scanned": 102
+      }
+    },
+    "orders": {
+      "path": "ucs/orders.json",
+      "size": 4534,
+      "summary": {
+        "generated_at": "2026-09-11T15:06:29Z"
+      }
+    },
+    "ware_manifest": {
+      "path": "foundations/ware_manifest.json",
+      "size": 279790,
+      "summary": {
+        "generated_at": "2026-09-11T14:21:08Z",
+        "total": 830,
+        "callable": 49,
+        "attested": 556,
+        "addressed": 830,
+        "all_three": 49
+      }
+    },
+    "loop_manifest": {
+      "path": "foundations/loop_manifest.json",
+      "size": 83600,
+      "summary": {
+        "generated_at": "2026-09-11T14:18:56Z",
+        "total": 390
+      }
+    }
+  }
+}

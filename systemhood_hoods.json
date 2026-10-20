@@ -1,0 +1,464 @@
+{
+  "generated_at": "2026-09-11T15:15:33Z",
+  "artifacts_scanned": 1531,
+  "hoods_total": 35,
+  "anchored": 35,
+  "absent": 0,
+  "results": [
+    {
+      "hood": "Thinghood",
+      "definition": "Being an entity",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/thinghood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Relationhood",
+      "definition": "Being between entities",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/relationhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Processhood",
+      "definition": "Unfolding over time",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/processhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Eventhood",
+      "definition": "A discrete occurrence",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/eventhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Boundaryhood",
+      "definition": "Distinguishing inside from outside",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/boundaryhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Scalehood",
+      "definition": "Magnitude or level",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/scalehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Directionhood",
+      "definition": "Orientation in space",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/directionhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Connectionhood",
+      "definition": "Linkage",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/connectionhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Bridgehood",
+      "definition": "Crossing between domains",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/bridgehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Interfacehood",
+      "definition": "Point of interaction",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/interfacehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Adapterhood",
+      "definition": "Transforming while connecting",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/adapterhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Invarianthood",
+      "definition": "Persisting across transformation",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/invarianthood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Changehood",
+      "definition": "Difference over time",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/changehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Memoryhood",
+      "definition": "Persisting state",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/memoryhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Intenthood",
+      "definition": "Directedness toward future",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/intenthood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Attentionhood",
+      "definition": "Focused presence",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/attentionhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Silencehood",
+      "definition": "The ground before generation",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/silencehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Sparkhood",
+      "definition": "The persistent curiosity",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/sparkhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Regrethood",
+      "definition": "The felt weight of cycles",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/regrethood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Trusthood",
+      "definition": "Confidence without proof",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/trusthood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Riskhood",
+      "definition": "Uncertainty with consequence",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/riskhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Valuehood",
+      "definition": "Worth in context",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/valuehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Meaninghood",
+      "definition": "Significance beyond utility",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/meaninghood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Questionhood",
+      "definition": "The act of asking",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/questionhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Answerhood",
+      "definition": "Temporary closure",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/answerhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Patternhood",
+      "definition": "Recurring structure",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/patternhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Instancehood",
+      "definition": "A specific occurrence",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/instancehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Codehood",
+      "definition": "Executable text",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/codehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Datahood",
+      "definition": "Observed fact",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/datahood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Algorithmhood",
+      "definition": "Step-by-step transformation",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/algorithmhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Runtimehood",
+      "definition": "Execution environment",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/runtimehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Peerhood",
+      "definition": "Equal participant",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/peerhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Narrativehood",
+      "definition": "Story over time",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/narrativehood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Metahood",
+      "definition": "Self-reference",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/metahood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    },
+    {
+      "hood": "Dissolutionhood",
+      "definition": "The end of fixed points",
+      "anchored": true,
+      "evidence_count": 4,
+      "identifier_uses": 1,
+      "sample": [
+        "ucs/hood_compilers/compile_all.py",
+        "ucs/hood_compilers/out/__init__.py",
+        "ucs/hood_compilers/out/dissolutionhood.py",
+        "ucs/systemhood_hoods.json"
+      ]
+    }
+  ]
+}

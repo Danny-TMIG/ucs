@@ -1,0 +1,880 @@
+{
+  "count": 102,
+  "top_30": [
+    {
+      "path": "ucs/enterprise/frameworks.py",
+      "score": 497,
+      "forbes": 99,
+      "fortune": 55,
+      "gartner": 60,
+      "hype": 5,
+      "quadrant": 4,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Aerospace",
+          "Aerospace & Defense/Defense",
+          "Aerospace & Defense/Space",
+          "Business Services & Supplies/Consulting",
+          "Business Services & Supplies/Office"
+        ],
+        "fortune": [
+          "CDO/AI/ML",
+          "CDO/Analytics",
+          "CDO/Data",
+          "CDO/Insights",
+          "CEO/Corporate Development"
+        ],
+        "gartner": [
+          "AI/ML/Agents",
+          "AI/ML/Feature Stores",
+          "AI/ML/Foundation Models",
+          "AI/ML/Governance",
+          "AI/ML/MLOps"
+        ]
+      }
+    },
+    {
+      "path": "ucs/enterprise/scored.json",
+      "score": 149,
+      "forbes": 25,
+      "fortune": 21,
+      "gartner": 19,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Aerospace",
+          "Aerospace & Defense/Defense",
+          "Aerospace & Defense/Space",
+          "Business Services & Supplies/Consulting",
+          "Business Services & Supplies/Office"
+        ],
+        "fortune": [
+          "CDO/AI/ML",
+          "CDO/Analytics",
+          "CDO/Data",
+          "CDO/Insights",
+          "CEO/Corporate Development"
+        ],
+        "gartner": [
+          "AI/ML/Agents",
+          "AI/ML/Feature Stores",
+          "AI/ML/Foundation Models",
+          "AI/ML/Governance",
+          "AI/ML/MLOps"
+        ]
+      }
+    },
+    {
+      "path": "ucs/out/program.json",
+      "score": 75,
+      "forbes": 7,
+      "fortune": 14,
+      "gartner": 11,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Capital Goods/Construction",
+          "Insurance/Life",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Accounting",
+          "CFO/Audit",
+          "CFO/Tax",
+          "CHRO/HR"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Application/ERP",
+          "DevOps/Artifacts",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge"
+        ]
+      }
+    },
+    {
+      "path": "cs-partitions/taxonomy.json",
+      "score": 56,
+      "forbes": 6,
+      "fortune": 7,
+      "gartner": 10,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Engineering",
+          "Materials/Mining",
+          "Software & Services/Data",
+          "Software & Services/Security",
+          "Technology Hardware/Networking"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Tax",
+          "CIO/IT",
+          "CISO/Security",
+          "CKO/Knowledge"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Application/ERP",
+          "DevOps/IaC",
+          "DevOps/Testing",
+          "Infrastructure/Compute"
+        ]
+      }
+    },
+    {
+      "path": "ucs/taxonomies/ucs.json",
+      "score": 55,
+      "forbes": 5,
+      "fortune": 12,
+      "gartner": 7,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Capital Goods/Construction",
+          "Semiconductors/IP",
+          "Software & Services/Data",
+          "Technology Hardware/Storage"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Audit",
+          "CFO/Tax",
+          "CHRO/HR",
+          "CIO/IT"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "DevOps/Artifacts",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Infrastructure/Storage"
+        ]
+      }
+    },
+    {
+      "path": "vem-protocol.md",
+      "score": 46,
+      "forbes": 5,
+      "fortune": 9,
+      "gartner": 6,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Defense",
+          "Hotels, Restaurants & Leisure/Travel",
+          "Semiconductors/IP",
+          "Software & Services/Data",
+          "Technology Hardware/Storage"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Audit",
+          "CFO/Finance",
+          "CHRO/HR",
+          "CIO/IT"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Application/ERP",
+          "End-User/Endpoints",
+          "Infrastructure/Compute",
+          "Infrastructure/Storage"
+        ]
+      }
+    },
+    {
+      "path": "cs-partitions/map-to-taxonomy.py",
+      "score": 43,
+      "forbes": 7,
+      "fortune": 7,
+      "gartner": 5,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Healthcare/Providers",
+          "Materials/Mining",
+          "Materials/Paper",
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Tax",
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "Infrastructure/Cloud",
+          "Infrastructure/Compute",
+          "Infrastructure/Network",
+          "Platform/Containers",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "foundations/generate.py",
+      "score": 42,
+      "forbes": 7,
+      "fortune": 8,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Defense",
+          "Aerospace & Defense/Space",
+          "Capital Goods/Construction",
+          "Capital Goods/Engineering",
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Tax",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "DevOps/Artifacts",
+          "Infrastructure/Edge",
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "cs-partitions/mapping.json",
+      "score": 41,
+      "forbes": 7,
+      "fortune": 6,
+      "gartner": 5,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Healthcare/Providers",
+          "Materials/Mining",
+          "Materials/Paper",
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP",
+          "COO/Logistics"
+        ],
+        "gartner": [
+          "Infrastructure/Cloud",
+          "Infrastructure/Compute",
+          "Infrastructure/Network",
+          "Platform/Containers",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "cs-partitions/partitions.json",
+      "score": 38,
+      "forbes": 5,
+      "fortune": 5,
+      "gartner": 6,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Healthcare/Providers",
+          "Materials/Paper",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "Infrastructure/Cloud",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Infrastructure/Network",
+          "Platform/Containers"
+        ]
+      }
+    },
+    {
+      "path": "vem-index/crosscut.py",
+      "score": 36,
+      "forbes": 5,
+      "fortune": 7,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Engineering",
+          "Semiconductors/IP",
+          "Software & Services/AI/ML",
+          "Software & Services/Data",
+          "Technology Hardware/Networking"
+        ],
+        "fortune": [
+          "CDO/AI/ML",
+          "CDO/Data",
+          "CFO/Tax",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Infrastructure/Compute",
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "gdm-spec.md",
+      "score": 34,
+      "forbes": 5,
+      "fortune": 6,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Hotels, Restaurants & Leisure/Travel",
+          "Insurance/Property",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Audit",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "DevOps/Artifacts",
+          "End-User/Endpoints",
+          "Infrastructure/Compute",
+          "Security/Endpoint"
+        ]
+      }
+    },
+    {
+      "path": "foundations/graph.py",
+      "score": 32,
+      "forbes": 5,
+      "fortune": 5,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Capital Goods/Engineering",
+          "Software & Services/Data",
+          "Technology Hardware/Networking",
+          "Trading Companies/Distribution"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CIO/IT",
+          "COO/Operations",
+          "CTO/Architecture",
+          "CTO/Engineering"
+        ],
+        "gartner": [
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "foundations/grammar.py",
+      "score": 31,
+      "forbes": 5,
+      "fortune": 6,
+      "gartner": 3,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Energy/Pipelines",
+          "Materials/Paper",
+          "Semiconductors/Design",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP",
+          "CPO/Design"
+        ],
+        "gartner": [
+          "End-User/Endpoints",
+          "Infrastructure/Edge",
+          "Security/Endpoint"
+        ]
+      }
+    },
+    {
+      "path": "foundations/systems.py",
+      "score": 31,
+      "forbes": 2,
+      "fortune": 6,
+      "gartner": 5,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Energy/Pipelines",
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP",
+          "CPO/Product",
+          "CPO/UX"
+        ],
+        "gartner": [
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Infrastructure/Network",
+          "Platform/Integration",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "vem-index/crosscut.json",
+      "score": 29,
+      "forbes": 4,
+      "fortune": 6,
+      "gartner": 3,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Engineering",
+          "Software & Services/AI/ML",
+          "Software & Services/Data",
+          "Technology Hardware/Networking"
+        ],
+        "fortune": [
+          "CDO/AI/ML",
+          "CDO/Data",
+          "CFO/Tax",
+          "CIO/IT",
+          "CTO/Architecture"
+        ],
+        "gartner": [
+          "Infrastructure/Compute",
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "foundations/crossword.py",
+      "score": 25,
+      "forbes": 1,
+      "fortune": 4,
+      "gartner": 5,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/Legal"
+        ],
+        "gartner": [
+          "Application/ERP",
+          "End-User/Endpoints",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Security/Endpoint"
+        ]
+      }
+    },
+    {
+      "path": "ucs/opcodes_all/isa_grammar.py",
+      "score": 25,
+      "forbes": 2,
+      "fortune": 6,
+      "gartner": 3,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CIO/IT",
+          "CKO/Documentation",
+          "CLO/IP",
+          "CPO/Product"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Application/ERP",
+          "Infrastructure/Compute"
+        ]
+      }
+    },
+    {
+      "path": "foundations/crossword_600m.py",
+      "score": 24,
+      "forbes": 2,
+      "fortune": 4,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Software & Services/Data",
+          "Technology Hardware/Storage"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/Legal"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge",
+          "Infrastructure/Storage"
+        ]
+      }
+    },
+    {
+      "path": "great_expectations.py",
+      "score": 23,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 3,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Hotels, Restaurants & Leisure/Travel",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Audit",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "DevOps/Artifacts",
+          "Infrastructure/Compute",
+          "Infrastructure/Edge"
+        ]
+      }
+    },
+    {
+      "path": "gdm-test-suite.py",
+      "score": 23,
+      "forbes": 5,
+      "fortune": 5,
+      "gartner": 1,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Engineering",
+          "Hotels, Restaurants & Leisure/Travel",
+          "Insurance/Property",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Audit",
+          "CIO/IT",
+          "CLO/IP",
+          "CTO/Engineering"
+        ],
+        "gartner": [
+          "Infrastructure/Compute"
+        ]
+      }
+    },
+    {
+      "path": "foundations/suffixed.py",
+      "score": 22,
+      "forbes": 1,
+      "fortune": 4,
+      "gartner": 4,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP",
+          "CPO/UX"
+        ],
+        "gartner": [
+          "Infrastructure/Compute",
+          "Infrastructure/Network",
+          "Platform/Integration",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "foundations/noun_verb.py",
+      "score": 21,
+      "forbes": 1,
+      "fortune": 5,
+      "gartner": 3,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Semiconductors/IP"
+        ],
+        "fortune": [
+          "CHRO/HR",
+          "CIO/IT",
+          "CKO/Learning",
+          "CLO/IP",
+          "CPO/UX"
+        ],
+        "gartner": [
+          "Infrastructure/Edge",
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    },
+    {
+      "path": "foundations/dsl/runtime.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Construction",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "Infrastructure/Edge",
+          "Platform/Integration"
+        ]
+      }
+    },
+    {
+      "path": "foundations/unified.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Materials/Paper",
+          "Oil & Gas Operations/Downstream",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CIO/IT",
+          "CPO/Product",
+          "CPO/UX"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Infrastructure/Edge"
+        ]
+      }
+    },
+    {
+      "path": "swarm/cross_traverse.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Semiconductors/IP",
+          "Software & Services/Data",
+          "Technology Hardware/Storage"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "AI/ML/RAG",
+          "Infrastructure/Storage"
+        ]
+      }
+    },
+    {
+      "path": "ucs/ucs.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Construction",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CFO/Tax",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "DevOps/Artifacts",
+          "Observability/Logs"
+        ]
+      }
+    },
+    {
+      "path": "cs-partitions/partition-lattice.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Capital Goods/Construction",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "Infrastructure/Compute",
+          "Infrastructure/Edge"
+        ]
+      }
+    },
+    {
+      "path": "constellation-partition.py",
+      "score": 20,
+      "forbes": 3,
+      "fortune": 4,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Healthcare/Providers",
+          "Semiconductors/IP",
+          "Software & Services/Data"
+        ],
+        "fortune": [
+          "CDO/Data",
+          "CHRO/HR",
+          "CIO/IT",
+          "CLO/IP"
+        ],
+        "gartner": [
+          "Infrastructure/Cloud",
+          "Infrastructure/Edge"
+        ]
+      }
+    },
+    {
+      "path": "kaleido/kaleidogami.py",
+      "score": 18,
+      "forbes": 3,
+      "fortune": 3,
+      "gartner": 2,
+      "hype": 0,
+      "quadrant": 0,
+      "labels": {
+        "forbes": [
+          "Aerospace & Defense/Space",
+          "Semiconductors/IP",
+          "Transportation/Logistics"
+        ],
+        "fortune": [
+          "CIO/IT",
+          "CLO/IP",
+          "COO/Logistics"
+        ],
+        "gartner": [
+          "Infrastructure/Network",
+          "Security/Network"
+        ]
+      }
+    }
+  ],
+  "zeros": 8,
+  "coverage": {
+    "forbes_sectors": 14,
+    "fortune_roles": 12,
+    "gartner_layers": 8
+  }
+}

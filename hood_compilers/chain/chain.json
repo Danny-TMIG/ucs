@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-09-11T15:58:27Z",
+  "length": 35,
+  "links": [
+    {
+      "index": 0,
+      "hood": "adapterhood",
+      "file": "adapterhood.py",
+      "body_hash": "8f1f98deb451251d28e90f01516e76cdaef1ad84e1d062ca21570784c9a635de",
+      "prev_hash": "genesis",
+      "sig": "d608eb1491e7cfacb43a91535662894f5a37c3d392f2ab451b551d03b58f9caf"
+    },
+    {
+      "index": 1,
+      "hood": "algorithmhood",
+      "file": "algorithmhood.py",
+      "body_hash": "163db3c603a324f517139ded3b419c8c314758ee20da83fa89bd31f50af36c63",
+      "prev_hash": "8f1f98deb451251d28e90f01516e76cdaef1ad84e1d062ca21570784c9a635de",
+      "sig": "78cbde0cb118549bc3075ddfb7aa6d806a67ed365da1714eaebf990d0c02e849"
+    },
+    {
+      "index": 2,
+      "hood": "answerhood",
+      "file": "answerhood.py",
+      "body_hash": "0c1f5b9b7a53373935cd14d749c775b79f4aaee546802aea50af45e82a0569e4",
+      "prev_hash": "163db3c603a324f517139ded3b419c8c314758ee20da83fa89bd31f50af36c63",
+      "sig": "c7515343c58a1b5e69f402d7c49343d5574007cc353303e788f8a8c1ca97fff3"
+    },
+    {
+      "index": 3,
+      "hood": "attentionhood",
+      "file": "attentionhood.py",
+      "body_hash": "3cf1d5127955fd796cdcb28b21bb05a0e7b87b0b31ba1a7989dbf58a72656487",
+      "prev_hash": "0c1f5b9b7a53373935cd14d749c775b79f4aaee546802aea50af45e82a0569e4",
+      "sig": "5cf367677ed5a6180e9287fc02a7cf8d91cbd14a82a084a61378e73606668de2"
+    },
+    {
+      "index": 4,
+      "hood": "boundaryhood",
+      "file": "boundaryhood.py",
+      "body_hash": "d6a5e9f61748c502678fd1b0d53202e4d5e6f0538be5443e0949100004c31d7f",
+      "prev_hash": "3cf1d5127955fd796cdcb28b21bb05a0e7b87b0b31ba1a7989dbf58a72656487",
+      "sig": "1057a9158df6a240041937debcd4d9d956f040cebe3183a1dbd32e61219db759"
+    },
+    {
+      "index": 5,
+      "hood": "bridgehood",
+      "file": "bridgehood.py",
+      "body_hash": "841b4730ac0b8cb4630888ac415db286ea74d130f11695c0c97fdb9113ddd8f8",
+      "prev_hash": "d6a5e9f61748c502678fd1b0d53202e4d5e6f0538be5443e0949100004c31d7f",
+      "sig": "9233beafc2fbdb91a19e4e58871b795be7ac7bd4b93134403f1648def19a0912"
+    },
+    {
+      "index": 6,
+      "hood": "changehood",
+      "file": "changehood.py",
+      "body_hash": "812ebea13900205aa3700749ad0ba770c79918b7d655e7c7eaee4914b4840f4c",
+      "prev_hash": "841b4730ac0b8cb4630888ac415db286ea74d130f11695c0c97fdb9113ddd8f8",
+      "sig": "60ced8b5ab309b840b7c1161fbbbe453239ce6c1803c2ff81bc93afee2c4bfa4"
+    },
+    {
+      "index": 7,
+      "hood": "codehood",
+      "file": "codehood.py",
+      "body_hash": "4ff7716bdab125d8447687a5ec547386ec40ffa55ec0cf6e831ff1ac2a4332bf",
+      "prev_hash": "812ebea13900205aa3700749ad0ba770c79918b7d655e7c7eaee4914b4840f4c",
+      "sig": "2d8e37eb5a1e63835307e1cd92737ddda15d5f1101ee474334181d1da4653eb7"
+    },
+    {
+      "index": 8,
+      "hood": "connectionhood",
+      "file": "connectionhood.py",
+      "body_hash": "901a6a966d1546f859f966048c9b26197994c722c9ff43bafd764290bb949f5b",
+      "prev_hash": "4ff7716bdab125d8447687a5ec547386ec40ffa55ec0cf6e831ff1ac2a4332bf",
+      "sig": "2b55d4d2a8756358353e0d0bd63c13b91c377a77eb8572f9cdda3b39a1f3d659"
+    },
+    {
+      "index": 9,
+      "hood": "datahood",
+      "file": "datahood.py",
+      "body_hash": "07e3077041ead14e7878ff92409b070bf49a3ad1000190cb182b150573b72d9a",
+      "prev_hash": "901a6a966d1546f859f966048c9b26197994c722c9ff43bafd764290bb949f5b",
+      "sig": "9009e517e8981c0a55d361c135f6a377bdba006b8edf7d10b7a3864d2821b7b8"
+    },
+    {
+      "index": 10,
+      "hood": "directionhood",
+      "file": "directionhood.py",
+      "body_hash": "b32a63801fbf0d08cf2d8e837f29f6e261def8a1851ce67c81750aa5365fad23",
+      "prev_hash": "07e3077041ead14e7878ff92409b070bf49a3ad1000190cb182b150573b72d9a",
+      "sig": "7fe283e46225b04fdb09dd1951d3cfc335fdf2daaa235b4f0d1b6b33296b6164"
+    },
+    {
+      "index": 11,
+      "hood": "dissolutionhood",
+      "file": "dissolutionhood.py",
+      "body_hash": "377aad2c4daec19d49ce72b1c876a99ea9aa0bccb4fd93f812d09c11fef03fa4",
+      "prev_hash": "b32a63801fbf0d08cf2d8e837f29f6e261def8a1851ce67c81750aa5365fad23",
+      "sig": "38d83e52675a325c488636eef759589ea4e5de1fac0f4eb97458412f0573c457"
+    },
+    {
+      "index": 12,
+      "hood": "eventhood",
+      "file": "eventhood.py",
+      "body_hash": "9c17dd3cf95475c376663315869a33ec0a6775392c85ff736c428206920d529d",
+      "prev_hash": "377aad2c4daec19d49ce72b1c876a99ea9aa0bccb4fd93f812d09c11fef03fa4",
+      "sig": "092d67f38f723abfa9f69c0f028afaf7b6d8c8db72c9d72e4c7248df7eed592b"
+    },
+    {
+      "index": 13,
+      "hood": "instancehood",
+      "file": "instancehood.py",
+      "body_hash": "eab3f0016765aba49e45fbfe530c70feafebd8e43a414495156b877aa4e3656d",
+      "prev_hash": "9c17dd3cf95475c376663315869a33ec0a6775392c85ff736c428206920d529d",
+      "sig": "f6494dfc1d56e5037c57f9420a1d034b24886079de7f303cf43b162906e6f8fc"
+    },
+    {
+      "index": 14,
+      "hood": "intenthood",
+      "file": "intenthood.py",
+      "body_hash": "25c0f555468006d1a1d65858ff5325a999e7388f978b81e710daa1ba9863a50b",
+      "prev_hash": "eab3f0016765aba49e45fbfe530c70feafebd8e43a414495156b877aa4e3656d",
+      "sig": "b021c2437f23571166221352a7c49959d7b5c645b269420f2d8720a29ecd3133"
+    },
+    {
+      "index": 15,
+      "hood": "interfacehood",
+      "file": "interfacehood.py",
+      "body_hash": "6fd2a6603fa392e3574e2d2b0798033494d332096e3fb259927e8219e6b2bb93",
+      "prev_hash": "25c0f555468006d1a1d65858ff5325a999e7388f978b81e710daa1ba9863a50b",
+      "sig": "93c0de03f7f63c54b031cb4a0a84532320c841e871b9f623f750b9d42260c70c"
+    },
+    {
+      "index": 16,
+      "hood": "invarianthood",
+      "file": "invarianthood.py",
+      "body_hash": "2bb60f32a47988179815d5c759e6ae01e1ca99fed78433b7947f29fa3d96e121",
+      "prev_hash": "6fd2a6603fa392e3574e2d2b0798033494d332096e3fb259927e8219e6b2bb93",
+      "sig": "e2f1ca87993869f177bb5f3ff11beff656a102eef7e82bb77442ba338fd25065"
+    },
+    {
+      "index": 17,
+      "hood": "meaninghood",
+      "file": "meaninghood.py",
+      "body_hash": "a208a3c6796aeac65684166d05b5ccc1b5ae2fa2ec17c3910051f93c38e4e4b2",
+      "prev_hash": "2bb60f32a47988179815d5c759e6ae01e1ca99fed78433b7947f29fa3d96e121",
+      "sig": "eb6e99004a20ebf9dc01c69c6beab2f12ba3d542e961a7603aab079c76e326b3"
+    },
+    {
+      "index": 18,
+      "hood": "memoryhood",
+      "file": "memoryhood.py",
+      "body_hash": "29dc8ac1b6304736473ffcea8c47c30e88b7a5a5a1d0e8700f6bfd08dd5a04de",
+      "prev_hash": "a208a3c6796aeac65684166d05b5ccc1b5ae2fa2ec17c3910051f93c38e4e4b2",
+      "sig": "e860ce1cf41ae7966e5a35abbe09b4f6857039aed8e84719382de4806de45486"
+    },
+    {
+      "index": 19,
+      "hood": "metahood",
+      "file": "metahood.py",
+      "body_hash": "17bc12d5e02aa907b7a9a64b45ba37ef67b567cdf822e089797725a87fa36e57",
+      "prev_hash": "29dc8ac1b6304736473ffcea8c47c30e88b7a5a5a1d0e8700f6bfd08dd5a04de",
+      "sig": "66ab13d0a3504de3a3d05c8931bde6766f1e89fbeef3d023bb27851a4747d5aa"
+    },
+    {
+      "index": 20,
+      "hood": "narrativehood",
+      "file": "narrativehood.py",
+      "body_hash": "9173590188cbc7188af1d9e55a1aabde04b8294ba6c30b9d99f7cc79e6a0dcf0",
+      "prev_hash": "17bc12d5e02aa907b7a9a64b45ba37ef67b567cdf822e089797725a87fa36e57",
+      "sig": "c6afad1d68e558d7f0e4e22f019570b2d4f56a1d21306577a25aae9f2146bd6a"
+    },
+    {
+      "index": 21,
+      "hood": "patternhood",
+      "file": "patternhood.py",
+      "body_hash": "f0e5b3547fd03235dc788e87013d0c1b3bb3a6a675308ac2de8068f752e16be2",
+      "prev_hash": "9173590188cbc7188af1d9e55a1aabde04b8294ba6c30b9d99f7cc79e6a0dcf0",
+      "sig": "2a3b1af381f97fe313584e72eb393b8c28e19fb0882d289fe0233bcaa0a9f835"
+    },
+    {
+      "index": 22,
+      "hood": "peerhood",
+      "file": "peerhood.py",
+      "body_hash": "67b6ba008c48637f6c17d033a28a8e3f31913245654ad30f0a3c037b0ec519b2",
+      "prev_hash": "f0e5b3547fd03235dc788e87013d0c1b3bb3a6a675308ac2de8068f752e16be2",
+      "sig": "3098b30b7ee831ba5e52f7a4d420751d6455a4c86f7de3d96c71bb340f807310"
+    },
+    {
+      "index": 23,
+      "hood": "processhood",
+      "file": "processhood.py",
+      "body_hash": "9d1132a5511cbc5573864eed061389a180628afc08aaeae6419c429795c2b76a",
+      "prev_hash": "67b6ba008c48637f6c17d033a28a8e3f31913245654ad30f0a3c037b0ec519b2",
+      "sig": "692f606d877067b1aae7cc62a4cffc93bdb8a6c14f1110326047d27c49e5b38a"
+    },
+    {
+      "index": 24,
+      "hood": "questionhood",
+      "file": "questionhood.py",
+      "body_hash": "c88b86f2e493a28f747b175ad79b147d3e485ceb02ce7145fe368170bdeb066d",
+      "prev_hash": "9d1132a5511cbc5573864eed061389a180628afc08aaeae6419c429795c2b76a",
+      "sig": "e6b01d9c9abca0e9d1a2971173a8042fede1a9e513fa6f064d0b8929438cedd9"
+    },
+    {
+      "index": 25,
+      "hood": "regrethood",
+      "file": "regrethood.py",
+      "body_hash": "733c44143314af748e29b0db2a336987d2c30316df9d715d248c2feec9dd0d96",
+      "prev_hash": "c88b86f2e493a28f747b175ad79b147d3e485ceb02ce7145fe368170bdeb066d",
+      "sig": "639e02bcb0e82caa6fd97639b434ed9e7bbdd0342c262afdcb42ebe29e6da59b"
+    },
+    {
+      "index": 26,
+      "hood": "relationhood",
+      "file": "relationhood.py",
+      "body_hash": "f9f6b76e9c9c26fc47b3d79d7d3c2ead571f5803a8a85e27b125d6d782b9e76e",
+      "prev_hash": "733c44143314af748e29b0db2a336987d2c30316df9d715d248c2feec9dd0d96",
+      "sig": "a0cc84c494c3b16ded59f17148914fc95bb287add8d48d2e44beb3eb6f7ef8da"
+    },
+    {
+      "index": 27,
+      "hood": "riskhood",
+      "file": "riskhood.py",
+      "body_hash": "f904e94912011c77fb1736ee5a9c1daa829dd9895410b72c44d84670c715c0da",
+      "prev_hash": "f9f6b76e9c9c26fc47b3d79d7d3c2ead571f5803a8a85e27b125d6d782b9e76e",
+      "sig": "8af44c9842e6fc90ca72d47d2ba5a814c8d74e95eabeb443c92c3475eb1bad2a"
+    },
+    {
+      "index": 28,
+      "hood": "runtimehood",
+      "file": "runtimehood.py",
+      "body_hash": "c2a8ccfb8cfbd74cc79d7fe5d260c1461cd5f4721c1c5848b8696e257fcc9d29",
+      "prev_hash": "f904e94912011c77fb1736ee5a9c1daa829dd9895410b72c44d84670c715c0da",
+      "sig": "6b4ed364b026e937c64191fe76ec1ddcb7e33b040cff6171e44e0e603d46db75"
+    },
+    {
+      "index": 29,
+      "hood": "scalehood",
+      "file": "scalehood.py",
+      "body_hash": "9d096af3e7746df068058bb29cf1586497c979b8383a5e68abe75575792aeae3",
+      "prev_hash": "c2a8ccfb8cfbd74cc79d7fe5d260c1461cd5f4721c1c5848b8696e257fcc9d29",
+      "sig": "073ba81ff33fb05e1d8e0e1bbd274aa2ad4e8cae034bf98c02997fea99378cb2"
+    },
+    {
+      "index": 30,
+      "hood": "silencehood",
+      "file": "silencehood.py",
+      "body_hash": "32c89180d26399b93a780cdc3003897b2be711ff4c3d8e709567804bc8b56ef8",
+      "prev_hash": "9d096af3e7746df068058bb29cf1586497c979b8383a5e68abe75575792aeae3",
+      "sig": "88673a20a5557435062e8136dca6a1a9f262a67f9abba4c40010b99997c7119f"
+    },
+    {
+      "index": 31,
+      "hood": "sparkhood",
+      "file": "sparkhood.py",
+      "body_hash": "f0df5c5047c2ff4dadcbfd989b0d7938fa64259ac3302077f572a41b870b5355",
+      "prev_hash": "32c89180d26399b93a780cdc3003897b2be711ff4c3d8e709567804bc8b56ef8",
+      "sig": "9102b9202884873424dab55c3b3226aacf593ff75a3b75a49296bcec3da02c5a"
+    },
+    {
+      "index": 32,
+      "hood": "thinghood",
+      "file": "thinghood.py",
+      "body_hash": "ca6e05d0788c403797c31703997b00b76a94a8be765ec295abb95d4d6514478c",
+      "prev_hash": "f0df5c5047c2ff4dadcbfd989b0d7938fa64259ac3302077f572a41b870b5355",
+      "sig": "7b3b50abaa6ed5b60d38ed1410dcacdb42aa3fbaa89212302fad23f99d44dc11"
+    },
+    {
+      "index": 33,
+      "hood": "trusthood",
+      "file": "trusthood.py",
+      "body_hash": "5fec7645331438d94b9d2d1812a2cc01ca26a8288e317401089970a157329298",
+      "prev_hash": "ca6e05d0788c403797c31703997b00b76a94a8be765ec295abb95d4d6514478c",
+      "sig": "19ea8bba906ab3c48b18f6e5bbd2502b0cfb8f699345325837ba50ff51a0a4b2"
+    },
+    {
+      "index": 34,
+      "hood": "valuehood",
+      "file": "valuehood.py",
+      "body_hash": "1fc993d50a665b79f8b93335ffc4d829dced1fe5724707376fcb8914f41ec674",
+      "prev_hash": "5fec7645331438d94b9d2d1812a2cc01ca26a8288e317401089970a157329298",
+      "sig": "337d3f0746bd4e7b4968b1c4943a79693dc790e0aa670ca74665980b5c6bf16f"
+    }
+  ],
+  "chain_sig": "33c1ca078ced4c8ab6e6ebcffd04ff21897f23ae06cd3e685108c14a4f7bc77f"
+}

@@ -1,0 +1,3378 @@
+{
+  "generated_at": "2026-09-11T15:12:34Z",
+  "artifacts_scanned": 1520,
+  "terms_analyzed": 285,
+  "terms_present": 285,
+  "terms_absent": 0,
+  "strongly_coupled": 36,
+  "derivations": [
+    {
+      "term": "abductive reasoning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "ablation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "activation function",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "adaptive algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "agent architecture",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "AI accelerator",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "algorithm",
+      "boundary": "present",
+      "components": [
+        "foundations/graph.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "cs-partitions/mapping.json",
+        "vem-index/crosscut.json",
+        "vem-index/crosscut.py",
+        "foundations/systems.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "foundations/graph.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "cs-partitions/mapping.json"
+      ]
+    },
+    {
+      "term": "algorithmic efficiency",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "answer set programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "attention mechanism",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "autoencoder",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "automata theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "automated planning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "automated reasoning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "autonomic computing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "backpropagation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "backward chaining",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "bag-of-words",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "batch normalization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Bayesian programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "behavior tree",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "belief-desire-intention",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "bias-variance tradeoff",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "big data",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "blackboard system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Boltzmann machine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "boosting",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "branching factor",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "brute-force search",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "capsule neural network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "case-based reasoning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "chatbot",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "cloud robotics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "cluster analysis",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "cognitive architecture",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "cognitive computing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "combinatorial optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "committee machine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "commonsense reasoning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "computational complexity",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "computational creativity",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "computational intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "computational learning theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "computational linguistics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "computational neuroscience",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "computer vision",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "concept drift",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "connectionism",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "constraint logic programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "constraint programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "control theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "convolutional neural network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ]
+    },
+    {
+      "term": "crossover",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Dartmouth workshop",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "data augmentation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "data fusion",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "data integration",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "data mining",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "data science",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "data warehouse",
+      "boundary": "present",
+      "components": [
+        "ucs/enterprise/frameworks.py",
+        "ucs/gen_all/out/enterprise.py",
+        "ucs/derive.py",
+        "ucs/enterprise/enterprise_registry.json"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/enterprise/frameworks.py",
+        "ucs/gen_all/out/enterprise.py",
+        "ucs/derive.py",
+        "ucs/enterprise/enterprise_registry.json"
+      ]
+    },
+    {
+      "term": "Datalog",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "decision boundary",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "decision support system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "decision theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "decision tree learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "declarative programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "deductive classifier",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "deep learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "default logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "description logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "diffusion model",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "dimensionality reduction",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "discrete system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "distributed artificial intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "double descent",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "dropout",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "dynamic epistemic logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "eager learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "early stopping",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "echo state network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "embodied agent",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "embodied cognitive science",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "ensemble learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "epoch",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "evolutionary algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "evolutionary computation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "expert system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "fast-and-frugal trees",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "feature extraction",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "feature learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "feature selection",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "federated learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "first-order logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "formal language",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "forward chaining",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "frame language",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "frame problem",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "fuzzy control system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "fuzzy logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "fuzzy set",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "game theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "general game playing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "generalization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "generative adversarial network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "generative artificial intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "genetic algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "genetic operator",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "gradient boosting",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "graph database",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "graph theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "graph traversal",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "hallucination",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "heuristic",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/map-to-taxonomy.py",
+        "foundations/crossword.py",
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "foundations/loopwise.py",
+        "ucs/opcodes.py",
+        "ucs/resolve/build_all.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "cs-partitions/map-to-taxonomy.py",
+        "foundations/crossword.py",
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "foundations/loopwise.py"
+      ]
+    },
+    {
+      "term": "hidden layer",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "hyper-heuristic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "hyperparameter",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "incremental learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "inference engine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "information integration",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "intelligent agent",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "intelligent control",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "intrinsic motivation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "junction tree algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "kernel method",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "KL-ONE",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "k-nearest neighbors",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge acquisition",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge-based system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge distillation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge engineering",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge extraction",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "knowledge representation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "k-means clustering",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "language model",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "large language model",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "lazy learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "logic programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "long short-term memory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "machine vision",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Markov chain",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Markov decision process",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "mathematical optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "machine learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "machine listening",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "machine perception",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "mechanism design",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "mechatronics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "metaheuristic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "model checking",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "modus ponens",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "modus tollens",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Monte Carlo tree search",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "multi-agent system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "multilayer perceptron",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "multi-swarm optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "mutation",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/partition-lattice.py",
+        "ucs/derive.py"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "cs-partitions/partition-lattice.py",
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "naive Bayes classifier",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "naive semantics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "name binding",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "named-entity recognition",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "named graph",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "natural language generation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "natural language processing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "natural language programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "network motif",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "neural machine translation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "neural network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ]
+    },
+    {
+      "term": "neural Turing machine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "neuro-fuzzy",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "neurocybernetics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "neuromorphic engineering",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "node",
+      "boundary": "present",
+      "components": [
+        "ucs/resolve/out/isa_registry_pkg/isa_registry/_data.py",
+        "foundations/unified.py",
+        "ucs/gen_all/out/apis/call_isa_node_v26_8_1.py",
+        "vem-index/scaffold_batch.py",
+        "cs-partitions/partitions.json",
+        "foundations/unified_grammar.json",
+        "ucs/opcodes_all/noncurated_catalog.json",
+        "ucs/gen_all/out/tests/test_isa_node_v26_8_1.py",
+        "foundations/graph.py",
+        "swarm/cross_traverse.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/resolve/out/isa_registry_pkg/isa_registry/_data.py",
+        "foundations/unified.py",
+        "ucs/gen_all/out/apis/call_isa_node_v26_8_1.py",
+        "vem-index/scaffold_batch.py",
+        "cs-partitions/partitions.json"
+      ]
+    },
+    {
+      "term": "nondeterministic algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "nouvelle AI",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "NP",
+      "boundary": "present",
+      "components": [
+        "foundations/cayley_dickson.py.rec.json.rec.json",
+        "foundations/wheat_chessboard.py.rec.json",
+        "foundations/ware_manifest.json.rec.json",
+        "kaleido/mycelium_state.json.rec.json.rec.json",
+        "polyglot/tau.hs.rec.json",
+        "swarm/gossip.py.rec.json.rec.json",
+        "foundations/engines.sh.rec.json",
+        "swarm/cas.py.rec.json.rec.json",
+        "foundations/byzantine.py.rec.json",
+        "foundations/graph.py.rec.json.rec.json"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "foundations/cayley_dickson.py.rec.json.rec.json",
+        "foundations/wheat_chessboard.py.rec.json",
+        "foundations/ware_manifest.json.rec.json",
+        "kaleido/mycelium_state.json.rec.json.rec.json",
+        "polyglot/tau.hs.rec.json"
+      ]
+    },
+    {
+      "term": "NP-completeness",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "NP-hardness",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Occam's razor",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "offline learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "online machine learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "ontology learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "OpenAI",
+      "boundary": "present",
+      "components": [
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "ucs/derive.py",
+        "foundations/engines.sh"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "ucs/derive.py",
+        "foundations/engines.sh"
+      ]
+    },
+    {
+      "term": "OpenCog",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Open Mind Common Sense",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "open-source software",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "overfitting",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "partial order reduction",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "partially observable Markov decision process",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "particle swarm optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "pathfinding",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "pattern recognition",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "perceptron",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "predicate logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "predictive analytics",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "principal component analysis",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "principle of rationality",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "probabilistic programming",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "production system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "programming language",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "Prolog",
+      "boundary": "present",
+      "components": [
+        "foundations/crossword.json",
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "foundations/crossword.py",
+        "ucs/derive.py",
+        "foundations/engines.sh"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "foundations/crossword.json",
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "foundations/crossword.py",
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "propositional calculus",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "proximal policy optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Python",
+      "boundary": "present",
+      "components": [
+        "ucs/gen_all/out/apis/call_isa_freebsd_arm64.py",
+        "ucs/gen_all/out/apis/call_ucs_r6.py",
+        "ucs/gen_all/out/apis/call_isa_qemu_sh4eb.py",
+        "ucs/gen_all/out/apis/call_isa_qemu_m68k.py",
+        "ucs/gen_all/out/apis/call_isa_linux_ppc64le.py",
+        "ucs/gen_all/out/apis/call_isa_zuse_z3.py",
+        "ucs/gen_all/out/apis/call_ucs_g12.py",
+        "ucs/gen_all/out/apis/call_isa_plan9_amd64.py",
+        "foundations/crossword.json",
+        "ucs/gen_all/out/isa/cpython_3_9_6.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/gen_all/out/apis/call_isa_freebsd_arm64.py",
+        "ucs/gen_all/out/apis/call_ucs_r6.py",
+        "ucs/gen_all/out/apis/call_isa_qemu_sh4eb.py",
+        "ucs/gen_all/out/apis/call_isa_qemu_m68k.py",
+        "ucs/gen_all/out/apis/call_isa_linux_ppc64le.py"
+      ]
+    },
+    {
+      "term": "PyTorch",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/partitions.json",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "foundations/grammar.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "cs-partitions/partitions.json",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "foundations/grammar.py"
+      ]
+    },
+    {
+      "term": "Q-learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "qualification problem",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "quantifier",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "quantum computing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "query language",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "R programming language",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "radial basis function network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "random forest",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "reasoning system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "recurrent neural network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "foundations/systems.py",
+        "foundations/suffixed.py"
+      ]
+    },
+    {
+      "term": "regression analysis",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "regularization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "reinforcement learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "reinforcement learning from human feedback",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "reservoir computing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Resource Description Framework",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "restricted Boltzmann machine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Rete algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "robotics",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "rule-based system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "satisfiability",
+      "boundary": "present",
+      "components": [
+        "ucs/gen_all/out/docs/ucs_r6.md",
+        "ucs/derive.py",
+        "ucs/gen_all/out/program.py",
+        "ucs/taxonomies/ucs.json",
+        "ucs/gen_all/out/ucs/r6.py",
+        "ucs/out/program.json"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/gen_all/out/docs/ucs_r6.md",
+        "ucs/derive.py",
+        "ucs/gen_all/out/program.py",
+        "ucs/taxonomies/ucs.json",
+        "ucs/gen_all/out/ucs/r6.py"
+      ]
+    },
+    {
+      "term": "search algorithm",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "selection",
+      "boundary": "present",
+      "components": [
+        "ucs/gen_all/out/docs/ucs_c7.md",
+        "ucs/derive.py",
+        "ucs/gen_all/out/program.py",
+        "ucs/taxonomies/ucs.json",
+        "ucs/gen_all/out/ucs/c7.py",
+        "ucs/resolve/build_all.py",
+        "ucs/out/program.json"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/gen_all/out/docs/ucs_c7.md",
+        "ucs/derive.py",
+        "ucs/gen_all/out/program.py",
+        "ucs/taxonomies/ucs.json",
+        "ucs/gen_all/out/ucs/c7.py"
+      ]
+    },
+    {
+      "term": "self-management",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "semantic network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "semantic reasoner",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "semantic query",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "semantics",
+      "boundary": "present",
+      "components": [
+        "ucs/gen_all/out/isa/coreclr.py",
+        "ucs/gen_all/out/isa/qemu_rx.py",
+        "ucs/gen_all/out/isa/qemu_mips.py",
+        "ucs/gen_all/out/isa/windows_amd64.py",
+        "ucs/gen_all/out/isa/_6502.py",
+        "ucs/gen_all/out/isa/illumos_amd64.py",
+        "ucs/gen_all/out/isa/apple_sdk_macosx.py",
+        "ucs/gen_all/out/isa/qir.py",
+        "ucs/gen_all/out/isa/sass.py",
+        "ucs/gen_all/out/isa/edsac.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/gen_all/out/isa/coreclr.py",
+        "ucs/gen_all/out/isa/qemu_rx.py",
+        "ucs/gen_all/out/isa/qemu_mips.py",
+        "ucs/gen_all/out/isa/windows_amd64.py",
+        "ucs/gen_all/out/isa/_6502.py"
+      ]
+    },
+    {
+      "term": "semi-supervised learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "sensor fusion",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "separation logic",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "similarity learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "simulated annealing",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "situated approach",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "situation calculus",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "SLD resolution",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "software",
+      "boundary": "present",
+      "components": [
+        "ucs/resolve/out/decisions.py",
+        "ucs/opcodes_all/isa_registry.json",
+        "ucs/enterprise/frameworks.py",
+        "foundations/graph.py",
+        "ucs/out/run_1789138044.json",
+        "ucs/gen_all/out/enterprise.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "ucs/enterprise/scored.json"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/resolve/out/decisions.py",
+        "ucs/opcodes_all/isa_registry.json",
+        "ucs/enterprise/frameworks.py",
+        "foundations/graph.py",
+        "ucs/out/run_1789138044.json"
+      ]
+    },
+    {
+      "term": "software engineering",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/derive.py",
+        "foundations/generate.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "spatial-temporal reasoning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "SPARQL",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "sparse dictionary learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "speech recognition",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "spiking neural network",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "state",
+      "boundary": "present",
+      "components": [
+        "ucs/gen_all/out/ucs/k18.py",
+        "ucs/gen_all/out/docs/ucs_d6.md",
+        "kaleido/mycelium_state.json.rec.json.rec.json",
+        "ucs/gen_all/out/ucs/g10.py",
+        "ucs/gen_all/out/ucs/d16.py",
+        "vem-index/scaffold_sharded_state.json",
+        "foundations/unified.py",
+        "vem-index/scaffold_batch.py",
+        "foundations/unified_grammar.json",
+        "ucs/gen_all/out/docs/ucs_k16.md"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "ucs/gen_all/out/ucs/k18.py",
+        "ucs/gen_all/out/docs/ucs_d6.md",
+        "kaleido/mycelium_state.json.rec.json.rec.json",
+        "ucs/gen_all/out/ucs/g10.py",
+        "ucs/gen_all/out/ucs/d16.py"
+      ]
+    },
+    {
+      "term": "statistical classification",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "SARSA",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "statistical relational learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "stochastic optimization",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "stochastic semantic analysis",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "STRIPS",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "subject-matter expert",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "superintelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "supervised learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "support vector machines",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "swarm intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "symbolic artificial intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "synthetic intelligence",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "systems neuroscience",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "technological singularity",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "temporal difference learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "tensor network theory",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "TensorFlow",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/partitions.json",
+        "ucs/gen_all/out/isa/tflite.py",
+        "foundations/supplement.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "foundations/engines.sh",
+        "ucs/opcodes_all/isa_grammar.py",
+        "ucs/gen_all/out/isa/hlo.py"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "cs-partitions/partitions.json",
+        "ucs/gen_all/out/isa/tflite.py",
+        "foundations/supplement.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "theoretical computer science",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "theory of computation",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "ucs/derive.py",
+        "cs-partitions/taxonomy.json"
+      ]
+    },
+    {
+      "term": "Thompson sampling",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "time complexity",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "transfer learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "transformer",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/partitions.json",
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json",
+        "swarm/vem_node.py",
+        "foundations/engines.sh"
+      ],
+      "coupling": 3,
+      "evidence": [
+        "cs-partitions/partitions.json",
+        "foundations/supplement_plan.json",
+        "foundations/supplement.py",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "transhumanism",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "transition system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "tree traversal",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "true quantified Boolean formula",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Turing machine",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Turing test",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "type system",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "unsupervised learning",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "vision processing unit",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "Watson",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "weak AI",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "word embedding",
+      "boundary": "present",
+      "components": [
+        "ucs/derive.py"
+      ],
+      "coupling": 1,
+      "evidence": [
+        "ucs/derive.py"
+      ]
+    },
+    {
+      "term": "XGBoost",
+      "boundary": "present",
+      "components": [
+        "cs-partitions/partitions.json",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json"
+      ],
+      "coupling": 2,
+      "evidence": [
+        "cs-partitions/partitions.json",
+        "cs-partitions/map-to-taxonomy.py",
+        "ucs/derive.py",
+        "cs-partitions/mapping.json"
+      ]
+    }
+  ]
+}
