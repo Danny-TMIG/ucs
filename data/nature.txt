@@ -1,0 +1,65 @@
+# code | class | local rule
+levy_flight | foraging | heavy-tailed jumps, alpha-stable
+brownian_search | foraging | diffusive, no memory
+correlated_walk | walk | momentum persists
+area_restricted | foraging | long legs + tight local turns
+albatross_forage | foraging | levy + olfactory gradient
+bee_waggle | consensus | dancer encodes vector
+ant_quorum | consensus | recruit until threshold
+termite_mound | stigmergy | deposit + follow + evaporate
+ant_colony | stigmergy | pheromone deposit + decay
+slime_mold | stigmergy | flow reinforces tube
+boids | flocking | separation + alignment + cohesion
+starling_murmuration | flocking | 7 neighbours, topological
+murmuration_critical | flocking | order parameter peaks
+fish_school | flocking | edge-follow, predator evade
+locust_swarm | flocking | cannibalism avoidance
+firefly_sync | oscillator | pulse-coupled, phase advances
+cricket_chorus | oscillator | leader emerges
+cardiac_sa_node | oscillator | FitzHugh-Nagumo relaxation
+circadian_clock | oscillator | delayed negative feedback
+kuramoto | oscillator | mean-field phase coupling
+peskin_mirollo | oscillator | integrate-and-fire sync
+fitzhugh_nagumo | oscillator | fast-slow spike
+hodgkin_huxley | oscillator | ion channel dynamics
+turing_pattern | morpho | activator-inhibitor
+gray_scott | morpho | two-species reaction diffusion
+belousov_zhabotinsky | morpho | chemical spiral
+dla | morpho | diffusion-limited aggregation
+eden_growth | morpho | random attachment
+lichen_edge | morpho | slow boundary expansion
+tree_branching | morpho | apical dominance
+elephant_walk | walk | memory of entire history
+self_avoiding_walk | walk | no revisits
+persistent_walk | walk | straight with gaussian turning
+levy_walk_2d | walk | 2D heavy-tail
+quorum_sensing | threshold | density gate
+all_or_none | threshold | sigmoid input-output
+neuron_threshold | threshold | integrate-and-fire
+gene_switch | threshold | bistable toggle
+phase_transition | threshold | order parameter
+habituation | adaptation | repeated stimulus -> weaker
+sensitization | adaptation | prior noxious -> stronger
+hebbian | adaptation | fire together, wire together
+stdp | adaptation | spike-timing dependent plasticity
+homeostasis | adaptation | negative feedback
+allostasis | adaptation | predictive adjustment
+immune_affinity | adaptation | clonal selection, mutation
+bacterial_chemotaxis | adaptation | run-and-tumble
+lotka_volterra | population | predator-prey cycles
+logistic | population | carrying capacity
+gompertz | population | sigmoid with decaying rate
+allee | population | threshold below which extinction
+sir | population | epidemic compartments
+sirs | population | waning immunity
+host_parasite | population | red queen dynamics
+predator_prey_spatial | population | Turing-Holling on grid
+fick | flow | flux ~ -gradient
+darcy | flow | porous flow
+poiseuille | flow | viscous pipe
+kirchhoff | flow | current conservation
+fourier | flow | heat conduction
+nernst | flow | membrane electrodiffusion
+chemostat | flow | steady-state reactor
+osmosis | flow | solvent across membrane
+diffusion_limited | flow | reaction at boundary
