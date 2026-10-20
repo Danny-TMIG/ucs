@@ -8,9 +8,9 @@
     "AETHER_COGNITION_PORT": "8083 (optional, pins cognition)"
   },
   "endpoints": {
-    "govern": ["GET /health", "POST /authorization-request", "POST /execution-order", "POST /intent"],
-    "compute": ["GET /health", "POST /execution-order"],
-    "cognition": ["GET /health", "POST /evidence"]
+    "govern": ["GET /health","POST /authorization-request","POST /execution-order","POST /intent"],
+    "compute": ["GET /health","POST /execution-order"],
+    "cognition": ["GET /health","POST /evidence"]
   },
   "dependencies": [],
   "files": {
@@ -20,6 +20,9 @@
     "invariants": "spec/invariants.py",
     "revise": "spec/revise.py",
     "atlas": "spec/atlas.py",
+    "swarm": "spec/swarm.py",
+    "parallel_check": "spec/parallel_check.py",
+    "bound": "bench/bound.py",
     "intent_schema": "specs/intent/intent.schema.json"
   },
   "versions": {"envelope": "1.0", "intent_schema": "1.0"},
