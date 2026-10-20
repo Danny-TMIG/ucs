@@ -83,7 +83,7 @@ sdlc_merge() {
 sdlc_verify() {
     cd "$SDLC_REPO"
     git fetch "$SDLC_REMOTE" >/dev/null
-    git reset --hard "$SDLC_REMOTE/$SDLC_MAIN"
+    git reset --hard "$(git rev-parse "$SDLC_REMOTE/$SDLC_MAIN")"
     [ "$(git rev-parse HEAD)" = "$(git rev-parse "$SDLC_REMOTE/$SDLC_MAIN")" ] \
         || _sdlc_die "HEAD != origin/$SDLC_MAIN"
     _sdlc_info "synced: $(git log --oneline -1)"
