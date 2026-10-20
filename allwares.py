@@ -322,7 +322,11 @@ def build_all():
         (fam_dir / "index.json").write_text(
             json.dumps({"family": family, "count": len(ids), "ids": ids}, indent=2)
         )
-        fleet_index[family] = {"count": len(ids), "dir": str(fam_dir.relative_to(HOME))}
+        try:
+            rel = fam_dir.relative_to(HOME)
+        except ValueError:
+            rel = fam_dir
+        fleet_index[family] = {"count": len(ids), "dir": str(rel)}
     print("[5/5] matrix + chain ...")
     matrix = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
