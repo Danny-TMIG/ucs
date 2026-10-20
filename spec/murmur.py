@@ -1,34 +1,27 @@
-#!/usr/bin/env python3
-"""murmur.py — N independent agents, 3 local rules, no global control.
-Float-free (Q16.16), parallel (ThreadPoolExecutor), stub-free, dynamic.
-"""
+\
+\
 import ast as _ast
 import concurrent.futures
 import inspect
 import random
 import sys
-
 FP = 16
 ONE = 1 << FP
 HALF = ONE >> 1
 PI_FP = 205887
 TAU_FP = 411775
-
 class Agent:
     __slots__ = ("x", "y", "vx", "vy", "id")
     def __init__(self, x, y, vx, vy, id):
         self.x, self.y, self.vx, self.vy, self.id = x, y, vx, vy, id
-
 def mul(a, b): return (a * b) >> FP
 def div(a, b): return 0 if b == 0 else (a << FP) // b
-
 def isqrt(n):
     if n < 0: raise ValueError("isqrt of negative")
     if n < 2: return n
     x = n; y = (x + 1) // 2
     while y < x: x = y; y = (x + n // x) // 2
     return x
-
 def _cos_fp(x_fp):
     while x_fp > PI_FP: x_fp -= TAU_FP
     while x_fp < -PI_FP: x_fp += TAU_FP
@@ -37,7 +30,6 @@ def _cos_fp(x_fp):
     for n in range(1, 8):
         term = -mul(term, x2) // ((2*n - 1) * (2*n)); s += term
     return s
-
 def _sin_fp(x_fp):
     while x_fp > PI_FP: x_fp -= TAU_FP
     while x_fp < -PI_FP: x_fp += TAU_FP
@@ -46,7 +38,6 @@ def _sin_fp(x_fp):
     for n in range(1, 8):
         term = -mul(term, x2) // ((2*n) * (2*n + 1)); s += term
     return s
-
 def separation(a, neighbors, radius=ONE):
     r2 = mul(radius, radius); sx = sy = 0
     for n in neighbors:
@@ -57,26 +48,22 @@ def separation(a, neighbors, radius=ONE):
             if d > 0:
                 sx += div(dx, d); sy += div(dy, d)
     return (sx, sy)
-
 def alignment(a, neighbors):
     if not neighbors: return (0, 0)
     ax = sum(n.vx for n in neighbors) // len(neighbors)
     ay = sum(n.vy for n in neighbors) // len(neighbors)
     return (ax - a.vx, ay - a.vy)
-
 def cohesion(a, neighbors):
     if not neighbors: return (0, 0)
     cx = sum(n.x for n in neighbors) // len(neighbors)
     cy = sum(n.y for n in neighbors) // len(neighbors)
     return (cx - a.x, cy - a.y)
-
 def k_nearest(a, agents, k):
     ds = [(mul(b.x - a.x, b.x - a.x) + mul(b.y - a.y, b.y - a.y), b.id)
           for b in agents if b.id != a.id]
     ds.sort(key=lambda t: t[0])
     ids = set(i for _, i in ds[:k])
     return [b for b in agents if b.id in ids]
-
 def _move(a, agents, k, w_sep, w_align, w_coh, vmax, dt):
     nb = k_nearest(a, agents, k)
     sx, sy = separation(a, nb)
@@ -92,13 +79,11 @@ def _move(a, agents, k, w_sep, w_align, w_coh, vmax, dt):
         if s > 0:
             vx = div(mul(vx, vmax), s); vy = div(mul(vy, vmax), s)
     return Agent(a.x + mul(vx, dt), a.y + mul(vy, dt), vx, vy, a.id)
-
 def step(agents, k=7, w_sep=ONE//4, w_align=3*ONE, w_coh=ONE, vmax=ONE,
          dt=ONE//10, workers=None):
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers or len(agents)) as ex:
         futs = [ex.submit(_move, a, agents, k, w_sep, w_align, w_coh, vmax, dt) for a in agents]
         return [f.result() for f in futs]
-
 def spawn(n=200, seed=0, box=(0, 20)):
     rng = random.Random(seed)
     lo, hi = box
@@ -112,7 +97,6 @@ def spawn(n=200, seed=0, box=(0, 20)):
         speed = HALF + (rng.getrandbits(16) % (ONE // 2))
         agents.append(Agent(x, y, mul(_cos_fp(ang_fp), speed), mul(_sin_fp(ang_fp), speed), i))
     return agents
-
 def order_parameter(agents):
     if not agents: return 0
     sx = sy = 0
@@ -124,17 +108,14 @@ def order_parameter(agents):
                 sx += div(a.vx, s); sy += div(a.vy, s)
     mag = isqrt((mul(sx, sx) + mul(sy, sy)) << FP)
     return div(mag, len(agents) * ONE)
-
 def centroid(agents):
     if not agents: return (0, 0)
     return (sum(a.x for a in agents) // len(agents), sum(a.y for a in agents) // len(agents))
-
 def spread(agents):
     if not agents: return 0
     cx, cy = centroid(agents)
     s = sum(mul(a.x - cx, a.x - cx) + mul(a.y - cy, a.y - cy) for a in agents) // len(agents)
     return isqrt(s << FP)
-
 def murmurate(n=100, steps=100, k=7, seed=42, w_sep=ONE//4, w_align=3*ONE,
               w_coh=ONE, workers=None):
     agents = spawn(n, seed)
@@ -143,7 +124,6 @@ def murmurate(n=100, steps=100, k=7, seed=42, w_sep=ONE//4, w_align=3*ONE,
         agents = step(agents, k=k, w_sep=w_sep, w_align=w_align, w_coh=w_coh, workers=workers)
         history.append({"t": t, "order": order_parameter(agents), "spread": spread(agents)})
     return {"agents": agents, "history": history, "k": k, "n": n, "steps": steps}
-
 def check_no_global_control():
     tree = _ast.parse(inspect.getsource(sys.modules[__name__]))
     hits = []
@@ -155,7 +135,6 @@ def check_no_global_control():
         if isinstance(node, _ast.Name) and node.id == "_GLOBAL_STATE":
             hits.append(f"_GLOBAL_STATE line {node.lineno}")
     return hits
-
 def check_no_float():
     tree = _ast.parse(inspect.getsource(sys.modules[__name__]))
     hits = []
@@ -169,7 +148,6 @@ def check_no_float():
                 if alias.name == "math":
                     hits.append(f"import math line {node.lineno}")
     return hits
-
 if __name__ == "__main__":
     r1 = murmurate(n=100, steps=100, k=7, seed=42)
     r2 = murmurate(n=100, steps=100, k=7, seed=42)

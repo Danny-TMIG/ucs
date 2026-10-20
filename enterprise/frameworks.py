@@ -1,19 +1,15 @@
-"""frameworks.py — reference frames for enterprise classification.
-
-Three canonical enterprise taxonomies, encoded as data:
-
-  Forbes Global 2000 sectors  — 12 broad sectors, 60+ industries
-  Fortune 500 functional orgs — 14 standard C-suite functions
-  Gartner technology stack    — 9 layers, 40+ categories
-  Gartner Hype Cycle phases   — 5 phases
-
-Each is a fixed, finite list. Every artifact on disk gets classified
-against each frame by rules over its path and content.
-"""
-
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 from __future__ import annotations
-
-# ── Forbes Global 2000 sectors ────────────────────────────────────────
 FORBES_SECTORS = {
     "Aerospace & Defense": ["Aerospace", "Defense", "Space"],
     "Business Services & Supplies": [
@@ -79,8 +75,6 @@ FORBES_SECTORS = {
     "Trading Companies": ["Wholesale", "Distribution"],
     "Utilities": ["Electric", "Gas", "Water", "Renewables"],
 }
-
-# ── Fortune 500 functional orgs (C-suite) ─────────────────────────────
 FORTUNE_FUNCTIONS = {
     "CEO": ["Strategy", "Corporate Development", "Investor Relations"],
     "CFO": ["Finance", "Accounting", "Treasury", "Tax", "Audit"],
@@ -97,8 +91,6 @@ FORTUNE_FUNCTIONS = {
     "CSO": ["Sustainability", "ESG", "Public Policy"],
     "CKO": ["Knowledge", "Documentation", "Learning", "Enablement"],
 }
-
-# ── Gartner technology stack ──────────────────────────────────────────
 GARTNER_LAYERS = {
     "Infrastructure": [
         "Compute",
@@ -167,8 +159,6 @@ GARTNER_LAYERS = {
     ],
     "End-User": ["Endpoints", "Collaboration", "Productivity", "Browsers", "VDI"],
 }
-
-# ── Gartner Hype Cycle phases ─────────────────────────────────────────
 HYPE_PHASES = [
     "Innovation Trigger",
     "Peak of Inflated Expectations",
@@ -176,8 +166,6 @@ HYPE_PHASES = [
     "Slope of Enlightenment",
     "Plateau of Productivity",
 ]
-
-# ── Market position quadrant (Magic Quadrant) ─────────────────────────
 MAGIC_QUADRANT = [
     "Leaders",
     "Challengers",

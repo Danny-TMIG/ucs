@@ -31,11 +31,9 @@ if __name__=="__main__":
         phi = solve_1d(bulk, kappa=0.01, n=128, iters=2000)
         sigma = interface_energy(phi, 0.01, dx)
         assert sigma > 0, (name, sigma)
-    # negative test
     try:
         solve_1d(lambda p: 1/0, 0.01, n=8, iters=2)
         raise SystemExit("interface should fail on bad bulk")
     except ZeroDivisionError:
         pass
-
     print("interface OK")

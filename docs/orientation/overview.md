@@ -6,7 +6,7 @@ not_about:
   - Component details (Tier 3)
 ---
 
-# Overview
+Overview
 
 Three layers. One invariant.
 

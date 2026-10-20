@@ -6,7 +6,7 @@ not_about:
   - Explanations (Tier 4)
 ---
 
-# Glossary
+Glossary
 
 - Cognitive identity: durable continuity binding.
 - Principal: the user or workload Govern authenticates.

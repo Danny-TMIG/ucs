@@ -3,8 +3,6 @@
   "scope": "loop invariants",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.invariants"
-  ],
+  "governs": [],
   "prevents": []
 }

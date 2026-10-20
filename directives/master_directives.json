@@ -1,0 +1,33 @@
+{
+  "audit_standard": "ISO/IEC 27001, SOC 2 Type II, NIST SP 800-53, Zero-Trust WORM Attestation",
+  "directives": {
+    "DIR-ATTEST-04": {
+      "enforcement": "File permission locking (0o600) and persistent key verification.",
+      "name": "Hardware-Rooted Identity & Signing",
+      "requirement": "Execution keys and HMAC secrets must be stored locally with restricted permissions and protected via device-bound entropy sources."
+    },
+    "DIR-AUDIT-05": {
+      "enforcement": "Automated assertion checks and traceback logging on tampering detection.",
+      "name": "Continuous Self-Auditing & Verification",
+      "requirement": "The system must verify its own WORM ledger integrity upon startup, mid-cycle, and prior to final deployment gate release."
+    },
+    "DIR-CRYPTO-01": {
+      "enforcement": "Strict block validation on every read/write cycle; failure halts execution.",
+      "name": "Immutable Chain of Custody (WORM)",
+      "requirement": "Every state transition, log entry, and execution artifact must be cryptographically chained using SHA-256 and bound via HMAC-SHA256 signature verification."
+    },
+    "DIR-SWARM-02": {
+      "enforcement": "Decentralized evaluation with automatic circuit breaking.",
+      "name": "6-Role Executive Basis Consensus",
+      "requirement": "All deployments and state changes must pass through the 6-role Murmurations basis set (CDO, CISO, CRO, CLO, Ethics/RAI, CPO). Any single executive veto halts the pipeline."
+    },
+    "DIR-TELEMETRY-03": {
+      "enforcement": "Runtime type and value validation prior to ledger sealing.",
+      "name": "Float-Computed Zero-Stub Telemetry",
+      "requirement": "Telemetry metrics (latency, error rate, model confidence) must be computed dynamically using floating-point arithmetic directly from raw event streams without stubs or mock values."
+    }
+  },
+  "framework": "Sovereign DevSecOps Murmurations Engine",
+  "target": "/tmp/ucs-clean",
+  "version": "1.0.0"
+}

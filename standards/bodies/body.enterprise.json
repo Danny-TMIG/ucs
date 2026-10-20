@@ -1,0 +1,14 @@
+{
+  "id": "body.enterprise",
+  "scope": "enterprise classification, scoring, framework registry",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.enterprise_classify",
+    "ucs.enterprise_enterprise_registry",
+    "ucs.enterprise_frameworks",
+    "ucs.enterprise_score",
+    "ucs.enterprise_scored"
+  ],
+  "prevents": []
+}

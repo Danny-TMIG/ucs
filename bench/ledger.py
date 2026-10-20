@@ -1,16 +1,12 @@
-#!/usr/bin/env python3
-"""ledger.py — append-only compile-time measurement record.
-
-Each entry includes prev_hash, chaining entries. Tampering breaks the chain.
-read_all() verifies the chain; if any prev_hash is wrong, LedgerCorrupted raised."""
+\
+\
+\
 import hashlib, json, pathlib, time
 LEDGER = pathlib.Path("bench/ledger.json")
 class LedgerCorrupted(Exception): pass
-
 def _digest(entry):
     payload = json.dumps({k: v for k, v in entry.items() if k != "hash"}, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()
-
 def read_all(verify=True):
     if not LEDGER.exists(): return []
     entries = json.loads(LEDGER.read_text())
@@ -23,7 +19,6 @@ def read_all(verify=True):
                 raise LedgerCorrupted(f"entry {i} hash mismatch")
             prev = e["hash"]
     return entries
-
 def record(grammar, size, wall, extra=None):
     entries = read_all()
     prev = entries[-1]["hash"] if entries else None
@@ -34,10 +29,8 @@ def record(grammar, size, wall, extra=None):
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
     LEDGER.write_text(json.dumps(entries, indent=2))
     return e
-
 def by_grammar(g):
     return [e for e in read_all() if e["grammar"] == g]
-
 if __name__ == "__main__":
     import tempfile, os
     os.chdir(tempfile.mkdtemp()); pathlib.Path("bench").mkdir()
@@ -45,7 +38,6 @@ if __name__ == "__main__":
     assert a["prev_hash"] is None and b["prev_hash"] == a["hash"]
     assert c["prev_hash"] == b["hash"]
     entries = read_all(verify=True); assert len(entries) == 3
-    # real tamper test: modify wall, verify chain fails
     entries[1]["wall"] = 9.99
     pathlib.Path("bench/ledger.json").write_text(json.dumps(entries))
     try:

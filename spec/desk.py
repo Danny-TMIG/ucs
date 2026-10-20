@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import threading
 class NoRoute(Exception): pass
 class AmbiguousRoute(Exception): pass

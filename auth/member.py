@@ -1,30 +1,24 @@
-#!/usr/bin/env python3
-"""member.py — the identity layer that owns every state-changing adapter.
-
-A member is:
-  - id: a stable string (its handle)
-  - capabilities: the set of things it is allowed to do
-  - adapters: {name: fn} — state-changing operations it owns
-
-A call is: member.invoke(adapter_name, payload)
-  - checks member has the capability that the adapter requires
-  - checks the adapter exists
-  - checks the payload is JSON-serializable (so it can be hashed)
-  - calls the adapter with the payload
-  - records the call in the state ledger with the caller's identity
-"""
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 import hashlib, json, pathlib, time
-
 class NotAMember(Exception): pass
 class MissingCapability(Exception): pass
 class UnknownAdapter(Exception): pass
 class BadPayload(Exception): pass
-
 STATE = pathlib.Path("build/_members")
-
 def _digest(x):
     return hashlib.sha256(json.dumps(x, sort_keys=True, default=str).encode()).hexdigest()
-
 class Member:
     def __init__(self, id, capabilities, adapters):
         if not id or not isinstance(id, str):
@@ -33,7 +27,6 @@ class Member:
         self.capabilities = set(capabilities)
         self.adapters = dict(adapters)
         self._log = STATE / f"{id}.json"
-
     def _record(self, entry):
         entries = json.loads(self._log.read_text()) if self._log.exists() else []
         prev = entries[-1]["hash"] if entries else None
@@ -43,7 +36,6 @@ class Member:
         self._log.parent.mkdir(parents=True, exist_ok=True)
         self._log.write_text(json.dumps(entries, indent=2))
         return entry
-
     def invoke(self, adapter_name, payload, capability_required=None):
         if adapter_name not in self.adapters:
             raise UnknownAdapter(f"{self.id} has no adapter {adapter_name!r}")
@@ -60,10 +52,8 @@ class Member:
         self._record({"action": "result", "adapter": adapter_name,
                       "result_hash": _digest(result)})
         return result
-
     def log(self):
         return json.loads(self._log.read_text()) if self._log.exists() else []
-
 if __name__ == "__main__":
     import tempfile, os
     os.chdir(tempfile.mkdtemp())
@@ -72,21 +62,18 @@ if __name__ == "__main__":
     assert r == {"ok": True, "k": "x"}
     log = m.log()
     assert len(log) == 2 and log[0]["action"] == "invoke" and log[1]["action"] == "result"
-    # negative: missing capability
     try:
         m.invoke("write_kv", {}, capability_required="admin")
     except MissingCapability:
         pass
     else:
         raise SystemExit("should raise MissingCapability")
-    # negative: unknown adapter
     try:
         m.invoke("nope", {})
     except UnknownAdapter:
         pass
     else:
         raise SystemExit("should raise UnknownAdapter")
-    # negative: empty id
     try:
         Member("", set(), {})
     except NotAMember:

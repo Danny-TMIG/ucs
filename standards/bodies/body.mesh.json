@@ -3,8 +3,6 @@
   "scope": "fit checker for N models",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.mesh"
-  ],
+  "governs": [],
   "prevents": []
 }

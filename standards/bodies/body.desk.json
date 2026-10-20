@@ -4,7 +4,10 @@
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
   "governs": [
-    "ucs.desk"
+    "ucs.spec_experts_artifact",
+    "ucs.spec_experts_constraint",
+    "ucs.spec_experts_domain",
+    "ucs.spec_experts_evidence"
   ],
   "prevents": []
 }

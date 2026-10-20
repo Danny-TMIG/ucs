@@ -1,11 +1,7 @@
-#!/usr/bin/env python3
-"""llama_expert.py — MIP substrate routing to the local model.
-Refuses loudly (ModelUnavailable) when no model. No stub return."""
+\
 import serve
-
 class ModelUnavailable(Exception):
     pass
-
 def invoke(inp):
     if not isinstance(inp, dict):
         raise ValueError("invoke requires a dict")
@@ -28,7 +24,6 @@ def invoke(inp):
     if not out:
         raise RuntimeError("model returned empty output")
     return {"family": "llama", "output": out, "model": serve.model_info().get("model")}
-
 if __name__ == "__main__":
     if serve.available():
         r = invoke({"goal": "JSON schema for a user record", "n": 80})
@@ -42,7 +37,6 @@ if __name__ == "__main__":
             print("llama_expert OK (refused): ModelUnavailable when no model")
         else:
             raise SystemExit("invoke should raise ModelUnavailable when no model")
-    # negative test: bad input shapes raise ValueError regardless of model state
     for bad in ({}, {"goal": ""}, {"prompt": ""}, "not a dict"):
         try:
             invoke(bad)

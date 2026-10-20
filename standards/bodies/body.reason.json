@@ -3,9 +3,7 @@
   "scope": "model-or-stub reasoning",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.reason"
-  ],
+  "governs": [],
   "prevents": [
     "F1"
   ]

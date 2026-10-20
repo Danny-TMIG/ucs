@@ -23,11 +23,9 @@ if __name__=="__main__":
     comp = accuracy(arch_predict, data)
     print(f"baseline acc: {base:.3f}, composed acc: {comp:.3f}")
     assert comp >= base, (base, comp)
-    # negative test
     try:
         accuracy(lambda x: 1/0, [(0, 0)])
         raise SystemExit("toy_model should fail on bad predictor")
     except ZeroDivisionError:
         pass
-
     print("toy_model OK")

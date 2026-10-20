@@ -4,8 +4,7 @@
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
   "governs": [
-    "ucs.arch",
-    "ucs.toy_model"
+    "ucs.specs_asf_cmp"
   ],
   "prevents": []
 }

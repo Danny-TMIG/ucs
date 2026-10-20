@@ -35,3 +35,4 @@ build/
 **/KEY
 **/*.sig
 archives/
+systems/daemon/state.json

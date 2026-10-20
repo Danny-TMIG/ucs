@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import threading
 class CycleError(Exception): pass
 class NoSuchNode(Exception): pass
@@ -53,7 +52,6 @@ class Atlas:
                 if nd is not None: n.data=nd
             regenerated.append(nid)
         return regenerated
-
 if __name__ == "__main__":
     a=Atlas()
     for k,i,d in [("intent","i1",{"goal":"build foo"}),("plan","p1",{"plan_id":"p1"}),

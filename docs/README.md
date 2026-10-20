@@ -1,4 +1,4 @@
-# ucs incident hardening package
+ucs incident hardening package
 Run in order:
 1. 01-install-tracked-hook.sh
 2. 02-enable-github-security.sh

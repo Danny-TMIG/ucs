@@ -1,11 +1,8 @@
-"""classify.py — classify every artifact on disk against the three
-enterprise frames (Forbes, Fortune, Gartner) and write the mapping."""
-
+\
 from __future__ import annotations
 import json, re, sys, time
 from collections import defaultdict, Counter
 from pathlib import Path
-
 HOME = Path.home()
 sys.path.insert(0, str(HOME / "ucs" / "enterprise"))
 from frameworks import (
@@ -15,10 +12,8 @@ from frameworks import (
     HYPE_PHASES,
     MAGIC_QUADRANT,
 )
-
 OUT = HOME / "ucs" / "enterprise"
 OUT.mkdir(parents=True, exist_ok=True)
-
 ROOTS = [
     "foundations",
     "swarm",
@@ -32,9 +27,6 @@ ROOTS = [
     "enterprise",
     "resolve",
 ]
-# NOTE: vem/ and venvs/ excluded — vem/store/objects/ is the VEM blob store
-# (30k+ content-addressed JSON blobs, not user artifacts), and venvs/ is
-# site-packages from pip installs, not this session's code.
 ROOT_FILES = [
     "procedural-mesh.py",
     "constellation-partition.py",
@@ -49,17 +41,12 @@ ROOT_FILES = [
     "run_spec_throughput.sh",
     "verify_all.sh",
 ]
-
 TEXT_EXT = {".py", ".md", ".txt", ".rst", ".org", ".sh", ".json", ".yaml", ".yml", ".c"}
-
-
 def read_head(p: Path, n: int = 8192) -> str:
     try:
         return p.read_text(errors="ignore")[:n]
     except OSError:
         return ""
-
-
 def walk() -> list[Path]:
     out = []
     EXCLUDE = (
@@ -93,8 +80,6 @@ def walk() -> list[Path]:
         if p.exists() and p.is_file():
             out.append(p)
     return out
-
-
 def classify_forbes(text: str, path: str) -> list[str]:
     hits = []
     hay = (text + " " + path).lower()
@@ -103,8 +88,6 @@ def classify_forbes(text: str, path: str) -> list[str]:
             if ind.lower() in hay:
                 hits.append(f"{sector}/{ind}")
     return sorted(set(hits))
-
-
 def classify_fortune(text: str, path: str) -> list[str]:
     hits = []
     hay = (text + " " + path).lower()
@@ -113,8 +96,6 @@ def classify_fortune(text: str, path: str) -> list[str]:
             if fn.lower() in hay:
                 hits.append(f"{role}/{fn}")
     return sorted(set(hits))
-
-
 def classify_gartner(text: str, path: str) -> list[str]:
     hits = []
     hay = (text + " " + path).lower()
@@ -123,8 +104,6 @@ def classify_gartner(text: str, path: str) -> list[str]:
             if c.lower() in hay:
                 hits.append(f"{layer}/{c}")
     return sorted(set(hits))
-
-
 def classify_hype(text: str) -> list[str]:
     hits = []
     hay = text.lower()
@@ -132,8 +111,6 @@ def classify_hype(text: str) -> list[str]:
         if phase.lower() in hay:
             hits.append(phase)
     return hits
-
-
 def classify_quadrant(text: str) -> list[str]:
     hits = []
     hay = text.lower()
@@ -141,21 +118,17 @@ def classify_quadrant(text: str) -> list[str]:
         if q.lower() in hay:
             hits.append(q)
     return hits
-
-
 def main():
     files = walk()
     print(f"== enterprise classification ==")
     print(f"  files scanned: {len(files)}")
     print()
-
     forbes_grid = defaultdict(lambda: defaultdict(int))
     fortune_grid = defaultdict(lambda: defaultdict(int))
     gartner_grid = defaultdict(lambda: defaultdict(int))
     hype_counter = Counter()
     quadrant_counter = Counter()
     per_file = []
-
     for p in files:
         text = read_head(p)
         path = str(p.relative_to(HOME))
@@ -186,8 +159,6 @@ def main():
                 "quadrant": q_hits,
             }
         )
-
-    # roll-ups
     forbes_total = Counter()
     for top, cells in forbes_grid.items():
         for cell, n in cells.items():
@@ -200,7 +171,6 @@ def main():
     for top, cells in gartner_grid.items():
         for cell, n in cells.items():
             gartner_total[cell] += n
-
     print(f"== Forbes Global 2000 sectors touched ({len(forbes_total)}) ==")
     for cell, n in forbes_total.most_common(20):
         print(f"  {cell:60s} {n:5d}")
@@ -221,8 +191,6 @@ def main():
     for q in MAGIC_QUADRANT:
         print(f"  {q:36s} {quadrant_counter.get(q, 0):5d}")
     print()
-
-    # write registry
     p = OUT / "enterprise_registry.json"
     p.write_text(
         json.dumps(
@@ -240,7 +208,5 @@ def main():
         )
     )
     print(f"wrote: {p}")
-
-
 if __name__ == "__main__":
     main()

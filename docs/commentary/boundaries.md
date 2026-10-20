@@ -7,6 +7,6 @@ not_about:
   - New invariants
 ---
 
-# Boundaries
+Boundaries
 
 Every boundary object carries envelope, idempotency key, classification, and evidence context. The system fails closed. Cancellation and revocation are observable state transitions. Producers own semantic validity at emission; consumers re-validate.

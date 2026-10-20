@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-"""Intent -> structured plan. Deterministic: goal text maps to artifact set."""
 import json, re, sys, uuid
-
 def decompose(intent):
     goal = intent["goal"].lower()
     slug = re.sub(r"[^a-z0-9]+", "-", goal).strip("-")[:40] or "task"
@@ -25,10 +22,7 @@ def decompose(intent):
         "fields": ["id", "status"],
     })
     return {"plan_id": plan_id, "intent": intent, "artifacts": artifacts}
-
 if __name__ == "__main__":
-
-    # negative test
     try:
         decompose({"goal": None})
         raise SystemExit("decompose should fail on None goal")
