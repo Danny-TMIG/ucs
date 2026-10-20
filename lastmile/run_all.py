@@ -132,7 +132,8 @@ def probe_port(port):
 def run_infra():
     ports = [19800, 19801, 19802]
     port_state = {p: probe_port(p) for p in ports}
-    keyfile = HOME / "ucs" / "hood_compilers" / "chain" / "KEY"
+    import os as _o
+    keyfile = Path(_o.environ.get("UCS_CHAIN_DIR", HOME / ".config" / "ucs")) / "hood_compilers" / "chain" / "KEY"
     key_state = {
         "exists": keyfile.exists(),
         "mode": oct(keyfile.stat().st_mode & 0o777) if keyfile.exists() else None,

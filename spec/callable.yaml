@@ -1,0 +1,38 @@
+---
+name: ucs-callable
+version: 1.0.0
+intent: rotate signing material autonomously on demand, no human in the loop
+entrypoint: spec/run.sh
+inputs:
+  UCS_CHAIN_DIR: path to chain material (default ~/.config/ucs)
+  UCS_ISSUER: name of key issuer (hsm|kms|local|file)
+  UCS_ISSUER_REF: identifier at issuer (arn|path|id)
+  UCS_NEW_TAG: release tag to publish (default v<semver>-rotated)
+outputs:
+  chain.json: public manifest, committed
+  chain.sig: regenerated signature, committed
+  tag: pushed to origin
+  audit: spec/audit/<timestamp>.txt
+guarantees:
+  - never writes KEY or .sig into worktree
+  - refuses to run if pre-commit fails
+  - refuses to push if branch protection check fails
+  - idempotent: re-running produces same result
+  - abort-on-any-failure, no partial state
+invariants:
+  - chain private key never leaves UCS_ISSUER
+  - worktree contains only public material after run
+  - git history contains no KEY or .sig blobs
+spec:
+  1. validate inputs and issuer reachability
+  2. export UCS_CHAIN_DIR, mkdir -p allwares hood_compilers/chain
+  3. generate new keypair at issuer, capture public half
+  4. run allwares.py rekey, hood_compilers/chain.py rekey
+  5. run pre-commit run --all-files, abort on fail
+  6. run spec/verify.sh, abort on fail
+  7. copy public chain.json + chain.sig into worktree
+  8. git add, git commit -m "chore(rotation): <tag>"
+  9. tag <tag>, push branch, push tag
+  10. open PR if branch protection requires, wait for checks, merge
+  11. run spec/post-verify.sh, abort on fail
+  12. write audit, append to docs/rotation-runbook.md

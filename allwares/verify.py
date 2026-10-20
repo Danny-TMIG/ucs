@@ -2,7 +2,8 @@
 import hashlib, hmac, json, re, sys
 from pathlib import Path
 
-AW = Path(__file__).parent
+import os
+AW = Path(os.environ.get("UCS_CHAIN_DIR", Path.home() / ".config" / "ucs")) / "allwares"
 KEYF = AW / "KEY"
 
 

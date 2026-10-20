@@ -1,0 +1,9 @@
+[00:01:32] intent: rotate signing material autonomously
+[00:01:32] issuer=local ref=default tag=v2026.10.20-smoke chain_dir=/Users/metadusa/.config/ucs
+[00:01:32] step 1: validate inputs
+[00:01:32] step 2: prepare chain dir
+[00:01:32] step 3: generate new keypair at issuer
+[00:01:32] step 4: rekey
+usage: allwares.py [-h] {build,verify,report,cycle}
+allwares.py: error: argument cmd: invalid choice: 'rekey' (choose from 'build', 'verify', 'report', 'cycle')
+[00:01:32] ABORT: allwares rekey failed

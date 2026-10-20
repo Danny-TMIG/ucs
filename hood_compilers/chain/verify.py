@@ -18,9 +18,10 @@ from __future__ import annotations
 import hashlib, hmac, json, sys
 from pathlib import Path
 
-CH = Path(__file__).parent
-HC = CH.parent
+import os
+HC = Path(__file__).parent.parent
 OUT = HC / "out"
+CH = Path(os.environ.get("UCS_CHAIN_DIR", Path.home() / ".config" / "ucs")) / "hood_compilers" / "chain"
 KEYF = CH / "KEY"
 
 

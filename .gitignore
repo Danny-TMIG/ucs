@@ -35,3 +35,8 @@ build/
 **/KEY
 **/*.sig
 archives/
+allwares/KEY
+allwares/chain.sig
+allwares/chain.json
+hood_compilers/chain/KEY
+hood_compilers/chain/chain.sig

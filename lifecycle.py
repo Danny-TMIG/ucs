@@ -58,7 +58,8 @@ def check_verifiers():
 
 
 def check_key():
-    k = UC / "allwares" / "KEY"
+    import os as _o
+    k = Path(_o.environ.get("UCS_CHAIN_DIR", HOME / ".config" / "ucs")) / "allwares" / "KEY"
     if not k.exists():
         return False, "missing"
     mode = oct(k.stat().st_mode & 0o777)
