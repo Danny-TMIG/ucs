@@ -7,8 +7,8 @@ PRIMITIVES = {
     "transform":{"in": "typed",     "out": "typed"},
     "execute":  {"in": "typed",     "out": "result"},
     "observe":  {"in": "result",    "out": "evidence"},
-    "decide":   {"in": "evidence",  "out": "verdict"},
-    "persist":  {"in": "typed",     "out": "state"},
+    "decide":   {"in": "evidence",  "out": "state"},
+    "persist":  {"in": "state",     "out": "state"},
     "publish":  {"in": "state",     "out": "external"},
 }
 
