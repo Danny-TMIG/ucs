@@ -1,0 +1,31 @@
+{
+  "python": "3.12",
+  "base_port": 8081,
+  "env": {
+    "AETHER_BASE_PORT": "8081 (optional, shifts the port range)",
+    "AETHER_GOVERN_PORT": "8081 (optional, pins govern)",
+    "AETHER_COMPUTE_PORT": "8082 (optional, pins compute)",
+    "AETHER_COGNITION_PORT": "8083 (optional, pins cognition)"
+  },
+  "endpoints": {
+    "govern": ["GET /health", "POST /authorization-request", "POST /execution-order", "POST /intent"],
+    "compute": ["GET /health", "POST /execution-order"],
+    "cognition": ["GET /health", "POST /evidence"]
+  },
+  "dependencies": [],
+  "files": {
+    "entrypoint": "run_fabric.py",
+    "loop": "spec/loop.py",
+    "decide": "spec/decide.py",
+    "invariants": "spec/invariants.py",
+    "revise": "spec/revise.py",
+    "atlas": "spec/atlas.py",
+    "intent_schema": "specs/intent/intent.schema.json"
+  },
+  "versions": {"envelope": "1.0", "intent_schema": "1.0"},
+  "compatibility": {
+    "envelope": "additions allowed; removals/type-changes are breaking",
+    "intent_schema": "goal and acceptance required; new fields allowed",
+    "endpoints": "new endpoints allowed; existing paths+methods stable"
+  }
+}
