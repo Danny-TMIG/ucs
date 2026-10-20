@@ -32,6 +32,20 @@ Language, database, model family, cloud, hardware vendor, and deployment packagi
 
 ---
 
+## Current state
+
+**This repository contains architectural stubs and one CLI demo.** It does not contain a working implementation of the fabric.
+
+- `specs/ASF-*-FAS-001.md` are 26-line stubs. They name the three layers, the invariants, and the boundary alignment. They do not enumerate the 75 components, the nine requirements per component, or the mathematics index.
+- `specs/contracts/*.schema.json` assert envelope fields only. They do not constrain payload.
+- One of 22 open decisions is recorded as a file.
+- `tools/` is a CLI demo of the Cognition evidence path. It is not ASF. It is not Govern. It is not Compute.
+- The nine-bullet reference slice is not implemented.
+
+The README above describes the intended architecture. The current state is described in `decisions/closed/ASF-LOCAL-001.md`.
+
+---
+
 ## Start with the CLI (five minutes)
 
 The \`aether\` CLI is a working demonstration of the Cognition-to-Evidence path: one intent produces code, execution, and a signed trace that anyone can verify without your model, your network, or your machine.
