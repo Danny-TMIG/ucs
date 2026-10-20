@@ -1,0 +1,13 @@
+{
+  "key": "A-1",
+  "id": 1,
+  "project": {
+    "key": "A"
+  },
+  "type": "bug",
+  "status": "open",
+  "reporter": "u",
+  "creator": "u",
+  "created": "t",
+  "updated": "t"
+}
