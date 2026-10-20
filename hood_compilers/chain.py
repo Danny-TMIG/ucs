@@ -25,10 +25,12 @@ from __future__ import annotations
 import hashlib, hmac, json, os, secrets, stat, sys, time
 from pathlib import Path
 
+import os as _os
 HOME = Path.home()
 HC = HOME / "ucs" / "hood_compilers"
 OUT = HC / "out"
-CH = HC / "chain"
+CHAIN_DIR = Path(_os.environ.get("UCS_CHAIN_DIR", HOME / ".config" / "ucs"))
+CH = CHAIN_DIR / "hood_compilers" / "chain"
 CH.mkdir(parents=True, exist_ok=True)
 
 KEYFILE = CH / "KEY"
@@ -203,7 +205,14 @@ def main():
     sys.exit(0)
 
 if __name__ == "__main__":
-    main()
+    import sys as _sys
+    if "rekey" in _sys.argv:
+        if KEYFILE.exists():
+            KEYFILE.unlink()
+        main()
+        print(f"rekey: {KEYFILE}")
+    else:
+        main()
 '''
 
 
@@ -228,4 +237,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys as _sys
+    if "rekey" in _sys.argv:
+        if KEYFILE.exists():
+            KEYFILE.unlink()
+        main()
+        print(f"rekey: {KEYFILE}")
+    else:
+        main()

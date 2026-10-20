@@ -6,9 +6,11 @@ from collections import defaultdict
 from dataclasses import dataclass, asdict, field
 from pathlib import Path
 
+import os as _os
 HOME = Path.home()
 UC = HOME / "ucs"
-AW = UC / "allwares"
+CHAIN_DIR = Path(_os.environ.get("UCS_CHAIN_DIR", HOME / ".config" / "ucs"))
+AW = CHAIN_DIR / "allwares"
 OUT = AW / "wares"
 FLEET = AW / "fleet"
 KEYF = AW / "KEY"
@@ -377,12 +379,17 @@ def report():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["build", "verify", "report", "cycle"])
+    ap.add_argument("cmd", choices=["build", "verify", "report", "cycle", "rekey"])
     args = ap.parse_args()
     import subprocess
 
     if args.cmd == "build":
         build_all()
+    elif args.cmd == "rekey":
+        if KEYF.exists():
+            KEYF.unlink()
+        build_all()
+        print(f"rekey: {KEYF}")
     elif args.cmd == "verify":
         sys.exit(subprocess.run([sys.executable, str(AW / "verify.py")]).returncode)
     elif args.cmd == "report":
