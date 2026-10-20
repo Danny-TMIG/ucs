@@ -1,0 +1,3 @@
+{"kind": "transition", "ts": "t1", "author": "u", "from": "open", "to": "in_progress", "prev_hash": null, "hash": "4a838837ff6c275ebcc86a43fc6487adc6070fb7827a42913736e30dc743e4fb"}
+{"kind": "field_edit", "ts": "t2", "author": "u", "from": {}, "to": {"priority": "P1"}, "prev_hash": "4a838837ff6c275ebcc86a43fc6487adc6070fb7827a42913736e30dc743e4fb", "hash": "007865b26d6949223065a61e301818a760c8108f6e5da5298ede3e39f712301b"}
+{"kind": "link", "ts": "t3", "author": "u", "from": "A-1", "to": "A-2", "edge": "blocks", "prev_hash": "007865b26d6949223065a61e301818a760c8108f6e5da5298ede3e39f712301b", "hash": "b3d634d257f2577187e7889284b6c3ab3c33453d4d998c42a77f5092ca513d6a"}
