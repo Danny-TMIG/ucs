@@ -1,0 +1,10 @@
+{
+  "id": "body.nature",
+  "scope": "phenomenology catalog",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.nature"
+  ],
+  "prevents": []
+}

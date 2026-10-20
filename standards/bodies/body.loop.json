@@ -1,0 +1,10 @@
+{
+  "id": "body.loop",
+  "scope": "intent \u2192 governed outcome",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.loop"
+  ],
+  "prevents": []
+}

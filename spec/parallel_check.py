@@ -11,6 +11,11 @@ TESTS = [
     ("state",        [sys.executable, "spec/state.py"]),
     ("version",      [sys.executable, "spec/version.py"]),
     ("migrate",      [sys.executable, "spec/migrate.py"]),
+    ("reason",[sys.executable,"spec/reason.py"]),
+    ("llama_expert",[sys.executable,"spec/llama_expert.py"]),
+    ("mesh",[sys.executable,"spec/mesh.py"]),
+    ("ledger",[sys.executable,"bench/ledger.py"]),
+    ("kaleidogami",[sys.executable,"bench/kaleidogami.py"]),
     ("runtime.json", [sys.executable, "-c",
                       "import json,pathlib;"
                       "m=json.loads(pathlib.Path('runtime.json').read_text());"

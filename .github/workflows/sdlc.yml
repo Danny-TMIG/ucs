@@ -10,9 +10,11 @@ jobs:
         with: {fetch-depth: 0}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - name: sdlc gate
-        run: |
-          set -euo pipefail
-          source tools/sdlc.sh
-          sdlc_init
-          sdlc_gate
+      - name: content checks
+        run: python3 ci/content-checks.py
+      - name: arch check
+        run: python3 ci/arch-check.py
+      - name: correlate
+        run: python3 ci/correlate.py
+      - name: parallel self-tests
+        run: python3 spec/parallel_check.py
