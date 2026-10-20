@@ -39,4 +39,11 @@ if __name__ == "__main__":
     assert check_bump("1.0", "1.1", has_addition=True) == []
     assert check_bump("1.0", "2.0", has_removal=True) == []
     assert check_bump("1.0", "1.1", has_removal=True) == ["additive bump without new fields"]
+    # negative test
+    try:
+        compat("1.0", "garbage")
+        raise SystemExit("compat should fail on non-numeric version")
+    except (ValueError, TypeError):
+        pass
+
     print("version OK")

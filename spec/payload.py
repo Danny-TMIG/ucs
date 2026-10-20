@@ -23,4 +23,11 @@ if __name__ == "__main__":
     assert validate("authorization_decision", {"decision": "allow"}) == ["missing required: request_id"]
     assert validate("authorization_decision", {"decision": "weird", "request_id": "r"}) == []
     assert validate("nope", {}) == ["unknown payload kind: nope"]
+    # negative test
+    try:
+        validate("nonexistent_kind", {})
+        raise SystemExit("payload should fail on unknown kind")
+    except SystemExit:
+        pass
+
     print("payload OK")

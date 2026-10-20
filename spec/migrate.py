@@ -38,4 +38,11 @@ if __name__ == "__main__":
     m, b = migrate_file("s.json", "v1", "v2", reverse=True)
     assert json.loads(pathlib.Path("s.json").read_text())["schema"] == "v1"
     assert pathlib.Path(b).exists()
+    # negative test
+    try:
+        migrate_file("missing.json", "v1", "v2")
+        raise SystemExit("migrate should fail on missing file")
+    except FileNotFoundError:
+        pass
+
     print("migrate OK")

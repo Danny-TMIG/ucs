@@ -17,4 +17,14 @@ if __name__=="__main__":
         sys.exit(0)
     out = generate("The capital of France is", n=10)
     assert out, "empty generation"
+
+    # negative test
+    try:
+        if not available():
+            generate("test")
+            raise SystemExit("generate should raise when model absent")
+        else:
+            generate("test", n=1, timeout=1)
+    except (RuntimeError, Exception):
+        pass
     print(f"serve OK: {out[:80]!r}")

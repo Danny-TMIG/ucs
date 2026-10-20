@@ -27,4 +27,11 @@ def decompose(intent):
     return {"plan_id": plan_id, "intent": intent, "artifacts": artifacts}
 
 if __name__ == "__main__":
+
+    # negative test
+    try:
+        decompose({"goal": None})
+        raise SystemExit("decompose should fail on None goal")
+    except (AttributeError, KeyError, TypeError):
+        pass
     print(json.dumps(decompose(json.load(sys.stdin)), indent=2))
