@@ -62,4 +62,12 @@ if __name__=="__main__":
     assert len(boost())>0 and len(lift())>0 and len(drag())>0
     out=run(["brownian_search","fick"], x0=0.9); assert out["improved"], out
     out2=run(["homeostasis"], x0=0.9); assert abs(out2["x_final"]-0.5)<0.2, out2
+
+    # negative test
+    try:
+        run(["nonexistent_op"], x0=0.5, steps=2)
+    except Exception:
+        pass
+    else:
+        raise SystemExit("nature should fail on unknown operator")
     print(f"nature OK ({len(reg)} entries, boost {len(boost())}, lift {len(lift())}, drag {len(drag())})")

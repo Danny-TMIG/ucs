@@ -28,4 +28,13 @@ if __name__ == "__main__":
     errs = validate(data)
     if errs:
         print("\n".join(errs)); sys.exit(1)
+    # negative test
+    try:
+        validate({"goal": "", "acceptance": []})
+        # empty acceptance should not raise on its own; use a missing-field case
+        errs = validate({"acceptance": ["y"]})
+        assert "goal" in " ".join(errs), errs
+    except Exception as e:  # noqa: BLE001
+        raise SystemExit(f"validate negative test failed: {e}")
+
     print("OK")

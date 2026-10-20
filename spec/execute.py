@@ -49,6 +49,13 @@ def execute(manifest_path):
 
 if __name__ == "__main__":
     ev, path = execute(sys.argv[1])
+
+    # negative test
+    try:
+        execute("definitely-nonexistent-manifest.json")
+        raise SystemExit("execute should fail on missing manifest")
+    except (FileNotFoundError, KeyError):
+        pass
     print(json.dumps({"passed": ev["passed"], "evidence": path,
                       "results": ev["results"]}, indent=2))
     sys.exit(0 if ev["passed"] else 1)

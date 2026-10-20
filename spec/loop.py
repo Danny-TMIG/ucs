@@ -26,4 +26,11 @@ def run_loop(intent):
 if __name__ == "__main__":
     import sys
     intent = json.load(sys.stdin)
+
+    # negative test
+    try:
+        run_loop({"acceptance": []})
+        raise SystemExit("loop should fail on missing goal")
+    except (KeyError, TypeError):
+        pass
     print(json.dumps(run_loop(intent), indent=2))

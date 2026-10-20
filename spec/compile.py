@@ -45,4 +45,12 @@ def compile_plan(plan):
 if __name__ == "__main__":
     plan = json.load(sys.stdin)
     m, w = compile_plan(plan)
+
+    # negative test
+    try:
+        compile_plan({"plan_id": None, "artifacts": [{"kind": "bogus"}]})
+    except (KeyError, TypeError, AttributeError):
+        pass
+    else:
+        raise SystemExit("compile should fail on unknown artifact kind")
     print(json.dumps({"manifest": m, "written": w}, indent=2))

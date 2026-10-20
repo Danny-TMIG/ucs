@@ -57,4 +57,11 @@ if __name__=="__main__":
     assert len(flow_residual([0.0,0.0],[1.0,1.0]))==2
     assert len(morpho_decode([0.1,0.2,0.3],[0.25,0.5,0.25]))==3
     assert levy_sample([1.0, 10.0, 2.0], rng=random.Random(0)) in (1, 0, 2)
+    # negative test
+    try:
+        phase_attention([], [], [])
+        raise SystemExit("arch should fail on empty input")
+    except (IndexError, ZeroDivisionError):
+        pass
+
     print("arch OK")
