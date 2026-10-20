@@ -1,6 +1,6 @@
 # Key rotation runbook — Danny-TMIG/ucs
 ## Scope
-Leaked in a20b6dd, purged on <DATE>:
+Leaked in a20b6dd (purged from history), keys rotated at issuer: PENDING:
 - allwares/KEY
 - allwares/chain.sig
 - allwares/chain.json
