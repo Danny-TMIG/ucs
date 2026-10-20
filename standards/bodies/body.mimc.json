@@ -3,8 +3,6 @@
   "scope": "process calculus",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.mimc"
-  ],
+  "governs": [],
   "prevents": []
 }

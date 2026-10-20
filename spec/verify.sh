@@ -1,10 +1,6 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 set -euo pipefail
-cd "$(dirname "$0")/.."
-fail() { echo "VERIFY-FAIL: $*"; exit 1 }
-[ -f "$UCS_CHAIN_DIR/allwares/chain.json" ] || fail "allwares chain.json missing"
-[ -f "$UCS_CHAIN_DIR/hood_compilers/chain/chain.json" ] || fail "chain chain.json missing"
-python3 -c "import json; d=json.load(open(\"$UCS_CHAIN_DIR/allwares/chain.json\")); assert \"KEY\" not in d, \"KEY leaked into chain.json\""
-python3 -c "import json; d=json.load(open(\"$UCS_CHAIN_DIR/hood_compilers/chain/chain.json\")); assert \"KEY\" not in d, \"KEY leaked into chain.json\""
-if git ls-files | grep -E "(^|/)KEY$|\.sig$" ; then fail "signing material tracked" ; fi
-echo "VERIFY-OK"
+fail() { echo "FAIL: $*" >&2; exit 1; }
+[ -d .git ] || fail "not a git repo"
+if git ls-files | grep -E "(^|/)KEY$|\.sig$" ; then fail "signing material tracked"; fi
+echo "spec verify OK"

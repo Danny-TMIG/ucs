@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-"""Plan -> real files: schema, handler stub, test, manifest."""
 import json, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-
 def compile_plan(plan):
     root = ROOT
     written = []
@@ -41,12 +38,9 @@ def compile_plan(plan):
         "written": written,
     }, indent=2))
     return str(manifest), written
-
 if __name__ == "__main__":
     plan = json.load(sys.stdin)
     m, w = compile_plan(plan)
-
-    # negative test
     try:
         compile_plan({"plan_id": None, "artifacts": [{"kind": "bogus"}]})
     except (KeyError, TypeError, AttributeError):

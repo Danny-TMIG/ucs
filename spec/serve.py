@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import shutil, subprocess, sys, pathlib, os
 LLAMA = shutil.which("llama-cli") or shutil.which("llama")
 DEFAULT_MODEL = os.environ.get("AETHER_GGUF", "")
@@ -17,8 +16,6 @@ if __name__=="__main__":
         sys.exit(0)
     out = generate("The capital of France is", n=10)
     assert out, "empty generation"
-
-    # negative test
     try:
         if not available():
             generate("test")

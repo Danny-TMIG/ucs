@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import math
 def _ci95(s):
     n=len(s); m=sum(s)/n; v=sum((x-m)**2 for x in s)/max(n-1,1); se=math.sqrt(v/n)

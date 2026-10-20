@@ -3,8 +3,6 @@
   "scope": "Euler-Lagrange solver",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.interface"
-  ],
+  "governs": [],
   "prevents": []
 }

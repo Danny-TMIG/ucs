@@ -1,15 +1,5 @@
-# placeholder.gr
-angle := < name >
-bracket := [ name ]
-holder_foo := foo
-holder_bar := bar
-holder_baz := baz
-holder_qux := qux
-holder_example := example
-holder_sample := sample
-holder_demo := demo
-holder_placeholder := placeholder
-holder_thing := thing
-holder_stuff := stuff
-holder_tmp := tmp
-holder_temp := temp
+# Grammar / Graph placeholder file
+node placeholder_root {
+    type: "root";
+    status: "active";
+}

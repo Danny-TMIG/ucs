@@ -1,84 +1,16 @@
 {
-  "generated_at": "2026-09-11T15:32:57Z",
-  "sources": {
-    "isa_registry": {
-      "path": "ucs/opcodes_all/isa_registry.json",
-      "bytes": 221911,
-      "keys": [
-        "generated_at",
-        "totals",
-        "by_source",
-        "isas"
-      ]
-    },
-    "ucs_registry": {
-      "path": "ucs/out/registry.json",
-      "bytes": 89590,
-      "keys": [
-        "generated_at",
-        "counts",
-        "behaviors"
-      ]
-    },
-    "ucs_program": {
-      "path": "ucs/out/program.json",
-      "bytes": 50232,
-      "keys": [
-        "primitives",
-        "opcode_map",
-        "program",
-        "trace_count",
-        "artifacts",
-        "validations"
-      ]
-    },
-    "enterprise": {
-      "path": "ucs/enterprise/enterprise_registry.json",
-      "bytes": 53902,
-      "keys": [
-        "generated_at",
-        "files_scanned",
-        "forbes_totals",
-        "fortune_totals",
-        "gartner_totals",
-        "hype_totals"
-      ]
-    },
-    "orders": {
-      "path": "ucs/orders.json",
-      "bytes": 4534,
-      "keys": [
-        "generated_at",
-        "level0",
-        "level1",
-        "level2",
-        "level3"
-      ]
-    },
-    "systemhood": {
-      "path": "ucs/systemhood_hoods.json",
-      "bytes": 13001,
-      "keys": [
-        "generated_at",
-        "artifacts_scanned",
-        "hoods_total",
-        "anchored",
-        "absent",
-        "results"
-      ]
-    },
-    "ware": {
-      "path": "foundations/ware_manifest.json",
-      "bytes": 279790,
-      "keys": [
-        "generated_at",
-        "roots",
-        "root_files",
-        "total",
-        "callable",
-        "attested"
-      ]
-    }
-  },
-  "hood_chain_sig": "33c1ca078ced4c8a"
+  "manifest_version": "1.0",
+  "name": "ucs-clean-manifest",
+  "description": "Everything manifest for UCS clean architecture",
+  "components": [
+    "spec",
+    "bench",
+    "auth",
+    "ci",
+    "hats",
+    "enterprise",
+    "tools",
+    "pipe"
+  ],
+  "status": "active"
 }

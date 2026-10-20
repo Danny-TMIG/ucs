@@ -1,35 +1,27 @@
-"""score.py — score each artifact against the four enterprise frames.
-
-Every artifact gets a vector:
-  F = (forbes_sectors_touched, forbes_industries_touched)
-  N = (fortune_functions_touched)
-  G = (gartner_layers_touched)
-  H = (hype_phase_if_mentioned, quadrant_if_mentioned)
-
-Score = weighted sum. Output is a ranked list of artifacts by
-enterprise relevance, plus a coverage matrix per frame.
-"""
-
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 from __future__ import annotations
 import json, sys
 from pathlib import Path
 from collections import Counter
-
 HOME = Path.home()
 OUT = HOME / "ucs" / "enterprise"
-
-
 def load() -> dict:
     return json.loads((OUT / "enterprise_registry.json").read_text())
-
-
 def score_artifact(rec: dict) -> dict:
     f = len(rec["forbes"])
     n = len(rec["fortune"])
     g = len(rec["gartner"])
     h = len(rec["hype"])
     q = len(rec["quadrant"])
-    # weights: gartner layer 3, forbes 2, fortune 2, hype 1, quadrant 1
     score = g * 3 + f * 2 + n * 2 + h * 1 + q * 1
     return {
         "path": rec["path"],
@@ -45,28 +37,22 @@ def score_artifact(rec: dict) -> dict:
             "gartner": rec["gartner"][:5],
         },
     }
-
-
 def main():
     reg = load()
     scored = [score_artifact(r) for r in reg["per_file"]]
     scored.sort(key=lambda r: -r["score"])
-
     print(f"== top 30 artifacts by enterprise score ==")
     for r in scored[:30]:
         print(
             f"  {r['score']:4d}  F{r['forbes']} N{r['fortune']} G{r['gartner']}  {r['path']}"
         )
     print()
-
     print(f"== artifacts scoring zero on all frames ==")
     zeros = [r for r in scored if r["score"] == 0]
     print(f"  count: {len(zeros)} / {len(scored)}")
     for r in zeros[:10]:
         print(f"    {r['path']}")
     print()
-
-    # coverage per frame
     print(f"== coverage ==")
     forbes = Counter()
     fortune = Counter()
@@ -90,8 +76,6 @@ def main():
     for k, n in gartner.most_common(10):
         print(f"    {k:40s} {n}")
     print()
-
-    # write scored
     out = OUT / "scored.json"
     out.write_text(
         json.dumps(
@@ -109,7 +93,5 @@ def main():
         )
     )
     print(f"wrote: {out}")
-
-
 if __name__ == "__main__":
     main()

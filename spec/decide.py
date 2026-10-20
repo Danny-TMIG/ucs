@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 import math
 from dataclasses import dataclass
-
 @dataclass
 class Placement:
     name: str
@@ -10,17 +8,14 @@ class Placement:
     accuracy: float
     n_samples: int = 1000
     def finish_time(self, batch): return self.launch + self.per_unit * batch
-
 @dataclass
 class Constraint:
     theta: float
     ci_lower: float
-
 def break_even_batch(hare, cpu):
     d = hare.per_unit - cpu.per_unit
     if abs(d) < 1e-15: return None
     return (cpu.launch - hare.launch) / d
-
 def deciding_rule(hare, cpu, batch):
     t_h = hare.finish_time(batch); t_c = cpu.finish_time(batch)
     b = break_even_batch(hare, cpu)
@@ -30,7 +25,6 @@ def deciding_rule(hare, cpu, batch):
     else: rule = "consistency" if winner == "cpu" else "sprint"
     return {"winner": winner, "deciding_rule": rule, "batch": batch,
             "break_even_batch": b, "t_hare": t_h, "t_cpu": t_c}
-
 def place(placements, constraint, batch):
     feasible = [p for p in placements if p.accuracy >= constraint.theta]
     if not feasible:
@@ -44,7 +38,6 @@ def place(placements, constraint, batch):
     return {"feasible": True, "placement": best.name, "batch": batch,
             "finish_time": best.finish_time(batch), "accuracy": best.accuracy,
             "theta": constraint.theta, "lambda": lam, "reference": ref.name}
-
 def measure(distribution, predict, seed=0):
     import random
     rng = random.Random(seed); pairs = list(distribution); N = len(pairs)
@@ -53,11 +46,9 @@ def measure(distribution, predict, seed=0):
     se = math.sqrt(rate * (1 - rate) / N) if N else 0.0
     return {"distribution_size": N, "matches": matches, "rate": rate,
             "ci_95": (max(0.0, rate - 1.96 * se), min(1.0, rate + 1.96 * se))}
-
 def check_theta(result, constraint):
     result["meets_theta"] = result["ci_95"][0] >= constraint.theta
     return result
-
 if __name__ == "__main__":
     hare = Placement("gpu", 0.020, 0.001, 0.997)
     cpu = Placement("cpu", 0.000, 0.005, 0.999)
@@ -75,7 +66,6 @@ if __name__ == "__main__":
     assert res_p["meets_theta"] is True
     fw = Placement("fast_wrong", 0.0, 0.0001, 0.90)
     p3 = place([fw, cpu], c999, 1000); assert p3["feasible"] and p3["placement"] == "cpu"
-    # negative test: no feasible placement when theta exceeds all accuracies
     p4 = place([fw], Constraint(0.999, 0.998), 1)
     assert p4["feasible"] is False, p4
     try:

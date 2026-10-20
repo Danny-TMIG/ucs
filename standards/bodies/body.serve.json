@@ -3,11 +3,7 @@
   "scope": "llama.cpp / MLX bridge",
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
-  "governs": [
-    "ucs.serve",
-    "ucs.llama_expert",
-    "ucs.getgguf"
-  ],
+  "governs": [],
   "prevents": [
     "F2"
   ]

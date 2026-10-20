@@ -1,15 +1,11 @@
-#!/usr/bin/env python3
-"""kaleidogami.py — fold-reflect index over the ledger.
-reflect: canonicalize by (grammar, size) into one range entry.
-fold: partition by regime. Both read the real ledger."""
+\
+\
 import json, pathlib
 LEDGER = pathlib.Path("bench/ledger.json")
 REGIMES = [("trivial", 0.0, 0.01), ("small", 0.01, 1.0), ("medium", 1.0, 30.0),
            ("large", 30.0, 600.0), ("huge", 600.0, float("inf"))]
-
 def load():
     return json.loads(LEDGER.read_text()) if LEDGER.exists() else []
-
 def reflect(entries):
     if not entries: return []
     groups = {}
@@ -24,7 +20,6 @@ def reflect(entries):
                     "min": min(walls), "max": max(walls), "mean": mean,
                     "stdev": var ** 0.5})
     return out
-
 def fold(entries):
     out = {name: [] for name, _, _ in REGIMES}
     for e in entries:
@@ -32,12 +27,10 @@ def fold(entries):
             if lo <= e["wall"] < hi:
                 out[name].append(e); break
     return out
-
 def summary():
     entries = load()
     return {"total": len(entries), "reflected": reflect(entries),
             "folded": {k: len(v) for k, v in fold(entries).items()}}
-
 if __name__ == "__main__":
     import tempfile, os
     os.chdir(tempfile.mkdtemp()); pathlib.Path("bench").mkdir()
@@ -55,13 +48,10 @@ if __name__ == "__main__":
     assert len(f["trivial"]) == 2
     assert len(f["small"]) == 1
     assert len(f["medium"]) == 1
-    # real invariant: reflect preserves count
     total_reflected = sum(x["n"] for x in r)
     assert total_reflected == 4, total_reflected
-    # real invariant: fold partitions exactly — every entry in one regime
     total_folded = sum(len(v) for v in f.values())
     assert total_folded == 4, total_folded
-    # negative test: no entry in two regimes
     for name, bucket in f.items():
         for e in bucket:
             lo, hi = next((lo, hi) for n, lo, hi in REGIMES if n == name)

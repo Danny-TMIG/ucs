@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from dataclasses import dataclass
 @dataclass
 class Invariant:
@@ -37,13 +36,10 @@ if __name__=="__main__":
     assert not ok and any("I3" in x["invariant"] for x in f)
     ok,f=check({"body":{"plan_id":"p1","artifacts":["a"],"evidence":"e/evidence.json","outcome":"x"}})
     assert not ok and any("I5" in x["invariant"] for x in f)
-    # negative test
     try:
         check({"body": {"outcome": "invalid"}})
-        # check returns (ok, fails); this case should not pass
         ok, fails = check({"body": {"outcome": "invalid"}})
         assert not ok and any("I5" in f["invariant"] for f in fails)
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:                
         raise SystemExit(f"invariants negative test failed: {e}")
-
     print("invariants OK")

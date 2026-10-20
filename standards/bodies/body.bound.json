@@ -4,9 +4,9 @@
   "chair": "rule: single maintainer",
   "process": "PR + sdlc_gate",
   "governs": [
-    "ucs.bound",
-    "ucs.ledger",
-    "ucs.kaleidogami"
+    "ucs.bench_bound",
+    "ucs.bench_kaleidogami",
+    "ucs.bench_ledger"
   ],
   "prevents": [
     "F7",

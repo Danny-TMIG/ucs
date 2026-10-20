@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-"""The closed loop: intent -> validate -> decompose -> compile -> execute -> outcome."""
 import json, uuid, datetime
 import validate, decompose, compile as compiler, execute
-
 def run_loop(intent):
     cid = str(uuid.uuid4())
     errs = validate.validate(intent)
@@ -22,12 +19,9 @@ def run_loop(intent):
         "evidence": ev_path,
         "test_results": evidence["results"],
     }
-
 if __name__ == "__main__":
     import sys
     intent = json.load(sys.stdin)
-
-    # negative test
     try:
         run_loop({"acceptance": []})
         raise SystemExit("loop should fail on missing goal")

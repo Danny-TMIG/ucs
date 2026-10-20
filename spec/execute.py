@@ -1,20 +1,13 @@
-#!/usr/bin/env python3
-"""Run generated tests, produce execution-evidence.
-
-Manifest artifact paths are authoritative. Relative paths anchor on the repo
-root (not cwd). A missing test file is recorded as exit 127, never silently
-skipped.
-"""
+\
+\
+\
+\
+\
 import json, pathlib, subprocess, sys, uuid, datetime
-
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-
-
 def _resolve(p):
     p = pathlib.Path(p)
     return p if p.is_absolute() else (ROOT / p)
-
-
 def execute(manifest_path):
     manifest_path = _resolve(manifest_path)
     m = json.loads(manifest_path.read_text())
@@ -45,12 +38,8 @@ def execute(manifest_path):
     ev_path.parent.mkdir(parents=True, exist_ok=True)
     ev_path.write_text(json.dumps(evidence, indent=2))
     return evidence, str(ev_path)
-
-
 if __name__ == "__main__":
     ev, path = execute(sys.argv[1])
-
-    # negative test
     try:
         execute("definitely-nonexistent-manifest.json")
         raise SystemExit("execute should fail on missing manifest")

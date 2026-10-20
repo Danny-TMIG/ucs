@@ -3,213 +3,747 @@
   "scope": "every object in genesis",
   "entries": [
     {
-      "id": "ucs.loop",
+      "id": "ucs.spec_arch",
+      "kind": "module",
+      "path": "spec/arch.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_atlas",
+      "kind": "module",
+      "path": "spec/atlas.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_callable",
+      "kind": "contract",
+      "path": "spec/callable.yaml",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_compile",
+      "kind": "module",
+      "path": "spec/compile.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_decide",
+      "kind": "module",
+      "path": "spec/decide.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_decompose",
+      "kind": "module",
+      "path": "spec/decompose.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_desk",
+      "kind": "module",
+      "path": "spec/desk.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_execute",
+      "kind": "module",
+      "path": "spec/execute.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_artifact",
+      "kind": "module",
+      "path": "spec/experts/artifact.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_constraint",
+      "kind": "module",
+      "path": "spec/experts/constraint.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_domain",
+      "kind": "module",
+      "path": "spec/experts/domain.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_evidence",
+      "kind": "module",
+      "path": "spec/experts/evidence.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_interface",
+      "kind": "module",
+      "path": "spec/interface.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_invariants",
+      "kind": "module",
+      "path": "spec/invariants.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_llama_expert",
+      "kind": "module",
+      "path": "spec/llama_expert.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_loop",
       "kind": "module",
       "path": "spec/loop.py",
       "body": "body.loop"
     },
     {
-      "id": "ucs.intent_schema",
-      "kind": "schema",
-      "path": "specs/intent/intent.schema.json",
-      "body": "body.payload"
-    },
-    {
-      "id": "ucs.decide",
+      "id": "ucs.spec_memo",
       "kind": "module",
-      "path": "spec/decide.py",
-      "body": "body.decide"
+      "path": "spec/memo.py",
+      "body": "body.loop"
     },
     {
-      "id": "ucs.atlas",
+      "id": "ucs.spec_mesh",
       "kind": "module",
-      "path": "spec/atlas.py",
-      "body": "body.atlas"
+      "path": "spec/mesh.py",
+      "body": "body.loop"
     },
     {
-      "id": "ucs.invariants",
+      "id": "ucs.spec_migrate",
       "kind": "module",
-      "path": "spec/invariants.py",
-      "body": "body.invariants"
+      "path": "spec/migrate.py",
+      "body": "body.loop"
     },
     {
-      "id": "ucs.revise",
+      "id": "ucs.spec_mimc",
+      "kind": "module",
+      "path": "spec/mimc.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_mip",
+      "kind": "module",
+      "path": "spec/mip.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_murmur",
+      "kind": "module",
+      "path": "spec/murmur.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_nature",
+      "kind": "module",
+      "path": "spec/nature.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_parallel_check",
+      "kind": "module",
+      "path": "spec/parallel_check.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_payload",
+      "kind": "module",
+      "path": "spec/payload.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_post_verify",
+      "kind": "tool",
+      "path": "spec/post-verify.sh",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_reason",
+      "kind": "module",
+      "path": "spec/reason.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_revise",
       "kind": "module",
       "path": "spec/revise.py",
-      "body": "body.revise"
+      "body": "body.loop"
     },
     {
-      "id": "ucs.swarm",
+      "id": "ucs.spec_rotate_issuer",
+      "kind": "tool",
+      "path": "spec/rotate-issuer.sh",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_run",
+      "kind": "tool",
+      "path": "spec/run.sh",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_serve",
+      "kind": "module",
+      "path": "spec/serve.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_state",
+      "kind": "module",
+      "path": "spec/state.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_swarm",
       "kind": "module",
       "path": "spec/swarm.py",
-      "body": "body.swarm"
+      "body": "body.loop"
     },
     {
-      "id": "ucs.desk",
+      "id": "ucs.spec_toy_model",
       "kind": "module",
-      "path": "spec/desk.py",
+      "path": "spec/toy_model.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_validate",
+      "kind": "module",
+      "path": "spec/validate.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_verify",
+      "kind": "tool",
+      "path": "spec/verify.sh",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_verify_boundary",
+      "kind": "module",
+      "path": "spec/verify_boundary.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_version",
+      "kind": "module",
+      "path": "spec/version.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.spec_experts_artifact",
+      "kind": "module",
+      "path": "spec/experts/artifact.py",
       "body": "body.desk"
     },
     {
-      "id": "ucs.nature",
+      "id": "ucs.spec_experts_constraint",
       "kind": "module",
-      "path": "spec/nature.py",
-      "body": "body.nature"
+      "path": "spec/experts/constraint.py",
+      "body": "body.desk"
     },
     {
-      "id": "ucs.mip",
+      "id": "ucs.spec_experts_domain",
       "kind": "module",
-      "path": "spec/mip.py",
-      "body": "body.mip"
+      "path": "spec/experts/domain.py",
+      "body": "body.desk"
     },
     {
-      "id": "ucs.mimc",
+      "id": "ucs.spec_experts_evidence",
       "kind": "module",
-      "path": "spec/mimc.py",
-      "body": "body.mimc"
+      "path": "spec/experts/evidence.py",
+      "body": "body.desk"
     },
     {
-      "id": "ucs.interface",
+      "id": "ucs.auth_approval",
       "kind": "module",
-      "path": "spec/interface.py",
-      "body": "body.interface"
+      "path": "auth/approval.py",
+      "body": "body.sdlc"
     },
     {
-      "id": "ucs.arch",
+      "id": "ucs.auth_member",
       "kind": "module",
-      "path": "spec/arch.py",
-      "body": "body.arch"
+      "path": "auth/member.py",
+      "body": "body.sdlc"
     },
     {
-      "id": "ucs.toy_model",
+      "id": "ucs.enterprise_classify",
       "kind": "module",
-      "path": "spec/toy_model.py",
-      "body": "body.arch"
+      "path": "enterprise/classify.py",
+      "body": "body.enterprise"
     },
     {
-      "id": "ucs.serve",
-      "kind": "module",
-      "path": "spec/serve.py",
-      "body": "body.serve"
-    },
-    {
-      "id": "ucs.llama_expert",
-      "kind": "module",
-      "path": "spec/llama_expert.py",
-      "body": "body.serve"
-    },
-    {
-      "id": "ucs.getgguf",
-      "kind": "tool",
-      "path": "tools/getgguf.py",
-      "body": "body.serve"
-    },
-    {
-      "id": "ucs.reason",
-      "kind": "module",
-      "path": "spec/reason.py",
-      "body": "body.reason"
-    },
-    {
-      "id": "ucs.murmur",
-      "kind": "module",
-      "path": "spec/murmur.py",
-      "body": "body.murmur"
-    },
-    {
-      "id": "ucs.mesh",
-      "kind": "module",
-      "path": "spec/mesh.py",
-      "body": "body.mesh"
-    },
-    {
-      "id": "ucs.payload",
-      "kind": "module",
-      "path": "spec/payload.py",
-      "body": "body.payload"
-    },
-    {
-      "id": "ucs.payload_schema",
+      "id": "ucs.enterprise_enterprise_registry",
       "kind": "schema",
-      "path": "specs/contracts/payload.schema.json",
-      "body": "body.payload"
+      "path": "enterprise/enterprise_registry.json",
+      "body": "body.enterprise"
     },
     {
-      "id": "ucs.state",
+      "id": "ucs.enterprise_frameworks",
       "kind": "module",
-      "path": "spec/state.py",
-      "body": "body.state"
+      "path": "enterprise/frameworks.py",
+      "body": "body.enterprise"
     },
     {
-      "id": "ucs.version",
+      "id": "ucs.enterprise_score",
       "kind": "module",
-      "path": "spec/version.py",
-      "body": "body.version"
+      "path": "enterprise/score.py",
+      "body": "body.enterprise"
     },
     {
-      "id": "ucs.migrate",
-      "kind": "module",
-      "path": "spec/migrate.py",
-      "body": "body.version"
+      "id": "ucs.enterprise_scored",
+      "kind": "schema",
+      "path": "enterprise/scored.json",
+      "body": "body.enterprise"
     },
     {
-      "id": "ucs.bound",
+      "id": "ucs.bench_bound",
       "kind": "module",
       "path": "bench/bound.py",
       "body": "body.bound"
     },
     {
-      "id": "ucs.ledger",
-      "kind": "module",
-      "path": "bench/ledger.py",
-      "body": "body.bound"
-    },
-    {
-      "id": "ucs.kaleidogami",
+      "id": "ucs.bench_kaleidogami",
       "kind": "module",
       "path": "bench/kaleidogami.py",
       "body": "body.bound"
     },
     {
-      "id": "ucs.sdlc",
+      "id": "ucs.bench_ledger",
+      "kind": "module",
+      "path": "bench/ledger.py",
+      "body": "body.bound"
+    },
+    {
+      "id": "ucs.ci_arch_check",
+      "kind": "module",
+      "path": "ci/arch-check.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.ci_content_checks",
+      "kind": "module",
+      "path": "ci/content-checks.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.ci_correlate",
+      "kind": "module",
+      "path": "ci/correlate.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.ci_docs_checks",
+      "kind": "module",
+      "path": "ci/docs-checks.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.tools_getgguf",
+      "kind": "module",
+      "path": "tools/getgguf.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.tools_sdlc",
       "kind": "tool",
       "path": "tools/sdlc.sh",
       "body": "body.sdlc"
     },
     {
-      "id": "ucs.content_checks",
-      "kind": "tool",
-      "path": "ci/content-checks.py",
+      "id": "ucs.body_body_arch",
+      "kind": "schema",
+      "path": "standards/bodies/body.arch.json",
       "body": "body.sdlc"
     },
     {
-      "id": "ucs.arch_check",
-      "kind": "tool",
-      "path": "ci/arch-check.py",
+      "id": "ucs.body_body_atlas",
+      "kind": "schema",
+      "path": "standards/bodies/body.atlas.json",
       "body": "body.sdlc"
     },
     {
-      "id": "ucs.correlate",
-      "kind": "tool",
-      "path": "ci/correlate.py",
+      "id": "ucs.body_body_bound",
+      "kind": "schema",
+      "path": "standards/bodies/body.bound.json",
       "body": "body.sdlc"
     },
     {
-      "id": "ucs.runtime",
+      "id": "ucs.body_body_decide",
+      "kind": "schema",
+      "path": "standards/bodies/body.decide.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_desk",
+      "kind": "schema",
+      "path": "standards/bodies/body.desk.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_enterprise",
+      "kind": "schema",
+      "path": "standards/bodies/body.enterprise.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_interface",
+      "kind": "schema",
+      "path": "standards/bodies/body.interface.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_invariants",
+      "kind": "schema",
+      "path": "standards/bodies/body.invariants.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_loop",
+      "kind": "schema",
+      "path": "standards/bodies/body.loop.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_mesh",
+      "kind": "schema",
+      "path": "standards/bodies/body.mesh.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_mimc",
+      "kind": "schema",
+      "path": "standards/bodies/body.mimc.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_mip",
+      "kind": "schema",
+      "path": "standards/bodies/body.mip.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_murmur",
+      "kind": "schema",
+      "path": "standards/bodies/body.murmur.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_nature",
+      "kind": "schema",
+      "path": "standards/bodies/body.nature.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_payload",
+      "kind": "schema",
+      "path": "standards/bodies/body.payload.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_reason",
+      "kind": "schema",
+      "path": "standards/bodies/body.reason.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_revise",
+      "kind": "schema",
+      "path": "standards/bodies/body.revise.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_sdlc",
+      "kind": "schema",
+      "path": "standards/bodies/body.sdlc.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_serve",
+      "kind": "schema",
+      "path": "standards/bodies/body.serve.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_state",
+      "kind": "schema",
+      "path": "standards/bodies/body.state.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_swarm",
+      "kind": "schema",
+      "path": "standards/bodies/body.swarm.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.body_body_version",
+      "kind": "schema",
+      "path": "standards/bodies/body.version.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_arch",
+      "kind": "contract",
+      "path": "standards/books/arch.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_bound",
+      "kind": "contract",
+      "path": "standards/books/bound.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_controls",
+      "kind": "contract",
+      "path": "standards/books/controls.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_desk",
+      "kind": "contract",
+      "path": "standards/books/desk.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_enterprise",
+      "kind": "contract",
+      "path": "standards/books/enterprise.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_loop",
+      "kind": "contract",
+      "path": "standards/books/loop.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_nature",
+      "kind": "contract",
+      "path": "standards/books/nature.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_payload",
+      "kind": "contract",
+      "path": "standards/books/payload.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_sdlc",
+      "kind": "contract",
+      "path": "standards/books/sdlc.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.book_the_fabric",
+      "kind": "contract",
+      "path": "standards/books/the-fabric.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.atlas_atlas_core",
+      "kind": "schema",
+      "path": "standards/atlases/atlas.core.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.specs_intent_intent_schema",
+      "kind": "schema",
+      "path": "specs/intent/intent.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_approval_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/approval-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_asf_error_schema",
+      "kind": "schema",
+      "path": "specs/contracts/asf-error.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_authorization_decision_schema",
+      "kind": "schema",
+      "path": "specs/contracts/authorization-decision.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_authorization_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/authorization-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_cancellation_revocation_directive_schema",
+      "kind": "schema",
+      "path": "specs/contracts/cancellation-revocation-directive.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_capability_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/capability-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_cognitive_state_update_directive_schema",
+      "kind": "schema",
+      "path": "specs/contracts/cognitive-state-update-directive.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_execution_evidence_schema",
+      "kind": "schema",
+      "path": "specs/contracts/execution-evidence.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_execution_order_schema",
+      "kind": "schema",
+      "path": "specs/contracts/execution-order.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_execution_result_schema",
+      "kind": "schema",
+      "path": "specs/contracts/execution-result.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_execution_status_schema",
+      "kind": "schema",
+      "path": "specs/contracts/execution-status.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_governed_capability_set_schema",
+      "kind": "schema",
+      "path": "specs/contracts/governed-capability-set.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_governed_outcome_schema",
+      "kind": "schema",
+      "path": "specs/contracts/governed-outcome.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_human_decision_submission_schema",
+      "kind": "schema",
+      "path": "specs/contracts/human-decision-submission.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_index",
+      "kind": "contract",
+      "path": "specs/contracts/index.md",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_information_flow_decision_schema",
+      "kind": "schema",
+      "path": "specs/contracts/information-flow-decision.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_information_flow_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/information-flow-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_payload_schema",
+      "kind": "schema",
+      "path": "specs/contracts/payload.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_policy_evaluation_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/policy-evaluation-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_contract_representation_request_schema",
+      "kind": "schema",
+      "path": "specs/contracts/representation-request.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.specs_asf_cog",
+      "kind": "contract",
+      "path": "specs/ASF-COG-FAS-001.md",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.specs_asf_gov",
+      "kind": "contract",
+      "path": "specs/ASF-GOV-FAS-001.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.specs_asf_cmp",
+      "kind": "contract",
+      "path": "specs/ASF-CMP-FAS-001.md",
+      "body": "body.arch"
+    },
+    {
+      "id": "ucs.nature_catalog",
+      "kind": "data",
+      "path": "data/nature.txt",
+      "body": "body.nature"
+    },
+    {
+      "id": "ucs.decision_asf_local_001",
+      "kind": "decision",
+      "path": "decisions/closed/ASF-LOCAL-001.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.decision_gov_local_001",
+      "kind": "decision",
+      "path": "decisions/closed/GOV-LOCAL-001.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.decision_gov_local_003",
+      "kind": "decision",
+      "path": "decisions/closed/GOV-LOCAL-003.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.decision_gov_local_004",
+      "kind": "decision",
+      "path": "decisions/closed/GOV-LOCAL-004.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.decision_gov_local_005",
+      "kind": "decision",
+      "path": "decisions/closed/GOV-LOCAL-005.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.decision_gov_dec_001",
+      "kind": "decision",
+      "path": "decisions/open/GOV-DEC-001.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.genesis",
+      "kind": "contract",
+      "path": "genesis.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.runtime_contract",
       "kind": "contract",
       "path": "runtime.json",
-      "body": "body.sdlc"
-    },
-    {
-      "id": "ucs.rollback",
-      "kind": "runbook",
-      "path": "ops/runbooks/rollback.md",
-      "body": "body.sdlc"
-    },
-    {
-      "id": "ucs.ci_workflow",
-      "kind": "pipeline",
-      "path": ".github/workflows/sdlc.yml",
       "body": "body.sdlc"
     }
   ]

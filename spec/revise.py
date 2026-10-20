@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
 import pathlib, decompose, execute
 import compile as compiler
-
 MAX = 2
-
 def run(intent, root=None):
     attempts = []; cur = dict(intent); last = None
     for i in range(1, MAX + 1):
@@ -24,7 +21,6 @@ def run(intent, root=None):
             if note not in acc: acc.append(note)
         cur = {**cur, "acceptance": acc}
     return {"outcome": "failed_after_retries", "attempts": attempts, "final": last}
-
 if __name__ == "__main__":
     r = run({"goal": "build foo", "acceptance": ["foo returns ok"]})
     assert r["outcome"] == "accepted" and len(r["attempts"]) == 1
@@ -42,7 +38,6 @@ if __name__ == "__main__":
         assert any("fix prior failure" in a for a in r["attempts"][1]["intent"]["acceptance"])
     finally:
         execute.execute = real
-    # negative test: failed_after_retries when every attempt fails
     execute.execute = lambda m: ({"passed": False, "results": [{"test": "x", "exit": 1, "stdout": "", "stderr": "forced"}]}, "x")
     try:
         r = run({"goal": "y", "acceptance": ["z"]})

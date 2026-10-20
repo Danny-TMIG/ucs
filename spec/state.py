@@ -1,14 +1,9 @@
-#!/usr/bin/env python3
-"""state.py — explicit state model: what persists, where, who reads/writes it."""
 import json, pathlib, hashlib, datetime
-
 STATE_ROOT = pathlib.Path("build/_state")
 READERS = {"loop", "swarm", "revise", "atlas", "desk"}
 WRITERS = {"loop", "swarm", "revise"}
-
 def state_path(key):
     return STATE_ROOT / f"{key}.json"
-
 def write(key, value, who="loop"):
     if who not in WRITERS:
         raise PermissionError(f"{who} is not an authorized writer")
@@ -20,7 +15,6 @@ def write(key, value, who="loop"):
                "ts": datetime.datetime.now(datetime.timezone.utc).isoformat()}
     p.write_text(json.dumps(payload, indent=2))
     return p
-
 def read(key, who="loop"):
     if who not in READERS:
         raise PermissionError(f"{who} is not an authorized reader")
@@ -28,18 +22,15 @@ def read(key, who="loop"):
     if not p.exists():
         return None
     return json.loads(p.read_text())
-
 def history(key):
     p = state_path(key)
     if not p.exists():
         return []
     return [json.loads(p.read_text())]
-
 def snapshot():
     if not STATE_ROOT.exists():
         return {}
     return {p.stem: json.loads(p.read_text()) for p in STATE_ROOT.glob("*.json")}
-
 if __name__ == "__main__":
     import tempfile, os
     os.chdir(tempfile.mkdtemp())
