@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "payload.schema.json",
+  "$comment": "Typed payload layer beyond the envelope. Every message body must name one of these shapes.",
+  "$defs": {
+    "authorization_request": {
+      "type": "object", "required": ["action", "subject", "resource"],
+      "properties": {
+        "action": {"type": "string", "enum": ["read", "write", "execute", "delegate"]},
+        "subject": {"type": "string", "minLength": 1},
+        "resource": {"type": "string", "minLength": 1}
+      }, "additionalProperties": false
+    },
+    "authorization_decision": {
+      "type": "object", "required": ["decision", "request_id"],
+      "properties": {
+        "decision": {"type": "string", "enum": ["allow", "deny", "escalate"]},
+        "request_id": {"type": "string"},
+        "reason": {"type": "string"}
+      }
+    },
+    "execution_order": {
+      "type": "object", "required": ["op"],
+      "properties": {"op": {"type": "string"}, "args": {"type": "object"}}
+    },
+    "execution_result": {
+      "type": "object", "required": ["status"],
+      "properties": {"status": {"type": "string", "enum": ["completed","failed","pending"]}, "output": {}}
+    },
+    "execution_evidence": {
+      "type": "object", "required": ["ticket", "revoked"],
+      "properties": {"ticket": {"type": "string"}, "revoked": {"type": "boolean"}, "revoked_by": {"type": ["string","null"]}}
+    },
+    "intent": {
+      "type": "object", "required": ["goal", "acceptance"],
+      "properties": {
+        "goal": {"type": "string", "minLength": 1},
+        "acceptance": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "constraints": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}
