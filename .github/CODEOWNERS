@@ -1,0 +1,11 @@
+# Default owner
+* @Danny-TMIG
+
+# Signing material — never lands via PR
+.pre-commit-config.yaml @Danny-TMIG
+docs/rotation-runbook.md @Danny-TMIG
+docs/audit.sh @Danny-TMIG
+
+# Chain manifests
+allwares/chain.json @Danny-TMIG
+hood_compilers/chain/chain.json @Danny-TMIG
