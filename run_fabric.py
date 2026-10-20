@@ -1,15 +1,46 @@
 #!/usr/bin/env python3
-"""run_fabric.py — single-file localhost fabric for Danny-TMIG/ucs."""
-import argparse, datetime, http.server, json, socketserver, sys, threading, time, urllib.request, uuid
+"""run_fabric.py — single-file localhost fabric for Danny-TMIG/ucs.
+
+Ports default to 8081/8082/8083 but each service auto-picks a free port
+if the preferred one is taken. Set AETHER_BASE_PORT to shift the range,
+or AETHER_GOVERN_PORT / AETHER_COMPUTE_PORT / AETHER_COGNITION_PORT
+to pin individual ports.
+"""
+import argparse, datetime, http.server, json, os, socket, socketserver, sys, threading, time, urllib.request, uuid
 
 BIND = "127.0.0.1"
-PORTS = {"govern": 8081, "compute": 8082, "cognition": 8083}
+_BASE = int(os.environ.get("AETHER_BASE_PORT", 8081))
+_PREFERRED = {
+    "govern":    int(os.environ.get("AETHER_GOVERN_PORT",    _BASE)),
+    "compute":   int(os.environ.get("AETHER_COMPUTE_PORT",   _BASE + 1)),
+    "cognition": int(os.environ.get("AETHER_COGNITION_PORT", _BASE + 2)),
+}
+PORTS = {}
+
+
+def _free_port(preferred):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    try:
+        s.bind((BIND, preferred)); s.listen(1); return preferred
+    except OSError:
+        s.close()
+    for p in range(preferred + 1, preferred + 200):
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        try:
+            s.bind((BIND, p)); s.listen(1); return p
+        except OSError:
+            s.close()
+    raise RuntimeError(f"no free port near {preferred}")
+
 
 def envelope(kind, correlation_id, body):
     return {"schema_version": "1.0", "id": str(uuid.uuid4()),
             "correlation_id": correlation_id, "sovereign_domain": "local",
             "purpose": kind, "classification": "internal", "integrity": "unsigned",
             "body": body, "ts": datetime.datetime.now(datetime.timezone.utc).isoformat()}
+
 
 def _post(port, path, payload, timeout=5):
     data = json.dumps(payload).encode()
@@ -18,13 +49,16 @@ def _post(port, path, payload, timeout=5):
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read())
 
+
 def govern_authz(req, cid):
     return envelope("authorization-decision", cid, {"decision": "allow", "request_id": req.get("id")})
+
 
 def govern_exec(req, cid):
     order = envelope("execution-order", cid, {"order": req.get("body", {}), "from": "govern"})
     result = _post(PORTS["compute"], "/execution-order", order)
     return envelope("governed-outcome", cid, {"order_id": order["id"], "compute": result})
+
 
 def compute_exec(req, cid):
     oid = req.get("id")
@@ -32,12 +66,15 @@ def compute_exec(req, cid):
     evidence = envelope("execution-evidence", cid, {"order_id": oid, "ticket": "local-demo", "revoked": False, "revoked_by": None})
     return {"result": result, "evidence": evidence}
 
+
 def cognition_evidence(req, cid):
     return envelope("cognitive-state-update-directive", cid, {"note": "cognition stub", "echo": req.get("body")})
+
 
 ROUTES = {"govern": {"/authorization-request": govern_authz, "/execution-order": govern_exec},
           "compute": {"/execution-order": compute_exec},
           "cognition": {"/evidence": cognition_evidence}}
+
 
 class BaseHandler(http.server.BaseHTTPRequestHandler):
     routes = {}
@@ -60,19 +97,25 @@ class BaseHandler(http.server.BaseHTTPRequestHandler):
         self.send_header("Content-Length", str(len(out))); self.end_headers(); self.wfile.write(out)
     def log_message(self, *a): pass
 
+
 class ThreadedServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
     daemon_threads = True
     allow_reuse_address = True
 
+
 def start(name):
+    port = _free_port(_PREFERRED[name])
+    PORTS[name] = port
     handler = type(f"{name.title()}Handler", (BaseHandler,), {"routes": ROUTES[name]})
-    srv = ThreadedServer((BIND, PORTS[name]), handler)
+    srv = ThreadedServer((BIND, port), handler)
     srv.service_name = name
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     return srv
 
+
 def _assert(cond, msg):
     if not cond: raise AssertionError(msg)
+
 
 def smoke():
     fails = []
@@ -97,11 +140,12 @@ def smoke():
     if fails: print(f"\nFAIL: {len(fails)} check(s) failed"); return False
     print("\nOK: all smoke checks passed"); return True
 
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--test", action="store_true")
     args = ap.parse_args()
-    servers = [start(s) for s in PORTS]
+    servers = [start(s) for s in _PREFERRED]
     time.sleep(0.3)
     print("fabric listeners:")
     for svc, port in PORTS.items(): print(f"  {svc:9s} http://{BIND}:{port}")
@@ -116,6 +160,7 @@ def main():
     except KeyboardInterrupt: print("\nstopping")
     finally:
         for s in servers: s.shutdown()
+
 
 if __name__ == "__main__":
     main()
