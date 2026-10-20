@@ -67,11 +67,21 @@ def compute_exec(req, cid):
     return {"result": result, "evidence": evidence}
 
 
+def govern_intent(req, cid):
+    import sys as _sys, pathlib as _pl
+    spec_dir = _pl.Path(__file__).resolve().parent / "spec"
+    if str(spec_dir) not in _sys.path:
+        _sys.path.insert(0, str(spec_dir))
+    import loop
+    outcome = loop.run_loop(req.get("body", {}))
+    return envelope("governed-outcome", cid, outcome)
+
+
 def cognition_evidence(req, cid):
     return envelope("cognitive-state-update-directive", cid, {"note": "cognition stub", "echo": req.get("body")})
 
 
-ROUTES = {"govern": {"/authorization-request": govern_authz, "/execution-order": govern_exec},
+ROUTES = {"govern": {"/authorization-request": govern_authz, "/execution-order": govern_exec, "/intent": govern_intent},
           "compute": {"/execution-order": compute_exec},
           "cognition": {"/evidence": cognition_evidence}}
 
