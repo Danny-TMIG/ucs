@@ -30,3 +30,8 @@ resolve_report.json
 
 # Build artifacts
 build/
+
+# Secrets and signing material
+**/KEY
+**/*.sig
+archives/
