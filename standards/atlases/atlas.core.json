@@ -1,0 +1,216 @@
+{
+  "id": "atlas.core",
+  "scope": "every object in genesis",
+  "entries": [
+    {
+      "id": "ucs.loop",
+      "kind": "module",
+      "path": "spec/loop.py",
+      "body": "body.loop"
+    },
+    {
+      "id": "ucs.intent_schema",
+      "kind": "schema",
+      "path": "specs/intent/intent.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.decide",
+      "kind": "module",
+      "path": "spec/decide.py",
+      "body": "body.decide"
+    },
+    {
+      "id": "ucs.atlas",
+      "kind": "module",
+      "path": "spec/atlas.py",
+      "body": "body.atlas"
+    },
+    {
+      "id": "ucs.invariants",
+      "kind": "module",
+      "path": "spec/invariants.py",
+      "body": "body.invariants"
+    },
+    {
+      "id": "ucs.revise",
+      "kind": "module",
+      "path": "spec/revise.py",
+      "body": "body.revise"
+    },
+    {
+      "id": "ucs.swarm",
+      "kind": "module",
+      "path": "spec/swarm.py",
+      "body": "body.swarm"
+    },
+    {
+      "id": "ucs.desk",
+      "kind": "module",
+      "path": "spec/desk.py",
+      "body": "body.desk"
+    },
+    {
+      "id": "ucs.nature",
+      "kind": "module",
+      "path": "spec/nature.py",
+      "body": "body.nature"
+    },
+    {
+      "id": "ucs.mip",
+      "kind": "module",
+      "path": "spec/mip.py",
+      "body": "body.mip"
+    },
+    {
+      "id": "ucs.mimc",
+      "kind": "module",
+      "path": "spec/mimc.py",
+      "body": "body.mimc"
+    },
+    {
+      "id": "ucs.interface",
+      "kind": "module",
+      "path": "spec/interface.py",
+      "body": "body.interface"
+    },
+    {
+      "id": "ucs.arch",
+      "kind": "module",
+      "path": "spec/arch.py",
+      "body": "body.arch"
+    },
+    {
+      "id": "ucs.toy_model",
+      "kind": "module",
+      "path": "spec/toy_model.py",
+      "body": "body.arch"
+    },
+    {
+      "id": "ucs.serve",
+      "kind": "module",
+      "path": "spec/serve.py",
+      "body": "body.serve"
+    },
+    {
+      "id": "ucs.llama_expert",
+      "kind": "module",
+      "path": "spec/llama_expert.py",
+      "body": "body.serve"
+    },
+    {
+      "id": "ucs.getgguf",
+      "kind": "tool",
+      "path": "tools/getgguf.py",
+      "body": "body.serve"
+    },
+    {
+      "id": "ucs.reason",
+      "kind": "module",
+      "path": "spec/reason.py",
+      "body": "body.reason"
+    },
+    {
+      "id": "ucs.murmur",
+      "kind": "module",
+      "path": "spec/murmur.py",
+      "body": "body.murmur"
+    },
+    {
+      "id": "ucs.mesh",
+      "kind": "module",
+      "path": "spec/mesh.py",
+      "body": "body.mesh"
+    },
+    {
+      "id": "ucs.payload",
+      "kind": "module",
+      "path": "spec/payload.py",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.payload_schema",
+      "kind": "schema",
+      "path": "specs/contracts/payload.schema.json",
+      "body": "body.payload"
+    },
+    {
+      "id": "ucs.state",
+      "kind": "module",
+      "path": "spec/state.py",
+      "body": "body.state"
+    },
+    {
+      "id": "ucs.version",
+      "kind": "module",
+      "path": "spec/version.py",
+      "body": "body.version"
+    },
+    {
+      "id": "ucs.migrate",
+      "kind": "module",
+      "path": "spec/migrate.py",
+      "body": "body.version"
+    },
+    {
+      "id": "ucs.bound",
+      "kind": "module",
+      "path": "bench/bound.py",
+      "body": "body.bound"
+    },
+    {
+      "id": "ucs.ledger",
+      "kind": "module",
+      "path": "bench/ledger.py",
+      "body": "body.bound"
+    },
+    {
+      "id": "ucs.kaleidogami",
+      "kind": "module",
+      "path": "bench/kaleidogami.py",
+      "body": "body.bound"
+    },
+    {
+      "id": "ucs.sdlc",
+      "kind": "tool",
+      "path": "tools/sdlc.sh",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.content_checks",
+      "kind": "tool",
+      "path": "ci/content-checks.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.arch_check",
+      "kind": "tool",
+      "path": "ci/arch-check.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.correlate",
+      "kind": "tool",
+      "path": "ci/correlate.py",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.runtime",
+      "kind": "contract",
+      "path": "runtime.json",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.rollback",
+      "kind": "runbook",
+      "path": "ops/runbooks/rollback.md",
+      "body": "body.sdlc"
+    },
+    {
+      "id": "ucs.ci_workflow",
+      "kind": "pipeline",
+      "path": ".github/workflows/sdlc.yml",
+      "body": "body.sdlc"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "body.payload",
+  "scope": "typed message bodies",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.payload",
+    "ucs.payload_schema",
+    "ucs.intent_schema"
+  ],
+  "prevents": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "body.mip",
+  "scope": "substrate dispatch",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.mip"
+  ],
+  "prevents": []
+}

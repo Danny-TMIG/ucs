@@ -1,0 +1,11 @@
+{
+  "id": "body.arch",
+  "scope": "NumPy primitives",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.arch",
+    "ucs.toy_model"
+  ],
+  "prevents": []
+}

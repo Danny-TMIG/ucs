@@ -1,0 +1,10 @@
+{
+  "id": "body.atlas",
+  "scope": "typed graph of IR records",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.atlas"
+  ],
+  "prevents": []
+}

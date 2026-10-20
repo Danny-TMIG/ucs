@@ -1,0 +1,11 @@
+{
+  "id": "body.version",
+  "scope": "semver and migration",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.version",
+    "ucs.migrate"
+  ],
+  "prevents": []
+}

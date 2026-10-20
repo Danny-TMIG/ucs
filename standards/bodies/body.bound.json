@@ -1,0 +1,15 @@
+{
+  "id": "body.bound",
+  "scope": "bounded compile-time; ledger; fold",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.bound",
+    "ucs.ledger",
+    "ucs.kaleidogami"
+  ],
+  "prevents": [
+    "F7",
+    "F8"
+  ]
+}

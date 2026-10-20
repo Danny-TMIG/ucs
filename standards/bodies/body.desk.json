@@ -1,0 +1,10 @@
+{
+  "id": "body.desk",
+  "scope": "routing table",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.desk"
+  ],
+  "prevents": []
+}

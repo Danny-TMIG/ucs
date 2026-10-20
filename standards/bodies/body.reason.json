@@ -1,0 +1,12 @@
+{
+  "id": "body.reason",
+  "scope": "model-or-stub reasoning",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.reason"
+  ],
+  "prevents": [
+    "F1"
+  ]
+}

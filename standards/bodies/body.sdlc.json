@@ -1,0 +1,21 @@
+{
+  "id": "body.sdlc",
+  "scope": "scaffold and controls",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.sdlc",
+    "ucs.content_checks",
+    "ucs.arch_check",
+    "ucs.correlate",
+    "ucs.runtime",
+    "ucs.rollback",
+    "ucs.ci_workflow"
+  ],
+  "prevents": [
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ]
+}

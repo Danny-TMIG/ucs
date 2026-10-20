@@ -1,0 +1,10 @@
+{
+  "id": "body.state",
+  "scope": "explicit state model",
+  "chair": "rule: single maintainer",
+  "process": "PR + sdlc_gate",
+  "governs": [
+    "ucs.state"
+  ],
+  "prevents": []
+}
