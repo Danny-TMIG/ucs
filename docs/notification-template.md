@@ -1,6 +1,6 @@
 # Notification — ucs signing material disclosure
 
-**Date:** <fill in>
+**Date:** 2026-10-20
 **Repo:** github.com/Danny-TMIG/ucs
 **Status:** Closed pending issuer-side revocation confirmation
 
